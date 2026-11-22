@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T12:59:53Z",
- "stats_updated_at": "2026-11-22T12:59:53Z",
+ "generated_at": "2026-11-22T13:00:43Z",
+ "stats_updated_at": "2026-11-22T13:00:43Z",
  "channels": {
   "fivestars": {
    "label": "Five Stars Deep",
@@ -314,7 +314,13 @@
    ]
   }
  },
- "learned": {},
+ "learned": {
+  "samples": 0,
+  "overall": 0.0,
+  "style": {},
+  "streamer": {},
+  "hour": {}
+ },
  "runs": [
   {
    "job": "publish",
