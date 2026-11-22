@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T19:04:11Z",
+ "generated_at": "2026-11-22T19:17:58Z",
  "stats_updated_at": "2026-11-22T19:04:11Z",
  "channels": {
   "fivestars": {
@@ -206,7 +206,7 @@
    },
    "totals": {
     "published": 0,
-    "queued": 0,
+    "queued": 4,
     "views": 0,
     "likes": 0
    },
@@ -219,7 +219,107 @@
     ]
    },
    "published": [],
-   "queue": []
+   "queue": [
+    {
+     "title": "CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
+     "streamer": "CYR",
+     "style": "hookcard",
+     "score": 58.0,
+     "seconds": 43.0,
+     "eta": "2026-11-22T23:00:00Z",
+     "thumb": "thumbs/75b0fca323b9.jpg",
+     "thumb_text": "HE WAS LISTENING",
+     "tags": [
+      "cyr",
+      "cyr gta 6",
+      "gta 6",
+      "gta 6 npc dialogue",
+      "gta 6 npc argument",
+      "gta 6 funny moments",
+      "gta 6 reaction",
+      "gta 6 shorts",
+      "gta vi",
+      "gta 6 gameplay",
+      "streamer clips"
+     ],
+     "description": "CYR just stood there and listened to two women argue in GTA 6. Would you eavesdrop too?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta6npcs #gtavi #npcmadness"
+    },
+    {
+     "title": "CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂",
+     "streamer": "CYR",
+     "style": "hookcard",
+     "score": 55.0,
+     "seconds": 45.0,
+     "eta": "2026-11-23T17:00:00Z",
+     "thumb": "thumbs/5b7f1e54c4d6.jpg",
+     "thumb_text": "RELOAD THE SAVE!",
+     "tags": [
+      "cyr",
+      "cyr gta 6",
+      "gta 6",
+      "gta 6 lost money",
+      "gta 6 reload save",
+      "gta 6 funny moments",
+      "gta 6 rage",
+      "gta 6 reaction",
+      "gta 6 shorts",
+      "gta vi",
+      "gta 6 gameplay",
+      "streamer clips"
+     ],
+     "description": "CYR watched $407 vanish in GTA 6, begged for a reload, then cracked up at the photos. Would you reload?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta #gtavi #funnygaming"
+    },
+    {
+     "title": "CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real\" 😳",
+     "streamer": "CYR",
+     "style": "hookcard",
+     "score": 52.0,
+     "seconds": 39.0,
+     "eta": "2026-11-23T22:00:00Z",
+     "thumb": "thumbs/037b4eb0fcc3.jpg",
+     "thumb_text": "SHE KNOWS?!",
+     "tags": [
+      "cyr",
+      "cyr gta 6",
+      "gta 6",
+      "gta 6 npc",
+      "gta 6 npc knows you're real",
+      "gta 6 phone camera",
+      "gta 6 creepy moments",
+      "gta 6 secrets",
+      "gta 6 shorts",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "streamer clips"
+     ],
+     "description": "CYR snapped a photo of a GTA 6 NPC and she said she knows he's real. Would you have walked away?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gtavi #gta6npc #fourthwall"
+    },
+    {
+     "title": "CYR Didn't Notice He Had Control in GTA 6 Opening Scene 😅",
+     "streamer": "CYR",
+     "style": "hookcard",
+     "score": 50.0,
+     "seconds": 25.0,
+     "eta": "2026-11-24T17:00:00Z",
+     "thumb": "thumbs/ab2d816e15a5.jpg",
+     "thumb_text": "I WAS IN CONTROL",
+     "tags": [
+      "cyr",
+      "cyr gta 6",
+      "gta 6",
+      "gta 6 opening scene",
+      "gta 6 lucia",
+      "gta 6 funny moments",
+      "gta 6 first impressions",
+      "gta 6 gameplay",
+      "gta 6 shorts",
+      "gta vi",
+      "streamer clips"
+     ],
+     "description": "CYR sat through GTA 6's whole opening before realizing he could move Lucia. Would you have noticed sooner?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta6funny #gaming #jason"
+    }
+   ]
   },
   "winchat": {
    "label": "W In Chat Clips",
@@ -837,6 +937,12 @@
   "hour": {}
  },
  "runs": [
+  {
+   "job": "produce",
+   "at": "2026-11-22T19:17:57Z",
+   "status": "ok",
+   "message": "4 clip(s) queued from 1 stream(s)"
+  },
   {
    "job": "publish",
    "at": "2026-11-22T19:02:36Z",
