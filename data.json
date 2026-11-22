@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T18:20:38Z",
- "stats_updated_at": "2026-11-22T17:59:45Z",
+ "generated_at": "2026-11-22T19:04:11Z",
+ "stats_updated_at": "2026-11-22T19:04:11Z",
  "channels": {
   "fivestars": {
    "label": "Five Stars Deep",
@@ -10,15 +10,15 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 0,
-    "videos": 0,
+    "views": 173,
+    "videos": 1,
     "source": "rss"
    },
    "totals": {
-    "published": 1,
-    "queued": 6,
-    "views": 0,
-    "likes": 0
+    "published": 2,
+    "queued": 5,
+    "views": 173,
+    "likes": 6
    },
    "today": {
     "date": "2026-11-22",
@@ -30,37 +30,73 @@
    },
    "published": [
     {
-     "title": "Speed Snaps After 49 HOURS of GTA 6 😳",
-     "published_at": "2026-11-22T17:58:28Z",
-     "slot": "2026-11-22@12-forced-5828",
+     "title": "Speed's First Look at Vice City in GTA 6 🤯",
+     "published_at": "2026-11-22T19:01:18Z",
+     "slot": "2026-11-22@13",
+     "youtube_id": null,
+     "thumb": "thumbs/ff563d901d7d.jpg",
+     "thumb_alt": null,
+     "thumb_text": "HOW IS THIS REAL?!",
      "style": "stack",
      "streamer": "iShowSpeed",
-     "score": 92,
+     "score": 84,
      "url": null,
      "views": null,
      "likes": null,
      "comments": null,
      "history": [],
+     "seconds": 58,
+     "source_url": "https://youtu.be/kR8bhkVAgBY"
+    },
+    {
+     "title": "Speed Snaps After 49 HOURS of GTA 6 😳",
+     "published_at": "2026-11-22T17:58:28Z",
+     "slot": "2026-11-22@12-forced-5828",
+     "youtube_id": "Pb7jGtH7DIY",
+     "thumb": "thumbs/bfe2751d369a.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/Pb7jGtH7DIY/hqdefault.jpg",
+     "thumb_text": "HE SNAPPED AT CHAT",
+     "style": "stack",
+     "streamer": "iShowSpeed",
+     "score": 92,
+     "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
+     "views": 173,
+     "likes": 6,
+     "comments": null,
+     "history": [
+      [
+       "2026-11-22T19:01:18Z",
+       173,
+       6
+      ]
+     ],
      "seconds": 59,
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ"
     }
    ],
    "queue": [
     {
-     "title": "Speed's First Look at Vice City in GTA 6 🤯",
-     "streamer": "iShowSpeed",
-     "style": "stack",
-     "score": 84,
-     "seconds": 58,
-     "eta": "2026-11-22T18:00:00Z"
-    },
-    {
      "title": "Speed Got the BAD Ending in GTA 6 💀",
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 88,
      "seconds": 58,
-     "eta": "2026-11-23T00:00:00Z"
+     "eta": "2026-11-23T00:00:00Z",
+     "thumb": "thumbs/15cee4fa93f0.jpg",
+     "thumb_text": "HE GOT THE BAD ENDING",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "speed gta 6",
+      "gta 6 reaction",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "50+ hours in and Speed got the bad ending. Did you know there were 3 endings?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #gta6ending"
     },
     {
      "title": "Nobody Told Speed GTA 6 Has TIGERS 🐅",
@@ -68,7 +104,22 @@
      "style": "stack",
      "score": 80,
      "seconds": 35,
-     "eta": "2026-11-23T17:00:00Z"
+     "eta": "2026-11-23T17:00:00Z",
+     "thumb": "thumbs/7121ee480313.jpg",
+     "thumb_text": "THERE'S TIGERS?!",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "speed gta 6",
+      "gta 6 reaction",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Nobody told Speed GTA 6 had tigers 😭 Would you free it or run?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #tiger"
     },
     {
      "title": "Speed Gets Emotional Before GTA 6's Last Mission 🥹",
@@ -76,7 +127,22 @@
      "style": "stack",
      "score": 77,
      "seconds": 49,
-     "eta": "2026-11-23T23:00:00Z"
+     "eta": "2026-11-23T23:00:00Z",
+     "thumb": "thumbs/97cc9af66ee4.jpg",
+     "thumb_text": "50 HOURS AWAKE",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "speed gta 6",
+      "gta 6 reaction",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "50 hours awake, one mission left, and Speed thanked his chat. Did you watch the whole run?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #emotional"
     },
     {
      "title": "Speed Was NEVER Getting GTA 6's Good Ending",
@@ -84,7 +150,22 @@
      "style": "stack",
      "score": 72,
      "seconds": 43,
-     "eta": "2026-11-24T18:00:00Z"
+     "eta": "2026-11-24T18:00:00Z",
+     "thumb": "thumbs/c487d0ab9993.jpg",
+     "thumb_text": "NO GOOD ENDING",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "speed gta 6",
+      "gta 6 reaction",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Speed realizes he never had a chance at the good ending 💀 Would you replay for it?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #gta6ending"
     },
     {
      "title": "Speed's Friend Won't Risk His 50-Hour GTA 6 Save",
@@ -92,7 +173,22 @@
      "style": "stack",
      "score": 68,
      "seconds": 54,
-     "eta": "2026-11-25T00:00:00Z"
+     "eta": "2026-11-25T00:00:00Z",
+     "thumb": "thumbs/6c724e05e6b4.jpg",
+     "thumb_text": "DON'T PRESS IT",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "speed gta 6",
+      "gta 6 reaction",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Chat tried to get them to wipe a 50-hour GTA 6 save 💀 Would you press the button?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #funny"
     }
    ]
   },
@@ -134,12 +230,12 @@
     "name": "W In Chat",
     "subscribers": null,
     "views": 0,
-    "videos": 0,
+    "videos": 1,
     "source": "rss"
    },
    "totals": {
-    "published": 1,
-    "queued": 7,
+    "published": 2,
+    "queued": 6,
     "views": 0,
     "likes": 0
    },
@@ -153,37 +249,73 @@
    },
    "published": [
     {
-     "title": "Speed Tries to Fly a Plane in GTA 6 😭",
-     "published_at": "2026-11-22T17:59:45Z",
-     "slot": "2026-11-22@12-forced-5945",
+     "title": "Speed's Reaction When GTA 6 Unlocked 😱",
+     "published_at": "2026-11-22T19:01:18Z",
+     "slot": "2026-11-22@13",
+     "youtube_id": null,
+     "thumb": "thumbs/1bd2f01a0f87.jpg",
+     "thumb_alt": null,
+     "thumb_text": "IT'S FINALLY HERE",
      "style": "fullframe",
      "streamer": "iShowSpeed",
-     "score": 90,
+     "score": 86,
      "url": null,
      "views": null,
      "likes": null,
      "comments": null,
      "history": [],
+     "seconds": 33,
+     "source_url": "https://youtu.be/kR8bhkVAgBY"
+    },
+    {
+     "title": "Speed Tries to Fly a Plane in GTA 6 😭",
+     "published_at": "2026-11-22T17:59:45Z",
+     "slot": "2026-11-22@12-forced-5945",
+     "youtube_id": "Sk09t9uK4XE",
+     "thumb": "thumbs/3f13c722e207.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/Sk09t9uK4XE/hqdefault.jpg",
+     "thumb_text": "HE CAN'T FLY!",
+     "style": "fullframe",
+     "streamer": "iShowSpeed",
+     "score": 90,
+     "url": "https://www.youtube.com/shorts/Sk09t9uK4XE",
+     "views": 0,
+     "likes": 0,
+     "comments": null,
+     "history": [
+      [
+       "2026-11-22T19:01:18Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 44,
      "source_url": "https://youtu.be/kR8bhkVAgBY"
     }
    ],
    "queue": [
     {
-     "title": "Speed's Reaction When GTA 6 Unlocked 😱",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 86,
-     "seconds": 33,
-     "eta": "2026-11-22T18:00:00Z"
-    },
-    {
      "title": "Did Speed Just Spot Trevor in GTA 6?! 😳",
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 82,
      "seconds": 26,
-     "eta": "2026-11-23T01:00:00Z"
+     "eta": "2026-11-23T01:00:00Z",
+     "thumb": "thumbs/96be8ee9561a.jpg",
+     "thumb_text": "IS THAT TREVOR?!",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "A plane comes in hot, everything goes wrong, and Speed has one question: \"That Trevor?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #trevor"
     },
     {
      "title": "Speed Found Out He Has a SON in GTA 6 😭",
@@ -191,7 +323,22 @@
      "style": "fullframe",
      "score": 79,
      "seconds": 25,
-     "eta": "2026-11-23T20:00:00Z"
+     "eta": "2026-11-23T20:00:00Z",
+     "thumb": "thumbs/532921682dbb.jpg",
+     "thumb_text": "HE HAS A SON?!",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "\"Chad, I didn't even know we had a son.\" 💀\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #lucia"
     },
     {
      "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
@@ -199,7 +346,22 @@
      "style": "fullframe",
      "score": 76,
      "seconds": 39,
-     "eta": "2026-11-24T02:00:00Z"
+     "eta": "2026-11-24T02:00:00Z",
+     "thumb": "thumbs/7dd090c91008.jpg",
+     "thumb_text": "5 MINUTES IN...",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "First mission and he's already robbing a store… and getting tackled. \"Get off me!\" 😭\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny"
     },
     {
      "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
@@ -207,7 +369,22 @@
      "style": "fullframe",
      "score": 71,
      "seconds": 33,
-     "eta": "2026-11-24T19:00:00Z"
+     "eta": "2026-11-24T19:00:00Z",
+     "thumb": "thumbs/cf3df7bb940b.jpg",
+     "thumb_text": "THROUGH THE RAINBOW",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "He can't fly, then he flies through a rainbow. \"We did it! W in the chat!\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #wholesome"
     },
     {
      "title": "Speed Asked Chat If He Could Pee Mid-GTA 6 😭",
@@ -215,7 +392,22 @@
      "style": "fullframe",
      "score": 66,
      "seconds": 43,
-     "eta": "2026-11-25T00:00:00Z"
+     "eta": "2026-11-25T00:00:00Z",
+     "thumb": "thumbs/99305593a9b7.jpg",
+     "thumb_text": "CAN I PEE?",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "A rage landing, then \"Chat, can I pee real quick or no?\" Chat said no. 💀\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #streamer"
     },
     {
      "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
@@ -223,7 +415,22 @@
      "style": "fullframe",
      "score": 62,
      "seconds": 20,
-     "eta": null
+     "eta": null,
+     "thumb": "thumbs/f8193af5abe3.jpg",
+     "thumb_text": "THIS ISN'T REAL",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Night drive through Leonida and Speed keeps asking: \"How is this game real?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #graphics"
     }
    ]
   },
@@ -236,7 +443,7 @@
     "name": "Gully wanted",
     "subscribers": null,
     "views": 0,
-    "videos": 0,
+    "videos": 1,
     "source": "rss"
    },
    "totals": {
@@ -246,7 +453,7 @@
     "likes": 0
    },
    "today": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "count": 2,
     "slots": [
      19,
@@ -258,14 +465,24 @@
      "title": "Carry was 13 when GTA 5 came out… now he's 27 🥹",
      "published_at": "2026-11-22T17:58:28Z",
      "slot": "2026-11-22@21",
+     "youtube_id": "AwUQyl8TjSk",
+     "thumb": "thumbs/94b405b6faae.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/AwUQyl8TjSk/hqdefault.jpg",
+     "thumb_text": "13 YEARS LATER",
      "style": "fullframe",
      "streamer": "CarryMinati",
      "score": 92,
-     "url": null,
-     "views": null,
-     "likes": null,
+     "url": "https://www.youtube.com/shorts/AwUQyl8TjSk",
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-22T19:01:18Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 32,
      "source_url": "https://www.youtube.com/live/irNhWMG560k"
     }
@@ -277,7 +494,25 @@
      "style": "hookcard",
      "score": 88,
      "seconds": 28,
-     "eta": "2026-11-23T13:30:00Z"
+     "eta": "2026-11-23T13:30:00Z",
+     "thumb": "thumbs/922cc4035902.jpg",
+     "thumb_text": "LUCIA IS FREE",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "Jason and Lucia's reunion got the loudest reaction of the whole stream. Did it hit you too?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia"
     },
     {
      "title": "Carry Finally Got the Cycle He Never Had 😭🚲 | GTA 6",
@@ -285,7 +520,25 @@
      "style": "fullframe",
      "score": 86,
      "seconds": 34,
-     "eta": "2026-11-23T15:30:00Z"
+     "eta": "2026-11-23T15:30:00Z",
+     "thumb": "thumbs/1d0075d003ed.jpg",
+     "thumb_text": "FINALLY GOT HIS CYCLE",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "Childhood dream unlocked: a cycle. In GTA 6.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #indianmemes"
     },
     {
      "title": "Never Call Lucia Crazy in GTA 6 😳",
@@ -293,7 +546,25 @@
      "style": "hookcard",
      "score": 82,
      "seconds": 38,
-     "eta": "2026-11-24T13:30:00Z"
+     "eta": "2026-11-24T13:30:00Z",
+     "thumb": "thumbs/85ece2093b93.jpg",
+     "thumb_text": "DON'T CALL HER CRAZY",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "The cop said the one word you never say to Lucia. Was she right?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia"
     },
     {
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
@@ -301,31 +572,25 @@
      "style": "fullframe",
      "score": 84,
      "seconds": 44,
-     "eta": "2026-11-24T15:30:00Z"
-    },
-    {
-     "title": "Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️",
-     "streamer": "CarryMinati",
-     "style": "fullframe",
-     "score": 80,
-     "seconds": 43,
-     "eta": null
-    },
-    {
-     "title": "GTA 6 Punishes You for Doomscrolling 📱",
-     "streamer": "CarryMinati",
-     "style": "fullframe",
-     "score": 78,
-     "seconds": 23,
-     "eta": null
-    },
-    {
-     "title": "CarryMinati's First Time Controlling GTA 6 😳",
-     "streamer": "CarryMinati",
-     "style": "fullframe",
-     "score": 76,
-     "seconds": 43,
-     "eta": null
+     "eta": "2026-11-24T15:30:00Z",
+     "thumb": "thumbs/e1eea7f332c5.jpg",
+     "thumb_text": "GYM FAIL",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail"
     },
     {
      "title": "One Joke Started a Bar Fight in GTA 6 💀",
@@ -333,7 +598,103 @@
      "style": "hookcard",
      "score": 74,
      "seconds": 44,
-     "eta": null
+     "eta": "2026-11-25T13:30:00Z",
+     "thumb": "thumbs/ccc17c8d7291.jpg",
+     "thumb_text": "ONE JOKE. ONE FIGHT.",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "One Mario joke and the whole bar ended up outside. Who threw the first punch?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6fail"
+    },
+    {
+     "title": "Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️",
+     "streamer": "CarryMinati",
+     "style": "fullframe",
+     "score": 80,
+     "seconds": 43,
+     "eta": "2026-11-25T15:30:00Z",
+     "thumb": "thumbs/582c8df46323.jpg",
+     "thumb_text": "TOO FAST BHAI",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "Too fast. Way too fast.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #porsche"
+    },
+    {
+     "title": "GTA 6 Punishes You for Doomscrolling 📱",
+     "streamer": "CarryMinati",
+     "style": "fullframe",
+     "score": 78,
+     "seconds": 23,
+     "eta": null,
+     "thumb": "thumbs/53009a8cd559.jpg",
+     "thumb_text": "STOP DOOMSCROLLING",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "Read a book and your focus goes up, doomscroll and it goes down. GTA 6 is calling us out.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #relatable"
+    },
+    {
+     "title": "CarryMinati's First Time Controlling GTA 6 😳",
+     "streamer": "CarryMinati",
+     "style": "fullframe",
+     "score": 76,
+     "seconds": 43,
+     "eta": null,
+     "thumb": "thumbs/621c0ca3cc43.jpg",
+     "thumb_text": "AM I DREAMING?",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "\"Bro, I feel like I'm dreaming.\"\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #graphics"
     },
     {
      "title": "Someone Said GTA 6 Is Bad… Carry Replied 😤",
@@ -341,7 +702,25 @@
      "style": "fullframe",
      "score": 72,
      "seconds": 28,
-     "eta": null
+     "eta": null,
+     "thumb": "thumbs/823a74559558.jpg",
+     "thumb_text": "GTA 6 IS BAD?",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "Chat said GTA 6 is bad. Carry had thoughts.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati"
     },
     {
      "title": "CarryMinati Minutes Before GTA 6 Unlocked 🔥",
@@ -349,7 +728,25 @@
      "style": "fullframe",
      "score": 70,
      "seconds": 36,
-     "eta": null
+     "eta": null,
+     "thumb": "thumbs/99127d73c6e6.jpg",
+     "thumb_text": "NEW ERA",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "Countdown on screen, Carry dancing. \"New era!\"\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #countdown"
     },
     {
      "title": "Seaplane Escape in Under a Minute | GTA 6",
@@ -357,7 +754,25 @@
      "style": "hookcard",
      "score": 68,
      "seconds": 43,
-     "eta": null
+     "eta": null,
+     "thumb": "thumbs/01ceb941fd91.jpg",
+     "thumb_text": "SEAPLANE ESCAPE",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "A shed fight, a sprint and a seaplane takeoff. Best GTA 6 escape yet?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6gameplay"
     },
     {
      "title": "Crouching in GTA 6 Felt Exactly Like GTA 5 🥹",
@@ -365,7 +780,25 @@
      "style": "fullframe",
      "score": 66,
      "seconds": 21,
-     "eta": null
+     "eta": null,
+     "thumb": "thumbs/5700a3b84b22.jpg",
+     "thumb_text": "PURE NOSTALGIA",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "Franklin, Lamar, crouching to steal cars: the same feeling.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta5"
     },
     {
      "title": "Carry's First Drive in GTA 6 Was a Boat 🚤",
@@ -373,7 +806,25 @@
      "style": "fullframe",
      "score": 64,
      "seconds": 26,
-     "eta": null
+     "eta": null,
+     "thumb": "thumbs/6d4ae3dfbc98.jpg",
+     "thumb_text": "HIS FIRST DRIVE?!",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "\"I am driving in GTA 6!\"… on water. 😂\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati"
     }
    ]
   }
@@ -386,6 +837,20 @@
   "hour": {}
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-22T19:02:36Z",
+   "status": "ok",
+   "message": "winchat: Speed's Reaction When GTA 6 Unlocked 😱",
+   "slot": "2026-11-22@13"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-22T19:01:44Z",
+   "status": "ok",
+   "message": "fivestars: Speed's First Look at Vice City in GTA 6 🤯",
+   "slot": "2026-11-22@13"
+  },
   {
    "job": "publish",
    "at": "2026-11-22T17:59:46Z",

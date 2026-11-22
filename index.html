@@ -38,6 +38,17 @@ a{color:var(--accent2);text-decoration:none}a:hover{text-decoration:underline}
 .empty{color:var(--muted);padding:10px 0}
 .title{max-width:440px}
 canvas{max-height:240px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.tile{display:flex;flex-direction:column;gap:6px;color:inherit;text-decoration:none}
+.tile:hover{text-decoration:none}
+.thumb{position:relative;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:var(--chip);border:1px solid var(--line)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb .badge{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11px;padding:2px 8px;border-radius:999px}
+.thumb .live{background:#e5484d}
+.thumb .stats{position:absolute;left:0;right:0;bottom:0;padding:18px 8px 7px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#fff;font-size:12px;display:flex;gap:10px}
+.thumb .noimg{display:flex;align-items:center;justify-content:center;height:100%;padding:12px;text-align:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20px}
+.tile .t{font-weight:600;font-size:13px;line-height:1.3}
+.tile .m{font-size:11px;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -52,11 +63,9 @@ canvas{max-height:240px}
     <div class="card"><h2>Today's plan</h2><div class="sub" id="planSub"></div><div class="slots" id="slots" style="margin-top:10px"></div>
       <h2 style="margin-top:18px">What's working</h2><div id="learn"></div></div>
   </section>
-  <section class="card"><h2>Published Shorts</h2><div class="scroll"><table id="pub"></table></div></section>
-  <section class="grid2">
-    <div class="card"><h2>Up next (queue)</h2><div class="scroll"><table id="queue"></table></div></div>
-    <div class="card"><h2>Pipeline activity</h2><div id="runs"></div></div>
-  </section>
+  <section class="card"><h2>Published on YouTube <span class="sub" id="pubCount"></span></h2><div class="tiles" id="pub"></div></section>
+  <section class="card"><h2>Scheduled <span class="sub" id="queueCount"></span></h2><div class="tiles" id="queue"></div></section>
+  <section class="card"><h2>Pipeline activity</h2><div id="runs"></div></section>
 </main>
 <script>
 const fmt=n=>n==null?'–':n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e4?(n/1e3).toFixed(1)+'K':n.toLocaleString();
@@ -92,12 +101,18 @@ function render(){
     if(!rows.length)continue;const max=Math.max(...rows.map(r=>r[1].median_views),1);
     html+=`<div class="sub" style="margin-top:6px">${label} (median views)</div>`+rows.map(([n,v])=>`<div class="barrow"><span>${esc(key==='hour'?n+':00':n)}</span><div class="bar" style="width:${Math.max(4,100*v.median_views/max)}%"></div><span class="sub">${fmt(v.median_views)} · n${v.n}</span></div>`).join('')}
   document.getElementById('learn').innerHTML=html||'<div class="empty">Learns after a few Shorts are 24 h old.</div>';
-  // published table
-  document.getElementById('pub').innerHTML=c.published.length?`<tr><th>Short</th><th>Posted</th><th class="n">Views</th><th class="n">Likes</th><th class="n">Comments</th><th>Style · streamer</th></tr>`+
-    c.published.map(p=>`<tr><td class="title">${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>`:esc(p.title)}${p.url?'':'<div class="sub">waiting for YouTube</div>'}</td><td>${when(p.published_at)}</td><td class="n">${fmt(p.views)}</td><td class="n">${fmt(p.likes)}</td><td class="n">${fmt(p.comments)}</td><td><span class="chip">${esc(p.style)}</span><span class="chip">${esc(p.streamer)}</span></td></tr>`).join(''):'<tr><td class="empty">Nothing published yet.</td></tr>';
-  // queue
-  document.getElementById('queue').innerHTML=c.queue.length?`<tr><th>Clip</th><th>Goes live</th><th class="n">Score</th></tr>`+
-    c.queue.map(q=>`<tr><td class="title">${esc(q.title)}<div><span class="chip">${esc(q.style)}</span><span class="chip">${esc(q.streamer)}</span>${q.seconds?`<span class="chip">${Math.round(q.seconds)}s</span>`:''}</div></td><td>${q.eta?when(q.eta):'<span class="sub">later</span>'}</td><td class="n">${q.score??''}</td></tr>`).join(''):'<tr><td class="empty">Queue is empty: the next cloud run will make more.</td></tr>';
+  // published tiles
+  const img=(src,alt,txt)=>src?`<img loading="lazy" src="${esc(src)}" alt="" onerror="this.onerror=null;${alt?`this.src='${esc(alt)}'`:`this.remove()`}">`:`<div class="noimg">${esc(txt||'')}</div>`;
+  document.getElementById('pubCount').textContent=c.published.length?`· ${c.published.length}`:'';
+  document.getElementById('pub').innerHTML=c.published.length?c.published.map(p=>`<a class="tile" ${p.url?`href="${esc(p.url)}" target="_blank" rel="noopener"`:''}>
+      <div class="thumb">${img(p.thumb,p.thumb_alt,p.thumb_text||p.title)}<span class="badge ${p.url?'live':''}">${p.url?'● LIVE':'uploading…'}</span>
+      <div class="stats"><span>▶ ${fmt(p.views)}</span><span>♥ ${fmt(p.likes)}</span><span>💬 ${fmt(p.comments)}</span></div></div>
+      <div class="t">${esc(p.title)}</div><div class="m">${when(p.published_at)} · ${esc(p.style)} · ${esc(p.streamer)}</div></a>`).join(''):'<div class="empty">Nothing published yet.</div>';
+  // scheduled tiles
+  document.getElementById('queueCount').textContent=c.queue.length?`· ${c.queue.length} waiting`:'';
+  document.getElementById('queue').innerHTML=c.queue.length?c.queue.map(q=>`<div class="tile" title="${esc((q.tags||[]).join(', '))}">
+      <div class="thumb">${img(q.thumb,null,q.thumb_text||q.title)}<span class="badge">${q.eta?when(q.eta):'later'}</span></div>
+      <div class="t">${esc(q.title)}</div><div class="m">${esc(q.style)} · ${esc(q.streamer)}${q.seconds?` · ${Math.round(q.seconds)}s`:''} · score ${q.score??''}</div></div>`).join(''):'<div class="empty">Queue is empty: the next cloud run will make more.</div>';
   // runs
   document.getElementById('runs').innerHTML=(DATA.runs||[]).slice(0,15).map(r=>`<div class="run"><span class="dot ${r.status}"></span><div><b>${esc(r.job)}</b> <span class="sub">${ago(r.at)}</span><div class="sub">${esc(r.message)}</div></div></div>`).join('')||'<div class="empty">No runs yet.</div>';
   drawChart(c);
