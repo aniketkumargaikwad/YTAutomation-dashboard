@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T10:47:46Z",
- "stats_updated_at": "2026-11-22T10:47:46Z",
+ "generated_at": "2026-11-22T10:48:34Z",
+ "stats_updated_at": "2026-11-22T10:48:34Z",
  "channels": {
   "main": {
    "label": "GTA 6 Clips (English)",
@@ -273,6 +273,12 @@
    ]
   }
  },
- "learned": {},
+ "learned": {
+  "samples": 0,
+  "overall": 0.0,
+  "style": {},
+  "streamer": {},
+  "hour": {}
+ },
  "runs": []
 }
