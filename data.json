@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T17:59:12Z",
- "stats_updated_at": "2026-11-22T17:58:28Z",
+ "generated_at": "2026-11-22T17:59:45Z",
+ "stats_updated_at": "2026-11-22T17:59:45Z",
  "channels": {
   "fivestars": {
    "label": "Five Stars Deep",
@@ -138,8 +138,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 0,
-    "queued": 8,
+    "published": 1,
+    "queued": 7,
     "views": 0,
     "likes": 0
    },
@@ -151,23 +151,31 @@
      20
     ]
    },
-   "published": [],
-   "queue": [
+   "published": [
     {
      "title": "Speed Tries to Fly a Plane in GTA 6 😭",
-     "streamer": "iShowSpeed",
+     "published_at": "2026-11-22T17:59:45Z",
+     "slot": "2026-11-22@12-forced-5945",
      "style": "fullframe",
+     "streamer": "iShowSpeed",
      "score": 90,
+     "url": null,
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
      "seconds": 44,
-     "eta": "2026-11-22T18:00:00Z"
-    },
+     "source_url": "https://youtu.be/kR8bhkVAgBY"
+    }
+   ],
+   "queue": [
     {
      "title": "Speed's Reaction When GTA 6 Unlocked 😱",
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 86,
      "seconds": 33,
-     "eta": "2026-11-23T01:00:00Z"
+     "eta": "2026-11-22T18:00:00Z"
     },
     {
      "title": "Did Speed Just Spot Trevor in GTA 6?! 😳",
@@ -175,7 +183,7 @@
      "style": "fullframe",
      "score": 82,
      "seconds": 26,
-     "eta": "2026-11-23T20:00:00Z"
+     "eta": "2026-11-23T01:00:00Z"
     },
     {
      "title": "Speed Found Out He Has a SON in GTA 6 😭",
@@ -183,7 +191,7 @@
      "style": "fullframe",
      "score": 79,
      "seconds": 25,
-     "eta": "2026-11-24T02:00:00Z"
+     "eta": "2026-11-23T20:00:00Z"
     },
     {
      "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
@@ -191,7 +199,7 @@
      "style": "fullframe",
      "score": 76,
      "seconds": 39,
-     "eta": "2026-11-24T19:00:00Z"
+     "eta": "2026-11-24T02:00:00Z"
     },
     {
      "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
@@ -199,7 +207,7 @@
      "style": "fullframe",
      "score": 71,
      "seconds": 33,
-     "eta": "2026-11-25T00:00:00Z"
+     "eta": "2026-11-24T19:00:00Z"
     },
     {
      "title": "Speed Asked Chat If He Could Pee Mid-GTA 6 😭",
@@ -207,7 +215,7 @@
      "style": "fullframe",
      "score": 66,
      "seconds": 43,
-     "eta": null
+     "eta": "2026-11-25T00:00:00Z"
     },
     {
      "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
@@ -378,6 +386,13 @@
   "hour": {}
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-22T17:59:46Z",
+   "status": "ok",
+   "message": "winchat: Speed Tries to Fly a Plane in GTA 6 😭",
+   "slot": "2026-11-22@12-forced-5945"
+  },
   {
    "job": "publish",
    "at": "2026-11-22T17:58:50Z",
