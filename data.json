@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-22T11:47:30Z",
- "stats_updated_at": "2026-11-22T11:47:30Z",
+ "generated_at": "2026-11-22T12:58:42Z",
+ "stats_updated_at": "2026-11-22T12:58:42Z",
  "channels": {
-  "main": {
-   "label": "GTA 6 Clips (English)",
+  "fivestars": {
+   "label": "Five Stars Deep",
    "enabled": true,
    "channel_id": "",
    "timezone": "America/New_York",
    "stats": {},
    "totals": {
     "published": 0,
-    "queued": 15,
+    "queued": 7,
     "views": 0,
     "likes": 0
    },
@@ -30,11 +30,11 @@
      "eta": "2026-11-23T17:00:00Z"
     },
     {
-     "title": "Speed Tries to Fly a Plane in GTA 6 😭",
+     "title": "Speed's First Look at Vice City in GTA 6 🤯",
      "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 90,
-     "seconds": 44,
+     "style": "stack",
+     "score": 84,
+     "seconds": 58,
      "eta": "2026-11-23T23:00:00Z"
     },
     {
@@ -46,44 +46,12 @@
      "eta": "2026-11-24T18:00:00Z"
     },
     {
-     "title": "Speed's Reaction When GTA 6 Unlocked 😱",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 86,
-     "seconds": 33,
-     "eta": "2026-11-25T00:00:00Z"
-    },
-    {
-     "title": "Speed's First Look at Vice City in GTA 6 🤯",
-     "streamer": "iShowSpeed",
-     "style": "stack",
-     "score": 84,
-     "seconds": 58,
-     "eta": null
-    },
-    {
-     "title": "Did Speed Just Spot Trevor in GTA 6?! 😳",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 82,
-     "seconds": 26,
-     "eta": null
-    },
-    {
      "title": "Nobody Told Speed GTA 6 Has TIGERS 🐅",
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 80,
      "seconds": 35,
-     "eta": null
-    },
-    {
-     "title": "Speed Found Out He Has a SON in GTA 6 😭",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 79,
-     "seconds": 25,
-     "eta": null
+     "eta": "2026-11-25T00:00:00Z"
     },
     {
      "title": "Speed Gets Emotional Before GTA 6's Last Mission 🥹",
@@ -91,14 +59,6 @@
      "style": "stack",
      "score": 77,
      "seconds": 49,
-     "eta": null
-    },
-    {
-     "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 76,
-     "seconds": 39,
      "eta": null
     },
     {
@@ -110,19 +70,100 @@
      "eta": null
     },
     {
-     "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 71,
-     "seconds": 33,
-     "eta": null
-    },
-    {
      "title": "Speed's Friend Won't Risk His 50-Hour GTA 6 Save",
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 68,
      "seconds": 54,
+     "eta": null
+    }
+   ]
+  },
+  "meltdown": {
+   "label": "Meltdown On Stream",
+   "enabled": true,
+   "channel_id": "",
+   "timezone": "America/New_York",
+   "stats": {},
+   "totals": {
+    "published": 0,
+    "queued": 0,
+    "views": 0,
+    "likes": 0
+   },
+   "today": {
+    "date": "2026-11-22",
+    "count": 0,
+    "slots": []
+   },
+   "published": [],
+   "queue": []
+  },
+  "winchat": {
+   "label": "W In Chat Clips",
+   "enabled": true,
+   "channel_id": "",
+   "timezone": "America/New_York",
+   "stats": {},
+   "totals": {
+    "published": 0,
+    "queued": 8,
+    "views": 0,
+    "likes": 0
+   },
+   "today": {
+    "date": "2026-11-22",
+    "count": 0,
+    "slots": []
+   },
+   "published": [],
+   "queue": [
+    {
+     "title": "Speed Tries to Fly a Plane in GTA 6 😭",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 90,
+     "seconds": 44,
+     "eta": "2026-11-23T20:00:00Z"
+    },
+    {
+     "title": "Speed's Reaction When GTA 6 Unlocked 😱",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 86,
+     "seconds": 33,
+     "eta": "2026-11-24T02:00:00Z"
+    },
+    {
+     "title": "Did Speed Just Spot Trevor in GTA 6?! 😳",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 82,
+     "seconds": 26,
+     "eta": "2026-11-24T19:00:00Z"
+    },
+    {
+     "title": "Speed Found Out He Has a SON in GTA 6 😭",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 79,
+     "seconds": 25,
+     "eta": "2026-11-25T00:00:00Z"
+    },
+    {
+     "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 76,
+     "seconds": 39,
+     "eta": null
+    },
+    {
+     "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 71,
+     "seconds": 33,
      "eta": null
     },
     {
@@ -276,10 +317,16 @@
  "learned": {},
  "runs": [
   {
-   "job": "produce",
-   "at": "2026-11-22T11:47:25Z",
-   "status": "error",
-   "message": "0 clip(s) queued from 1 stream(s)"
+   "job": "publish",
+   "at": "2026-11-23T18:10:00Z",
+   "status": "warn",
+   "message": "meltdown: slot 2026-11-23@12 due but nothing queued"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-23T17:10:00Z",
+   "status": "warn",
+   "message": "meltdown: slot 2026-11-23@12 due but nothing queued"
   }
  ]
 }
