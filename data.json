@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T11:32:49Z",
- "stats_updated_at": "2026-11-22T11:32:49Z",
+ "generated_at": "2026-11-22T11:47:30Z",
+ "stats_updated_at": "2026-11-22T11:47:30Z",
  "channels": {
   "main": {
    "label": "GTA 6 Clips (English)",
@@ -277,7 +277,7 @@
  "runs": [
   {
    "job": "produce",
-   "at": "2026-11-22T11:32:49Z",
+   "at": "2026-11-22T11:47:25Z",
    "status": "error",
    "message": "0 clip(s) queued from 1 stream(s)"
   }
