@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T21:03:48Z",
- "stats_updated_at": "2026-11-22T19:04:11Z",
+ "generated_at": "2026-11-22T23:34:27Z",
+ "stats_updated_at": "2026-11-22T23:34:27Z",
  "channels": {
   "fivestars": {
    "label": "Five Stars Deep",
@@ -10,15 +10,15 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 173,
+    "views": 214,
     "videos": 1,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 9,
-    "views": 173,
-    "likes": 6
+    "views": 214,
+    "likes": 5
    },
    "today": {
     "date": "2026-11-22",
@@ -60,14 +60,19 @@
      "streamer": "iShowSpeed",
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
-     "views": 173,
-     "likes": 6,
+     "views": 214,
+     "likes": 5,
      "comments": null,
      "history": [
       [
        "2026-11-22T19:01:18Z",
        173,
        6
+      ],
+      [
+       "2026-11-22T23:34:27Z",
+       214,
+       5
       ]
      ],
      "seconds": 59,
@@ -308,8 +313,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 0,
-    "queued": 8,
+    "published": 1,
+    "queued": 7,
     "views": 0,
     "likes": 0
    },
@@ -321,33 +326,28 @@
      18
     ]
    },
-   "published": [],
-   "queue": [
+   "published": [
     {
      "title": "zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭",
-     "streamer": "zackrawrr",
-     "style": "hookcard",
-     "score": 58.0,
-     "seconds": 34.5,
-     "eta": "2026-11-22T23:00:00Z",
+     "published_at": "2026-11-22T23:34:27Z",
+     "slot": "2026-11-22@18",
+     "youtube_id": null,
      "thumb": "thumbs/f844cf6043e6.jpg",
+     "thumb_alt": null,
      "thumb_text": "DRIVING INTO THE OCEAN",
-     "tags": [
-      "zackrawrr",
-      "gta 6",
-      "gta 6 driving",
-      "gta 6 ocean",
-      "gta 6 funny moments",
-      "streamer reaction",
-      "gta 6 glitch",
-      "gta 6 clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "A GTA 6 driver ditches the road and heads straight for the ocean. Why would anyone do that?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gaming #fyp #zackrawrr"
-    },
+     "style": "hookcard",
+     "streamer": "zackrawrr",
+     "score": 58.0,
+     "url": null,
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 34.5,
+     "source_url": "https://www.twitch.tv/videos/2936386266"
+    }
+   ],
+   "queue": [
     {
      "title": "CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
      "streamer": "CYR",
@@ -746,14 +746,14 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": null,
-    "views": 0,
+    "views": 1,
     "videos": 1,
     "source": "rss"
    },
    "totals": {
     "published": 1,
     "queued": 13,
-    "views": 0,
+    "views": 1,
     "likes": 0
    },
    "today": {
@@ -777,13 +777,18 @@
      "streamer": "CarryMinati",
      "score": 92,
      "url": "https://www.youtube.com/shorts/AwUQyl8TjSk",
-     "views": 0,
+     "views": 1,
      "likes": 0,
      "comments": null,
      "history": [
       [
        "2026-11-22T19:01:18Z",
        0,
+       0
+      ],
+      [
+       "2026-11-22T23:34:27Z",
+       1,
        0
       ]
      ],
@@ -1141,6 +1146,25 @@
   "hour": {}
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-22T23:35:44Z",
+   "status": "warn",
+   "message": "winchat: re-dropped 'Speed's Reaction When GTA 6 Unlocked 😱' (no YouTube ID yet, try 1)"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-22T23:34:55Z",
+   "status": "warn",
+   "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 1)"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-22T23:34:44Z",
+   "status": "ok",
+   "message": "meltdown: zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭",
+   "slot": "2026-11-22@18"
+  },
   {
    "job": "produce",
    "at": "2026-11-22T21:03:46Z",
