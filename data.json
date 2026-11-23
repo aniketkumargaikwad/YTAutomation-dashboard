@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-23T16:16:15Z",
- "stats_updated_at": "2026-11-23T07:26:33Z",
+ "generated_at": "2026-11-23T18:24:38Z",
+ "stats_updated_at": "2026-11-23T18:24:38Z",
  "budget": {
   "cap": 5,
   "left": 0,
-  "next_free": "2026-11-23T17:31:19Z",
+  "next_free": "2026-11-23T18:47:59Z",
   "zapier_channels": [
    "Five Stars Deep",
    "Meltdown On Stream",
@@ -21,15 +21,15 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 220,
+    "views": 218,
     "videos": 1,
     "source": "rss"
    },
    "totals": {
-    "published": 2,
-    "queued": 9,
-    "views": 220,
-    "likes": 6
+    "published": 3,
+    "queued": 8,
+    "views": 218,
+    "likes": 7
    },
    "today": {
     "date": "2026-11-23",
@@ -40,6 +40,25 @@
     ]
    },
    "published": [
+    {
+     "title": "Speed Got the BAD Ending in GTA 6 💀",
+     "published_at": "2026-11-23T18:24:38Z",
+     "slot": "2026-11-23@12",
+     "youtube_id": null,
+     "thumb": "thumbs/15cee4fa93f0.jpg",
+     "thumb_alt": null,
+     "thumb_text": "HE GOT THE BAD ENDING",
+     "style": "stack",
+     "streamer": "iShowSpeed",
+     "score": 88,
+     "url": null,
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 59.7,
+     "source_url": "https://www.youtube.com/live/OIeLbmyraRQ"
+    },
     {
      "title": "Speed's First Look at Vice City in GTA 6 🤯",
      "published_at": "2026-11-22T19:01:18Z",
@@ -71,8 +90,8 @@
      "streamer": "iShowSpeed",
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
-     "views": 220,
-     "likes": 6,
+     "views": 218,
+     "likes": 7,
      "comments": null,
      "history": [
       [
@@ -94,6 +113,11 @@
        "2026-11-23T07:26:33Z",
        220,
        6
+      ],
+      [
+       "2026-11-23T18:24:38Z",
+       218,
+       7
       ]
      ],
      "seconds": 59,
@@ -101,29 +125,6 @@
     }
    ],
    "queue": [
-    {
-     "title": "Speed Got the BAD Ending in GTA 6 💀",
-     "streamer": "iShowSpeed",
-     "style": "stack",
-     "score": 88,
-     "seconds": 59.7,
-     "eta": "2026-11-23T17:00:00Z",
-     "thumb": "thumbs/15cee4fa93f0.jpg",
-     "thumb_text": "HE GOT THE BAD ENDING",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "speed gta 6",
-      "gta 6 reaction",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "50+ hours in and Speed got the bad ending. Did you know there were 3 endings?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #gta6ending"
-    },
     {
      "title": "IShowSpeed Can't Believe GTA 6 Gave Him This 🤯",
      "streamer": "IShowSpeed",
@@ -864,7 +865,7 @@
      "style": "hookcard",
      "score": 88,
      "seconds": 28.0,
-     "eta": "2026-11-23T14:30:00Z",
+     "eta": "2026-11-24T14:30:00Z",
      "thumb": "thumbs/922cc4035902.jpg",
      "thumb_text": "LUCIA IS FREE",
      "tags": [
@@ -890,7 +891,7 @@
      "style": "fullframe",
      "score": 86,
      "seconds": 33.87,
-     "eta": "2026-11-24T14:30:00Z",
+     "eta": "2026-11-25T14:30:00Z",
      "thumb": "thumbs/1d0075d003ed.jpg",
      "thumb_text": "FINALLY GOT HIS CYCLE",
      "tags": [
@@ -909,32 +910,6 @@
       "indian gaming"
      ],
      "description": "Childhood dream unlocked: a cycle. In GTA 6.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #indianmemes"
-    },
-    {
-     "title": "Never Call Lucia Crazy in GTA 6 😳",
-     "streamer": "CarryMinati",
-     "style": "hookcard",
-     "score": 82,
-     "seconds": 39.6,
-     "eta": "2026-11-25T14:30:00Z",
-     "thumb": "thumbs/85ece2093b93.jpg",
-     "thumb_text": "DON'T CALL HER CRAZY",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "The cop said the one word you never say to Lucia. Was she right?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia"
     },
     {
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
@@ -961,6 +936,32 @@
       "indian gaming"
      ],
      "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail"
+    },
+    {
+     "title": "Never Call Lucia Crazy in GTA 6 😳",
+     "streamer": "CarryMinati",
+     "style": "hookcard",
+     "score": 82,
+     "seconds": 39.6,
+     "eta": null,
+     "thumb": "thumbs/85ece2093b93.jpg",
+     "thumb_text": "DON'T CALL HER CRAZY",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "The cop said the one word you never say to Lucia. Was she right?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia"
     },
     {
      "title": "Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️",
@@ -1200,13 +1201,77 @@
   }
  },
  "learned": {
-  "samples": 0,
-  "overall": 0.0,
-  "style": {},
-  "streamer": {},
-  "hour": {}
+  "samples": 3,
+  "overall": 2.699,
+  "style": {
+   "stack": {
+    "n": 1,
+    "mean_log_views": 5.389,
+    "median_views": 218,
+    "weight": 1.0
+   },
+   "fullframe": {
+    "n": 2,
+    "mean_log_views": 1.354,
+    "median_views": 3,
+    "weight": 1.0
+   }
+  },
+  "streamer": {
+   "iShowSpeed": {
+    "n": 2,
+    "mean_log_views": 3.244,
+    "median_views": 25,
+    "weight": 1.0
+   },
+   "CarryMinati": {
+    "n": 1,
+    "mean_log_views": 1.609,
+    "median_views": 4,
+    "weight": 1.0
+   }
+  },
+  "hour": {
+   "12": {
+    "n": 2,
+    "mean_log_views": 3.244,
+    "median_views": 25,
+    "weight": 1.0
+   },
+   "21": {
+    "n": 1,
+    "mean_log_views": 1.609,
+    "median_views": 4,
+    "weight": 1.0
+   }
+  }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-23T18:26:41Z",
+   "status": "ok",
+   "message": "fivestars: Speed Got the BAD Ending in GTA 6 💀",
+   "slot": "2026-11-23@12"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-23T18:25:47Z",
+   "status": "warn",
+   "message": "winchat: re-dropped 'Speed's Reaction When GTA 6 Unlocked 😱' (no YouTube ID yet, try 2)"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-23T18:25:36Z",
+   "status": "warn",
+   "message": "meltdown: re-dropped 'zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭' (no YouTube ID yet, try 1)"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-23T18:24:49Z",
+   "status": "warn",
+   "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 2)"
+  },
   {
    "job": "publish",
    "at": "2026-11-22T23:35:44Z",
