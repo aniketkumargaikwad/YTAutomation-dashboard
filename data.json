@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-23T18:24:38Z",
- "stats_updated_at": "2026-11-23T18:24:38Z",
+ "generated_at": "2026-11-23T23:48:04Z",
+ "stats_updated_at": "2026-11-23T23:48:04Z",
  "budget": {
   "cap": 5,
   "left": 0,
-  "next_free": "2026-11-23T18:47:59Z",
+  "next_free": null,
   "zapier_channels": [
    "Five Stars Deep",
    "Meltdown On Stream",
@@ -21,14 +21,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 218,
-    "videos": 1,
+    "views": 220,
+    "videos": 2,
     "source": "rss"
    },
    "totals": {
-    "published": 3,
-    "queued": 8,
-    "views": 218,
+    "published": 4,
+    "queued": 7,
+    "views": 220,
     "likes": 7
    },
    "today": {
@@ -41,21 +41,46 @@
    },
    "published": [
     {
-     "title": "Speed Got the BAD Ending in GTA 6 💀",
-     "published_at": "2026-11-23T18:24:38Z",
-     "slot": "2026-11-23@12",
+     "title": "IShowSpeed Can't Believe GTA 6 Gave Him This 🤯",
+     "published_at": "2026-11-23T23:48:04Z",
+     "slot": "2026-11-23@18",
      "youtube_id": null,
-     "thumb": "thumbs/15cee4fa93f0.jpg",
+     "thumb": "thumbs/4429bce4d1a9.jpg",
      "thumb_alt": null,
-     "thumb_text": "HE GOT THE BAD ENDING",
+     "thumb_text": "WHOLE WAREHOUSE?!",
      "style": "stack",
-     "streamer": "iShowSpeed",
-     "score": 88,
+     "streamer": "IShowSpeed",
+     "score": 68.0,
      "url": null,
      "views": null,
      "likes": null,
      "comments": null,
      "history": [],
+     "seconds": 46.62,
+     "source_url": "https://www.twitch.tv/videos/2934967396"
+    },
+    {
+     "title": "Speed Got the BAD Ending in GTA 6 💀",
+     "published_at": "2026-11-23T18:24:38Z",
+     "slot": "2026-11-23@12",
+     "youtube_id": "UBoZkDNTjUM",
+     "thumb": "thumbs/15cee4fa93f0.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/UBoZkDNTjUM/hqdefault.jpg",
+     "thumb_text": "HE GOT THE BAD ENDING",
+     "style": "stack",
+     "streamer": "iShowSpeed",
+     "score": 88,
+     "url": "https://www.youtube.com/shorts/UBoZkDNTjUM",
+     "views": 1,
+     "likes": 0,
+     "comments": null,
+     "history": [
+      [
+       "2026-11-23T23:48:04Z",
+       1,
+       0
+      ]
+     ],
      "seconds": 59.7,
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ"
     },
@@ -90,7 +115,7 @@
      "streamer": "iShowSpeed",
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
-     "views": 218,
+     "views": 219,
      "likes": 7,
      "comments": null,
      "history": [
@@ -118,6 +143,11 @@
        "2026-11-23T18:24:38Z",
        218,
        7
+      ],
+      [
+       "2026-11-23T23:48:04Z",
+       219,
+       7
       ]
      ],
      "seconds": 59,
@@ -125,31 +155,6 @@
     }
    ],
    "queue": [
-    {
-     "title": "IShowSpeed Can't Believe GTA 6 Gave Him This 🤯",
-     "streamer": "IShowSpeed",
-     "style": "stack",
-     "score": 68.0,
-     "seconds": 46.62,
-     "eta": "2026-11-23T23:00:00Z",
-     "thumb": "thumbs/4429bce4d1a9.jpg",
-     "thumb_text": "WHOLE WAREHOUSE?!",
-     "tags": [
-      "ishowspeed",
-      "speed",
-      "gta 6",
-      "gta 6 lamborghini",
-      "lamborghini warehouse",
-      "speed reaction",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "ishowspeed shocked",
-      "gta vi",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Speed just got handed an entire warehouse of Lamborghinis in GTA 6. Would you have lost it too?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Lamborghini #Gaming"
-    },
     {
      "title": "Speed Gets Emotional Before GTA 6's Last Mission 🥹",
      "streamer": "iShowSpeed",
@@ -335,8 +340,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 1,
-    "queued": 7,
+    "published": 2,
+    "queued": 6,
     "views": 0,
     "likes": 0
    },
@@ -348,6 +353,25 @@
     ]
    },
    "published": [
+    {
+     "title": "CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
+     "published_at": "2026-11-23T23:48:04Z",
+     "slot": "2026-11-23@18",
+     "youtube_id": null,
+     "thumb": "thumbs/75b0fca323b9.jpg",
+     "thumb_alt": null,
+     "thumb_text": "HE WAS LISTENING",
+     "style": "hookcard",
+     "streamer": "CYR",
+     "score": 58.0,
+     "url": null,
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 44.6,
+     "source_url": "https://www.twitch.tv/videos/2933968544"
+    },
     {
      "title": "zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭",
      "published_at": "2026-11-22T23:34:27Z",
@@ -369,30 +393,6 @@
     }
    ],
    "queue": [
-    {
-     "title": "CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
-     "streamer": "CYR",
-     "style": "hookcard",
-     "score": 58.0,
-     "seconds": 44.6,
-     "eta": "2026-11-23T23:00:00Z",
-     "thumb": "thumbs/75b0fca323b9.jpg",
-     "thumb_text": "HE WAS LISTENING",
-     "tags": [
-      "cyr",
-      "cyr gta 6",
-      "gta 6",
-      "gta 6 npc dialogue",
-      "gta 6 npc argument",
-      "gta 6 funny moments",
-      "gta 6 reaction",
-      "gta 6 shorts",
-      "gta vi",
-      "gta 6 gameplay",
-      "streamer clips"
-     ],
-     "description": "CYR just stood there and listened to two women argue in GTA 6. Would you eavesdrop too?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta6npcs #gtavi #npcmadness"
-    },
     {
      "title": "zackrawrr Reads a Brutal Tweet Roasting Jason in GTA 6 👀",
      "streamer": "zackrawrr",
@@ -810,7 +810,7 @@
     "likes": 1
    },
    "today": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "count": 1,
     "slots": [
      20
@@ -912,6 +912,32 @@
      "description": "Childhood dream unlocked: a cycle. In GTA 6.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #indianmemes"
     },
     {
+     "title": "Never Call Lucia Crazy in GTA 6 😳",
+     "streamer": "CarryMinati",
+     "style": "hookcard",
+     "score": 82,
+     "seconds": 39.6,
+     "eta": "2026-11-26T14:30:00Z",
+     "thumb": "thumbs/85ece2093b93.jpg",
+     "thumb_text": "DON'T CALL HER CRAZY",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "The cop said the one word you never say to Lucia. Was she right?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia"
+    },
+    {
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
      "streamer": "CarryMinati",
      "style": "fullframe",
@@ -936,32 +962,6 @@
       "indian gaming"
      ],
      "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail"
-    },
-    {
-     "title": "Never Call Lucia Crazy in GTA 6 😳",
-     "streamer": "CarryMinati",
-     "style": "hookcard",
-     "score": 82,
-     "seconds": 39.6,
-     "eta": null,
-     "thumb": "thumbs/85ece2093b93.jpg",
-     "thumb_text": "DON'T CALL HER CRAZY",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "The cop said the one word you never say to Lucia. Was she right?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia"
     },
     {
      "title": "Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️",
@@ -1202,12 +1202,12 @@
  },
  "learned": {
   "samples": 3,
-  "overall": 2.699,
+  "overall": 2.701,
   "style": {
    "stack": {
     "n": 1,
-    "mean_log_views": 5.389,
-    "median_views": 218,
+    "mean_log_views": 5.394,
+    "median_views": 219,
     "weight": 1.0
    },
    "fullframe": {
@@ -1220,7 +1220,7 @@
   "streamer": {
    "iShowSpeed": {
     "n": 2,
-    "mean_log_views": 3.244,
+    "mean_log_views": 3.246,
     "median_views": 25,
     "weight": 1.0
    },
@@ -1234,7 +1234,7 @@
   "hour": {
    "12": {
     "n": 2,
-    "mean_log_views": 3.244,
+    "mean_log_views": 3.246,
     "median_views": 25,
     "weight": 1.0
    },
@@ -1247,6 +1247,38 @@
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-23T23:55:42Z",
+   "status": "ok",
+   "message": "meltdown: CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
+   "slot": "2026-11-23@18"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-23T23:52:47Z",
+   "status": "ok",
+   "message": "fivestars: IShowSpeed Can't Believe GTA 6 Gave Him This 🤯",
+   "slot": "2026-11-23@18"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-23T23:50:38Z",
+   "status": "warn",
+   "message": "winchat: re-dropped 'Speed's Reaction When GTA 6 Unlocked 😱' (no YouTube ID yet, try 3)"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-23T23:49:57Z",
+   "status": "warn",
+   "message": "meltdown: re-dropped 'zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭' (no YouTube ID yet, try 2)"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-23T23:48:48Z",
+   "status": "warn",
+   "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 3)"
+  },
   {
    "job": "publish",
    "at": "2026-11-23T18:26:41Z",
