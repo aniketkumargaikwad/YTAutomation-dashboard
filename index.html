@@ -9,124 +9,148 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--ink:#14161a;--muted:#667085;--line:#e6e8ec;--accent:#e5484d;--accent2:#3e63dd;--good:#30a46c;--warn:#f5a524;--bad:#e5484d;--chip:#f1f3f5}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#171a20;--ink:#eceef2;--muted:#9aa3b2;--line:#262a33;--chip:#20242c}}
+:root{--bg:#f6f7f9;--card:#fff;--ink:#14161a;--muted:#667085;--line:#e6e8ec;--accent:#e5484d;--accent2:#3e63dd;--good:#30a46c;--warn:#f5a524;--bad:#e5484d;--chip:#f1f3f5;--nav:#111318;--navink:#e9ebef}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--card:#171a20;--ink:#eceef2;--muted:#9aa3b2;--line:#262a33;--chip:#20242c;--nav:#0a0b0e}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 'IBM Plex Sans',system-ui,sans-serif}
-h1,h2,.kpi .v,.slot b{font-family:'Bricolage Grotesque','IBM Plex Sans',sans-serif}
-header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:18px 16px;max-width:1200px;margin:0 auto}
-h1{font-size:20px;margin:0;letter-spacing:-.01em}h1 span{color:var(--accent)}
-.sub{color:var(--muted);font-size:12px}
-.tabs{display:flex;gap:6px;flex-wrap:wrap}.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 12px;border-radius:999px;cursor:pointer;font:inherit}
-.tabs button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-main{max-width:1200px;margin:0 auto;padding:0 16px 40px;display:grid;gap:14px}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
-.kpi .v{font-size:26px;font-weight:700;letter-spacing:-.02em}.kpi .l{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
-.kpi .v.sm{font-size:17px;line-height:1.3;padding-top:5px}.kpi .d{font-size:12px;color:var(--muted);margin-top:2px}
+h1,h2,h3,.kpi .v,.brand{font-family:'Bricolage Grotesque','IBM Plex Sans',sans-serif}
+a{color:var(--accent2);text-decoration:none}
+.top{position:sticky;top:0;z-index:5;background:var(--nav);color:var(--navink)}
+.topin{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:18px;padding:12px 16px;flex-wrap:wrap}
+.brand{font-weight:800;font-size:18px;white-space:nowrap}.brand span{color:var(--accent)}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:#aab1bd;padding:7px 12px;border-radius:8px;font-weight:500}
+nav a.on,nav a:hover{background:#ffffff14;color:#fff}
+.upd{margin-left:auto;font-size:12px;color:#8a93a3}
+.bar{max-width:1240px;margin:0 auto;padding:14px 16px 0;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.bar button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer;font:inherit;font-size:13px}
+.bar button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+main{max-width:1240px;margin:0 auto;padding:14px 16px 48px;display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+h2{font-size:15px;margin:0 0 12px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.kpi .v{font-size:28px;font-weight:800;letter-spacing:-.02em}.kpi .l{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.05em}.kpi .d{font-size:12px;color:var(--muted)}
 .grid2{display:grid;grid-template-columns:2fr 1fr;gap:14px}@media(max-width:860px){.grid2{grid-template-columns:1fr}}
-h2{font-size:14px;margin:0 0 10px;font-weight:600}
-table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
-th{color:var(--muted);font-weight:500;font-size:12px}td.n{text-align:right;font-variant-numeric:tabular-nums}th.n{text-align:right}
-.scroll{overflow-x:auto}
-a{color:var(--accent2);text-decoration:none}a:hover{text-decoration:underline}
-.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 8px;font-size:11px;color:var(--muted);margin-right:4px;white-space:nowrap}
-.slots{display:flex;gap:8px;flex-wrap:wrap}.slot{border:1px dashed var(--line);border-radius:10px;padding:8px 10px;min-width:120px}
-.slot b{display:block;font-size:15px}.slot.done{border-style:solid;border-color:var(--good)}
-.run{display:flex;gap:10px;padding:7px 0;border-bottom:1px solid var(--line)}.dot{width:8px;height:8px;border-radius:50%;margin-top:6px;flex:none}
-.ok{background:var(--good)}.warn{background:var(--warn)}.error{background:var(--bad)}
-.bar{height:8px;border-radius:4px;background:var(--accent2)}.barrow{display:grid;grid-template-columns:110px 1fr 70px;gap:8px;align-items:center;padding:4px 0;font-size:13px}
-.empty{color:var(--muted);padding:10px 0}
-.title{max-width:440px}
-canvas{max-height:240px}
+.sub{color:var(--muted);font-size:12px}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 8px;font-size:11px;color:var(--muted);margin:0 4px 4px 0;white-space:nowrap}
+.empty{color:var(--muted);padding:12px 0}
+.vlist{display:grid;gap:10px}
+.vrow{display:grid;grid-template-columns:76px 1fr auto;gap:14px;align-items:center;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.vrow img,.vrow .ph{width:76px;height:135px;object-fit:cover;border-radius:8px;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:10px;text-align:center;color:var(--muted)}
+.vt{font-weight:600;font-size:15px;margin-bottom:4px}
+.stats{display:flex;gap:16px;margin:8px 0 2px;flex-wrap:wrap}
+.stat b{display:block;font-size:18px;font-family:'Bricolage Grotesque',sans-serif}.stat span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.acts{display:flex;flex-direction:column;gap:8px;align-items:stretch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:9px 14px;border-radius:10px;font-weight:600;font-size:13px;white-space:nowrap;border:1px solid var(--line);color:var(--ink);background:var(--card)}
+.btn.watch{background:#e5484d;border-color:#e5484d;color:#fff}
+.btn.dis{opacity:.45;pointer-events:none}
+.status{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px}
+.s-live{background:#e5484d1f;color:#e5484d}.s-up{background:#f5a5241f;color:#b9770e}
+@media(max-width:640px){.vrow{grid-template-columns:64px 1fr}.vrow img,.vrow .ph{width:64px;height:114px}.acts{grid-column:1/-1;flex-direction:row}.acts .btn{flex:1}}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
-.tile{display:flex;flex-direction:column;gap:6px;color:inherit;text-decoration:none}
-.tile:hover{text-decoration:none}
+.tile{display:flex;flex-direction:column;gap:6px}
 .thumb{position:relative;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:var(--chip);border:1px solid var(--line)}
 .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-.thumb .badge{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.72);color:#fff;font-size:11px;padding:2px 8px;border-radius:999px}
-.thumb .live{background:#e5484d}
-.thumb .stats{position:absolute;left:0;right:0;bottom:0;padding:18px 8px 7px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#fff;font-size:12px;display:flex;gap:10px}
+.thumb .badge{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.75);color:#fff;font-size:11px;padding:2px 8px;border-radius:999px}
 .thumb .noimg{display:flex;align-items:center;justify-content:center;height:100%;padding:12px;text-align:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20px}
-.tile .t{font-weight:600;font-size:13px;line-height:1.3}
-.tile .m{font-size:11px;color:var(--muted)}
+.tile .t{font-weight:600;font-size:13px;line-height:1.3}.tile .m{font-size:11px;color:var(--muted)}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-weight:500;font-size:12px}
+.run{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line)}.dot{width:8px;height:8px;border-radius:50%;margin-top:6px;flex:none}
+.ok{background:var(--good)}.warn{background:var(--warn)}.error{background:var(--bad)}
+.barrow{display:grid;grid-template-columns:120px 1fr 80px;gap:8px;align-items:center;padding:4px 0;font-size:13px}.barfill{height:8px;border-radius:4px;background:var(--accent2)}
+canvas{max-height:260px}
+.page{display:none}.page.on{display:grid;gap:14px}
 </style>
 </head>
 <body>
-<header>
-  <div><h1>Shorts <span>Control Room</span></h1><div class="sub" id="updated">loading…</div></div>
-  <div class="tabs" id="tabs"></div>
-</header>
+<div class="top"><div class="topin">
+  <div class="brand">Shorts <span>Control Room</span></div>
+  <nav id="nav">
+    <a href="#overview" data-p="overview">Overview</a>
+    <a href="#published" data-p="published">Published</a>
+    <a href="#scheduled" data-p="scheduled">Scheduled</a>
+    <a href="#pipeline" data-p="pipeline">Pipeline</a>
+  </nav>
+  <div class="upd" id="updated">loading…</div>
+</div></div>
+<div class="bar" id="filters"></div>
 <main>
-  <section class="kpis" id="kpis"></section>
-  <section class="grid2">
-    <div class="card"><h2>Views over time</h2><canvas id="chart"></canvas><div class="empty" id="chartEmpty" hidden>No YouTube numbers yet. They appear after the first Short is live and the channel ID is set.</div></div>
-    <div class="card"><h2>Today's plan</h2><div class="sub" id="planSub"></div><div class="slots" id="slots" style="margin-top:10px"></div>
-      <h2 style="margin-top:18px">What's working</h2><div id="learn"></div></div>
+  <section class="page" id="p-overview">
+    <div class="kpis" id="kpis"></div>
+    <div class="grid2">
+      <div class="card"><h2>Views over time</h2><canvas id="chart"></canvas><div class="empty" id="chartEmpty" hidden>Views appear once Shorts are live.</div></div>
+      <div class="card"><h2>Upload budget</h2><div id="budget"></div><h2 style="margin-top:16px">What's working</h2><div id="learn"></div></div>
+    </div>
+    <div class="card"><h2>Channels</h2><div style="overflow-x:auto"><table id="chantable"></table></div></div>
   </section>
-  <section class="card"><h2>Published on YouTube <span class="sub" id="pubCount"></span></h2><div class="tiles" id="pub"></div></section>
-  <section class="card"><h2>Scheduled <span class="sub" id="queueCount"></span></h2><div class="tiles" id="queue"></div></section>
-  <section class="card"><h2>Pipeline activity</h2><div id="runs"></div></section>
+  <section class="page" id="p-published">
+    <div class="card"><h2>Published on YouTube <span class="sub" id="pubCount"></span></h2><div class="vlist" id="pub"></div></div>
+  </section>
+  <section class="page" id="p-scheduled">
+    <div class="card"><h2>Scheduled <span class="sub" id="queueCount"></span></h2><div class="tiles" id="queue"></div></div>
+  </section>
+  <section class="page" id="p-pipeline">
+    <div class="card"><h2>Pipeline activity</h2><div id="runs"></div></div>
+  </section>
 </main>
 <script>
-const fmt=n=>n==null?'–':n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e4?(n/1e3).toFixed(1)+'K':n.toLocaleString();
+const fmt=n=>n==null?'–':n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e4?(n/1e3).toFixed(1)+'K':Number(n).toLocaleString();
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const when=(iso,tz)=>iso?new Date(iso).toLocaleString([], {weekday:'short',hour:'numeric',minute:'2-digit',month:'short',day:'numeric'}):'–';
+const when=iso=>iso?new Date(iso).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'–';
 const ago=iso=>{if(!iso)return'never';const m=(Date.now()-new Date(iso))/6e4;return m<1?'just now':m<60?Math.round(m)+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago'};
-let DATA,CUR,chart;
-function getTab(){try{return localStorage.getItem('tab')}catch(e){return null}}
-function setTab(t){try{localStorage.setItem('tab',t)}catch(e){}}
+const store={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
+let DATA,CH=store.get('ch')||'all',chart;
+function chans(){return Object.entries(DATA.channels).filter(([k,c])=>c.enabled)}
+function pick(){return CH==='all'?chans():chans().filter(([k])=>k===CH)}
+function img(src,alt,txt){return src?`<img loading="lazy" src="${esc(src)}" alt="" onerror="this.onerror=null;${alt?`this.src='${esc(alt)}'`:`this.replaceWith(Object.assign(document.createElement('div'),{className:'ph',textContent:'no image'}))`}">`:`<div class="ph">${esc(txt||'')}</div>`}
 async function load(){
-  const r=await fetch('data.json?t='+Date.now());DATA=await r.json();
-  const names=Object.keys(DATA.channels);CUR=names.includes(getTab())?getTab():names[0];
-  document.getElementById('tabs').innerHTML=names.map(n=>`<button data-n="${n}" class="${n===CUR?'on':''}">${esc(DATA.channels[n].label)}${DATA.channels[n].enabled?'':' (paused)'}</button>`).join('');
-  document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{CUR=b.dataset.n;setTab(CUR);render()});
+  DATA=await (await fetch('data.json?t='+Date.now())).json();
+  if(CH!=='all'&&!DATA.channels[CH])CH='all';
+  document.getElementById('filters').innerHTML=[['all','All channels'],...chans().map(([k,c])=>[k,c.label])].map(([k,l])=>`<button data-c="${k}" class="${k===CH?'on':''}">${esc(l)}</button>`).join('');
+  document.querySelectorAll('#filters button').forEach(b=>b.onclick=()=>{CH=b.dataset.c;store.set('ch',CH);render()});
   render();
 }
+function route(){const p=(location.hash||'#overview').slice(1);document.querySelectorAll('.page').forEach(s=>s.classList.toggle('on',s.id==='p-'+p));document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.p===p));if(p==='overview'&&DATA)drawChart()}
+window.addEventListener('hashchange',route);
 function render(){
-  document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.n===CUR));
-  const c=DATA.channels[CUR],s=c.stats||{},t=c.totals;
-  document.getElementById('updated').textContent=`Updated ${ago(DATA.generated_at)} · YouTube stats ${ago(DATA.stats_updated_at)}${s.source?' ('+s.source+')':''}`;
-  const next=c.queue.find(q=>q.eta);
-  const k=[['Views',fmt(s.views??t.views),'all Shorts'],['Likes',fmt(t.likes),'on our Shorts'],['Subscribers',fmt(s.subscribers),s.subscribers==null?'needs API key':''],
-    ['Published',t.published,''],['Queued',t.queued,c.today?`${(t.queued/Math.max(1,c.today.count)).toFixed(1)} days of content`:''],['Next post',next?when(next.eta):'–',next?esc(next.title).slice(0,40):'',1]];
-  document.getElementById('kpis').innerHTML=k.map(([l,v,d,sm])=>`<div class="card kpi"><div class="l">${l}</div><div class="v${sm?' sm':''}">${v}</div><div class="d">${d}</div></div>`).join('');
-  // plan
-  const tp=c.today;document.getElementById('planSub').textContent=tp?`${tp.count} Short(s) today · times in ${c.timezone}`:'Channel paused';
-  const doneKeys=new Set(c.published.map(p=>p.slot));
-  document.getElementById('slots').innerHTML=tp&&tp.slots.length?tp.slots.map(h=>{const key=`${tp.date}@${String(h).padStart(2,'0')}`;const d=doneKeys.has(key);
-    return `<div class="slot ${d?'done':''}"><b>${h%12||12}:00 ${h<12?'AM':'PM'}</b><span class="sub">${d?'posted':'scheduled'}</span></div>`}).join(''):'<div class="empty">No slots today</div>';
-  // learn
-  const L=DATA.learned||{};let html='';
-  for(const [key,label] of [['style','Style'],['streamer','Streamer'],['hour','Hour']]){const g=L[key]||{};const rows=Object.entries(g).sort((a,b)=>b[1].median_views-a[1].median_views).slice(0,4);
-    if(!rows.length)continue;const max=Math.max(...rows.map(r=>r[1].median_views),1);
-    html+=`<div class="sub" style="margin-top:6px">${label} (median views)</div>`+rows.map(([n,v])=>`<div class="barrow"><span>${esc(key==='hour'?n+':00':n)}</span><div class="bar" style="width:${Math.max(4,100*v.median_views/max)}%"></div><span class="sub">${fmt(v.median_views)} · n${v.n}</span></div>`).join('')}
-  document.getElementById('learn').innerHTML=html||'<div class="empty">Learns after a few Shorts are 24 h old.</div>';
-  // published tiles
-  const img=(src,alt,txt)=>src?`<img loading="lazy" src="${esc(src)}" alt="" onerror="this.onerror=null;${alt?`this.src='${esc(alt)}'`:`this.remove()`}">`:`<div class="noimg">${esc(txt||'')}</div>`;
-  document.getElementById('pubCount').textContent=c.published.length?`· ${c.published.length}`:'';
-  document.getElementById('pub').innerHTML=c.published.length?c.published.map(p=>`<a class="tile" ${p.url?`href="${esc(p.url)}" target="_blank" rel="noopener"`:''}>
-      <div class="thumb">${img(p.thumb,p.thumb_alt,p.thumb_text||p.title)}<span class="badge ${p.url?'live':''}">${p.url?'● LIVE':'uploading…'}</span>
-      <div class="stats"><span>▶ ${fmt(p.views)}</span><span>♥ ${fmt(p.likes)}</span><span>💬 ${fmt(p.comments)}</span></div></div>
-      <div class="t">${esc(p.title)}</div><div class="m">${when(p.published_at)} · ${esc(p.style)} · ${esc(p.streamer)}</div></a>`).join(''):'<div class="empty">Nothing published yet.</div>';
-  // scheduled tiles
-  document.getElementById('queueCount').textContent=c.queue.length?`· ${c.queue.length} waiting`:'';
-  document.getElementById('queue').innerHTML=c.queue.length?c.queue.map(q=>`<div class="tile" title="${esc((q.tags||[]).join(', '))}">
-      <div class="thumb">${img(q.thumb,null,q.thumb_text||q.title)}<span class="badge">${q.eta?when(q.eta):'later'}</span></div>
-      <div class="t">${esc(q.title)}</div><div class="m">${esc(q.style)} · ${esc(q.streamer)}${q.seconds?` · ${Math.round(q.seconds)}s`:''} · score ${q.score??''}</div></div>`).join(''):'<div class="empty">Queue is empty: the next cloud run will make more.</div>';
-  // runs
-  document.getElementById('runs').innerHTML=(DATA.runs||[]).slice(0,15).map(r=>`<div class="run"><span class="dot ${r.status}"></span><div><b>${esc(r.job)}</b> <span class="sub">${ago(r.at)}</span><div class="sub">${esc(r.message)}</div></div></div>`).join('')||'<div class="empty">No runs yet.</div>';
-  drawChart(c);
+  document.querySelectorAll('#filters button').forEach(b=>b.classList.toggle('on',b.dataset.c===CH));
+  document.getElementById('updated').textContent=`Updated ${ago(DATA.generated_at)}`;
+  const sel=pick();
+  const pub=sel.flatMap(([k,c])=>c.published.map(p=>({...p,ch:k,label:c.label}))).sort((a,b)=>b.published_at.localeCompare(a.published_at));
+  const q=sel.flatMap(([k,c])=>c.queue.map(x=>({...x,ch:k,label:c.label}))).sort((a,b)=>(a.eta||'9').localeCompare(b.eta||'9'));
+  const views=pub.reduce((s,p)=>s+(p.views||0),0),likes=pub.reduce((s,p)=>s+(p.likes||0),0),live=pub.filter(p=>p.url).length;
+  const next=q.find(x=>x.eta);
+  const k=[['Views',fmt(views),'across live Shorts'],['Likes',fmt(likes),''],['Live Shorts',live,`${pub.length-live} uploading`],['Scheduled',q.length,'waiting in queue'],['Next post',next?when(next.eta):'–',next?esc(next.label):'']];
+  document.getElementById('kpis').innerHTML=k.map(([l,v,d])=>`<div class="card kpi"><div class="l">${l}</div><div class="v" style="${l==='Next post'?'font-size:18px;padding-top:6px':''}">${v}</div><div class="d">${d}</div></div>`).join('');
+  const b=DATA.budget||{};document.getElementById('budget').innerHTML=`<div class="kpi"><div class="v">${b.left??'–'} <span class="sub">of ${b.cap??5} left</span></div><div class="d">Zapier free/trial: ${b.cap??5} YouTube uploads per rolling 24 h. ${b.next_free?`Next slot frees ${when(b.next_free)}.`:''}</div></div>`;
+  const L=DATA.learned||{};let lh='';for(const [key,label] of [['style','Style'],['streamer','Streamer'],['hour','Hour']]){const g=L[key]||{};const rows=Object.entries(g).sort((a,b)=>b[1].median_views-a[1].median_views).slice(0,4);if(!rows.length)continue;const max=Math.max(...rows.map(r=>r[1].median_views),1);lh+=`<div class="sub" style="margin-top:6px">${label}</div>`+rows.map(([n,v])=>`<div class="barrow"><span>${esc(key==='hour'?n+':00':n)}</span><div class="barfill" style="width:${Math.max(4,100*v.median_views/max)}%"></div><span class="sub">${fmt(v.median_views)} · n${v.n}</span></div>`).join('')}
+  document.getElementById('learn').innerHTML=lh||'<div class="empty">Learns after a few Shorts are 24 h old.</div>';
+  document.getElementById('chantable').innerHTML='<tr><th>Channel</th><th>Live</th><th>Views</th><th>Likes</th><th>Queued</th><th>Today</th></tr>'+chans().map(([k,c])=>{const lv=c.published.filter(p=>p.url);return `<tr><td><b>${esc(c.label)}</b>${c.channel_id?` · <a href="https://www.youtube.com/channel/${esc(c.channel_id)}" target="_blank" rel="noopener">open</a>`:''}</td><td>${lv.length}</td><td>${fmt(lv.reduce((s,p)=>s+(p.views||0),0))}</td><td>${fmt(lv.reduce((s,p)=>s+(p.likes||0),0))}</td><td>${c.queue.length}</td><td class="sub">${c.today?c.today.count+' planned':''}</td></tr>`}).join('');
+  document.getElementById('pubCount').textContent=pub.length?`· ${live} live`:'';
+  document.getElementById('pub').innerHTML=pub.length?pub.map(p=>`<div class="vrow">
+     ${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${img(p.thumb,p.thumb_alt,p.title)}</a>`:img(p.thumb,p.thumb_alt,p.title)}
+     <div><div class="vt">${esc(p.title)}</div>
+       <div><span class="status ${p.url?'s-live':'s-up'}">${p.url?'● LIVE':'uploading…'}</span> <span class="sub">${esc(p.label)} · posted ${when(p.published_at)}</span></div>
+       <div class="stats"><div class="stat"><b>${fmt(p.views)}</b><span>views</span></div><div class="stat"><b>${fmt(p.likes)}</b><span>likes</span></div><div class="stat"><b>${fmt(p.comments)}</b><span>comments</span></div><div class="stat"><b>${p.seconds?Math.round(p.seconds)+'s':'–'}</b><span>length</span></div></div>
+       <div><span class="chip">${esc(p.style)}</span><span class="chip">${esc(p.streamer)}</span>${p.thumb_text?`<span class="chip">thumb: ${esc(p.thumb_text)}</span>`:''}</div></div>
+     <div class="acts"><a class="btn watch ${p.url?'':'dis'}" href="${esc(p.url||'#')}" target="_blank" rel="noopener">▶ Watch</a>
+       <a class="btn ${p.youtube_id?'':'dis'}" href="${p.youtube_id?`https://studio.youtube.com/video/${esc(p.youtube_id)}/analytics`:'#'}" target="_blank" rel="noopener">Analytics</a>
+       ${p.source_url?`<a class="btn" href="${esc(p.source_url)}" target="_blank" rel="noopener">Source stream</a>`:''}</div></div>`).join(''):'<div class="empty">Nothing published yet.</div>';
+  document.getElementById('queueCount').textContent=q.length?`· ${q.length} waiting`:'';
+  document.getElementById('queue').innerHTML=q.length?q.map(x=>`<div class="tile" title="${esc((x.tags||[]).join(', '))}"><div class="thumb">${x.thumb?`<img loading="lazy" src="${esc(x.thumb)}" alt="">`:`<div class="noimg">${esc(x.thumb_text||x.title)}</div>`}<span class="badge">${x.eta?when(x.eta):'later'}</span></div>
+     <div class="t">${esc(x.title)}</div><div class="m">${esc(x.label)} · ${esc(x.style)} · ${esc(x.streamer)}${x.seconds?` · ${Math.round(x.seconds)}s`:''}${x.end_text?` · ends "${esc(x.end_text)}"`:''}</div></div>`).join(''):'<div class="empty">Queue is empty: the next cloud run will make more.</div>';
+  document.getElementById('runs').innerHTML=(DATA.runs||[]).slice(0,40).map(r=>`<div class="run"><span class="dot ${r.status}"></span><div><b>${esc(r.job)}</b> <span class="sub">${ago(r.at)}</span><div class="sub">${esc(r.message)}</div></div></div>`).join('')||'<div class="empty">No runs yet.</div>';
+  route();
 }
-function drawChart(c){
-  const pts={};for(const p of c.published)for(const [t,v] of p.history||[]){const d=t.slice(0,13);pts[d]=pts[d]||{};pts[d][p.title]=v}
+function drawChart(){
+  const sel=pick();const pts={};
+  for(const [k,c] of sel)for(const p of c.published)for(const [t,v] of p.history||[]){const d=t.slice(0,13);pts[d]=pts[d]||{};pts[d][p.title]=v}
   const keys=Object.keys(pts).sort();const empty=!keys.length;document.getElementById('chartEmpty').hidden=!empty;document.getElementById('chart').hidden=empty;
-  if(chart)chart.destroy();if(empty)return;
+  if(chart)chart.destroy();if(empty||!window.Chart)return;
   const last={};const series=keys.map(k=>{Object.assign(last,pts[k]);return Object.values(last).reduce((a,b)=>a+b,0)});
   const css=getComputedStyle(document.documentElement);
-  chart=new Chart(document.getElementById('chart'),{type:'line',data:{labels:keys.map(k=>k.replace('T',' ')+'h'),datasets:[{data:series,borderColor:css.getPropertyValue('--accent').trim(),backgroundColor:'transparent',tension:.3,pointRadius:0,borderWidth:2}]},
-    options:{plugins:{legend:{display:false}},scales:{x:{ticks:{maxTicksLimit:6,color:css.getPropertyValue('--muted').trim()},grid:{display:false}},y:{ticks:{color:css.getPropertyValue('--muted').trim()},grid:{color:css.getPropertyValue('--line').trim()}}}}});
+  chart=new Chart(document.getElementById('chart'),{type:'line',data:{labels:keys.map(k=>k.replace('T',' ')+'h'),datasets:[{data:series,borderColor:css.getPropertyValue('--accent').trim(),backgroundColor:'transparent',tension:.3,pointRadius:0,borderWidth:2}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{maxTicksLimit:6,color:css.getPropertyValue('--muted').trim()},grid:{display:false}},y:{ticks:{color:css.getPropertyValue('--muted').trim()},grid:{color:css.getPropertyValue('--line').trim()}}}}});
 }
-load().catch(e=>{document.getElementById('updated').textContent='Could not load data.json: '+e});
+load().catch(e=>{document.getElementById('updated').textContent='Could not load data: '+e});
 setInterval(load,5*60*1000);
 </script>
 </body>
