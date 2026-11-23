@@ -1,10 +1,16 @@
 {
- "generated_at": "2026-11-23T07:26:33Z",
+ "generated_at": "2026-11-23T16:16:15Z",
  "stats_updated_at": "2026-11-23T07:26:33Z",
  "budget": {
   "cap": 5,
   "left": 0,
-  "next_free": "2026-11-23T17:31:19Z"
+  "next_free": "2026-11-23T17:31:19Z",
+  "zapier_channels": [
+   "Five Stars Deep",
+   "Meltdown On Stream",
+   "W In Chat Clips",
+   "Gully Wanted"
+  ]
  },
  "channels": {
   "fivestars": {
