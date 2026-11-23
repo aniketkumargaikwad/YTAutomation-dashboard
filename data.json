@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T03:16:31Z",
- "stats_updated_at": "2026-11-23T03:16:31Z",
+ "generated_at": "2026-11-23T07:26:33Z",
+ "stats_updated_at": "2026-11-23T07:26:33Z",
  "budget": {
   "cap": 5,
   "left": 0,
@@ -15,22 +15,22 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 218,
+    "views": 220,
     "videos": 1,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 9,
-    "views": 218,
+    "views": 220,
     "likes": 6
    },
    "today": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "count": 2,
     "slots": [
-     13,
-     19
+     12,
+     18
     ]
    },
    "published": [
@@ -65,7 +65,7 @@
      "streamer": "iShowSpeed",
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
-     "views": 218,
+     "views": 220,
      "likes": 6,
      "comments": null,
      "history": [
@@ -83,6 +83,11 @@
        "2026-11-23T03:16:31Z",
        218,
        6
+      ],
+      [
+       "2026-11-23T07:26:33Z",
+       220,
+       6
       ]
      ],
      "seconds": 59,
@@ -95,7 +100,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 88,
-     "seconds": 58,
+     "seconds": 59.7,
      "eta": "2026-11-23T17:00:00Z",
      "thumb": "thumbs/15cee4fa93f0.jpg",
      "thumb_text": "HE GOT THE BAD ENDING",
@@ -118,7 +123,7 @@
      "streamer": "IShowSpeed",
      "style": "stack",
      "score": 68.0,
-     "seconds": 45.0,
+     "seconds": 46.62,
      "eta": "2026-11-23T23:00:00Z",
      "thumb": "thumbs/4429bce4d1a9.jpg",
      "thumb_text": "WHOLE WAREHOUSE?!",
@@ -143,7 +148,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 77,
-     "seconds": 49,
+     "seconds": 48.7,
      "eta": "2026-11-24T18:00:00Z",
      "thumb": "thumbs/97cc9af66ee4.jpg",
      "thumb_text": "50 HOURS AWAKE",
@@ -166,7 +171,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 80,
-     "seconds": 35,
+     "seconds": 36.7,
      "eta": "2026-11-25T00:00:00Z",
      "thumb": "thumbs/7121ee480313.jpg",
      "thumb_text": "THERE'S TIGERS?!",
@@ -189,8 +194,8 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 72,
-     "seconds": 43,
-     "eta": null,
+     "seconds": 43.1,
+     "eta": "2026-11-25T18:00:00Z",
      "thumb": "thumbs/c487d0ab9993.jpg",
      "thumb_text": "NO GOOD ENDING",
      "tags": [
@@ -208,11 +213,37 @@
      "description": "Speed realizes he never had a chance at the good ending 💀 Would you replay for it?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #gta6ending"
     },
     {
+     "title": "IShowSpeed Would Play 50 HOURS of GTA 6 For This 😳",
+     "streamer": "IShowSpeed",
+     "style": "stack",
+     "score": 58.0,
+     "seconds": 39.2,
+     "eta": "2026-11-26T01:00:00Z",
+     "thumb": "thumbs/69f18bc012d9.jpg",
+     "thumb_text": "50 HOURS FOR ENDING",
+     "tags": [
+      "ishowspeed",
+      "speed",
+      "gta 6",
+      "gta 6 ending",
+      "best ending",
+      "speed rant",
+      "gta 6 gameplay",
+      "ishowspeed gta 6",
+      "gamer opinion",
+      "gta 6 funny moments",
+      "gta vi",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Speed says he'll grind 50 more hours for the best GTA 6 ending. Would you do the same?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Gaming #Gameplay"
+    },
+    {
      "title": "Speed's Friend Won't Risk His 50-Hour GTA 6 Save",
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 68,
-     "seconds": 54,
+     "seconds": 52.45,
      "eta": null,
      "thumb": "thumbs/6c724e05e6b4.jpg",
      "thumb_text": "DON'T PRESS IT",
@@ -235,7 +266,7 @@
      "streamer": "IShowSpeed",
      "style": "stack",
      "score": 58.0,
-     "seconds": 38.4,
+     "seconds": 40.0,
      "eta": null,
      "thumb": "thumbs/abe4f81529a3.jpg",
      "thumb_text": "GO TO SLEEP?!",
@@ -257,37 +288,11 @@
      "description": "Chat told Speed to sleep on the LAST mission and he snapped. Would you quit at the finish line?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Funny"
     },
     {
-     "title": "IShowSpeed Would Play 50 HOURS of GTA 6 For This 😳",
-     "streamer": "IShowSpeed",
-     "style": "stack",
-     "score": 58.0,
-     "seconds": 39.2,
-     "eta": null,
-     "thumb": "thumbs/69f18bc012d9.jpg",
-     "thumb_text": "50 HOURS FOR ENDING",
-     "tags": [
-      "ishowspeed",
-      "speed",
-      "gta 6",
-      "gta 6 ending",
-      "best ending",
-      "speed rant",
-      "gta 6 gameplay",
-      "ishowspeed gta 6",
-      "gamer opinion",
-      "gta 6 funny moments",
-      "gta vi",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Speed says he'll grind 50 more hours for the best GTA 6 ending. Would you do the same?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Gaming #Gameplay"
-    },
-    {
      "title": "IShowSpeed BLAMES GTA 6 for Losing Rico 😂",
      "streamer": "IShowSpeed",
      "style": "stack",
      "score": 55.0,
-     "seconds": 34.0,
+     "seconds": 35.6,
      "eta": null,
      "thumb": "thumbs/1272cdff1cd2.jpg",
      "thumb_text": "I WAS REPOSITIONING",
@@ -329,7 +334,7 @@
     "likes": 0
    },
    "today": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "count": 1,
     "slots": [
      18
@@ -362,7 +367,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 58.0,
-     "seconds": 43.0,
+     "seconds": 44.6,
      "eta": "2026-11-23T23:00:00Z",
      "thumb": "thumbs/75b0fca323b9.jpg",
      "thumb_text": "HE WAS LISTENING",
@@ -386,7 +391,7 @@
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 57.0,
-     "seconds": 36.0,
+     "seconds": 37.6,
      "eta": "2026-11-24T23:00:00Z",
      "thumb": "thumbs/03394dfda903.jpg",
      "thumb_text": "JASON GOT ROASTED",
@@ -408,11 +413,36 @@
      "description": "zackrawrr reads a tweet absolutely roasting Jason in GTA 6. Is the take fair or way off?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gaming #fyp #zackrawrr"
     },
     {
+     "title": "CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂",
+     "streamer": "CYR",
+     "style": "hookcard",
+     "score": 55.0,
+     "seconds": 46.6,
+     "eta": "2026-11-25T23:00:00Z",
+     "thumb": "thumbs/5b7f1e54c4d6.jpg",
+     "thumb_text": "RELOAD THE SAVE!",
+     "tags": [
+      "cyr",
+      "cyr gta 6",
+      "gta 6",
+      "gta 6 lost money",
+      "gta 6 reload save",
+      "gta 6 funny moments",
+      "gta 6 rage",
+      "gta 6 reaction",
+      "gta 6 shorts",
+      "gta vi",
+      "gta 6 gameplay",
+      "streamer clips"
+     ],
+     "description": "CYR watched $407 vanish in GTA 6, begged for a reload, then cracked up at the photos. Would you reload?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta #gtavi #funnygaming"
+    },
+    {
      "title": "zackrawrr vs a Brain Implant: Who Drives Better in GTA 6? 😭",
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 57.0,
-     "seconds": 38.0,
+     "seconds": 39.6,
      "eta": null,
      "thumb": "thumbs/6d139d1a9fbf.jpg",
      "thumb_text": "BRAIN CHIP BEATS HIM",
@@ -433,36 +463,11 @@
      "description": "A brain implant pilots a GTA 6 boat better than zackrawrr can with his hands. Would you get the chip?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gaming #fyp #zackrawrr"
     },
     {
-     "title": "CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂",
-     "streamer": "CYR",
-     "style": "hookcard",
-     "score": 55.0,
-     "seconds": 45.0,
-     "eta": null,
-     "thumb": "thumbs/5b7f1e54c4d6.jpg",
-     "thumb_text": "RELOAD THE SAVE!",
-     "tags": [
-      "cyr",
-      "cyr gta 6",
-      "gta 6",
-      "gta 6 lost money",
-      "gta 6 reload save",
-      "gta 6 funny moments",
-      "gta 6 rage",
-      "gta 6 reaction",
-      "gta 6 shorts",
-      "gta vi",
-      "gta 6 gameplay",
-      "streamer clips"
-     ],
-     "description": "CYR watched $407 vanish in GTA 6, begged for a reload, then cracked up at the photos. Would you reload?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta #gtavi #funnygaming"
-    },
-    {
      "title": "zackrawrr Sees GTA 6 Semi Crash and Gets Misquoted 😭",
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 55.0,
-     "seconds": 41.0,
+     "seconds": 42.6,
      "eta": null,
      "thumb": "thumbs/ef9abf466468.jpg",
      "thumb_text": "TAKEN OUT OF CONTEXT",
@@ -487,7 +492,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 52.0,
-     "seconds": 39.0,
+     "seconds": 40.6,
      "eta": null,
      "thumb": "thumbs/037b4eb0fcc3.jpg",
      "thumb_text": "SHE KNOWS?!",
@@ -513,7 +518,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 50.0,
-     "seconds": 25.0,
+     "seconds": 26.6,
      "eta": null,
      "thumb": "thumbs/ab2d816e15a5.jpg",
      "thumb_text": "I WAS IN CONTROL",
@@ -542,21 +547,21 @@
    "stats": {
     "name": "W In Chat",
     "subscribers": null,
-    "views": 0,
+    "views": 2,
     "videos": 1,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 7,
-    "views": 0,
+    "views": 2,
     "likes": 1
    },
    "today": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "count": 1,
     "slots": [
-     19
+     21
     ]
    },
    "published": [
@@ -591,7 +596,7 @@
      "streamer": "iShowSpeed",
      "score": 90,
      "url": "https://www.youtube.com/shorts/Sk09t9uK4XE",
-     "views": 0,
+     "views": 2,
      "likes": 1,
      "comments": null,
      "history": [
@@ -603,6 +608,11 @@
       [
        "2026-11-23T03:16:31Z",
        0,
+       1
+      ],
+      [
+       "2026-11-23T07:26:33Z",
+       2,
        1
       ]
      ],
@@ -616,7 +626,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 82,
-     "seconds": 26,
+     "seconds": 27.47,
      "eta": "2026-11-24T02:00:00Z",
      "thumb": "thumbs/96be8ee9561a.jpg",
      "thumb_text": "IS THAT TREVOR?!",
@@ -639,7 +649,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 79,
-     "seconds": 25,
+     "seconds": 25.17,
      "eta": "2026-11-25T01:00:00Z",
      "thumb": "thumbs/532921682dbb.jpg",
      "thumb_text": "HE HAS A SON?!",
@@ -656,6 +666,29 @@
       "streamer clips"
      ],
      "description": "\"Chad, I didn't even know we had a son.\" 💀\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #lucia"
+    },
+    {
+     "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 76,
+     "seconds": 39.37,
+     "eta": "2026-11-26T01:00:00Z",
+     "thumb": "thumbs/7dd090c91008.jpg",
+     "thumb_text": "5 MINUTES IN...",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "First mission and he's already robbing a store… and getting tackled. \"Get off me!\" 😭\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny"
     },
     {
      "title": "Speed Can't Fly a Plane in GTA 6 😭",
@@ -681,34 +714,11 @@
      "description": "\"Go to the plane! Get in!\"… \"I DON'T EVEN KNOW HOW TO FLY!\" Pure chaos.\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny"
     },
     {
-     "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 76,
-     "seconds": 39,
-     "eta": null,
-     "thumb": "thumbs/7dd090c91008.jpg",
-     "thumb_text": "5 MINUTES IN...",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "gta 6 first time",
-      "gta 6 highlights",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "First mission and he's already robbing a store… and getting tackled. \"Get off me!\" 😭\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny"
-    },
-    {
      "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 71,
-     "seconds": 33,
+     "seconds": 34.47,
      "eta": null,
      "thumb": "thumbs/cf3df7bb940b.jpg",
      "thumb_text": "THROUGH THE RAINBOW",
@@ -731,7 +741,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 66,
-     "seconds": 43,
+     "seconds": 44.87,
      "eta": null,
      "thumb": "thumbs/99305593a9b7.jpg",
      "thumb_text": "CAN I PEE?",
@@ -754,7 +764,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 62,
-     "seconds": 20,
+     "seconds": 21.57,
      "eta": null,
      "thumb": "thumbs/f8193af5abe3.jpg",
      "thumb_text": "THIS ISN'T REAL",
@@ -782,14 +792,14 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": null,
-    "views": 1,
+    "views": 4,
     "videos": 1,
     "source": "rss"
    },
    "totals": {
     "published": 1,
     "queued": 13,
-    "views": 1,
+    "views": 4,
     "likes": 1
    },
    "today": {
@@ -812,7 +822,7 @@
      "streamer": "CarryMinati",
      "score": 92,
      "url": "https://www.youtube.com/shorts/AwUQyl8TjSk",
-     "views": 1,
+     "views": 4,
      "likes": 1,
      "comments": null,
      "history": [
@@ -830,6 +840,11 @@
        "2026-11-23T03:16:31Z",
        1,
        1
+      ],
+      [
+       "2026-11-23T07:26:33Z",
+       4,
+       1
       ]
      ],
      "seconds": 32,
@@ -842,7 +857,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 88,
-     "seconds": 28,
+     "seconds": 28.0,
      "eta": "2026-11-23T14:30:00Z",
      "thumb": "thumbs/922cc4035902.jpg",
      "thumb_text": "LUCIA IS FREE",
@@ -868,7 +883,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 86,
-     "seconds": 34,
+     "seconds": 33.87,
      "eta": "2026-11-24T14:30:00Z",
      "thumb": "thumbs/1d0075d003ed.jpg",
      "thumb_text": "FINALLY GOT HIS CYCLE",
@@ -894,7 +909,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 82,
-     "seconds": 38,
+     "seconds": 39.6,
      "eta": "2026-11-25T14:30:00Z",
      "thumb": "thumbs/85ece2093b93.jpg",
      "thumb_text": "DON'T CALL HER CRAZY",
@@ -920,7 +935,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 84,
-     "seconds": 44,
+     "seconds": 45.87,
      "eta": null,
      "thumb": "thumbs/e1eea7f332c5.jpg",
      "thumb_text": "GYM FAIL",
@@ -946,7 +961,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 80,
-     "seconds": 43,
+     "seconds": 42.87,
      "eta": null,
      "thumb": "thumbs/582c8df46323.jpg",
      "thumb_text": "TOO FAST BHAI",
@@ -972,7 +987,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 78,
-     "seconds": 23,
+     "seconds": 24.27,
      "eta": null,
      "thumb": "thumbs/53009a8cd559.jpg",
      "thumb_text": "STOP DOOMSCROLLING",
@@ -998,7 +1013,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 76,
-     "seconds": 43,
+     "seconds": 44.87,
      "eta": null,
      "thumb": "thumbs/621c0ca3cc43.jpg",
      "thumb_text": "AM I DREAMING?",
@@ -1024,7 +1039,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 74,
-     "seconds": 44,
+     "seconds": 46.1,
      "eta": null,
      "thumb": "thumbs/ccc17c8d7291.jpg",
      "thumb_text": "ONE JOKE. ONE FIGHT.",
@@ -1050,7 +1065,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 72,
-     "seconds": 28,
+     "seconds": 27.77,
      "eta": null,
      "thumb": "thumbs/823a74559558.jpg",
      "thumb_text": "GTA 6 IS BAD?",
@@ -1076,7 +1091,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 70,
-     "seconds": 36,
+     "seconds": 36.22,
      "eta": null,
      "thumb": "thumbs/99127d73c6e6.jpg",
      "thumb_text": "NEW ERA",
@@ -1102,7 +1117,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 68,
-     "seconds": 43,
+     "seconds": 44.6,
      "eta": null,
      "thumb": "thumbs/01ceb941fd91.jpg",
      "thumb_text": "SEAPLANE ESCAPE",
@@ -1128,7 +1143,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 66,
-     "seconds": 21,
+     "seconds": 20.87,
      "eta": null,
      "thumb": "thumbs/5700a3b84b22.jpg",
      "thumb_text": "PURE NOSTALGIA",
@@ -1154,7 +1169,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 64,
-     "seconds": 26,
+     "seconds": 25.57,
      "eta": null,
      "thumb": "thumbs/6d4ae3dfbc98.jpg",
      "thumb_text": "HIS FIRST DRIVE?!",
