@@ -21,11 +21,25 @@ a{color:var(--link)}
 ul{padding-left:22px}
 footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 footer a{margin-right:16px}
+.topnav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;margin:0 0 28px;padding-bottom:14px;border-bottom:1px solid var(--line);font-size:15px}
+.topnav b{margin-right:auto}
+.yt{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 12px 4px 6px;font-size:14px;font-weight:600;color:var(--ink);text-decoration:none}
+.yt svg{display:block}
 </style>
 </head>
 <body>
 <main>
-  <h1>YTAutomation <span>Uploader</span></h1>
+  <nav class="topnav" aria-label="Site">
+    <b>YTAutomation Uploader</b>
+    <a href="app.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </nav>
+  <a class="yt" href="https://www.youtube.com" rel="noopener">
+    <svg width="28" height="20" viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" rx="5" fill="#FF0000"/><path d="M11 5.5v9l7.5-4.5z" fill="#fff"/></svg>
+    Developed with YouTube · uses YouTube API Services
+  </a>
+  <h1 style="margin-top:18px">YTAutomation <span>Uploader</span></h1>
   <p class="lead">A private, single-owner tool that publishes the owner's own YouTube Shorts to the owner's own YouTube channels on a schedule.</p>
 
   <div class="card">
