@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T14:17:47Z",
- "stats_updated_at": "2026-11-24T14:17:47Z",
+ "generated_at": "2026-11-24T14:28:49Z",
+ "stats_updated_at": "2026-11-24T14:28:49Z",
  "budget": {
   "cap": 5,
   "left": 0,
@@ -28,14 +28,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 227,
+    "views": 229,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 7,
-    "views": 227,
+    "views": 229,
     "likes": 11
    },
    "today": {
@@ -134,7 +134,7 @@
      "streamer": "iShowSpeed",
      "score": 84,
      "url": "https://www.youtube.com/shorts/0FOk3g5JSnk",
-     "views": 1,
+     "views": 2,
      "likes": 1,
      "comments": null,
      "history": [
@@ -157,6 +157,11 @@
        "2026-11-24T14:17:47Z",
        1,
        1
+      ],
+      [
+       "2026-11-24T14:28:49Z",
+       2,
+       1
       ]
      ],
      "seconds": 58,
@@ -174,7 +179,7 @@
      "streamer": "iShowSpeed",
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
-     "views": 219,
+     "views": 220,
      "likes": 7,
      "comments": null,
      "history": [
@@ -217,6 +222,11 @@
        "2026-11-24T14:17:47Z",
        219,
        7
+      ],
+      [
+       "2026-11-24T14:28:49Z",
+       220,
+       7
       ]
      ],
      "seconds": 59,
@@ -231,7 +241,7 @@
      "streamer": "IShowSpeed",
      "style": "stack",
      "score": 58.0,
-     "seconds": 39.2,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/69f18bc012d9.jpg",
      "thumb_text": "50 HOURS FOR ENDING",
@@ -254,12 +264,12 @@
      "drive_id": "1tx3v5BYE0kGhaQnojrqnHySq9yetzXTC",
      "review": "pending",
      "why": "Speed rants passionately about wanting the best ending at any cost, a relatable bold gamer opinion with rising volume.",
-     "hook2": null,
+     "hook2": "WATCH THIS",
      "end_text": "NOT NOW",
      "next": false,
      "created_at": "2026-11-22T20:43:56Z",
      "source_url": "https://www.twitch.tv/videos/2934967396",
-     "v2": false
+     "v2": true
     },
     {
      "id": "abe4f81529a3",
@@ -267,7 +277,7 @@
      "streamer": "IShowSpeed",
      "style": "stack",
      "score": 58.0,
-     "seconds": 40.0,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/abe4f81529a3.jpg",
      "thumb_text": "GO TO SLEEP?!",
@@ -290,12 +300,12 @@
      "drive_id": "1R1q-7V4sqip2H7PVPbkzsyiJ3v2fyNFh",
      "review": "pending",
      "why": "Self-contained rant with a clear analogy and punchline about quitting at the finish line, loud and relatable.",
-     "hook2": null,
+     "hook2": "DON'T BLINK",
      "end_text": "NOT NOW",
      "next": false,
      "created_at": "2026-11-22T20:42:52Z",
      "source_url": "https://www.twitch.tv/videos/2934967396",
-     "v2": false
+     "v2": true
     },
     {
      "id": "1272cdff1cd2",
@@ -303,7 +313,7 @@
      "streamer": "IShowSpeed",
      "style": "stack",
      "score": 55.0,
-     "seconds": 35.6,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/1272cdff1cd2.jpg",
      "thumb_text": "I WAS REPOSITIONING",
@@ -326,12 +336,12 @@
      "drive_id": "1IqcDXPDqw_nY0VNswG1lWYWO_V0PSgiL",
      "review": "pending",
      "why": "Classic Speed excuse rant with repeated 'repositioning myself' bit and a clear punchline about the game assuming he lost the target.",
-     "hook2": null,
+     "hook2": "WAIT FOR IT",
      "end_text": "NOT NOW",
      "next": false,
      "created_at": "2026-11-22T20:42:38Z",
      "source_url": "https://www.twitch.tv/videos/2934967396",
-     "v2": false
+     "v2": true
     },
     {
      "id": "97cc9af66ee4",
@@ -483,14 +493,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 995,
+    "views": 1025,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 995,
+    "views": 1025,
     "likes": 9
    },
    "today": {
@@ -548,7 +558,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 992,
+     "views": 1022,
      "likes": 8,
      "comments": null,
      "history": [
@@ -586,6 +596,11 @@
        "2026-11-24T14:16:01Z",
        992,
        8
+      ],
+      [
+       "2026-11-24T14:28:49Z",
+       1022,
+       8
       ]
      ],
      "seconds": 34.5,
@@ -600,7 +615,7 @@
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 57.0,
-     "seconds": 37.6,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/03394dfda903.jpg",
      "thumb_text": "JASON GOT ROASTED",
@@ -623,12 +638,12 @@
      "drive_id": "11DdAao-V1T6d7jQYNcc2ceis2d08vSIx",
      "review": "pending",
      "why": "loudest moment around 82:50 (no AI used)",
-     "hook2": null,
+     "hook2": "LOOK AT THIS",
      "end_text": "PLOT TWIST",
      "next": false,
      "created_at": "2026-11-22T21:03:46Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": false
+     "v2": true
     },
     {
      "id": "6d139d1a9fbf",
@@ -636,7 +651,7 @@
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 57.0,
-     "seconds": 39.6,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/6d139d1a9fbf.jpg",
      "thumb_text": "BRAIN CHIP BEATS HIM",
@@ -658,12 +673,12 @@
      "drive_id": "1kepDIF_7wG-dha7u01HfcIP1vFBVd6bY",
      "review": "pending",
      "why": "loudest moment around 72:07 (no AI used)",
-     "hook2": null,
+     "hook2": "WATCH THIS",
      "end_text": "OUTPLAYED",
      "next": false,
      "created_at": "2026-11-22T21:03:36Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": false
+     "v2": true
     },
     {
      "id": "ef9abf466468",
@@ -671,7 +686,7 @@
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 55.0,
-     "seconds": 42.6,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/ef9abf466468.jpg",
      "thumb_text": "TAKEN OUT OF CONTEXT",
@@ -693,12 +708,12 @@
      "drive_id": "1NE0aNElpEUMmV9DvqRfyTrWBI3-BHLx6",
      "review": "pending",
      "why": "Gameplay of a truck flipping down a hill, followed by the streamer's response to the clip being taken out of context.",
-     "hook2": null,
+     "hook2": "LOOK AT THIS",
      "end_text": "WASTED",
      "next": false,
      "created_at": "2026-11-22T21:02:36Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": false
+     "v2": true
     },
     {
      "id": "ab2d816e15a5",
@@ -706,7 +721,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 50.0,
-     "seconds": 26.6,
+     "seconds": 26.43,
      "eta": null,
      "thumb": "thumbs/ab2d816e15a5.jpg",
      "thumb_text": "I WAS IN CONTROL",
@@ -727,12 +742,12 @@
      "drive_id": "1J-9QbSS6kyCE_rjkvXQA-Ge4-VPeMHEy",
      "review": "pending",
      "why": "A relatable moment where the streamer realizes he has control, though the on-screen action is modest.",
-     "hook2": null,
+     "hook2": "IT GETS WORSE",
      "end_text": "OOPS",
      "next": false,
      "created_at": "2026-11-22T19:17:57Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": false
+     "v2": true
     },
     {
      "id": "037b4eb0fcc3",
@@ -740,7 +755,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 52.0,
-     "seconds": 40.6,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/037b4eb0fcc3.jpg",
      "thumb_text": "SHE KNOWS?!",
@@ -763,12 +778,12 @@
      "drive_id": "1oJu-zCmnjkS9N21vD9t9TgtmoKUGR3EK",
      "review": "pending",
      "why": "Spooky NPC lines and a real reaction, but the visuals are unclear from the transcript.",
-     "hook2": null,
+     "hook2": "HERE IT COMES",
      "end_text": "SHE KNOWS",
      "next": false,
      "created_at": "2026-11-22T19:17:46Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": false
+     "v2": true
     },
     {
      "id": "5b7f1e54c4d6",
@@ -776,7 +791,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 55.0,
-     "seconds": 46.6,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/5b7f1e54c4d6.jpg",
      "thumb_text": "RELOAD THE SAVE!",
@@ -798,12 +813,12 @@
      "drive_id": "1LRlUDCrsxmCd2pF5mMrWNVgk7t5u9ZCJ",
      "review": "pending",
      "why": "The loudest volume in the stretch, a reload plea and a laughing fit that follow an on-screen event.",
-     "hook2": null,
+     "hook2": "WAIT FOR IT",
      "end_text": "WASTED",
      "next": false,
      "created_at": "2026-11-22T19:15:48Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": false
+     "v2": true
     }
    ],
    "slots_waiting": [
@@ -1120,7 +1135,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 90,
-     "seconds": 45.8,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/3f13c722e207.jpg",
      "thumb_text": "HE CAN'T FLY!",
@@ -1140,12 +1155,12 @@
      "drive_id": "1w1XOQd34efg7EcsZvAP8Qt4VA7V-XHpJ",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "DON'T BLINK",
      "end_text": "HE CAN'T FLY",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": false
+     "v2": true
     }
    ],
    "slots_waiting": [
@@ -1162,14 +1177,14 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": null,
-    "views": 4,
+    "views": 5,
     "videos": 1,
     "source": "rss"
    },
    "totals": {
     "published": 1,
     "queued": 13,
-    "views": 4,
+    "views": 5,
     "likes": 1
    },
    "today": {
@@ -1192,7 +1207,7 @@
      "streamer": "CarryMinati",
      "score": 92,
      "url": "https://www.youtube.com/shorts/AwUQyl8TjSk",
-     "views": 4,
+     "views": 5,
      "likes": 1,
      "comments": null,
      "history": [
@@ -1214,6 +1229,11 @@
       [
        "2026-11-23T07:26:33Z",
        4,
+       1
+      ],
+      [
+       "2026-11-24T14:28:49Z",
+       5,
        1
       ]
      ],
@@ -1661,7 +1681,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 64,
-     "seconds": 25.57,
+     "seconds": 27.1,
      "eta": null,
      "thumb": "thumbs/6d4ae3dfbc98.jpg",
      "thumb_text": "HIS FIRST DRIVE?!",
@@ -1684,12 +1704,12 @@
      "drive_id": "1iCpMyERMPRNOeLww3Ri42PuUFIYk5zen",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "DON'T BLINK",
      "end_text": "FIRST DRIVE",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     }
    ],
    "slots_waiting": [
@@ -1701,70 +1721,70 @@
  },
  "learned": {
   "samples": 6,
-  "overall": 2.847,
+  "overall": 2.951,
   "style": {
    "stack": {
     "n": 2,
-    "mean_log_views": 3.043,
-    "median_views": 20,
+    "mean_log_views": 3.248,
+    "median_views": 25,
     "weight": 1.0
    },
    "fullframe": {
     "n": 3,
-    "mean_log_views": 1.365,
+    "mean_log_views": 1.426,
     "median_views": 3,
     "weight": 1.0
    },
    "hookcard": {
     "n": 1,
-    "mean_log_views": 6.901,
-    "median_views": 992,
+    "mean_log_views": 6.93,
+    "median_views": 1022,
     "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
     "n": 4,
-    "mean_log_views": 2.143,
+    "mean_log_views": 2.245,
     "median_views": 2,
     "weight": 0.5
    },
    "CarryMinati": {
     "n": 1,
-    "mean_log_views": 1.609,
-    "median_views": 4,
+    "mean_log_views": 1.792,
+    "median_views": 5,
     "weight": 1.0
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 6.901,
-    "median_views": 992,
+    "mean_log_views": 6.93,
+    "median_views": 1022,
     "weight": 1.0
    }
   },
   "hour": {
    "12": {
     "n": 2,
-    "mean_log_views": 3.39,
+    "mean_log_views": 3.392,
     "median_views": 29,
     "weight": 1.0
    },
    "21": {
     "n": 1,
-    "mean_log_views": 1.609,
-    "median_views": 4,
+    "mean_log_views": 1.792,
+    "median_views": 5,
     "weight": 1.0
    },
    "13": {
     "n": 2,
-    "mean_log_views": 0.896,
-    "median_views": 1,
+    "mean_log_views": 1.099,
+    "median_views": 2,
     "weight": 1.0
    },
    "18": {
     "n": 1,
-    "mean_log_views": 6.901,
-    "median_views": 992,
+    "mean_log_views": 6.93,
+    "median_views": 1022,
     "weight": 1.0
    }
   }
