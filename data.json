@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T17:15:42Z",
- "stats_updated_at": "2026-11-24T17:15:42Z",
+ "generated_at": "2026-11-24T18:15:48Z",
+ "stats_updated_at": "2026-11-24T18:15:48Z",
  "budget": {
   "cap": 5,
   "left": 0,
@@ -28,14 +28,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 228,
+    "views": 229,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 7,
-    "views": 228,
+    "views": 229,
     "likes": 11
    },
    "today": {
@@ -189,7 +189,7 @@
      "streamer": "iShowSpeed",
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
-     "views": 219,
+     "views": 220,
      "likes": 7,
      "comments": null,
      "history": [
@@ -241,6 +241,11 @@
       [
        "2026-11-24T15:15:44Z",
        219,
+       7
+      ],
+      [
+       "2026-11-24T18:15:48Z",
+       220,
        7
       ]
      ],
@@ -508,14 +513,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1253,
+    "views": 1255,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1253,
+    "views": 1255,
     "likes": 11
    },
    "today": {
@@ -573,7 +578,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1250,
+     "views": 1252,
      "likes": 10,
      "comments": null,
      "history": [
@@ -630,6 +635,11 @@
       [
        "2026-11-24T17:15:42Z",
        1250,
+       10
+      ],
+      [
+       "2026-11-24T18:15:48Z",
+       1252,
        10
       ]
      ],
@@ -1750,11 +1760,11 @@
  },
  "learned": {
   "samples": 6,
-  "overall": 2.983,
+  "overall": 2.984,
   "style": {
    "stack": {
     "n": 2,
-    "mean_log_views": 3.246,
+    "mean_log_views": 3.248,
     "median_views": 25,
     "weight": 1.0
    },
@@ -1766,15 +1776,15 @@
    },
    "hookcard": {
     "n": 1,
-    "mean_log_views": 7.132,
-    "median_views": 1250,
+    "mean_log_views": 7.133,
+    "median_views": 1252,
     "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
     "n": 4,
-    "mean_log_views": 2.244,
+    "mean_log_views": 2.245,
     "median_views": 2,
     "weight": 0.5
    },
@@ -1786,15 +1796,15 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.132,
-    "median_views": 1250,
+    "mean_log_views": 7.133,
+    "median_views": 1252,
     "weight": 1.0
    }
   },
   "hour": {
    "12": {
     "n": 2,
-    "mean_log_views": 3.39,
+    "mean_log_views": 3.392,
     "median_views": 29,
     "weight": 1.0
    },
@@ -1812,13 +1822,19 @@
    },
    "18": {
     "n": 1,
-    "mean_log_views": 7.132,
-    "median_views": 1250,
+    "mean_log_views": 7.133,
+    "median_views": 1252,
     "weight": 1.0
    }
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-24T18:16:33Z",
+   "status": "warn",
+   "message": "fivestars: slot 2026-11-24@13 skipped: no approved Shorts (7 waiting for your review on the dashboard)"
+  },
   {
    "job": "publish",
    "at": "2026-11-24T15:16:27Z",
