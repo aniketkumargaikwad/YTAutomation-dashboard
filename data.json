@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-24T09:45:58Z",
- "stats_updated_at": "2026-11-24T09:45:58Z",
+ "generated_at": "2026-11-24T10:02:20Z",
+ "stats_updated_at": "2026-11-24T10:02:20Z",
  "budget": {
   "cap": 5,
-  "left": 4,
+  "left": 5,
   "next_free": null,
   "api": {
    "left": 6,
@@ -36,7 +36,7 @@
     "published": 4,
     "queued": 7,
     "views": 220,
-    "likes": 7
+    "likes": 8
    },
    "today": {
     "date": "2026-11-24",
@@ -60,13 +60,18 @@
      "score": 68.0,
      "url": "https://www.youtube.com/shorts/kTq3awrINHA",
      "views": 0,
-     "likes": 0,
+     "likes": 1,
      "comments": null,
      "history": [
       [
        "2026-11-24T08:33:36Z",
        0,
        0
+      ],
+      [
+       "2026-11-24T10:02:20Z",
+       0,
+       1
       ]
      ],
      "seconds": 46.62,
@@ -175,12 +180,64 @@
    ],
    "queue": [
     {
+     "title": "IShowSpeed Would Play 50 HOURS of GTA 6 For This 😳",
+     "streamer": "IShowSpeed",
+     "style": "stack",
+     "score": 58.0,
+     "seconds": 39.2,
+     "eta": "2026-11-24T18:00:00Z",
+     "thumb": "thumbs/69f18bc012d9.jpg",
+     "thumb_text": "50 HOURS FOR ENDING",
+     "tags": [
+      "ishowspeed",
+      "speed",
+      "gta 6",
+      "gta 6 ending",
+      "best ending",
+      "speed rant",
+      "gta 6 gameplay",
+      "ishowspeed gta 6",
+      "gamer opinion",
+      "gta 6 funny moments",
+      "gta vi",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Speed says he'll grind 50 more hours for the best GTA 6 ending. Would you do the same?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Gaming #Gameplay"
+    },
+    {
+     "title": "IShowSpeed ROASTS Chat Mid GTA 6 Final Mission 😤",
+     "streamer": "IShowSpeed",
+     "style": "stack",
+     "score": 58.0,
+     "seconds": 40.0,
+     "eta": "2026-11-25T00:00:00Z",
+     "thumb": "thumbs/abe4f81529a3.jpg",
+     "thumb_text": "GO TO SLEEP?!",
+     "tags": [
+      "ishowspeed",
+      "speed",
+      "gta 6",
+      "gta 6 final mission",
+      "speed roasts chat",
+      "speed rant",
+      "ishowspeed gta 6 funny",
+      "gta 6 gameplay",
+      "streamer rage",
+      "gta vi",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Chat told Speed to sleep on the LAST mission and he snapped. Would you quit at the finish line?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Funny"
+    },
+    {
      "title": "Speed Gets Emotional Before GTA 6's Last Mission 🥹",
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 77,
      "seconds": 48.7,
-     "eta": "2026-11-24T18:00:00Z",
+     "eta": "2026-11-25T18:00:00Z",
      "thumb": "thumbs/97cc9af66ee4.jpg",
      "thumb_text": "50 HOURS AWAKE",
      "tags": [
@@ -198,12 +255,38 @@
      "description": "50 hours awake, one mission left, and Speed thanked his chat. Did you watch the whole run?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #emotional"
     },
     {
+     "title": "IShowSpeed BLAMES GTA 6 for Losing Rico 😂",
+     "streamer": "IShowSpeed",
+     "style": "stack",
+     "score": 55.0,
+     "seconds": 35.6,
+     "eta": "2026-11-26T01:00:00Z",
+     "thumb": "thumbs/1272cdff1cd2.jpg",
+     "thumb_text": "I WAS REPOSITIONING",
+     "tags": [
+      "ishowspeed",
+      "speed",
+      "gta 6",
+      "gta 6 funny moments",
+      "repositioning myself",
+      "speed rage",
+      "speed gta 6 gameplay",
+      "rico mission",
+      "ishowspeed reaction",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Speed swears he was just \"repositioning himself\" and the game messed up. Is he cooking or coping?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #gaming #funny"
+    },
+    {
      "title": "Nobody Told Speed GTA 6 Has TIGERS 🐅",
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 80,
      "seconds": 36.7,
-     "eta": "2026-11-25T00:00:00Z",
+     "eta": "2026-11-26T18:00:00Z",
      "thumb": "thumbs/7121ee480313.jpg",
      "thumb_text": "THERE'S TIGERS?!",
      "tags": [
@@ -226,7 +309,7 @@
      "style": "stack",
      "score": 72,
      "seconds": 43.1,
-     "eta": "2026-11-25T18:00:00Z",
+     "eta": "2026-11-27T00:00:00Z",
      "thumb": "thumbs/c487d0ab9993.jpg",
      "thumb_text": "NO GOOD ENDING",
      "tags": [
@@ -244,38 +327,12 @@
      "description": "Speed realizes he never had a chance at the good ending 💀 Would you replay for it?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #gta6ending"
     },
     {
-     "title": "IShowSpeed Would Play 50 HOURS of GTA 6 For This 😳",
-     "streamer": "IShowSpeed",
-     "style": "stack",
-     "score": 58.0,
-     "seconds": 39.2,
-     "eta": "2026-11-26T01:00:00Z",
-     "thumb": "thumbs/69f18bc012d9.jpg",
-     "thumb_text": "50 HOURS FOR ENDING",
-     "tags": [
-      "ishowspeed",
-      "speed",
-      "gta 6",
-      "gta 6 ending",
-      "best ending",
-      "speed rant",
-      "gta 6 gameplay",
-      "ishowspeed gta 6",
-      "gamer opinion",
-      "gta 6 funny moments",
-      "gta vi",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Speed says he'll grind 50 more hours for the best GTA 6 ending. Would you do the same?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Gaming #Gameplay"
-    },
-    {
      "title": "Speed's Friend Won't Risk His 50-Hour GTA 6 Save",
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 68,
      "seconds": 52.45,
-     "eta": "2026-11-26T18:00:00Z",
+     "eta": null,
      "thumb": "thumbs/6c724e05e6b4.jpg",
      "thumb_text": "DON'T PRESS IT",
      "tags": [
@@ -291,58 +348,6 @@
       "streamer clips"
      ],
      "description": "Chat tried to get them to wipe a 50-hour GTA 6 save 💀 Would you press the button?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #funny"
-    },
-    {
-     "title": "IShowSpeed ROASTS Chat Mid GTA 6 Final Mission 😤",
-     "streamer": "IShowSpeed",
-     "style": "stack",
-     "score": 58.0,
-     "seconds": 40.0,
-     "eta": "2026-11-27T00:00:00Z",
-     "thumb": "thumbs/abe4f81529a3.jpg",
-     "thumb_text": "GO TO SLEEP?!",
-     "tags": [
-      "ishowspeed",
-      "speed",
-      "gta 6",
-      "gta 6 final mission",
-      "speed roasts chat",
-      "speed rant",
-      "ishowspeed gta 6 funny",
-      "gta 6 gameplay",
-      "streamer rage",
-      "gta vi",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Chat told Speed to sleep on the LAST mission and he snapped. Would you quit at the finish line?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Funny"
-    },
-    {
-     "title": "IShowSpeed BLAMES GTA 6 for Losing Rico 😂",
-     "streamer": "IShowSpeed",
-     "style": "stack",
-     "score": 55.0,
-     "seconds": 35.6,
-     "eta": null,
-     "thumb": "thumbs/1272cdff1cd2.jpg",
-     "thumb_text": "I WAS REPOSITIONING",
-     "tags": [
-      "ishowspeed",
-      "speed",
-      "gta 6",
-      "gta 6 funny moments",
-      "repositioning myself",
-      "speed rage",
-      "speed gta 6 gameplay",
-      "rico mission",
-      "ishowspeed reaction",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Speed swears he was just \"repositioning himself\" and the game messed up. Is he cooking or coping?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #gaming #funny"
     }
    ]
   },
@@ -354,14 +359,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 213,
+    "views": 227,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 213,
+    "views": 227,
     "likes": 2
    },
    "today": {
@@ -384,14 +389,19 @@
      "streamer": "CYR",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
-     "views": 0,
-     "likes": 0,
+     "views": 2,
+     "likes": 1,
      "comments": null,
      "history": [
       [
        "2026-11-24T08:33:36Z",
        0,
        0
+      ],
+      [
+       "2026-11-24T10:02:20Z",
+       2,
+       1
       ]
      ],
      "seconds": 44.6,
@@ -409,14 +419,19 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 213,
-     "likes": 2,
+     "views": 225,
+     "likes": 1,
      "comments": null,
      "history": [
       [
        "2026-11-24T09:45:58Z",
        213,
        2
+      ],
+      [
+       "2026-11-24T10:02:20Z",
+       225,
+       1
       ]
      ],
      "seconds": 34.5,
@@ -586,7 +601,7 @@
     "name": "W In Chat",
     "subscribers": null,
     "views": 2,
-    "videos": 1,
+    "videos": 2,
     "source": "rss"
    },
    "totals": {
@@ -607,18 +622,24 @@
      "title": "Speed's Reaction When GTA 6 Unlocked 😱",
      "published_at": "2026-11-22T19:01:18Z",
      "slot": "2026-11-22@13",
-     "youtube_id": null,
+     "youtube_id": "Z1BKmibYSos",
      "thumb": "thumbs/1bd2f01a0f87.jpg",
-     "thumb_alt": null,
+     "thumb_alt": "https://i.ytimg.com/vi/Z1BKmibYSos/hqdefault.jpg",
      "thumb_text": "IT'S FINALLY HERE",
      "style": "fullframe",
      "streamer": "iShowSpeed",
      "score": 86,
-     "url": null,
-     "views": null,
-     "likes": null,
+     "url": "https://www.youtube.com/shorts/Z1BKmibYSos",
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-24T10:02:20Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 33,
      "source_url": "https://youtu.be/kR8bhkVAgBY"
     },
@@ -1232,8 +1253,8 @@
   }
  },
  "learned": {
-  "samples": 5,
-  "overall": 2.694,
+  "samples": 6,
+  "overall": 2.254,
   "style": {
    "stack": {
     "n": 2,
@@ -1242,24 +1263,24 @@
     "weight": 1.0
    },
    "fullframe": {
-    "n": 2,
-    "mean_log_views": 1.354,
-    "median_views": 3,
+    "n": 3,
+    "mean_log_views": 0.903,
+    "median_views": 2,
     "weight": 1.0
    },
    "hookcard": {
     "n": 1,
-    "mean_log_views": 5.366,
-    "median_views": 213,
+    "mean_log_views": 5.421,
+    "median_views": 225,
     "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
-    "n": 3,
-    "mean_log_views": 2.164,
-    "median_views": 2,
-    "weight": 1.0
+    "n": 4,
+    "mean_log_views": 1.623,
+    "median_views": 1,
+    "weight": 0.532
    },
    "CarryMinati": {
     "n": 1,
@@ -1269,8 +1290,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 5.366,
-    "median_views": 213,
+    "mean_log_views": 5.421,
+    "median_views": 225,
     "weight": 1.0
    }
   },
@@ -1288,15 +1309,15 @@
     "weight": 1.0
    },
    "13": {
-    "n": 1,
+    "n": 2,
     "mean_log_views": 0.0,
     "median_views": 0,
     "weight": 1.0
    },
    "18": {
     "n": 1,
-    "mean_log_views": 5.366,
-    "median_views": 213,
+    "mean_log_views": 5.421,
+    "median_views": 225,
     "weight": 1.0
    }
   }
