@@ -1,16 +1,23 @@
 {
- "generated_at": "2026-11-24T05:24:36Z",
- "stats_updated_at": "2026-11-23T23:48:04Z",
+ "generated_at": "2026-11-24T08:33:36Z",
+ "stats_updated_at": "2026-11-24T08:33:36Z",
  "budget": {
   "cap": 5,
-  "left": 5,
+  "left": 3,
   "next_free": null,
-  "zapier_channels": [
-   "Five Stars Deep",
-   "Meltdown On Stream",
-   "W In Chat Clips",
-   "Gully Wanted"
-  ]
+  "api": {
+   "left": 6,
+   "cap": 6,
+   "resets": "2026-11-25T08:00:00Z",
+   "channels": [
+    "Five Stars Deep",
+    "Meltdown On Stream",
+    "W In Chat Clips",
+    "Gully Wanted"
+   ],
+   "locked": null
+  },
+  "zapier_channels": []
  },
  "channels": {
   "fivestars": {
@@ -22,7 +29,7 @@
     "name": "Five Stars Deep",
     "subscribers": null,
     "views": 220,
-    "videos": 2,
+    "videos": 3,
     "source": "rss"
    },
    "totals": {
@@ -44,18 +51,24 @@
      "title": "IShowSpeed Can't Believe GTA 6 Gave Him This 🤯",
      "published_at": "2026-11-23T23:48:04Z",
      "slot": "2026-11-23@18",
-     "youtube_id": null,
+     "youtube_id": "kTq3awrINHA",
      "thumb": "thumbs/4429bce4d1a9.jpg",
-     "thumb_alt": null,
+     "thumb_alt": "https://i.ytimg.com/vi/kTq3awrINHA/hqdefault.jpg",
      "thumb_text": "WHOLE WAREHOUSE?!",
      "style": "stack",
      "streamer": "IShowSpeed",
      "score": 68.0,
-     "url": null,
-     "views": null,
-     "likes": null,
+     "url": "https://www.youtube.com/shorts/kTq3awrINHA",
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-24T08:33:36Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 46.62,
      "source_url": "https://www.twitch.tv/videos/2934967396"
     },
@@ -336,7 +349,7 @@
     "name": "Meltdown On Stream",
     "subscribers": null,
     "views": 0,
-    "videos": 0,
+    "videos": 1,
     "source": "rss"
    },
    "totals": {
@@ -357,18 +370,24 @@
      "title": "CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
      "published_at": "2026-11-23T23:48:04Z",
      "slot": "2026-11-23@18",
-     "youtube_id": null,
+     "youtube_id": "Eta4vEeAMFY",
      "thumb": "thumbs/75b0fca323b9.jpg",
-     "thumb_alt": null,
+     "thumb_alt": "https://i.ytimg.com/vi/Eta4vEeAMFY/hqdefault.jpg",
      "thumb_text": "HE WAS LISTENING",
      "style": "hookcard",
      "streamer": "CYR",
      "score": 58.0,
-     "url": null,
-     "views": null,
-     "likes": null,
+     "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-24T08:33:36Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 44.6,
      "source_url": "https://www.twitch.tv/videos/2933968544"
     },
@@ -1247,6 +1266,18 @@
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-24T08:35:40Z",
+   "status": "warn",
+   "message": "meltdown: re-dropped 'zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭' (no YouTube ID yet, try 3)"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-24T08:33:52Z",
+   "status": "warn",
+   "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 4)"
+  },
   {
    "job": "publish",
    "at": "2026-11-23T23:55:42Z",
