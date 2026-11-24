@@ -59,6 +59,37 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px 6px;
 .barrow{display:grid;grid-template-columns:120px 1fr 80px;gap:8px;align-items:center;padding:4px 0;font-size:13px}.barfill{height:8px;border-radius:4px;background:var(--accent2)}
 canvas{max-height:260px}
 .page{display:none}.page.on{display:grid;gap:14px}
+nav a .cnt{display:inline-block;min-width:18px;margin-left:6px;padding:0 6px;border-radius:999px;background:var(--accent);color:#fff;font-size:11px;line-height:18px;text-align:center}
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.rcard{display:flex;flex-direction:column;gap:8px;border:1px solid var(--line);border-radius:14px;padding:10px;background:var(--card);transition:opacity .2s,border-color .2s}
+.rcard .thumb{cursor:pointer}
+.rcard .play{position:absolute;inset:auto 8px 8px auto;background:rgba(0,0,0,.78);color:#fff;border:0;border-radius:999px;padding:6px 12px;font:600 12px/1 inherit;cursor:pointer}
+.rcard .t{font-weight:600;font-size:14px;line-height:1.3}
+.rcard .m{font-size:12px;color:var(--muted)}
+.rcard .why{font-size:12px;color:var(--muted);background:var(--chip);border-radius:8px;padding:6px 8px}
+.rcard .row{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.rcard .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}
+.sbtn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:9px;padding:8px 6px;font:600 12px/1.1 inherit;cursor:pointer;white-space:nowrap}
+.sbtn:hover{border-color:var(--muted)}
+.sbtn.ok{background:var(--good);border-color:var(--good);color:#fff}
+.sbtn.no{color:var(--bad);border-color:#e5484d55}
+.rcard.will-approve{border-color:var(--good);box-shadow:0 0 0 2px #30a46c33}
+.rcard.will-reject{opacity:.45;border-color:var(--bad)}
+.rcard .tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-right:4px}
+.tag.g{background:#30a46c22;color:var(--good)}.tag.r{background:#e5484d22;color:var(--bad)}.tag.y{background:#f5a52422;color:#b9770e}.tag.b{background:#3e63dd22;color:var(--accent2)}
+.savebar{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:9;display:none;align-items:center;gap:12px;background:var(--nav);color:#fff;padding:10px 12px 10px 18px;border-radius:14px;box-shadow:0 10px 30px #0006;max-width:calc(100% - 32px)}
+.savebar.on{display:flex}.savebar button{border:0;border-radius:10px;padding:9px 14px;font:600 13px inherit;cursor:pointer}
+.savebar .go{background:var(--good);color:#fff}.savebar .undo{background:#ffffff1f;color:#fff}
+.notice{border-radius:12px;padding:10px 14px;font-size:13px;background:#3e63dd14;border:1px solid #3e63dd40}
+.modal{position:fixed;inset:0;z-index:20;background:#000a;display:none;align-items:center;justify-content:center;padding:16px}
+.modal.on{display:flex}
+.mbox{background:var(--card);color:var(--ink);border-radius:16px;padding:18px;width:min(520px,100%);max-height:92vh;overflow:auto}
+.mbox h3{margin:0 0 10px}
+.mbox label{display:block;font-size:12px;color:var(--muted);margin:10px 0 4px}
+.mbox input{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit}
+.mbox .acts2{display:flex;gap:8px;justify-content:flex-end;margin-top:14px}
+.mbox ol{padding-left:20px;margin:6px 0}.mbox li{margin:4px 0}
+.vbox{width:min(420px,100%)}.vbox iframe{width:100%;aspect-ratio:9/16;border:0;border-radius:12px;background:#000}
 </style>
 </head>
 <body>
@@ -66,8 +97,9 @@ canvas{max-height:260px}
   <div class="brand">Shorts <span>Control Room</span></div>
   <nav id="nav">
     <a href="#overview" data-p="overview">Overview</a>
+    <a href="#review" data-p="review">Not approved<span class="cnt" id="revCnt" hidden></span></a>
+    <a href="#approved" data-p="approved">Approved</a>
     <a href="#published" data-p="published">Published</a>
-    <a href="#scheduled" data-p="scheduled">Scheduled</a>
     <a href="#pipeline" data-p="pipeline">Pipeline</a>
   </nav>
   <div class="upd" id="updated">loading…</div>
@@ -85,13 +117,23 @@ canvas{max-height:260px}
   <section class="page" id="p-published">
     <div class="card"><h2>Published on YouTube <span class="sub" id="pubCount"></span></h2><div class="vlist" id="pub"></div></div>
   </section>
-  <section class="page" id="p-scheduled">
-    <div class="card"><h2>Scheduled <span class="sub" id="queueCount"></span></h2><div class="tiles" id="queue"></div></div>
+  <section class="page" id="p-review">
+    <div id="revNotice"></div>
+    <div class="card"><h2>Not approved <span class="sub" id="revCount"></span></h2>
+      <p class="sub" style="margin:-6px 0 14px">Nothing here is posted. Watch each Short, then approve it, reject it (deletes it), or fix the title or thumbnail. Only Approved Shorts go to YouTube.</p>
+      <div class="rgrid" id="revList"></div></div>
+  </section>
+  <section class="page" id="p-approved">
+    <div class="card"><h2>Approved <span class="sub" id="queueCount"></span></h2>
+      <p class="sub" style="margin:-6px 0 14px">Posted in this order at each channel's next slots. "Post next" jumps the line.</p>
+      <div class="rgrid" id="queue"></div></div>
   </section>
   <section class="page" id="p-pipeline">
     <div class="card"><h2>Pipeline activity</h2><div id="runs"></div></div>
   </section>
 </main>
+<div class="savebar" id="savebar"><span id="saveTxt"></span><button class="undo" id="undoAll">Undo all</button><button class="go" id="saveBtn">Save changes</button></div>
+<div class="modal" id="modal"><div class="mbox" id="mbox"></div></div>
 <script>
 const fmt=n=>n==null?'–':n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e4?(n/1e3).toFixed(1)+'K':Number(n).toLocaleString();
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -109,7 +151,7 @@ async function load(){
   document.querySelectorAll('#filters button').forEach(b=>b.onclick=()=>{CH=b.dataset.c;store.set('ch',CH);render()});
   render();
 }
-function route(){const p=(location.hash||'#overview').slice(1);document.querySelectorAll('.page').forEach(s=>s.classList.toggle('on',s.id==='p-'+p));document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.p===p));if(p==='overview'&&DATA)drawChart()}
+function route(){let p=(location.hash||'#overview').slice(1);if(p==='scheduled')p='approved';document.querySelectorAll('.page').forEach(s=>s.classList.toggle('on',s.id==='p-'+p));document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.p===p));if(p==='overview'&&DATA)drawChart()}
 window.addEventListener('hashchange',route);
 function render(){
   document.querySelectorAll('#filters button').forEach(b=>b.classList.toggle('on',b.dataset.c===CH));
@@ -118,8 +160,11 @@ function render(){
   const pub=sel.flatMap(([k,c])=>c.published.map(p=>({...p,ch:k,label:c.label}))).sort((a,b)=>b.published_at.localeCompare(a.published_at));
   const q=sel.flatMap(([k,c])=>c.queue.map(x=>({...x,ch:k,label:c.label}))).sort((a,b)=>(a.eta||'9').localeCompare(b.eta||'9'));
   const views=pub.reduce((s,p)=>s+(p.views||0),0),likes=pub.reduce((s,p)=>s+(p.likes||0),0),live=pub.filter(p=>p.url).length;
+  const rv=sel.flatMap(([k,c])=>(c.review||[]).map(x=>({...x,ch:k,label:c.label}))).sort((a,b)=>(b.created_at||'').localeCompare(a.created_at||''));
+  const rvAll=chans().reduce((s,[k,c])=>s+(c.review||[]).length,0);
+  const cnt=document.getElementById('revCnt');cnt.hidden=!rvAll;cnt.textContent=rvAll;
   const next=q.find(x=>x.eta);
-  const k=[['Views',fmt(views),'across live Shorts'],['Likes',fmt(likes),''],['Live Shorts',live,`${pub.length-live} uploading`],['Scheduled',q.length,'waiting in queue'],['Next post',next?when(next.eta):'–',next?esc(next.label):'']];
+  const k=[['Views',fmt(views),'across live Shorts'],['Likes',fmt(likes),''],['Live Shorts',live,`${pub.length-live} uploading`],['To review',rv.length,'need your OK'],['Approved',q.length,'ready to post'],['Next post',next?when(next.eta):'–',next?esc(next.label):(q.length?'':'approve Shorts to post')]];
   document.getElementById('kpis').innerHTML=k.map(([l,v,d])=>`<div class="card kpi"><div class="l">${l}</div><div class="v" style="${l==='Next post'?'font-size:18px;padding-top:6px':''}">${v}</div><div class="d">${d}</div></div>`).join('');
   const b=DATA.budget||{};const zc=b.zapier_channels;let bh='';
   if(!zc||zc.length)bh+=`<div class="kpi"><div class="v">${b.left??'–'} <span class="sub">of ${b.cap??5} left</span></div><div class="d">Zapier free/trial: ${b.cap??5} YouTube uploads per rolling 24 h${zc?` (${esc(zc.join(', '))})`:''}. ${b.next_free?`Next slot frees ${when(b.next_free)}.`:''}</div></div>`;
@@ -127,7 +172,7 @@ function render(){
   document.getElementById('budget').innerHTML=bh;
   const L=DATA.learned||{};let lh='';for(const [key,label] of [['style','Style'],['streamer','Streamer'],['hour','Hour']]){const g=L[key]||{};const rows=Object.entries(g).sort((a,b)=>b[1].median_views-a[1].median_views).slice(0,4);if(!rows.length)continue;const max=Math.max(...rows.map(r=>r[1].median_views),1);lh+=`<div class="sub" style="margin-top:6px">${label}</div>`+rows.map(([n,v])=>`<div class="barrow"><span>${esc(key==='hour'?n+':00':n)}</span><div class="barfill" style="width:${Math.max(4,100*v.median_views/max)}%"></div><span class="sub">${fmt(v.median_views)} · n${v.n}</span></div>`).join('')}
   document.getElementById('learn').innerHTML=lh||'<div class="empty">Learns after a few Shorts are 24 h old.</div>';
-  document.getElementById('chantable').innerHTML='<tr><th>Channel</th><th>Live</th><th>Views</th><th>Likes</th><th>Queued</th><th>Today</th></tr>'+chans().map(([k,c])=>{const lv=c.published.filter(p=>p.url);return `<tr><td><b>${esc(c.label)}</b>${c.channel_id?` · <a href="https://www.youtube.com/channel/${esc(c.channel_id)}" target="_blank" rel="noopener">open</a>`:''}</td><td>${lv.length}</td><td>${fmt(lv.reduce((s,p)=>s+(p.views||0),0))}</td><td>${fmt(lv.reduce((s,p)=>s+(p.likes||0),0))}</td><td>${c.queue.length}</td><td class="sub">${c.today?c.today.count+' planned':''}</td></tr>`}).join('');
+  document.getElementById('chantable').innerHTML='<tr><th>Channel</th><th>Live</th><th>Views</th><th>Likes</th><th>Queued</th><th>Today</th></tr>'+chans().map(([k,c])=>{const lv=c.published.filter(p=>p.url);return `<tr><td><b>${esc(c.label)}</b>${c.channel_id?` · <a href="https://www.youtube.com/channel/${esc(c.channel_id)}" target="_blank" rel="noopener">open</a>`:''}</td><td>${lv.length}</td><td>${fmt(lv.reduce((s,p)=>s+(p.views||0),0))}</td><td>${fmt(lv.reduce((s,p)=>s+(p.likes||0),0))}</td><td>${c.queue.length} approved · ${(c.review||[]).length} to review</td><td class="sub">${c.today?c.today.count+' planned':''}</td></tr>`}).join('');
   document.getElementById('pubCount').textContent=pub.length?`· ${live} live`:'';
   document.getElementById('pub').innerHTML=pub.length?pub.map(p=>`<div class="vrow">
      ${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${img(p.thumb,p.thumb_alt,p.title)}</a>`:img(p.thumb,p.thumb_alt,p.title)}
@@ -138,9 +183,13 @@ function render(){
      <div class="acts"><a class="btn watch ${p.url?'':'dis'}" href="${esc(p.url||'#')}" target="_blank" rel="noopener">▶ Watch</a>
        <a class="btn ${p.youtube_id?'':'dis'}" href="${p.youtube_id?`https://studio.youtube.com/video/${esc(p.youtube_id)}/analytics`:'#'}" target="_blank" rel="noopener">Analytics</a>
        ${p.source_url?`<a class="btn" href="${esc(p.source_url)}" target="_blank" rel="noopener">Source stream</a>`:''}</div></div>`).join(''):'<div class="empty">Nothing published yet.</div>';
-  document.getElementById('queueCount').textContent=q.length?`· ${q.length} waiting`:'';
-  document.getElementById('queue').innerHTML=q.length?q.map(x=>`<div class="tile" title="${esc((x.tags||[]).join(', '))}"><div class="thumb">${x.thumb?`<img loading="lazy" src="${esc(x.thumb)}" alt="">`:`<div class="noimg">${esc(x.thumb_text||x.title)}</div>`}<span class="badge">${x.eta?when(x.eta):'later'}</span></div>
-     <div class="t">${esc(x.title)}</div><div class="m">${esc(x.label)} · ${esc(x.style)} · ${esc(x.streamer)}${x.seconds?` · ${Math.round(x.seconds)}s`:''}${x.end_text?` · ends "${esc(x.end_text)}"`:''}</div></div>`).join(''):'<div class="empty">Queue is empty: the next cloud run will make more.</div>';
+  ITEMS={};[...rv,...q].forEach(x=>ITEMS[x.id]=x);
+  document.getElementById('revCount').textContent=rv.length?`· ${rv.length} waiting for you`:'';
+  document.getElementById('revList').innerHTML=rv.length?rv.map(x=>rcard(x,false)).join(''):'<div class="empty">All caught up. New Shorts appear here after each cloud run.</div>';
+  document.getElementById('queueCount').textContent=q.length?`· ${q.length} ready`:'';
+  document.getElementById('queue').innerHTML=q.length?q.map(x=>rcard(x,true)).join(''):'<div class="empty">Nothing approved yet, so nothing will be posted. Approve Shorts on the Not approved page.</div>';
+  document.getElementById('revNotice').innerHTML=TOKEN()?'':`<div class="notice">To save decisions from this page, connect your GitHub account once. <button class="sbtn" onclick="connectDlg()">Connect</button></div>`;
+  paintPending();
   document.getElementById('runs').innerHTML=(DATA.runs||[]).slice(0,40).map(r=>`<div class="run"><span class="dot ${r.status}"></span><div><b>${esc(r.job)}</b> <span class="sub">${ago(r.at)}</span><div class="sub">${esc(r.message)}</div></div></div>`).join('')||'<div class="empty">No runs yet.</div>';
   route();
 }
@@ -153,8 +202,97 @@ function drawChart(){
   const css=getComputedStyle(document.documentElement);
   chart=new Chart(document.getElementById('chart'),{type:'line',data:{labels:keys.map(k=>k.replace('T',' ')+'h'),datasets:[{data:series,borderColor:css.getPropertyValue('--accent').trim(),backgroundColor:'transparent',tension:.3,pointRadius:0,borderWidth:2}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{maxTicksLimit:6,color:css.getPropertyValue('--muted').trim()},grid:{display:false}},y:{ticks:{color:css.getPropertyValue('--muted').trim()},grid:{color:css.getPropertyValue('--line').trim()}}}}});
 }
+// ---------- review: pending decisions, saved through the GitHub "review" workflow ----------
+const REPO='aniketkumargaikwad/YTAutomation';
+let ITEMS={};
+const TOKEN=()=>store.get('gh_token');
+let PENDING={};try{PENDING=JSON.parse(store.get('pending')||'{}')}catch(e){PENDING={}}
+const savePending=()=>store.set('pending',JSON.stringify(PENDING));
+const STATE_ACTS=['approve','unapprove','reject','next'];
+function act(id,a,v){
+  const list=(PENDING[id]||[]).filter(x=>STATE_ACTS.includes(a)?!STATE_ACTS.includes(x.a):x.a!==a);
+  const it=ITEMS[id];
+  const noop=it&&((a==='approve'&&it.review==='approved'&&!it.next)||(a==='unapprove'&&it.review!=='approved'));
+  if(!noop)list.push(v===undefined?{a,id}:{a,id,v});
+  if(list.length)PENDING[id]=list;else delete PENDING[id];
+  savePending();paintPending();
+}
+function undo(id){delete PENDING[id];savePending();paintPending()}
+function stateOf(id){const s=(PENDING[id]||[]).find(x=>STATE_ACTS.includes(x.a));return s?s.a:null}
+function paintPending(){
+  document.querySelectorAll('.rcard').forEach(el=>{const id=el.dataset.id,s=stateOf(id),edits=(PENDING[id]||[]).filter(x=>!STATE_ACTS.includes(x.a));
+    el.classList.toggle('will-approve',s==='approve'||s==='next');el.classList.toggle('will-reject',s==='reject');
+    const t=el.querySelector('.pend');if(t)t.innerHTML=(s?`<span class="tag ${s==='reject'?'r':s==='unapprove'?'y':'g'}">${{approve:'will approve',next:'will post next',reject:'will delete',unapprove:'back to review'}[s]}</span>`:'')+edits.map(x=>`<span class="tag b">${x.a==='title'?'new title':'new thumbnail'}</span>`).join('')+((s||edits.length)?`<button class="sbtn" style="padding:3px 8px" onclick="undo('${id}')">undo</button>`:'')});
+  const n=Object.values(PENDING).reduce((s,l)=>s+l.length,0);
+  document.getElementById('savebar').classList.toggle('on',n>0);
+  document.getElementById('saveTxt').textContent=`${n} change${n===1?'':'s'} not saved yet`;
+}
+function rcard(x,approved){
+  const tags=[];
+  if(x.seconds>35.5)tags.push(`<span class="tag y">${Math.round(x.seconds)}s · long</span>`);
+  if(approved&&x.next)tags.push('<span class="tag g">posts next</span>');
+  return `<div class="rcard" data-id="${esc(x.id)}">
+    <div class="thumb" onclick="preview('${esc(x.id)}')">${x.thumb?`<img loading="lazy" src="${esc(x.thumb)}" alt="">`:`<div class="noimg">${esc(x.thumb_text||x.title)}</div>`}
+      <span class="badge">${approved?(x.eta?when(x.eta):'later'):esc(x.label)}</span><button class="play" type="button">▶ Preview</button></div>
+    <div class="t">${esc(x.title)}</div>
+    <div class="m">${approved?esc(x.label)+' · ':''}${esc(x.streamer)} · ${x.seconds?Math.round(x.seconds)+'s':'?'}${x.score?` · score ${Math.round(x.score)}`:''}${x.hook2?` · hook 2 "${esc(x.hook2)}"`:''}${x.end_text?` · ends "${esc(x.end_text)}"`:''}</div>
+    ${x.why?`<div class="why">${esc(x.why)}</div>`:''}
+    <div>${tags.join('')}<span class="pend"></span></div>
+    ${approved?`<div class="row"><button class="sbtn" onclick="act('${x.id}','unapprove')">↩ Back to review</button><button class="sbtn" onclick="act('${x.id}','next')">⏭ Post next</button></div>`
+      :`<div class="row"><button class="sbtn ok" onclick="act('${x.id}','approve')">✓ Approve</button><button class="sbtn no" onclick="rejectDlg('${x.id}')">✕ Reject</button></div>`}
+    <div class="row3"><button class="sbtn" onclick="titleDlg('${x.id}')">✎ Title</button><button class="sbtn" onclick="thumbDlg('${x.id}')">🖼 Thumbnail</button>${approved?`<button class="sbtn no" onclick="rejectDlg('${x.id}')">✕ Reject</button>`:`<button class="sbtn" onclick="act('${x.id}','next')">⏭ Post next</button>`}</div>
+  </div>`;
+}
+function modal(html){document.getElementById('mbox').className='mbox';document.getElementById('mbox').innerHTML=html;document.getElementById('modal').classList.add('on');const i=document.querySelector('#mbox input');if(i)i.focus()}
+function closeModal(){document.getElementById('modal').classList.remove('on');document.getElementById('mbox').innerHTML=''}
+document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+function preview(id){const x=ITEMS[id];if(!x)return;
+  modal(`<h3 style="font-size:15px">${esc(x.title)}</h3>${x.drive_id?`<iframe src="https://drive.google.com/file/d/${esc(x.drive_id)}/preview" allow="autoplay" allowfullscreen></iframe>
+    <p class="sub">Plays from your Google Drive. If it asks you to sign in or request access, sign in with the Google account that owns the Drive. <a href="https://drive.google.com/file/d/${esc(x.drive_id)}/view" target="_blank" rel="noopener">Open in Drive</a></p>`
+    :'<p class="sub">Preview link not ready yet; it appears after the next update.</p>'}
+    <div class="acts2"><button class="sbtn" onclick="closeModal()">Close</button>${x.review==='approved'?'':`<button class="sbtn no" onclick="closeModal();rejectDlg('${id}')">✕ Reject</button><button class="sbtn ok" onclick="act('${id}','approve');closeModal()">✓ Approve</button>`}</div>`);
+  document.getElementById('mbox').classList.add('vbox')}
+function rejectDlg(id){const x=ITEMS[id];
+  modal(`<h3>Reject and delete?</h3><p>"${esc(x.title)}" will be deleted from Drive and never posted. This can't be undone after you save.</p>
+    <label>Why? (optional, helps pick better moments)</label><input id="why" placeholder="e.g. boring, weak hook, too long">
+    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn no" onclick="act('${id}','reject',document.getElementById('why').value||undefined);closeModal()">Reject</button></div>`)}
+function titleDlg(id){const x=ITEMS[id];const cur=((PENDING[id]||[]).find(a=>a.a==='title')||{}).v||x.title;
+  modal(`<h3>Edit title</h3><label>YouTube title (max 100 characters)</label><input id="ttl" maxlength="100" value="${esc(cur)}">
+    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="const v=document.getElementById('ttl').value.trim();if(v)act('${id}','title',v);closeModal()">Use this title</button></div>`)}
+function thumbDlg(id){const x=ITEMS[id];const cur=((PENDING[id]||[]).find(a=>a.a==='thumb')||{}).v||{};
+  modal(`<h3>Change thumbnail</h3><label>Big words on the thumbnail (2-4 words)</label><input id="tt" maxlength="40" value="${esc(cur.text||x.thumb_text||'')}">
+    <label>Use the frame at second… (leave empty to pick the most striking frame automatically)</label><input id="ta" type="number" min="0" step="0.5" value="${cur.at??''}" placeholder="e.g. 12.5 (find it with ▶ Preview)">
+    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="act('${id}','thumb',{text:document.getElementById('tt').value.trim(),at:document.getElementById('ta').value===''?null:Number(document.getElementById('ta').value)});closeModal()">Make new thumbnail</button></div>`)}
+function connectDlg(){
+  modal(`<h3>Connect GitHub (one time)</h3><p class="sub">Your decisions are saved by the YTAutomation "review" workflow. This browser needs a token that can only start workflows in that one repository. It is stored only in this browser.</p>
+    <ol><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → New fine-grained token</a>.</li>
+    <li>Name: <b>Shorts dashboard</b>. Expiration: <b>1 year</b>.</li>
+    <li>Repository access: <b>Only select repositories</b> → <b>YTAutomation</b>.</li>
+    <li>Permissions → Repository permissions → <b>Actions: Read and write</b>. Nothing else.</li>
+    <li>Click <b>Generate token</b>, copy it, paste it below.</li></ol>
+    <label>Token</label><input id="tok" type="password" placeholder="github_pat_…" autocomplete="off">
+    <div class="acts2">${TOKEN()?'<button class="sbtn no" onclick="store.set(\'gh_token\',\'\');closeModal();render()">Disconnect</button>':''}<button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="const t=document.getElementById('tok').value.trim();if(t){store.set('gh_token',t);closeModal();render()}">Save token</button></div>`)}
+async function saveAll(){
+  if(!TOKEN())return connectDlg();
+  const actions=Object.values(PENDING).flat();if(!actions.length)return;
+  const btn=document.getElementById('saveBtn');btn.disabled=true;btn.textContent='Saving…';
+  try{
+    const r=await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/review.yml/dispatches`,{method:'POST',
+      headers:{'Authorization':'Bearer '+TOKEN(),'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'},
+      body:JSON.stringify({ref:'main',inputs:{actions:JSON.stringify(actions)}})});
+    if(r.status!==204){const t=await r.text();throw new Error(r.status===401||r.status===403?'GitHub refused the token (check it has Actions: Read and write on YTAutomation)':`GitHub said ${r.status}: ${t.slice(0,160)}`)}
+    PENDING={};savePending();paintPending();
+    document.getElementById('revNotice').innerHTML='<div class="notice">Saved. Applying your changes now; this page refreshes by itself in 1-2 minutes.</div>';
+    const before=DATA.generated_at;let tries=0;
+    const poll=setInterval(async()=>{tries++;try{const d=await (await fetch('data.json?t='+Date.now())).json();if(d.generated_at!==before||tries>18){clearInterval(poll);await load()}}catch(e){}},15000);
+  }catch(e){alert('Could not save: '+e.message)}
+  finally{btn.disabled=false;btn.textContent='Save changes'}
+}
+document.getElementById('saveBtn').onclick=saveAll;
+document.getElementById('undoAll').onclick=()=>{if(confirm('Undo all unsaved changes?')){PENDING={};savePending();paintPending()}};
 load().catch(e=>{document.getElementById('updated').textContent='Could not load data: '+e});
-setInterval(load,5*60*1000);
+setInterval(()=>{if(!document.querySelector('#modal.on'))load()},5*60*1000);
 </script>
 </body>
 </html>
