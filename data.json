@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T10:02:20Z",
- "stats_updated_at": "2026-11-24T10:02:20Z",
+ "generated_at": "2026-11-24T10:07:47Z",
+ "stats_updated_at": "2026-11-24T10:07:47Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -28,14 +28,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 220,
+    "views": 223,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 7,
-    "views": 220,
+    "views": 223,
     "likes": 8
    },
    "today": {
@@ -59,7 +59,7 @@
      "streamer": "IShowSpeed",
      "score": 68.0,
      "url": "https://www.youtube.com/shorts/kTq3awrINHA",
-     "views": 0,
+     "views": 2,
      "likes": 1,
      "comments": null,
      "history": [
@@ -71,6 +71,11 @@
       [
        "2026-11-24T10:02:20Z",
        0,
+       1
+      ],
+      [
+       "2026-11-24T10:07:47Z",
+       2,
        1
       ]
      ],
@@ -89,13 +94,18 @@
      "streamer": "iShowSpeed",
      "score": 88,
      "url": "https://www.youtube.com/shorts/UBoZkDNTjUM",
-     "views": 1,
+     "views": 2,
      "likes": 0,
      "comments": null,
      "history": [
       [
        "2026-11-23T23:48:04Z",
        1,
+       0
+      ],
+      [
+       "2026-11-24T10:07:47Z",
+       2,
        0
       ]
      ],
@@ -359,14 +369,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 227,
+    "views": 234,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 227,
+    "views": 234,
     "likes": 2
    },
    "today": {
@@ -419,7 +429,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 225,
+     "views": 232,
      "likes": 1,
      "comments": null,
      "history": [
@@ -431,6 +441,11 @@
       [
        "2026-11-24T10:02:20Z",
        225,
+       1
+      ],
+      [
+       "2026-11-24T10:07:47Z",
+       232,
        1
       ]
      ],
@@ -1254,7 +1269,7 @@
  },
  "learned": {
   "samples": 6,
-  "overall": 2.254,
+  "overall": 2.259,
   "style": {
    "stack": {
     "n": 2,
@@ -1270,8 +1285,8 @@
    },
    "hookcard": {
     "n": 1,
-    "mean_log_views": 5.421,
-    "median_views": 225,
+    "mean_log_views": 5.451,
+    "median_views": 232,
     "weight": 1.0
    }
   },
@@ -1280,7 +1295,7 @@
     "n": 4,
     "mean_log_views": 1.623,
     "median_views": 1,
-    "weight": 0.532
+    "weight": 0.53
    },
    "CarryMinati": {
     "n": 1,
@@ -1290,8 +1305,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 5.421,
-    "median_views": 225,
+    "mean_log_views": 5.451,
+    "median_views": 232,
     "weight": 1.0
    }
   },
@@ -1316,8 +1331,8 @@
    },
    "18": {
     "n": 1,
-    "mean_log_views": 5.421,
-    "median_views": 225,
+    "mean_log_views": 5.451,
+    "median_views": 232,
     "weight": 1.0
    }
   }
