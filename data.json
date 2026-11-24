@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T16:15:59Z",
- "stats_updated_at": "2026-11-24T16:15:59Z",
+ "generated_at": "2026-11-24T17:15:42Z",
+ "stats_updated_at": "2026-11-24T17:15:42Z",
  "budget": {
   "cap": 5,
   "left": 0,
@@ -28,14 +28,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 227,
+    "views": 228,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 7,
-    "views": 227,
+    "views": 228,
     "likes": 11
    },
    "today": {
@@ -134,7 +134,7 @@
      "streamer": "iShowSpeed",
      "score": 84,
      "url": "https://www.youtube.com/shorts/0FOk3g5JSnk",
-     "views": 1,
+     "views": 2,
      "likes": 1,
      "comments": null,
      "history": [
@@ -166,6 +166,11 @@
       [
        "2026-11-24T15:15:44Z",
        1,
+       1
+      ],
+      [
+       "2026-11-24T17:15:42Z",
+       2,
        1
       ]
      ],
@@ -503,14 +508,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1255,
+    "views": 1253,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1255,
+    "views": 1253,
     "likes": 11
    },
    "today": {
@@ -568,7 +573,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1252,
+     "views": 1250,
      "likes": 10,
      "comments": null,
      "history": [
@@ -620,6 +625,11 @@
       [
        "2026-11-24T16:15:59Z",
        1252,
+       10
+      ],
+      [
+       "2026-11-24T17:15:42Z",
+       1250,
        10
       ]
      ],
@@ -1733,7 +1743,6 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-24T14:30:00Z",
     "2026-11-25T14:30:00Z",
     "2026-11-26T14:30:00Z"
    ]
@@ -1741,12 +1750,12 @@
  },
  "learned": {
   "samples": 6,
-  "overall": 2.916,
+  "overall": 2.983,
   "style": {
    "stack": {
     "n": 2,
-    "mean_log_views": 3.043,
-    "median_views": 20,
+    "mean_log_views": 3.246,
+    "median_views": 25,
     "weight": 1.0
    },
    "fullframe": {
@@ -1757,15 +1766,15 @@
    },
    "hookcard": {
     "n": 1,
-    "mean_log_views": 7.133,
-    "median_views": 1252,
+    "mean_log_views": 7.132,
+    "median_views": 1250,
     "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
     "n": 4,
-    "mean_log_views": 2.143,
+    "mean_log_views": 2.244,
     "median_views": 2,
     "weight": 0.5
    },
@@ -1777,8 +1786,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.133,
-    "median_views": 1252,
+    "mean_log_views": 7.132,
+    "median_views": 1250,
     "weight": 1.0
    }
   },
@@ -1797,14 +1806,14 @@
    },
    "13": {
     "n": 2,
-    "mean_log_views": 0.896,
-    "median_views": 1,
+    "mean_log_views": 1.099,
+    "median_views": 2,
     "weight": 1.0
    },
    "18": {
     "n": 1,
-    "mean_log_views": 7.133,
-    "median_views": 1252,
+    "mean_log_views": 7.132,
+    "median_views": 1250,
     "weight": 1.0
    }
   }
