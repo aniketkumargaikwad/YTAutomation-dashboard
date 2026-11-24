@@ -248,9 +248,12 @@ function closeModal(){document.getElementById('modal').classList.remove('on');do
 document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
 function preview(id){const x=ITEMS[id];if(!x)return;
+  const view=x.drive_id?`https://drive.google.com/file/d/${esc(x.drive_id)}/view`:'';
   modal(`<h3 style="font-size:15px">${esc(x.title)}</h3>${x.drive_id?`<iframe src="https://drive.google.com/file/d/${esc(x.drive_id)}/preview" allow="autoplay" allowfullscreen></iframe>
-    <p class="sub">Plays from your Google Drive. If it asks you to sign in or request access, sign in with the Google account that owns the Drive. <a href="https://drive.google.com/file/d/${esc(x.drive_id)}/view" target="_blank" rel="noopener">Open in Drive</a></p>`
-    :'<p class="sub">Preview link not ready yet; it appears after the next update.</p>'}
+    <a class="btn watch" style="display:flex;margin-top:10px" href="${view}" target="_blank" rel="noopener">▶ Open in Google Drive</a>
+    <p class="sub">If the player above stays blank or asks for access, use the button: it opens the video in a new tab (sign in with the Google account that owns the Drive). Some browsers block videos embedded from Drive.</p>`
+    :`<div class="thumb" style="max-width:220px;margin:0 auto">${x.thumb?`<img src="${esc(x.thumb)}" alt="">`:''}</div>
+    <p class="sub">This Short's video link isn't ready yet (it was just re-cut). It appears within the hour; refresh the page then.</p>`}
     <div class="acts2"><button class="sbtn" onclick="closeModal()">Close</button>${x.review==='approved'?'':`<button class="sbtn no" onclick="closeModal();rejectDlg('${id}')">✕ Reject</button><button class="sbtn ok" onclick="act('${id}','approve');closeModal()">✓ Approve</button>`}</div>`);
   document.getElementById('mbox').classList.add('vbox')}
 function rejectDlg(id){const x=ITEMS[id];

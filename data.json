@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T13:46:22Z",
- "stats_updated_at": "2026-11-24T13:46:22Z",
+ "generated_at": "2026-11-24T14:16:01Z",
+ "stats_updated_at": "2026-11-24T14:16:01Z",
  "budget": {
   "cap": 5,
   "left": 0,
@@ -28,14 +28,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 227,
+    "views": 229,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 7,
-    "views": 227,
+    "views": 229,
     "likes": 11
    },
    "today": {
@@ -134,7 +134,7 @@
      "streamer": "iShowSpeed",
      "score": 84,
      "url": "https://www.youtube.com/shorts/0FOk3g5JSnk",
-     "views": 1,
+     "views": 2,
      "likes": 1,
      "comments": null,
      "history": [
@@ -146,6 +146,11 @@
       [
        "2026-11-24T12:16:20Z",
        1,
+       1
+      ],
+      [
+       "2026-11-24T14:16:01Z",
+       2,
        1
       ]
      ],
@@ -164,7 +169,7 @@
      "streamer": "iShowSpeed",
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
-     "views": 219,
+     "views": 220,
      "likes": 7,
      "comments": null,
      "history": [
@@ -196,6 +201,11 @@
       [
        "2026-11-23T23:48:04Z",
        219,
+       7
+      ],
+      [
+       "2026-11-24T14:16:01Z",
+       220,
        7
       ]
      ],
@@ -231,7 +241,7 @@
       "streamer clips"
      ],
      "description": "Speed says he'll grind 50 more hours for the best GTA 6 ending. Would you do the same?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Gaming #Gameplay",
-     "drive_id": null,
+     "drive_id": "1tx3v5BYE0kGhaQnojrqnHySq9yetzXTC",
      "review": "pending",
      "why": "Speed rants passionately about wanting the best ending at any cost, a relatable bold gamer opinion with rising volume.",
      "hook2": null,
@@ -267,7 +277,7 @@
       "streamer clips"
      ],
      "description": "Chat told Speed to sleep on the LAST mission and he snapped. Would you quit at the finish line?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Funny",
-     "drive_id": null,
+     "drive_id": "1R1q-7V4sqip2H7PVPbkzsyiJ3v2fyNFh",
      "review": "pending",
      "why": "Self-contained rant with a clear analogy and punchline about quitting at the finish line, loud and relatable.",
      "hook2": null,
@@ -303,7 +313,7 @@
       "streamer clips"
      ],
      "description": "Speed swears he was just \"repositioning himself\" and the game messed up. Is he cooking or coping?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #gaming #funny",
-     "drive_id": null,
+     "drive_id": "1IqcDXPDqw_nY0VNswG1lWYWO_V0PSgiL",
      "review": "pending",
      "why": "Classic Speed excuse rant with repeated 'repositioning myself' bit and a clear punchline about the game assuming he lost the target.",
      "hook2": null,
@@ -319,7 +329,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 77,
-     "seconds": 48.7,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/97cc9af66ee4.jpg",
      "thumb_text": "50 HOURS AWAKE",
@@ -336,15 +346,15 @@
       "streamer clips"
      ],
      "description": "50 hours awake, one mission left, and Speed thanked his chat. Did you watch the whole run?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #emotional",
-     "drive_id": null,
+     "drive_id": "1yiZbOL29CSkX7dcd16pKQr8585alxhUC",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WATCH THIS",
      "end_text": "RESPECT",
      "next": false,
      "created_at": "2026-11-21T06:00:00Z",
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
-     "v2": false
+     "v2": true
     },
     {
      "id": "c487d0ab9993",
@@ -352,7 +362,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 72,
-     "seconds": 43.1,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/c487d0ab9993.jpg",
      "thumb_text": "NO GOOD ENDING",
@@ -369,15 +379,15 @@
       "streamer clips"
      ],
      "description": "Speed realizes he never had a chance at the good ending 💀 Would you replay for it?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #gta6ending",
-     "drive_id": null,
+     "drive_id": "1E-sCSYxE97GiDsh7bWKCPtWT5qwogZ90",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "IT GETS WORSE",
      "end_text": "MISSION FAILED",
      "next": false,
      "created_at": "2026-11-21T06:00:00Z",
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
-     "v2": false
+     "v2": true
     },
     {
      "id": "6c724e05e6b4",
@@ -385,7 +395,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 68,
-     "seconds": 52.45,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/6c724e05e6b4.jpg",
      "thumb_text": "DON'T PRESS IT",
@@ -402,15 +412,15 @@
       "streamer clips"
      ],
      "description": "Chat tried to get them to wipe a 50-hour GTA 6 save 💀 Would you press the button?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #funny",
-     "drive_id": null,
+     "drive_id": "1kQRlfQg4eorLH_eUdx6l4T0805flG-6q",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "IT GETS WORSE",
      "end_text": "NOT TODAY",
      "next": false,
      "created_at": "2026-11-21T06:00:00Z",
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
-     "v2": false
+     "v2": true
     },
     {
      "id": "7121ee480313",
@@ -418,7 +428,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 80,
-     "seconds": 36.7,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/7121ee480313.jpg",
      "thumb_text": "THERE'S TIGERS?!",
@@ -435,15 +445,15 @@
       "streamer clips"
      ],
      "description": "Nobody told Speed GTA 6 had tigers 😭 Would you free it or run?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #tiger",
-     "drive_id": null,
+     "drive_id": "197jS0SLMAv_C9RaN9EcuFwUlt5oCUMBV",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WATCH THIS",
      "end_text": "RUN!",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": false
+     "v2": true
     }
    ],
    "slots_waiting": [
@@ -463,15 +473,15 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 920,
+    "views": 994,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 920,
-    "likes": 11
+    "views": 994,
+    "likes": 9
    },
    "today": {
     "date": "2026-11-24",
@@ -523,8 +533,8 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 918,
-     "likes": 10,
+     "views": 992,
+     "likes": 8,
      "comments": null,
      "history": [
       [
@@ -556,6 +566,11 @@
        "2026-11-24T13:46:22Z",
        918,
        10
+      ],
+      [
+       "2026-11-24T14:16:01Z",
+       992,
+       8
       ]
      ],
      "seconds": 34.5,
@@ -590,7 +605,7 @@
       "streamer clips"
      ],
      "description": "zackrawrr reads a tweet absolutely roasting Jason in GTA 6. Is the take fair or way off?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gaming #fyp #zackrawrr",
-     "drive_id": null,
+     "drive_id": "11DdAao-V1T6d7jQYNcc2ceis2d08vSIx",
      "review": "pending",
      "why": "loudest moment around 82:50 (no AI used)",
      "hook2": null,
@@ -625,7 +640,7 @@
       "streamer clips"
      ],
      "description": "A brain implant pilots a GTA 6 boat better than zackrawrr can with his hands. Would you get the chip?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gaming #fyp #zackrawrr",
-     "drive_id": null,
+     "drive_id": "1kepDIF_7wG-dha7u01HfcIP1vFBVd6bY",
      "review": "pending",
      "why": "loudest moment around 72:07 (no AI used)",
      "hook2": null,
@@ -660,7 +675,7 @@
       "streamer clips"
      ],
      "description": "A GTA 6 semi tumbles down a hill and zackrawrr's words get twisted. Was he taken out of context?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta #gaming #asmongold",
-     "drive_id": null,
+     "drive_id": "1NE0aNElpEUMmV9DvqRfyTrWBI3-BHLx6",
      "review": "pending",
      "why": "Gameplay of a truck flipping down a hill, followed by the streamer's response to the clip being taken out of context.",
      "hook2": null,
@@ -694,7 +709,7 @@
       "streamer clips"
      ],
      "description": "CYR sat through GTA 6's whole opening before realizing he could move Lucia. Would you have noticed sooner?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta6funny #gaming #jason",
-     "drive_id": null,
+     "drive_id": "1J-9QbSS6kyCE_rjkvXQA-Ge4-VPeMHEy",
      "review": "pending",
      "why": "A relatable moment where the streamer realizes he has control, though the on-screen action is modest.",
      "hook2": null,
@@ -730,7 +745,7 @@
       "streamer clips"
      ],
      "description": "CYR snapped a photo of a GTA 6 NPC and she said she knows he's real. Would you have walked away?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gtavi #gta6npc #fourthwall",
-     "drive_id": null,
+     "drive_id": "1oJu-zCmnjkS9N21vD9t9TgtmoKUGR3EK",
      "review": "pending",
      "why": "Spooky NPC lines and a real reaction, but the visuals are unclear from the transcript.",
      "hook2": null,
@@ -765,7 +780,7 @@
       "streamer clips"
      ],
      "description": "CYR watched $407 vanish in GTA 6, begged for a reload, then cracked up at the photos. Would you reload?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta #gtavi #funnygaming",
-     "drive_id": null,
+     "drive_id": "1LRlUDCrsxmCd2pF5mMrWNVgk7t5u9ZCJ",
      "review": "pending",
      "why": "The loudest volume in the stretch, a reload plea and a laughing fit that follow an on-screen event.",
      "hook2": null,
@@ -892,7 +907,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 82,
-     "seconds": 27.47,
+     "seconds": 27.33,
      "eta": null,
      "thumb": "thumbs/96be8ee9561a.jpg",
      "thumb_text": "IS THAT TREVOR?!",
@@ -909,15 +924,15 @@
       "streamer clips"
      ],
      "description": "A plane comes in hot, everything goes wrong, and Speed has one question: \"That Trevor?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #trevor",
-     "drive_id": null,
+     "drive_id": "1nNVcTmrbG1LUeI4zbvhPt55yD9FdoK8R",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WAIT FOR IT",
      "end_text": "TREVOR?!",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": false
+     "v2": true
     },
     {
      "id": "532921682dbb",
@@ -925,7 +940,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 79,
-     "seconds": 25.17,
+     "seconds": 26.7,
      "eta": null,
      "thumb": "thumbs/532921682dbb.jpg",
      "thumb_text": "HE HAS A SON?!",
@@ -942,15 +957,15 @@
       "streamer clips"
      ],
      "description": "\"Chad, I didn't even know we had a son.\" 💀\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #lucia",
-     "drive_id": null,
+     "drive_id": "1WKdM1T64im9efjPIcge5VfSSh1xWtOkr",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "HERE IT COMES",
      "end_text": "PLOT TWIST",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": false
+     "v2": true
     },
     {
      "id": "7dd090c91008",
@@ -958,7 +973,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 76,
-     "seconds": 39.37,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/7dd090c91008.jpg",
      "thumb_text": "5 MINUTES IN...",
@@ -975,15 +990,15 @@
       "streamer clips"
      ],
      "description": "First mission and he's already robbing a store… and getting tackled. \"Get off me!\" 😭\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny",
-     "drive_id": null,
+     "drive_id": "1WnVqoaHooF0IBp-G3YGiFljjNkUcwQsz",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "DON'T BLINK",
      "end_text": "WASTED",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": false
+     "v2": true
     },
     {
      "id": "cf3df7bb940b",
@@ -991,7 +1006,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 71,
-     "seconds": 34.47,
+     "seconds": 34.33,
      "eta": null,
      "thumb": "thumbs/cf3df7bb940b.jpg",
      "thumb_text": "THROUGH THE RAINBOW",
@@ -1008,15 +1023,15 @@
       "streamer clips"
      ],
      "description": "He can't fly, then he flies through a rainbow. \"We did it! W in the chat!\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #wholesome",
-     "drive_id": null,
+     "drive_id": "1hNxfqRc8vIlmoF0lO1aw3peyL4cJgurD",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "HERE IT COMES",
      "end_text": "MISSION PASSED",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": false
+     "v2": true
     },
     {
      "id": "99305593a9b7",
@@ -1024,7 +1039,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 66,
-     "seconds": 44.87,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/99305593a9b7.jpg",
      "thumb_text": "CAN I PEE?",
@@ -1041,15 +1056,15 @@
       "streamer clips"
      ],
      "description": "A rage landing, then \"Chat, can I pee real quick or no?\" Chat said no. 💀\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #streamer",
-     "drive_id": null,
+     "drive_id": "102hLwyl7UrVDgTG4iyng2D8qNGrZMh-X",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "HERE IT COMES",
      "end_text": "NOT NOW",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": false
+     "v2": true
     },
     {
      "id": "f8193af5abe3",
@@ -1057,7 +1072,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 62,
-     "seconds": 21.57,
+     "seconds": 21.43,
      "eta": null,
      "thumb": "thumbs/f8193af5abe3.jpg",
      "thumb_text": "THIS ISN'T REAL",
@@ -1074,15 +1089,15 @@
       "streamer clips"
      ],
      "description": "Night drive through Leonida and Speed keeps asking: \"How is this game real?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #graphics",
-     "drive_id": null,
+     "drive_id": "175C1iRQwB1ATOSq9bzbQA409QA5X_SP-",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WAIT FOR IT",
      "end_text": "NOT NOW",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": false
+     "v2": true
     },
     {
      "id": "planefxv2",
@@ -1107,7 +1122,7 @@
       "streamer clips"
      ],
      "description": "\"Go to the plane! Get in!\"… \"I DON'T EVEN KNOW HOW TO FLY!\" Pure chaos.\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny",
-     "drive_id": null,
+     "drive_id": "1w1XOQd34efg7EcsZvAP8Qt4VA7V-XHpJ",
      "review": "pending",
      "why": null,
      "hook2": null,
@@ -1199,7 +1214,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 88,
-     "seconds": 28.0,
+     "seconds": 29.5,
      "eta": null,
      "thumb": "thumbs/922cc4035902.jpg",
      "thumb_text": "LUCIA IS FREE",
@@ -1219,15 +1234,15 @@
       "indian gaming"
      ],
      "description": "Jason and Lucia's reunion got the loudest reaction of the whole stream. Did it hit you too?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia",
-     "drive_id": null,
+     "drive_id": "1K-MzPFgKMEloGAX2mpewc3-LAwa_rSez",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WATCH THIS",
      "end_text": "FREEDOM",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": false
+     "v2": true
     },
     {
      "id": "1d0075d003ed",
@@ -1235,7 +1250,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 86,
-     "seconds": 33.87,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/1d0075d003ed.jpg",
      "thumb_text": "FINALLY GOT HIS CYCLE",
@@ -1255,15 +1270,15 @@
       "indian gaming"
      ],
      "description": "Childhood dream unlocked: a cycle. In GTA 6.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #indianmemes",
-     "drive_id": null,
+     "drive_id": "1VR91hkQdLKkkSy8Wew5OZYHYVCGOVjeS",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WAIT FOR IT",
      "end_text": "DREAM UNLOCKED",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     },
     {
      "id": "e1eea7f332c5",
@@ -1271,7 +1286,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 84,
-     "seconds": 45.87,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/e1eea7f332c5.jpg",
      "thumb_text": "GYM FAIL",
@@ -1291,15 +1306,15 @@
       "indian gaming"
      ],
      "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail",
-     "drive_id": null,
+     "drive_id": "1d5OZv7TWYieQ7faAUGPD2v8D3d9BUuml",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "DON'T BLINK",
      "end_text": "WASTED",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     },
     {
      "id": "85ece2093b93",
@@ -1307,7 +1322,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 82,
-     "seconds": 39.6,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/85ece2093b93.jpg",
      "thumb_text": "DON'T CALL HER CRAZY",
@@ -1327,15 +1342,15 @@
       "indian gaming"
      ],
      "description": "The cop said the one word you never say to Lucia. Was she right?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia",
-     "drive_id": null,
+     "drive_id": "1_miFlkMDEQ_cJEyyaFcZ6LofLIxSv69u",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WATCH THIS",
      "end_text": "BUSTED",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": false
+     "v2": true
     },
     {
      "id": "582c8df46323",
@@ -1343,7 +1358,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 80,
-     "seconds": 42.87,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/582c8df46323.jpg",
      "thumb_text": "TOO FAST BHAI",
@@ -1363,15 +1378,15 @@
       "indian gaming"
      ],
      "description": "Too fast. Way too fast.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #porsche",
-     "drive_id": null,
+     "drive_id": "1KxjxN8VpGts0OQi6B0C9T9VPaBEgvgBj",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "LOOK AT THIS",
      "end_text": "TOO FAST",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     },
     {
      "id": "53009a8cd559",
@@ -1379,7 +1394,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 78,
-     "seconds": 24.27,
+     "seconds": 24.13,
      "eta": null,
      "thumb": "thumbs/53009a8cd559.jpg",
      "thumb_text": "STOP DOOMSCROLLING",
@@ -1399,15 +1414,15 @@
       "indian gaming"
      ],
      "description": "Read a book and your focus goes up, doomscroll and it goes down. GTA 6 is calling us out.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #relatable",
-     "drive_id": null,
+     "drive_id": "1S3Qov1_hVYkT_kg3Lm5DQjUFvjUdOPKD",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "LOOK AT THIS",
      "end_text": "CALLED OUT",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     },
     {
      "id": "621c0ca3cc43",
@@ -1415,7 +1430,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 76,
-     "seconds": 44.87,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/621c0ca3cc43.jpg",
      "thumb_text": "AM I DREAMING?",
@@ -1435,15 +1450,15 @@
       "indian gaming"
      ],
      "description": "\"Bro, I feel like I'm dreaming.\"\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #graphics",
-     "drive_id": null,
+     "drive_id": "1NFu0lkkMWYRE0OOZL_N-EbQZewRPTG-d",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "HERE IT COMES",
      "end_text": "NEW ERA",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     },
     {
      "id": "ccc17c8d7291",
@@ -1451,7 +1466,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 74,
-     "seconds": 46.1,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/ccc17c8d7291.jpg",
      "thumb_text": "ONE JOKE. ONE FIGHT.",
@@ -1471,15 +1486,15 @@
       "indian gaming"
      ],
      "description": "One Mario joke and the whole bar ended up outside. Who threw the first punch?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6fail",
-     "drive_id": null,
+     "drive_id": "1_4WGxHcKKi7bn0vNvx367siRLPdlyq8D",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WATCH THIS",
      "end_text": "WASTED",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": false
+     "v2": true
     },
     {
      "id": "823a74559558",
@@ -1487,7 +1502,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 72,
-     "seconds": 27.77,
+     "seconds": 29.3,
      "eta": null,
      "thumb": "thumbs/823a74559558.jpg",
      "thumb_text": "GTA 6 IS BAD?",
@@ -1507,15 +1522,15 @@
       "indian gaming"
      ],
      "description": "Chat said GTA 6 is bad. Carry had thoughts.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati",
-     "drive_id": null,
+     "drive_id": "1FvHomxCaiVyUtXKJIrW6F0STk1kzs7jR",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "LOOK AT THIS",
      "end_text": "OOPS",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     },
     {
      "id": "99127d73c6e6",
@@ -1523,7 +1538,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 70,
-     "seconds": 36.22,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/99127d73c6e6.jpg",
      "thumb_text": "NEW ERA",
@@ -1543,15 +1558,15 @@
       "indian gaming"
      ],
      "description": "Countdown on screen, Carry dancing. \"New era!\"\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #countdown",
-     "drive_id": null,
+     "drive_id": "1ncKp6VCdFR3srrd-yovkHuu6ZpPkwLx9",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "WAIT FOR IT",
      "end_text": "LET'S GO",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     },
     {
      "id": "01ceb941fd91",
@@ -1559,7 +1574,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 68,
-     "seconds": 44.6,
+     "seconds": 35.0,
      "eta": null,
      "thumb": "thumbs/01ceb941fd91.jpg",
      "thumb_text": "SEAPLANE ESCAPE",
@@ -1579,15 +1594,15 @@
       "indian gaming"
      ],
      "description": "A shed fight, a sprint and a seaplane takeoff. Best GTA 6 escape yet?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6gameplay",
-     "drive_id": null,
+     "drive_id": "1QS8NG12aYvYrh2_VGbE2a7m_0_mSGdzM",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "DON'T BLINK",
      "end_text": "MISSION PASSED",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": false
+     "v2": true
     },
     {
      "id": "5700a3b84b22",
@@ -1595,7 +1610,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 66,
-     "seconds": 20.87,
+     "seconds": 22.4,
      "eta": null,
      "thumb": "thumbs/5700a3b84b22.jpg",
      "thumb_text": "PURE NOSTALGIA",
@@ -1615,15 +1630,15 @@
       "indian gaming"
      ],
      "description": "Franklin, Lamar, crouching to steal cars: the same feeling.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta5",
-     "drive_id": null,
+     "drive_id": "1CX445CcSZfA1MUQXPi88KRRt0OPZ6UPl",
      "review": "pending",
      "why": null,
-     "hook2": null,
+     "hook2": "IT GETS WORSE",
      "end_text": "NOSTALGIA",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": false
+     "v2": true
     },
     {
      "id": "6d4ae3dfbc98",
@@ -1651,7 +1666,7 @@
       "indian gaming"
      ],
      "description": "\"I am driving in GTA 6!\"… on water. 😂\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati",
-     "drive_id": null,
+     "drive_id": "1iCpMyERMPRNOeLww3Ri42PuUFIYk5zen",
      "review": "pending",
      "why": null,
      "hook2": null,
@@ -1671,12 +1686,12 @@
  },
  "learned": {
   "samples": 6,
-  "overall": 2.834,
+  "overall": 2.915,
   "style": {
    "stack": {
     "n": 2,
-    "mean_log_views": 3.043,
-    "median_views": 20,
+    "mean_log_views": 3.248,
+    "median_views": 25,
     "weight": 1.0
    },
    "fullframe": {
@@ -1687,17 +1702,17 @@
    },
    "hookcard": {
     "n": 1,
-    "mean_log_views": 6.823,
-    "median_views": 918,
+    "mean_log_views": 6.901,
+    "median_views": 992,
     "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
     "n": 4,
-    "mean_log_views": 2.143,
+    "mean_log_views": 2.245,
     "median_views": 2,
-    "weight": 0.501
+    "weight": 0.512
    },
    "CarryMinati": {
     "n": 1,
@@ -1707,15 +1722,15 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 6.823,
-    "median_views": 918,
+    "mean_log_views": 6.901,
+    "median_views": 992,
     "weight": 1.0
    }
   },
   "hour": {
    "12": {
     "n": 2,
-    "mean_log_views": 3.39,
+    "mean_log_views": 3.392,
     "median_views": 29,
     "weight": 1.0
    },
@@ -1727,14 +1742,14 @@
    },
    "13": {
     "n": 2,
-    "mean_log_views": 0.896,
-    "median_views": 1,
+    "mean_log_views": 1.099,
+    "median_views": 2,
     "weight": 1.0
    },
    "18": {
     "n": 1,
-    "mean_log_views": 6.823,
-    "median_views": 918,
+    "mean_log_views": 6.901,
+    "median_views": 992,
     "weight": 1.0
    }
   }
