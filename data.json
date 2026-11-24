@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-24T12:16:20Z",
- "stats_updated_at": "2026-11-24T12:16:20Z",
+ "generated_at": "2026-11-24T13:15:47Z",
+ "stats_updated_at": "2026-11-24T13:15:47Z",
  "budget": {
   "cap": 5,
   "left": 0,
@@ -257,35 +257,12 @@
      "description": "Chat told Speed to sleep on the LAST mission and he snapped. Would you quit at the finish line?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Funny"
     },
     {
-     "title": "Speed Gets Emotional Before GTA 6's Last Mission 🥹",
-     "streamer": "iShowSpeed",
-     "style": "stack",
-     "score": 77,
-     "seconds": 48.7,
-     "eta": "2026-11-25T18:00:00Z",
-     "thumb": "thumbs/97cc9af66ee4.jpg",
-     "thumb_text": "50 HOURS AWAKE",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "speed gta 6",
-      "gta 6 reaction",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "50 hours awake, one mission left, and Speed thanked his chat. Did you watch the whole run?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #emotional"
-    },
-    {
      "title": "IShowSpeed BLAMES GTA 6 for Losing Rico 😂",
      "streamer": "IShowSpeed",
      "style": "stack",
      "score": 55.0,
      "seconds": 35.6,
-     "eta": "2026-11-26T01:00:00Z",
+     "eta": "2026-11-25T18:00:00Z",
      "thumb": "thumbs/1272cdff1cd2.jpg",
      "thumb_text": "I WAS REPOSITIONING",
      "tags": [
@@ -304,6 +281,29 @@
       "streamer clips"
      ],
      "description": "Speed swears he was just \"repositioning himself\" and the game messed up. Is he cooking or coping?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #gaming #funny"
+    },
+    {
+     "title": "Speed Gets Emotional Before GTA 6's Last Mission 🥹",
+     "streamer": "iShowSpeed",
+     "style": "stack",
+     "score": 77,
+     "seconds": 48.7,
+     "eta": "2026-11-26T01:00:00Z",
+     "thumb": "thumbs/97cc9af66ee4.jpg",
+     "thumb_text": "50 HOURS AWAKE",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "speed gta 6",
+      "gta 6 reaction",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "50 hours awake, one mission left, and Speed thanked his chat. Did you watch the whole run?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #emotional"
     },
     {
      "title": "Nobody Told Speed GTA 6 Has TIGERS 🐅",
@@ -384,15 +384,15 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 675,
+    "views": 914,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 675,
-    "likes": 7
+    "views": 914,
+    "likes": 11
    },
    "today": {
     "date": "2026-11-24",
@@ -444,8 +444,8 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 673,
-     "likes": 6,
+     "views": 912,
+     "likes": 10,
      "comments": null,
      "history": [
       [
@@ -467,6 +467,11 @@
        "2026-11-24T12:16:20Z",
        673,
        6
+      ],
+      [
+       "2026-11-24T13:15:47Z",
+       912,
+       10
       ]
      ],
      "seconds": 34.5,
@@ -635,14 +640,14 @@
    "stats": {
     "name": "W In Chat",
     "subscribers": null,
-    "views": 4,
+    "views": 5,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 7,
-    "views": 4,
+    "views": 5,
     "likes": 3
    },
    "today": {
@@ -665,7 +670,7 @@
      "streamer": "iShowSpeed",
      "score": 86,
      "url": "https://www.youtube.com/shorts/Z1BKmibYSos",
-     "views": 1,
+     "views": 2,
      "likes": 1,
      "comments": null,
      "history": [
@@ -677,6 +682,11 @@
       [
        "2026-11-24T12:16:20Z",
        1,
+       1
+      ],
+      [
+       "2026-11-24T13:15:47Z",
+       2,
        1
       ]
      ],
@@ -1299,7 +1309,7 @@
  },
  "learned": {
   "samples": 6,
-  "overall": 2.715,
+  "overall": 2.833,
   "style": {
    "stack": {
     "n": 2,
@@ -1309,23 +1319,23 @@
    },
    "fullframe": {
     "n": 3,
-    "mean_log_views": 1.23,
+    "mean_log_views": 1.365,
     "median_views": 3,
     "weight": 1.0
    },
    "hookcard": {
     "n": 1,
-    "mean_log_views": 6.513,
-    "median_views": 673,
+    "mean_log_views": 6.817,
+    "median_views": 912,
     "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
     "n": 4,
-    "mean_log_views": 2.042,
+    "mean_log_views": 2.143,
     "median_views": 2,
-    "weight": 0.51
+    "weight": 0.502
    },
    "CarryMinati": {
     "n": 1,
@@ -1335,8 +1345,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 6.513,
-    "median_views": 673,
+    "mean_log_views": 6.817,
+    "median_views": 912,
     "weight": 1.0
    }
   },
@@ -1355,14 +1365,14 @@
    },
    "13": {
     "n": 2,
-    "mean_log_views": 0.693,
+    "mean_log_views": 0.896,
     "median_views": 1,
     "weight": 1.0
    },
    "18": {
     "n": 1,
-    "mean_log_views": 6.513,
-    "median_views": 673,
+    "mean_log_views": 6.817,
+    "median_views": 912,
     "weight": 1.0
    }
   }
