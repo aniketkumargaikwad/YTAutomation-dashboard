@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-23T23:48:04Z",
+ "generated_at": "2026-11-24T05:24:36Z",
  "stats_updated_at": "2026-11-23T23:48:04Z",
  "budget": {
   "cap": 5,
-  "left": 0,
+  "left": 5,
   "next_free": null,
   "zapier_channels": [
    "Five Stars Deep",
@@ -32,11 +32,11 @@
     "likes": 7
    },
    "today": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "count": 2,
     "slots": [
-     12,
-     18
+     13,
+     19
     ]
    },
    "published": [
@@ -256,7 +256,7 @@
      "style": "stack",
      "score": 68,
      "seconds": 52.45,
-     "eta": null,
+     "eta": "2026-11-26T18:00:00Z",
      "thumb": "thumbs/6c724e05e6b4.jpg",
      "thumb_text": "DON'T PRESS IT",
      "tags": [
@@ -279,7 +279,7 @@
      "style": "stack",
      "score": 58.0,
      "seconds": 40.0,
-     "eta": null,
+     "eta": "2026-11-27T00:00:00Z",
      "thumb": "thumbs/abe4f81529a3.jpg",
      "thumb_text": "GO TO SLEEP?!",
      "tags": [
@@ -346,7 +346,7 @@
     "likes": 0
    },
    "today": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "count": 1,
     "slots": [
      18
@@ -450,7 +450,7 @@
      "style": "hookcard",
      "score": 57.0,
      "seconds": 39.6,
-     "eta": null,
+     "eta": "2026-11-26T23:00:00Z",
      "thumb": "thumbs/6d139d1a9fbf.jpg",
      "thumb_text": "BRAIN CHIP BEATS HIM",
      "tags": [
@@ -565,10 +565,10 @@
     "likes": 1
    },
    "today": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "count": 1,
     "slots": [
-     21
+     20
     ]
    },
    "published": [
@@ -634,7 +634,7 @@
      "style": "fullframe",
      "score": 82,
      "seconds": 27.47,
-     "eta": "2026-11-24T02:00:00Z",
+     "eta": "2026-11-25T01:00:00Z",
      "thumb": "thumbs/96be8ee9561a.jpg",
      "thumb_text": "IS THAT TREVOR?!",
      "tags": [
@@ -657,7 +657,7 @@
      "style": "fullframe",
      "score": 79,
      "seconds": 25.17,
-     "eta": "2026-11-25T01:00:00Z",
+     "eta": "2026-11-26T01:00:00Z",
      "thumb": "thumbs/532921682dbb.jpg",
      "thumb_text": "HE HAS A SON?!",
      "tags": [
@@ -680,7 +680,7 @@
      "style": "fullframe",
      "score": 76,
      "seconds": 39.37,
-     "eta": "2026-11-26T01:00:00Z",
+     "eta": "2026-11-27T01:00:00Z",
      "thumb": "thumbs/7dd090c91008.jpg",
      "thumb_text": "5 MINUTES IN...",
      "tags": [
