@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-24T18:15:48Z",
- "stats_updated_at": "2026-11-24T18:15:48Z",
+ "generated_at": "2026-11-24T19:15:39Z",
+ "stats_updated_at": "2026-11-24T19:15:39Z",
  "budget": {
   "cap": 5,
   "left": 0,
-  "next_free": "2026-11-24T18:24:38Z",
+  "next_free": "2026-11-24T23:48:04Z",
   "api": {
    "left": 6,
    "cap": 6,
@@ -513,14 +513,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1255,
+    "views": 1256,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1255,
+    "views": 1256,
     "likes": 11
    },
    "today": {
@@ -543,7 +543,7 @@
      "streamer": "CYR",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
-     "views": 3,
+     "views": 4,
      "likes": 1,
      "comments": null,
      "history": [
@@ -560,6 +560,11 @@
       [
        "2026-11-24T14:17:47Z",
        3,
+       1
+      ],
+      [
+       "2026-11-24T19:15:39Z",
+       4,
        1
       ]
      ],
@@ -1228,7 +1233,7 @@
     "likes": 1
    },
    "today": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "count": 1,
     "slots": [
      20
@@ -1754,18 +1759,19 @@
    ],
    "slots_waiting": [
     "2026-11-25T14:30:00Z",
-    "2026-11-26T14:30:00Z"
+    "2026-11-26T14:30:00Z",
+    "2026-11-27T13:30:00Z"
    ]
   }
  },
  "learned": {
-  "samples": 6,
-  "overall": 2.984,
+  "samples": 7,
+  "overall": 2.788,
   "style": {
    "stack": {
-    "n": 2,
-    "mean_log_views": 3.248,
-    "median_views": 25,
+    "n": 3,
+    "mean_log_views": 2.702,
+    "median_views": 4,
     "weight": 1.0
    },
    "fullframe": {
@@ -1783,10 +1789,10 @@
   },
   "streamer": {
    "iShowSpeed": {
-    "n": 4,
-    "mean_log_views": 2.245,
-    "median_views": 2,
-    "weight": 0.5
+    "n": 5,
+    "mean_log_views": 2.118,
+    "median_views": 3,
+    "weight": 0.512
    },
    "CarryMinati": {
     "n": 1,
@@ -1803,9 +1809,9 @@
   },
   "hour": {
    "12": {
-    "n": 2,
-    "mean_log_views": 3.392,
-    "median_views": 29,
+    "n": 3,
+    "mean_log_views": 2.798,
+    "median_views": 4,
     "weight": 1.0
    },
    "21": {
