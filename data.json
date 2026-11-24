@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-24T08:33:36Z",
- "stats_updated_at": "2026-11-24T08:33:36Z",
+ "generated_at": "2026-11-24T09:45:58Z",
+ "stats_updated_at": "2026-11-24T09:45:58Z",
  "budget": {
   "cap": 5,
-  "left": 3,
+  "left": 4,
   "next_free": null,
   "api": {
    "left": 6,
@@ -29,7 +29,7 @@
     "name": "Five Stars Deep",
     "subscribers": null,
     "views": 220,
-    "videos": 3,
+    "videos": 4,
     "source": "rss"
    },
    "totals": {
@@ -101,18 +101,24 @@
      "title": "Speed's First Look at Vice City in GTA 6 🤯",
      "published_at": "2026-11-22T19:01:18Z",
      "slot": "2026-11-22@13",
-     "youtube_id": null,
+     "youtube_id": "0FOk3g5JSnk",
      "thumb": "thumbs/ff563d901d7d.jpg",
-     "thumb_alt": null,
+     "thumb_alt": "https://i.ytimg.com/vi/0FOk3g5JSnk/hqdefault.jpg",
      "thumb_text": "HOW IS THIS REAL?!",
      "style": "stack",
      "streamer": "iShowSpeed",
      "score": 84,
-     "url": null,
-     "views": null,
-     "likes": null,
+     "url": "https://www.youtube.com/shorts/0FOk3g5JSnk",
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-24T09:45:58Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 58,
      "source_url": "https://youtu.be/kR8bhkVAgBY"
     },
@@ -348,15 +354,15 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 0,
-    "videos": 1,
+    "views": 213,
+    "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 0,
-    "likes": 0
+    "views": 213,
+    "likes": 2
    },
    "today": {
     "date": "2026-11-24",
@@ -395,18 +401,24 @@
      "title": "zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭",
      "published_at": "2026-11-22T23:34:27Z",
      "slot": "2026-11-22@18",
-     "youtube_id": null,
+     "youtube_id": "Qq7xMInMNCA",
      "thumb": "thumbs/f844cf6043e6.jpg",
-     "thumb_alt": null,
+     "thumb_alt": "https://i.ytimg.com/vi/Qq7xMInMNCA/hqdefault.jpg",
      "thumb_text": "DRIVING INTO THE OCEAN",
      "style": "hookcard",
      "streamer": "zackrawrr",
      "score": 58.0,
-     "url": null,
-     "views": null,
-     "likes": null,
+     "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
+     "views": 213,
+     "likes": 2,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-24T09:45:58Z",
+       213,
+       2
+      ]
+     ],
      "seconds": 34.5,
      "source_url": "https://www.twitch.tv/videos/2936386266"
     }
@@ -1220,13 +1232,13 @@
   }
  },
  "learned": {
-  "samples": 3,
-  "overall": 2.701,
+  "samples": 5,
+  "overall": 2.694,
   "style": {
    "stack": {
-    "n": 1,
-    "mean_log_views": 5.394,
-    "median_views": 219,
+    "n": 2,
+    "mean_log_views": 2.697,
+    "median_views": 14,
     "weight": 1.0
    },
    "fullframe": {
@@ -1234,19 +1246,31 @@
     "mean_log_views": 1.354,
     "median_views": 3,
     "weight": 1.0
+   },
+   "hookcard": {
+    "n": 1,
+    "mean_log_views": 5.366,
+    "median_views": 213,
+    "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
-    "n": 2,
-    "mean_log_views": 3.246,
-    "median_views": 25,
+    "n": 3,
+    "mean_log_views": 2.164,
+    "median_views": 2,
     "weight": 1.0
    },
    "CarryMinati": {
     "n": 1,
     "mean_log_views": 1.609,
     "median_views": 4,
+    "weight": 1.0
+   },
+   "zackrawrr": {
+    "n": 1,
+    "mean_log_views": 5.366,
+    "median_views": 213,
     "weight": 1.0
    }
   },
@@ -1262,10 +1286,28 @@
     "mean_log_views": 1.609,
     "median_views": 4,
     "weight": 1.0
+   },
+   "13": {
+    "n": 1,
+    "mean_log_views": 0.0,
+    "median_views": 0,
+    "weight": 1.0
+   },
+   "18": {
+    "n": 1,
+    "mean_log_views": 5.366,
+    "median_views": 213,
+    "weight": 1.0
    }
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-24T09:46:51Z",
+   "status": "warn",
+   "message": "winchat: re-dropped 'Speed's Reaction When GTA 6 Unlocked 😱' (no YouTube ID yet, try 4)"
+  },
   {
    "job": "publish",
    "at": "2026-11-24T08:35:40Z",
