@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T21:37:40Z",
- "stats_updated_at": "2026-11-25T21:37:40Z",
+ "generated_at": "2026-11-25T22:16:18Z",
+ "stats_updated_at": "2026-11-25T22:16:18Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -608,14 +608,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1294,
+    "views": 1296,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1294,
+    "views": 1296,
     "likes": 11
    },
    "today": {
@@ -718,7 +718,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1285,
+     "views": 1287,
      "likes": 10,
      "comments": null,
      "history": [
@@ -815,6 +815,11 @@
       [
        "2026-11-25T19:16:07Z",
        1285,
+       10
+      ],
+      [
+       "2026-11-25T22:16:18Z",
+       1287,
        10
       ]
      ],
@@ -1967,7 +1972,7 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.731,
+    "mean_log_views": 4.732,
     "median_views": 112,
     "weight": 1.0
    }
@@ -1987,8 +1992,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.159,
-    "median_views": 1285,
+    "mean_log_views": 7.161,
+    "median_views": 1287,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -2025,7 +2030,7 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.69,
+    "mean_log_views": 3.691,
     "median_views": 9,
     "weight": 1.0
    }
