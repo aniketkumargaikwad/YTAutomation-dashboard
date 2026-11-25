@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-25T08:56:26Z",
+ "generated_at": "2026-11-25T10:46:52Z",
  "stats_updated_at": "2026-11-25T05:24:25Z",
  "budget": {
   "cap": 5,
-  "left": 4,
-  "next_free": "2026-11-25T09:45:58Z",
+  "left": 5,
+  "next_free": null,
   "api": {
    "left": 6,
    "cap": 6,
@@ -991,6 +991,39 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true
+    },
+    {
+     "id": "f8193af5abe3",
+     "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 62,
+     "seconds": 21.43,
+     "eta": "2026-11-27T01:00:00Z",
+     "thumb": "thumbs/f8193af5abe3.jpg",
+     "thumb_text": "THIS ISN'T REAL",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Night drive through Leonida and Speed keeps asking: \"How is this game real?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #graphics",
+     "drive_id": "175C1iRQwB1ATOSq9bzbQA409QA5X_SP-",
+     "review": "approved",
+     "why": null,
+     "hook2": "WAIT FOR IT",
+     "end_text": "NOT NOW",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://youtu.be/kR8bhkVAgBY",
+     "v2": true
     }
    ],
    "review": [
@@ -1120,39 +1153,6 @@
      "review": "pending",
      "why": null,
      "hook2": "HERE IT COMES",
-     "end_text": "NOT NOW",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
-    },
-    {
-     "id": "f8193af5abe3",
-     "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 62,
-     "seconds": 21.43,
-     "eta": null,
-     "thumb": "thumbs/f8193af5abe3.jpg",
-     "thumb_text": "THIS ISN'T REAL",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "gta 6 first time",
-      "gta 6 highlights",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Night drive through Leonida and Speed keeps asking: \"How is this game real?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #graphics",
-     "drive_id": "175C1iRQwB1ATOSq9bzbQA409QA5X_SP-",
-     "review": "pending",
-     "why": null,
-     "hook2": "WAIT FOR IT",
      "end_text": "NOT NOW",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
@@ -1832,6 +1832,12 @@
   }
  },
  "runs": [
+  {
+   "job": "review",
+   "at": "2026-11-25T10:46:52Z",
+   "status": "ok",
+   "message": "1 change(s): approve winchat: Speed Can't Believe GTA 6 Graphics Are Real 🤯"
+  },
   {
    "job": "review",
    "at": "2026-11-25T08:56:26Z",
