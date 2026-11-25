@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T00:15:48Z",
- "stats_updated_at": "2026-11-25T00:15:48Z",
+ "generated_at": "2026-11-25T01:16:12Z",
+ "stats_updated_at": "2026-11-25T01:16:12Z",
  "budget": {
   "cap": 5,
   "left": 2,
@@ -896,7 +896,6 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-24T23:00:00Z",
     "2026-11-25T23:00:00Z",
     "2026-11-26T23:00:00Z"
    ]
@@ -1876,6 +1875,12 @@
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-25T01:16:39Z",
+   "status": "warn",
+   "message": "winchat: slot 2026-11-24@20 skipped: no approved Shorts (7 waiting for your review on the dashboard)"
+  },
   {
    "job": "publish",
    "at": "2026-11-25T00:16:30Z",
