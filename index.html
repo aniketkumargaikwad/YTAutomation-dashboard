@@ -231,6 +231,7 @@ function rcard(x,approved){
   const tags=[];
   if(x.seconds>35.5)tags.push(`<span class="tag y">${Math.round(x.seconds)}s · long</span>`);
   if(approved&&x.next)tags.push('<span class="tag g">posts next</span>');
+  if(x.hd)tags.push('<span class="tag b">HD 1440p</span>');
   return `<div class="rcard" data-id="${esc(x.id)}">
     <div class="thumb" onclick="preview('${esc(x.id)}')">${x.thumb?`<img loading="lazy" src="${esc(x.thumb)}" alt="">`:`<div class="noimg">${esc(x.thumb_text||x.title)}</div>`}
       <span class="badge">${approved?(x.eta?when(x.eta):'later'):esc(x.label)}</span><button class="play" type="button">▶ Preview</button></div>

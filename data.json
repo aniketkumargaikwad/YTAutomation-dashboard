@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T10:47:39Z",
- "stats_updated_at": "2026-11-25T05:24:25Z",
+ "generated_at": "2026-11-25T12:16:50Z",
+ "stats_updated_at": "2026-11-25T12:16:50Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -28,15 +28,15 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 233,
+    "views": 235,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 5,
-    "views": 233,
-    "likes": 11
+    "views": 235,
+    "likes": 12
    },
    "today": {
     "date": "2026-11-25",
@@ -59,7 +59,7 @@
      "streamer": "IShowSpeed",
      "score": 68.0,
      "url": "https://www.youtube.com/shorts/kTq3awrINHA",
-     "views": 3,
+     "views": 4,
      "likes": 2,
      "comments": null,
      "history": [
@@ -81,6 +81,11 @@
       [
        "2026-11-24T12:16:20Z",
        3,
+       2
+      ],
+      [
+       "2026-11-25T12:16:50Z",
+       4,
        2
       ]
      ],
@@ -144,8 +149,8 @@
      "streamer": "iShowSpeed",
      "score": 84,
      "url": "https://www.youtube.com/shorts/0FOk3g5JSnk",
-     "views": 2,
-     "likes": 1,
+     "views": 3,
+     "likes": 2,
      "comments": null,
      "history": [
       [
@@ -182,6 +187,11 @@
        "2026-11-24T17:15:42Z",
        2,
        1
+      ],
+      [
+       "2026-11-25T12:16:50Z",
+       3,
+       2
       ]
      ],
      "seconds": 58,
@@ -295,7 +305,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
+     "v2": true,
+     "hd": false
     }
    ],
    "review": [
@@ -333,7 +344,8 @@
      "next": false,
      "created_at": "2026-11-22T20:42:38Z",
      "source_url": "https://www.twitch.tv/videos/2934967396",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "97cc9af66ee4",
@@ -366,7 +378,8 @@
      "next": false,
      "created_at": "2026-11-21T06:00:00Z",
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "c487d0ab9993",
@@ -399,7 +412,8 @@
      "next": false,
      "created_at": "2026-11-21T06:00:00Z",
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "6c724e05e6b4",
@@ -432,7 +446,8 @@
      "next": false,
      "created_at": "2026-11-21T06:00:00Z",
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
-     "v2": true
+     "v2": true,
+     "hd": false
     }
    ],
    "slots_waiting": [
@@ -452,14 +467,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1290,
+    "views": 1295,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1290,
+    "views": 1295,
     "likes": 11
    },
    "today": {
@@ -547,7 +562,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1282,
+     "views": 1287,
      "likes": 10,
      "comments": null,
      "history": [
@@ -630,6 +645,11 @@
        "2026-11-25T05:24:25Z",
        1282,
        10
+      ],
+      [
+       "2026-11-25T12:16:50Z",
+       1287,
+       10
       ]
      ],
      "seconds": 34.5,
@@ -672,7 +692,8 @@
      "next": false,
      "created_at": "2026-11-22T21:03:46Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "6d139d1a9fbf",
@@ -707,7 +728,8 @@
      "next": false,
      "created_at": "2026-11-22T21:03:36Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "ef9abf466468",
@@ -742,7 +764,8 @@
      "next": false,
      "created_at": "2026-11-22T21:02:36Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "ab2d816e15a5",
@@ -776,7 +799,8 @@
      "next": false,
      "created_at": "2026-11-22T19:17:57Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "037b4eb0fcc3",
@@ -812,7 +836,8 @@
      "next": false,
      "created_at": "2026-11-22T19:17:46Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "5b7f1e54c4d6",
@@ -847,7 +872,8 @@
      "next": false,
      "created_at": "2026-11-22T19:15:48Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": true
+     "v2": true,
+     "hd": false
     }
    ],
    "slots_waiting": [
@@ -990,7 +1016,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "f8193af5abe3",
@@ -1023,7 +1050,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "planefxv2",
@@ -1056,7 +1084,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
+     "v2": true,
+     "hd": false
     }
    ],
    "review": [
@@ -1091,7 +1120,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "7dd090c91008",
@@ -1124,7 +1154,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "cf3df7bb940b",
@@ -1157,7 +1188,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "99305593a9b7",
@@ -1190,7 +1222,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
+     "v2": true,
+     "hd": false
     }
    ],
    "slots_waiting": [
@@ -1306,7 +1339,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     }
    ],
    "review": [
@@ -1344,7 +1378,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "e1eea7f332c5",
@@ -1380,7 +1415,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "85ece2093b93",
@@ -1416,7 +1452,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "582c8df46323",
@@ -1452,7 +1489,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "53009a8cd559",
@@ -1488,7 +1526,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "621c0ca3cc43",
@@ -1524,7 +1563,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "ccc17c8d7291",
@@ -1560,7 +1600,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "823a74559558",
@@ -1596,7 +1637,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "99127d73c6e6",
@@ -1632,7 +1674,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "01ceb941fd91",
@@ -1668,7 +1711,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "5700a3b84b22",
@@ -1704,7 +1748,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     },
     {
      "id": "6d4ae3dfbc98",
@@ -1740,7 +1785,8 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true
+     "v2": true,
+     "hd": false
     }
    ],
    "slots_waiting": [
@@ -1752,13 +1798,13 @@
  },
  "learned": {
   "samples": 9,
-  "overall": 2.635,
+  "overall": 2.692,
   "style": {
    "stack": {
     "n": 4,
-    "mean_log_views": 2.52,
-    "median_views": 5,
-    "weight": 0.892
+    "mean_log_views": 2.648,
+    "median_views": 6,
+    "weight": 0.957
    },
    "fullframe": {
     "n": 3,
@@ -1768,15 +1814,15 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.677,
-    "median_views": 106,
+    "mean_log_views": 4.679,
+    "median_views": 107,
     "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
     "n": 5,
-    "mean_log_views": 2.236,
+    "mean_log_views": 2.293,
     "median_views": 3,
     "weight": 0.671
    },
@@ -1788,14 +1834,14 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.157,
-    "median_views": 1282,
+    "mean_log_views": 7.161,
+    "median_views": 1287,
     "weight": 1.0
    },
    "IShowSpeed": {
     "n": 1,
-    "mean_log_views": 1.386,
-    "median_views": 3,
+    "mean_log_views": 1.609,
+    "median_views": 4,
     "weight": 1.0
    },
    "CYR": {
@@ -1820,13 +1866,13 @@
    },
    "13": {
     "n": 2,
-    "mean_log_views": 1.099,
+    "mean_log_views": 1.242,
     "median_views": 2,
     "weight": 1.0
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.58,
+    "mean_log_views": 3.656,
     "median_views": 8,
     "weight": 1.0
    }
