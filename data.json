@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T08:51:38Z",
+ "generated_at": "2026-11-25T08:52:39Z",
  "stats_updated_at": "2026-11-25T05:24:25Z",
  "budget": {
   "cap": 5,
@@ -1866,6 +1866,12 @@
   }
  },
  "runs": [
+  {
+   "job": "review",
+   "at": "2026-11-25T08:52:39Z",
+   "status": "warn",
+   "message": "reject 69f18bc012d9: not in the queue (already posted or removed)"
+  },
   {
    "job": "review",
    "at": "2026-11-25T08:51:38Z",
