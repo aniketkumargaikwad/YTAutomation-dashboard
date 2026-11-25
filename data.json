@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T15:45:36Z",
- "stats_updated_at": "2026-11-25T15:15:46Z",
+ "generated_at": "2026-11-25T16:15:45Z",
+ "stats_updated_at": "2026-11-25T16:15:45Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -467,14 +467,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1296,
+    "views": 1297,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1296,
+    "views": 1297,
     "likes": 11
    },
    "today": {
@@ -497,7 +497,7 @@
      "streamer": "CYR",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
-     "views": 9,
+     "views": 8,
      "likes": 1,
      "comments": null,
      "history": [
@@ -550,6 +550,11 @@
        "2026-11-25T15:15:46Z",
        9,
        1
+      ],
+      [
+       "2026-11-25T16:15:45Z",
+       8,
+       1
       ]
      ],
      "seconds": 44.6,
@@ -567,7 +572,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1287,
+     "views": 1289,
      "likes": 10,
      "comments": null,
      "history": [
@@ -654,6 +659,11 @@
       [
        "2026-11-25T12:16:50Z",
        1287,
+       10
+      ],
+      [
+       "2026-11-25T16:15:45Z",
+       1289,
        10
       ]
      ],
@@ -1246,7 +1256,7 @@
     "name": "Gully wanted",
     "subscribers": null,
     "views": 5,
-    "videos": 1,
+    "videos": 2,
     "source": "rss"
    },
    "totals": {
@@ -1275,10 +1285,16 @@
      "streamer": "CarryMinati",
      "score": 86,
      "url": "https://www.youtube.com/shorts/FRxizGm3R2U",
-     "views": null,
-     "likes": null,
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-25T16:15:45Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 35.0,
      "source_url": "https://www.youtube.com/live/irNhWMG560k"
     },
@@ -1783,13 +1799,13 @@
  },
  "learned": {
   "samples": 9,
-  "overall": 2.703,
+  "overall": 2.692,
   "style": {
    "stack": {
     "n": 4,
     "mean_log_views": 2.648,
     "median_views": 6,
-    "weight": 0.946
+    "weight": 0.957
    },
    "fullframe": {
     "n": 3,
@@ -1799,8 +1815,8 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.732,
-    "median_views": 112,
+    "mean_log_views": 4.68,
+    "median_views": 107,
     "weight": 1.0
    }
   },
@@ -1809,7 +1825,7 @@
     "n": 5,
     "mean_log_views": 2.293,
     "median_views": 3,
-    "weight": 0.664
+    "weight": 0.671
    },
    "CarryMinati": {
     "n": 1,
@@ -1819,8 +1835,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.161,
-    "median_views": 1287,
+    "mean_log_views": 7.162,
+    "median_views": 1289,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -1831,8 +1847,8 @@
    },
    "CYR": {
     "n": 1,
-    "mean_log_views": 2.303,
-    "median_views": 9,
+    "mean_log_views": 2.197,
+    "median_views": 8,
     "weight": 1.0
    }
   },
@@ -1857,8 +1873,8 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.691,
-    "median_views": 9,
+    "mean_log_views": 3.656,
+    "median_views": 8,
     "weight": 1.0
    }
   }
