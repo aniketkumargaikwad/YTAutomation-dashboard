@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T22:16:18Z",
- "stats_updated_at": "2026-11-25T22:16:18Z",
+ "generated_at": "2026-11-25T23:15:54Z",
+ "stats_updated_at": "2026-11-25T23:15:54Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -2039,6 +2039,12 @@
  "runs": [
   {
    "job": "publish",
+   "at": "2026-11-25T23:17:32Z",
+   "status": "warn",
+   "message": "meltdown: slot 2026-11-25@18 skipped: no approved Shorts (6 waiting for your review on the dashboard)"
+  },
+  {
+   "job": "publish",
    "at": "2026-11-25T18:17:48Z",
    "status": "ok",
    "message": "fivestars: Speed Gets Emotional Before GTA 6's Last Mission 🥹 (via own uploader)",
@@ -2276,13 +2282,6 @@
    "at": "2026-11-22T19:02:36Z",
    "status": "ok",
    "message": "winchat: Speed's Reaction When GTA 6 Unlocked 😱",
-   "slot": "2026-11-22@13"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-22T19:01:44Z",
-   "status": "ok",
-   "message": "fivestars: Speed's First Look at Vice City in GTA 6 🤯",
    "slot": "2026-11-22@13"
   }
  ]
