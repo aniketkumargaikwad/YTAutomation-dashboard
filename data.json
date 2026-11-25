@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T12:16:50Z",
+ "generated_at": "2026-11-25T12:52:48Z",
  "stats_updated_at": "2026-11-25T12:16:50Z",
  "budget": {
   "cap": 5,
@@ -1081,7 +1081,7 @@
      "why": null,
      "hook2": "DON'T BLINK",
      "end_text": "HE CAN'T FLY",
-     "next": false,
+     "next": true,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
@@ -1879,6 +1879,12 @@
   }
  },
  "runs": [
+  {
+   "job": "review",
+   "at": "2026-11-25T12:52:48Z",
+   "status": "ok",
+   "message": "1 change(s): next winchat: Speed Can't Fly a Plane in GTA 6 😭"
+  },
   {
    "job": "review",
    "at": "2026-11-25T10:47:39Z",
