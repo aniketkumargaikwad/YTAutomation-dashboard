@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-25T01:16:12Z",
- "stats_updated_at": "2026-11-25T01:16:12Z",
+ "generated_at": "2026-11-25T02:15:32Z",
+ "stats_updated_at": "2026-11-25T02:15:32Z",
  "budget": {
   "cap": 5,
   "left": 2,
@@ -507,7 +507,6 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-25T00:00:00Z",
     "2026-11-25T18:00:00Z",
     "2026-11-26T01:00:00Z",
     "2026-11-26T18:00:00Z",
@@ -522,14 +521,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1284,
+    "views": 1288,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1284,
+    "views": 1288,
     "likes": 11
    },
    "today": {
@@ -552,7 +551,7 @@
      "streamer": "CYR",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
-     "views": 6,
+     "views": 8,
      "likes": 1,
      "comments": null,
      "history": [
@@ -585,6 +584,11 @@
        "2026-11-25T00:15:48Z",
        6,
        1
+      ],
+      [
+       "2026-11-25T02:15:32Z",
+       8,
+       1
       ]
      ],
      "seconds": 44.6,
@@ -602,7 +606,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1278,
+     "views": 1280,
      "likes": 10,
      "comments": null,
      "history": [
@@ -674,6 +678,11 @@
       [
        "2026-11-24T23:15:46Z",
        1278,
+       10
+      ],
+      [
+       "2026-11-25T02:15:32Z",
+       1280,
        10
       ]
      ],
@@ -1794,13 +1803,13 @@
  },
  "learned": {
   "samples": 9,
-  "overall": 2.606,
+  "overall": 2.634,
   "style": {
    "stack": {
     "n": 4,
     "mean_log_views": 2.52,
     "median_views": 5,
-    "weight": 0.917
+    "weight": 0.892
    },
    "fullframe": {
     "n": 3,
@@ -1810,8 +1819,8 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.55,
-    "median_views": 94,
+    "mean_log_views": 4.676,
+    "median_views": 106,
     "weight": 1.0
    }
   },
@@ -1820,7 +1829,7 @@
     "n": 5,
     "mean_log_views": 2.236,
     "median_views": 3,
-    "weight": 0.69
+    "weight": 0.671
    },
    "CarryMinati": {
     "n": 1,
@@ -1830,8 +1839,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.154,
-    "median_views": 1278,
+    "mean_log_views": 7.155,
+    "median_views": 1280,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -1842,8 +1851,8 @@
    },
    "CYR": {
     "n": 1,
-    "mean_log_views": 1.946,
-    "median_views": 6,
+    "mean_log_views": 2.197,
+    "median_views": 8,
     "weight": 1.0
    }
   },
@@ -1868,8 +1877,8 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.495,
-    "median_views": 6,
+    "mean_log_views": 3.58,
+    "median_views": 8,
     "weight": 1.0
    }
   }
