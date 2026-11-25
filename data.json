@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-25T17:16:15Z",
- "stats_updated_at": "2026-11-25T17:16:15Z",
+ "generated_at": "2026-11-25T18:16:06Z",
+ "stats_updated_at": "2026-11-25T18:16:06Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 5,
+   "left": 4,
    "cap": 6,
    "resets": "2026-11-26T08:00:00Z",
    "channels": [
@@ -33,8 +33,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 4,
-    "queued": 9,
+    "published": 5,
+    "queued": 8,
     "views": 235,
     "likes": 12
    },
@@ -47,6 +47,25 @@
     ]
    },
    "published": [
+    {
+     "title": "Speed Gets Emotional Before GTA 6's Last Mission 🥹",
+     "published_at": "2026-11-25T18:16:06Z",
+     "slot": "2026-11-25@13",
+     "youtube_id": "qAiOnLxNBNY",
+     "thumb": "thumbs/97cc9af66ee4.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/qAiOnLxNBNY/hqdefault.jpg",
+     "thumb_text": "50 HOURS AWAKE",
+     "style": "stack",
+     "streamer": "iShowSpeed",
+     "score": 77,
+     "url": "https://www.youtube.com/shorts/qAiOnLxNBNY",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 35.0,
+     "source_url": "https://www.youtube.com/live/OIeLbmyraRQ"
+    },
     {
      "title": "IShowSpeed Can't Believe GTA 6 Gave Him This 🤯",
      "published_at": "2026-11-23T23:48:04Z",
@@ -274,40 +293,6 @@
     }
    ],
    "queue": [
-    {
-     "id": "97cc9af66ee4",
-     "title": "Speed Gets Emotional Before GTA 6's Last Mission 🥹",
-     "streamer": "iShowSpeed",
-     "style": "stack",
-     "score": 77,
-     "seconds": 35.0,
-     "eta": "2026-11-25T18:00:00Z",
-     "thumb": "thumbs/97cc9af66ee4.jpg",
-     "thumb_text": "50 HOURS AWAKE",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "speed gta 6",
-      "gta 6 reaction",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "50 hours awake, one mission left, and Speed thanked his chat. Did you watch the whole run?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #emotional",
-     "drive_id": "1yiZbOL29CSkX7dcd16pKQr8585alxhUC",
-     "review": "approved",
-     "why": null,
-     "hook2": "WATCH THIS",
-     "end_text": "RESPECT",
-     "next": false,
-     "created_at": "2026-11-21T06:00:00Z",
-     "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
-     "v2": true,
-     "hd": false
-    },
     {
      "id": "7121ee480313",
      "title": "Nobody Told Speed GTA 6 Has TIGERS 🐅",
@@ -602,7 +587,6 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-25T18:00:00Z",
     "2026-11-26T01:00:00Z",
     "2026-11-26T18:00:00Z",
     "2026-11-27T00:00:00Z",
@@ -2037,6 +2021,13 @@
  },
  "runs": [
   {
+   "job": "publish",
+   "at": "2026-11-25T18:17:48Z",
+   "status": "ok",
+   "message": "fivestars: Speed Gets Emotional Before GTA 6's Last Mission 🥹 (via own uploader)",
+   "slot": "2026-11-25@13"
+  },
+  {
    "job": "produce",
    "at": "2026-11-25T16:25:42Z",
    "status": "ok",
@@ -2276,13 +2267,6 @@
    "status": "ok",
    "message": "fivestars: Speed's First Look at Vice City in GTA 6 🤯",
    "slot": "2026-11-22@13"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-22T17:59:46Z",
-   "status": "ok",
-   "message": "winchat: Speed Tries to Fly a Plane in GTA 6 😭",
-   "slot": "2026-11-22@12-forced-5945"
   }
  ]
 }
