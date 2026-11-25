@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T10:46:52Z",
+ "generated_at": "2026-11-25T10:47:14Z",
  "stats_updated_at": "2026-11-25T05:24:25Z",
  "budget": {
   "cap": 5,
@@ -1024,6 +1024,39 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true
+    },
+    {
+     "id": "planefxv2",
+     "title": "Speed Can't Fly a Plane in GTA 6 😭",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "score": 90,
+     "seconds": 35.0,
+     "eta": null,
+     "thumb": "thumbs/3f13c722e207.jpg",
+     "thumb_text": "HE CAN'T FLY!",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "\"Go to the plane! Get in!\"… \"I DON'T EVEN KNOW HOW TO FLY!\" Pure chaos.\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny",
+     "drive_id": "1w1XOQd34efg7EcsZvAP8Qt4VA7V-XHpJ",
+     "review": "approved",
+     "why": null,
+     "hook2": "DON'T BLINK",
+     "end_text": "HE CAN'T FLY",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://youtu.be/kR8bhkVAgBY",
+     "v2": true
     }
    ],
    "review": [
@@ -1154,39 +1187,6 @@
      "why": null,
      "hook2": "HERE IT COMES",
      "end_text": "NOT NOW",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true
-    },
-    {
-     "id": "planefxv2",
-     "title": "Speed Can't Fly a Plane in GTA 6 😭",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "score": 90,
-     "seconds": 35.0,
-     "eta": null,
-     "thumb": "thumbs/3f13c722e207.jpg",
-     "thumb_text": "HE CAN'T FLY!",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "gta 6 first time",
-      "gta 6 highlights",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "\"Go to the plane! Get in!\"… \"I DON'T EVEN KNOW HOW TO FLY!\" Pure chaos.\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny",
-     "drive_id": "1w1XOQd34efg7EcsZvAP8Qt4VA7V-XHpJ",
-     "review": "pending",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "HE CAN'T FLY",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
@@ -1832,6 +1832,12 @@
   }
  },
  "runs": [
+  {
+   "job": "review",
+   "at": "2026-11-25T10:47:14Z",
+   "status": "ok",
+   "message": "1 change(s): approve winchat: Speed Can't Fly a Plane in GTA 6 😭"
+  },
   {
    "job": "review",
    "at": "2026-11-25T10:46:52Z",
