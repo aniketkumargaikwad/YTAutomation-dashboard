@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-25T05:24:25Z",
+ "generated_at": "2026-11-25T08:51:38Z",
  "stats_updated_at": "2026-11-25T05:24:25Z",
  "budget": {
   "cap": 5,
-  "left": 2,
-  "next_free": "2026-11-25T08:33:36Z",
+  "left": 4,
+  "next_free": "2026-11-25T09:45:58Z",
   "api": {
    "left": 6,
    "cap": 6,
-   "resets": "2026-11-25T08:00:00Z",
+   "resets": "2026-11-26T08:00:00Z",
    "channels": [
     "Five Stars Deep",
     "Meltdown On Stream",
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 4,
-    "queued": 7,
+    "queued": 6,
     "views": 233,
     "likes": 11
    },
@@ -265,42 +265,6 @@
    ],
    "queue": [],
    "review": [
-    {
-     "id": "69f18bc012d9",
-     "title": "IShowSpeed Would Play 50 HOURS of GTA 6 For This 😳",
-     "streamer": "IShowSpeed",
-     "style": "stack",
-     "score": 58.0,
-     "seconds": 35.0,
-     "eta": null,
-     "thumb": "thumbs/69f18bc012d9.jpg",
-     "thumb_text": "50 HOURS FOR ENDING",
-     "tags": [
-      "ishowspeed",
-      "speed",
-      "gta 6",
-      "gta 6 ending",
-      "best ending",
-      "speed rant",
-      "gta 6 gameplay",
-      "ishowspeed gta 6",
-      "gamer opinion",
-      "gta 6 funny moments",
-      "gta vi",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Speed says he'll grind 50 more hours for the best GTA 6 ending. Would you do the same?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #Gaming #Gameplay",
-     "drive_id": "1tx3v5BYE0kGhaQnojrqnHySq9yetzXTC",
-     "review": "pending",
-     "why": "Speed rants passionately about wanting the best ending at any cost, a relatable bold gamer opinion with rising volume.",
-     "hook2": "WATCH THIS",
-     "end_text": "NOT NOW",
-     "next": false,
-     "created_at": "2026-11-22T20:43:56Z",
-     "source_url": "https://www.twitch.tv/videos/2934967396",
-     "v2": true
-    },
     {
      "id": "abe4f81529a3",
      "title": "IShowSpeed ROASTS Chat Mid GTA 6 Final Mission 😤",
@@ -1902,6 +1866,12 @@
   }
  },
  "runs": [
+  {
+   "job": "review",
+   "at": "2026-11-25T08:51:38Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: IShowSpeed Would Play 50 HOURS of GTA 6 For This 😳"
+  },
   {
    "job": "publish",
    "at": "2026-11-25T01:16:39Z",
