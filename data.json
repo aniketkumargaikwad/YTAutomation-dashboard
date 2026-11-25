@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-25T14:15:50Z",
- "stats_updated_at": "2026-11-25T14:15:50Z",
+ "generated_at": "2026-11-25T15:15:46Z",
+ "stats_updated_at": "2026-11-25T15:15:46Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 6,
+   "left": 5,
    "cap": 6,
    "resets": "2026-11-26T08:00:00Z",
    "channels": [
@@ -467,14 +467,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1295,
+    "views": 1296,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1295,
+    "views": 1296,
     "likes": 11
    },
    "today": {
@@ -497,7 +497,7 @@
      "streamer": "CYR",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
-     "views": 8,
+     "views": 9,
      "likes": 1,
      "comments": null,
      "history": [
@@ -544,6 +544,11 @@
       [
        "2026-11-25T05:24:25Z",
        8,
+       1
+      ],
+      [
+       "2026-11-25T15:15:46Z",
+       9,
        1
       ]
      ],
@@ -1245,8 +1250,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 1,
-    "queued": 13,
+    "published": 2,
+    "queued": 12,
     "views": 5,
     "likes": 1
    },
@@ -1258,6 +1263,25 @@
     ]
    },
    "published": [
+    {
+     "title": "Carry Finally Got the Cycle He Never Had 😭🚲 | GTA 6",
+     "published_at": "2026-11-25T15:15:46Z",
+     "slot": "2026-11-25@20",
+     "youtube_id": "FRxizGm3R2U",
+     "thumb": "thumbs/1d0075d003ed.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/FRxizGm3R2U/hqdefault.jpg",
+     "thumb_text": "FINALLY GOT HIS CYCLE",
+     "style": "fullframe",
+     "streamer": "CarryMinati",
+     "score": 86,
+     "url": "https://www.youtube.com/shorts/FRxizGm3R2U",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 35.0,
+     "source_url": "https://www.youtube.com/live/irNhWMG560k"
+    },
     {
      "title": "Carry was 13 when GTA 5 came out… now he's 27 🥹",
      "published_at": "2026-11-22T17:58:28Z",
@@ -1304,45 +1328,7 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k"
     }
    ],
-   "queue": [
-    {
-     "id": "1d0075d003ed",
-     "title": "Carry Finally Got the Cycle He Never Had 😭🚲 | GTA 6",
-     "streamer": "CarryMinati",
-     "style": "fullframe",
-     "score": 86,
-     "seconds": 35.0,
-     "eta": "2026-11-25T14:30:00Z",
-     "thumb": "thumbs/1d0075d003ed.jpg",
-     "thumb_text": "FINALLY GOT HIS CYCLE",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "Childhood dream unlocked: a cycle. In GTA 6.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #indianmemes",
-     "drive_id": "1VR91hkQdLKkkSy8Wew5OZYHYVCGOVjeS",
-     "review": "approved",
-     "why": null,
-     "hook2": "WAIT FOR IT",
-     "end_text": "DREAM UNLOCKED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true,
-     "hd": false
-    }
-   ],
+   "queue": [],
    "review": [
     {
      "id": "922cc4035902",
@@ -1790,7 +1776,6 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-25T14:30:00Z",
     "2026-11-26T14:30:00Z",
     "2026-11-27T13:30:00Z"
    ]
@@ -1798,13 +1783,13 @@
  },
  "learned": {
   "samples": 9,
-  "overall": 2.692,
+  "overall": 2.703,
   "style": {
    "stack": {
     "n": 4,
     "mean_log_views": 2.648,
     "median_views": 6,
-    "weight": 0.957
+    "weight": 0.946
    },
    "fullframe": {
     "n": 3,
@@ -1814,8 +1799,8 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.679,
-    "median_views": 107,
+    "mean_log_views": 4.732,
+    "median_views": 112,
     "weight": 1.0
    }
   },
@@ -1824,7 +1809,7 @@
     "n": 5,
     "mean_log_views": 2.293,
     "median_views": 3,
-    "weight": 0.671
+    "weight": 0.664
    },
    "CarryMinati": {
     "n": 1,
@@ -1846,8 +1831,8 @@
    },
    "CYR": {
     "n": 1,
-    "mean_log_views": 2.197,
-    "median_views": 8,
+    "mean_log_views": 2.303,
+    "median_views": 9,
     "weight": 1.0
    }
   },
@@ -1872,13 +1857,20 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.656,
-    "median_views": 8,
+    "mean_log_views": 3.691,
+    "median_views": 9,
     "weight": 1.0
    }
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-25T15:16:48Z",
+   "status": "ok",
+   "message": "hindi: Carry Finally Got the Cycle He Never Had 😭🚲 | GTA 6 (via own uploader)",
+   "slot": "2026-11-25@20"
+  },
   {
    "job": "review",
    "at": "2026-11-25T12:52:48Z",
@@ -2120,13 +2112,6 @@
    "at": "2026-11-22T17:58:40Z",
    "status": "warn",
    "message": "meltdown: slot 2026-11-22@12 due but nothing queued yet"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-22T17:58:40Z",
-   "status": "ok",
-   "message": "fivestars: Speed Snaps After 49 HOURS of GTA 6 😳",
-   "slot": "2026-11-22@12-forced-5828"
   }
  ]
 }
