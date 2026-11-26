@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T01:15:57Z",
- "stats_updated_at": "2026-11-26T01:15:57Z",
+ "generated_at": "2026-11-26T02:15:50Z",
+ "stats_updated_at": "2026-11-26T02:15:50Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -29,7 +29,7 @@
     "name": "Five Stars Deep",
     "subscribers": null,
     "views": 235,
-    "videos": 5,
+    "videos": 6,
     "source": "rss"
    },
    "totals": {
@@ -59,10 +59,16 @@
      "streamer": "iShowSpeed",
      "score": 80,
      "url": "https://www.youtube.com/shorts/oautIB5ygd0",
-     "views": null,
-     "likes": null,
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-26T02:15:50Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 35.0,
      "source_url": "https://youtu.be/kR8bhkVAgBY"
     },
@@ -478,14 +484,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1298,
+    "views": 1300,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1298,
+    "views": 1300,
     "likes": 11
    },
    "today": {
@@ -588,7 +594,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1289,
+     "views": 1291,
      "likes": 10,
      "comments": null,
      "history": [
@@ -695,6 +701,11 @@
       [
        "2026-11-26T01:15:57Z",
        1289,
+       10
+      ],
+      [
+       "2026-11-26T02:15:50Z",
+       1291,
        10
       ]
      ],
@@ -936,7 +947,7 @@
     "name": "W In Chat",
     "subscribers": null,
     "views": 5,
-    "videos": 2,
+    "videos": 3,
     "source": "rss"
    },
    "totals": {
@@ -965,10 +976,16 @@
      "streamer": "iShowSpeed",
      "score": 82,
      "url": "https://www.youtube.com/shorts/4f9mZWqhACM",
-     "views": null,
-     "likes": null,
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-26T02:15:50Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 27.33,
      "source_url": "https://youtu.be/kR8bhkVAgBY"
     },
@@ -1830,7 +1847,7 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.732,
+    "mean_log_views": 4.733,
     "median_views": 113,
     "weight": 1.0
    }
@@ -1850,8 +1867,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.162,
-    "median_views": 1289,
+    "mean_log_views": 7.164,
+    "median_views": 1291,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -1888,7 +1905,7 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.691,
+    "mean_log_views": 3.692,
     "median_views": 9,
     "weight": 1.0
    }
