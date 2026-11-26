@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:44:53Z",
+ "generated_at": "2026-11-26T08:45:16Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -404,9 +404,7 @@
      "source_url": "https://www.twitch.tv/videos/2939504732",
      "v2": true,
      "hd": true
-    }
-   ],
-   "review": [
+    },
     {
      "id": "6ab74cabd89a",
      "title": "KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6",
@@ -415,7 +413,7 @@
      "thumb_sm": "thumbs/sm/6ab74cabd89a.jpg",
      "score": 55.0,
      "seconds": 33.0,
-     "eta": null,
+     "eta": "2026-11-27T18:00:00Z",
      "thumb": "thumbs/6ab74cabd89a.jpg",
      "thumb_text": "CALL YOUR CAR",
      "tags": [
@@ -435,7 +433,7 @@
      ],
      "description": "Kai spams 'call your car' while Speed just stalls in GTA 6. Who's the worst teammate?\n\n🎮 Streamer: KaiCenat\n📺 Full stream: https://www.twitch.tv/videos/2939504732\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #KaiCenat #Speed #Streamer #Funny",
      "drive_id": "10wfXqKpfDTDr_j3_tu0sb8IxBOD1KTfW",
-     "review": "pending",
+     "review": "approved",
      "why": "Kai's escalating chat-fueled rage at Speed not calling his car, ending in a shout-down, is chaotic and quotable.",
      "hook2": "IT GETS WORSE",
      "end_text": "NO WAY",
@@ -444,7 +442,9 @@
      "source_url": "https://www.twitch.tv/videos/2939504732",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "441d4d1febcc",
      "title": "KaiCenat Catches Speed CHEATING Before the Race?! 😳 | GTA 6",
@@ -1892,6 +1892,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:45:16Z",
+   "status": "ok",
+   "message": "1 change(s): approve fivestars: KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:44:53Z",
    "status": "ok",
    "message": "1 change(s): reject hindi: CarryMinati Minutes Before GTA 6 Unlocked 🔥"
@@ -2127,12 +2133,6 @@
    "at": "2026-11-25T08:54:37Z",
    "status": "warn",
    "message": "reject abe4f81529a3: not in the queue (already posted or removed)"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T08:54:18Z",
-   "status": "ok",
-   "message": "1 change(s): approve fivestars: Nobody Told Speed GTA 6 Has TIGERS 🐅"
   }
  ]
 }
