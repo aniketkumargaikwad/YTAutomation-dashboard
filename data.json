@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:42:49Z",
+ "generated_at": "2026-11-26T08:42:52Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1531,9 +1531,7 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
-    }
-   ],
-   "review": [
+    },
     {
      "id": "53009a8cd559",
      "title": "GTA 6 Punishes You for Doomscrolling 📱",
@@ -1562,7 +1560,7 @@
      ],
      "description": "Read a book and your focus goes up, doomscroll and it goes down. GTA 6 is calling us out.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #relatable",
      "drive_id": "1S3Qov1_hVYkT_kg3Lm5DQjUFvjUdOPKD",
-     "review": "pending",
+     "review": "approved",
      "why": null,
      "hook2": "LOOK AT THIS",
      "end_text": "CALLED OUT",
@@ -1571,7 +1569,9 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "621c0ca3cc43",
      "title": "CarryMinati's First Time Controlling GTA 6 😳",
@@ -1931,6 +1931,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:42:52Z",
+   "status": "ok",
+   "message": "1 change(s): approve hindi: GTA 6 Punishes You for Doomscrolling 📱"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:42:49Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️"
@@ -2166,12 +2172,6 @@
    "at": "2026-11-24T18:16:33Z",
    "status": "warn",
    "message": "fivestars: slot 2026-11-24@13 skipped: no approved Shorts (7 waiting for your review on the dashboard)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-24T15:16:27Z",
-   "status": "warn",
-   "message": "hindi: slot 2026-11-24@20 skipped: no approved Shorts (13 waiting for your review on the dashboard)"
   }
  ]
 }
