@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:47:45Z",
+ "generated_at": "2026-11-26T08:48:07Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -988,6 +988,41 @@
    ],
    "queue": [
     {
+     "id": "532921682dbb",
+     "title": "Speed Found Out He Has a SON in GTA 6 😭",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "thumb_sm": "thumbs/sm/532921682dbb.jpg",
+     "score": 79,
+     "seconds": 25.1,
+     "eta": "2026-11-27T01:00:00Z",
+     "thumb": "thumbs/532921682dbb.jpg",
+     "thumb_text": "HE HAS A SON?!",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "\"Chad, I didn't even know we had a son.\" 💀\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #lucia",
+     "drive_id": "1WKdM1T64im9efjPIcge5VfSSh1xWtOkr",
+     "review": "approved",
+     "why": null,
+     "hook2": "HERE IT COMES",
+     "end_text": "PLOT TWIST",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://youtu.be/kR8bhkVAgBY",
+     "v2": true,
+     "hd": true
+    },
+    {
      "id": "f8193af5abe3",
      "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
      "streamer": "iShowSpeed",
@@ -995,7 +1030,7 @@
      "thumb_sm": "thumbs/sm/f8193af5abe3.jpg",
      "score": 62,
      "seconds": 19.83,
-     "eta": "2026-11-27T01:00:00Z",
+     "eta": "2026-11-28T00:00:00Z",
      "thumb": "thumbs/f8193af5abe3.jpg",
      "thumb_text": "THIS ISN'T REAL",
      "tags": [
@@ -1059,41 +1094,6 @@
     }
    ],
    "review": [
-    {
-     "id": "532921682dbb",
-     "title": "Speed Found Out He Has a SON in GTA 6 😭",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/532921682dbb.jpg",
-     "score": 79,
-     "seconds": 25.1,
-     "eta": null,
-     "thumb": "thumbs/532921682dbb.jpg",
-     "thumb_text": "HE HAS A SON?!",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "gta 6 first time",
-      "gta 6 highlights",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "\"Chad, I didn't even know we had a son.\" 💀\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #lucia",
-     "drive_id": "1WKdM1T64im9efjPIcge5VfSSh1xWtOkr",
-     "review": "pending",
-     "why": null,
-     "hook2": "HERE IT COMES",
-     "end_text": "PLOT TWIST",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "7dd090c91008",
      "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
@@ -1780,6 +1780,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:48:07Z",
+   "status": "ok",
+   "message": "1 change(s): approve winchat: Speed Found Out He Has a SON in GTA 6 😭"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:47:45Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Jynxzi Wants Twitter FLUSHED Over GTA 6 Dogs 🚽"
@@ -2015,12 +2021,6 @@
    "at": "2026-11-25T10:47:14Z",
    "status": "ok",
    "message": "1 change(s): approve winchat: Speed Can't Fly a Plane in GTA 6 😭"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T10:46:52Z",
-   "status": "ok",
-   "message": "1 change(s): approve winchat: Speed Can't Believe GTA 6 Graphics Are Real 🤯"
   }
  ]
 }
