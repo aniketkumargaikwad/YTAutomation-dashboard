@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:42:52Z",
+ "generated_at": "2026-11-26T08:43:02Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1569,9 +1569,7 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
-    }
-   ],
-   "review": [
+    },
     {
      "id": "621c0ca3cc43",
      "title": "CarryMinati's First Time Controlling GTA 6 😳",
@@ -1600,7 +1598,7 @@
      ],
      "description": "\"Bro, I feel like I'm dreaming.\"\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #graphics",
      "drive_id": "1NFu0lkkMWYRE0OOZL_N-EbQZewRPTG-d",
-     "review": "pending",
+     "review": "approved",
      "why": null,
      "hook2": "HERE IT COMES",
      "end_text": "NEW ERA",
@@ -1609,7 +1607,9 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "ccc17c8d7291",
      "title": "One Joke Started a Bar Fight in GTA 6 💀",
@@ -1931,6 +1931,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:43:02Z",
+   "status": "ok",
+   "message": "1 change(s): approve hindi: CarryMinati's First Time Controlling GTA 6 😳"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:42:52Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: GTA 6 Punishes You for Doomscrolling 📱"
@@ -2166,12 +2172,6 @@
    "at": "2026-11-24T23:15:54Z",
    "status": "warn",
    "message": "meltdown: slot 2026-11-24@18 skipped: no approved Shorts (6 waiting for your review on the dashboard)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-24T18:16:33Z",
-   "status": "warn",
-   "message": "fivestars: slot 2026-11-24@13 skipped: no approved Shorts (7 waiting for your review on the dashboard)"
   }
  ]
 }
