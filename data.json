@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:38:46Z",
+ "generated_at": "2026-11-26T08:39:04Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1491,8 +1491,7 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k"
     }
    ],
-   "queue": [],
-   "review": [
+   "queue": [
     {
      "id": "922cc4035902",
      "title": "Lucia Walks Out of Prison and Carry Loses It 😭",
@@ -1501,7 +1500,7 @@
      "thumb_sm": "thumbs/sm/922cc4035902.jpg",
      "score": 88,
      "seconds": 27.93,
-     "eta": null,
+     "eta": "2026-11-26T14:30:00Z",
      "thumb": "thumbs/922cc4035902.jpg",
      "thumb_text": "LUCIA IS FREE",
      "tags": [
@@ -1521,7 +1520,7 @@
      ],
      "description": "Jason and Lucia's reunion got the loudest reaction of the whole stream. Did it hit you too?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia",
      "drive_id": "1K-MzPFgKMEloGAX2mpewc3-LAwa_rSez",
-     "review": "pending",
+     "review": "approved",
      "why": null,
      "hook2": "WATCH THIS",
      "end_text": "FREEDOM",
@@ -1530,7 +1529,9 @@
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "e1eea7f332c5",
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
@@ -2042,6 +2043,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:39:04Z",
+   "status": "ok",
+   "message": "1 change(s): approve hindi: Lucia Walks Out of Prison and Carry Loses It 😭"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:38:46Z",
    "status": "ok",
    "message": "1 change(s): approve meltdown: CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂"
@@ -2279,12 +2286,6 @@
    "status": "ok",
    "message": "fivestars: IShowSpeed Can't Believe GTA 6 Gave Him This 🤯",
    "slot": "2026-11-23@18"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-23T23:50:38Z",
-   "status": "warn",
-   "message": "winchat: re-dropped 'Speed's Reaction When GTA 6 Unlocked 😱' (no YouTube ID yet, try 3)"
   }
  ]
 }
