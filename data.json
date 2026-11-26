@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T06:27:39Z",
+ "generated_at": "2026-11-26T07:09:22Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -329,8 +329,7 @@
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ"
     }
    ],
-   "queue": [],
-   "review": [
+   "queue": [
     {
      "id": "5503e47cd500",
      "title": "KaiCenat vs Speed: Lose Everything If You Die? 💀 | GTA 6",
@@ -339,7 +338,7 @@
      "thumb_sm": "thumbs/sm/5503e47cd500.jpg",
      "score": 66.0,
      "seconds": 32.5,
-     "eta": null,
+     "eta": "2026-11-26T18:00:00Z",
      "thumb": "thumbs/5503e47cd500.jpg",
      "thumb_text": "WHO'S RIGHT?",
      "tags": [
@@ -359,7 +358,7 @@
      ],
      "description": "Kai and Speed fight over whether dying resets your money in GTA 6. Who's right?\n\n🎮 Streamer: KaiCenat\n📺 Full stream: https://www.twitch.tv/videos/2939504732\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #KaiCenat #Speed #gaming #viral",
      "drive_id": "1jMgj68fK57A21Dy5G1IMOixY7zlqG3sG",
-     "review": "pending",
+     "review": "approved",
      "why": "A heated argument over a disputed rule mid-race, with Kai accusing Speed of cheating, gives stakes and chaotic energy that make sense without context.",
      "hook2": "THEN IT GOT HEATED",
      "end_text": "PLOT TWIST",
@@ -368,7 +367,9 @@
      "source_url": "https://www.twitch.tv/videos/2939504732",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "77f57f5133d0",
      "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
@@ -2114,6 +2115,12 @@
  },
  "runs": [
   {
+   "job": "review",
+   "at": "2026-11-26T07:09:22Z",
+   "status": "ok",
+   "message": "1 change(s): approve fivestars: KaiCenat vs Speed: Lose Everything If You Die? 💀 | GTA 6"
+  },
+  {
    "job": "produce",
    "at": "2026-11-26T04:15:33Z",
    "status": "ok",
@@ -2353,12 +2360,6 @@
    "at": "2026-11-23T18:25:36Z",
    "status": "warn",
    "message": "meltdown: re-dropped 'zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭' (no YouTube ID yet, try 1)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-23T18:24:49Z",
-   "status": "warn",
-   "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 2)"
   }
  ]
 }
