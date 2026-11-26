@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T00:09:30Z",
+ "generated_at": "2026-11-26T00:10:40Z",
  "stats_updated_at": "2026-11-25T23:15:54Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 5,
-    "queued": 6,
+    "queued": 5,
     "views": 235,
     "likes": 12
    },
@@ -369,44 +369,6 @@
      "end_text": "FLUSHED",
      "next": false,
      "created_at": "2026-11-25T16:14:34Z",
-     "source_url": "https://www.twitch.tv/videos/2938664561",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "c1e019c259da",
-     "title": "Jynxzi Asks Joe Where He Was in 2011 😳 | GTA 6",
-     "streamer": "Jynxzi",
-     "style": "fullframe",
-     "score": 66.0,
-     "seconds": 31.72,
-     "eta": null,
-     "thumb": "thumbs/c1e019c259da.jpg",
-     "thumb_text": "WHERE WERE YOU?",
-     "tags": [
-      "jynxzi",
-      "jynxzi gta 6",
-      "gta 6",
-      "jynxzi phone call",
-      "jynxzi joe",
-      "where were you in 2011",
-      "streamer phone call",
-      "funny stream moments",
-      "gta 6 clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Jynxzi called Joe live and asked about November 2011, and the answer got weird. Do you remember 2011?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2938664561\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Jynxzi #Streamer #Funny",
-     "drive_id": "1gN8Ubl4-acv5cAXRPhyACtT7uBrmwB5i",
-     "review": "pending",
-     "why": "A live phone call to a friend, with an eerie and funny 'I remember nothing' payoff inside the clip.",
-     "hook2": "LISTEN TO THIS",
-     "end_text": "NO WAY",
-     "next": false,
-     "created_at": "2026-11-25T16:09:40Z",
      "source_url": "https://www.twitch.tv/videos/2938664561",
      "v2": true,
      "hd": true
@@ -1964,6 +1926,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T00:10:40Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Jynxzi Asks Joe Where He Was in 2011 😳 | GTA 6"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T00:09:30Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Jynxzi's Chat Screams \"IT'S A VIDEO GAME\" in GTA 6 😤"
@@ -2201,12 +2169,6 @@
    "status": "ok",
    "message": "meltdown: zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭",
    "slot": "2026-11-22@18"
-  },
-  {
-   "job": "produce",
-   "at": "2026-11-22T21:03:46Z",
-   "status": "ok",
-   "message": "8 clip(s) queued from 2 stream(s)"
   }
  ]
 }
