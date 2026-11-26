@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:43:27Z",
+ "generated_at": "2026-11-26T08:43:56Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1645,9 +1645,7 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
-    }
-   ],
-   "review": [
+    },
     {
      "id": "823a74559558",
      "title": "Someone Said GTA 6 Is Bad… Carry Replied 😤",
@@ -1676,7 +1674,7 @@
      ],
      "description": "Chat said GTA 6 is bad. Carry had thoughts.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati",
      "drive_id": "1FvHomxCaiVyUtXKJIrW6F0STk1kzs7jR",
-     "review": "pending",
+     "review": "approved",
      "why": null,
      "hook2": "LOOK AT THIS",
      "end_text": "OOPS",
@@ -1685,7 +1683,9 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "99127d73c6e6",
      "title": "CarryMinati Minutes Before GTA 6 Unlocked 🔥",
@@ -1931,6 +1931,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:43:56Z",
+   "status": "ok",
+   "message": "1 change(s): approve hindi: Someone Said GTA 6 Is Bad… Carry Replied 😤"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:43:27Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: One Joke Started a Bar Fight in GTA 6 💀"
@@ -2166,12 +2172,6 @@
    "at": "2026-11-25T01:16:39Z",
    "status": "warn",
    "message": "winchat: slot 2026-11-24@20 skipped: no approved Shorts (7 waiting for your review on the dashboard)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-25T00:16:30Z",
-   "status": "warn",
-   "message": "fivestars: slot 2026-11-24@19 skipped: no approved Shorts (7 waiting for your review on the dashboard)"
   }
  ]
 }
