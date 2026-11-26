@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-26T14:15:31Z",
- "stats_updated_at": "2026-11-26T14:15:31Z",
+ "generated_at": "2026-11-26T15:15:25Z",
+ "stats_updated_at": "2026-11-26T15:15:26Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 6,
+   "left": 5,
    "cap": 6,
    "resets": "2026-11-27T08:00:00Z",
    "channels": [
@@ -1212,8 +1212,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 2,
-    "queued": 10,
+    "published": 3,
+    "queued": 9,
     "views": 9,
     "likes": 1
    },
@@ -1225,6 +1225,26 @@
     ]
    },
    "published": [
+    {
+     "title": "Lucia Walks Out of Prison and Carry Loses It 😭",
+     "published_at": "2026-11-26T15:15:25Z",
+     "slot": "2026-11-26@20",
+     "youtube_id": "0SgN8O_A-KI",
+     "thumb": "thumbs/922cc4035902.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/0SgN8O_A-KI/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/922cc4035902.jpg",
+     "thumb_text": "LUCIA IS FREE",
+     "style": "hookcard",
+     "streamer": "CarryMinati",
+     "score": 88,
+     "url": "https://www.youtube.com/shorts/0SgN8O_A-KI",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 27.93,
+     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w"
+    },
     {
      "title": "Carry Finally Got the Cycle He Never Had 😭🚲 | GTA 6",
      "published_at": "2026-11-25T15:15:46Z",
@@ -1309,44 +1329,6 @@
     }
    ],
    "queue": [
-    {
-     "id": "922cc4035902",
-     "title": "Lucia Walks Out of Prison and Carry Loses It 😭",
-     "streamer": "CarryMinati",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/922cc4035902.jpg",
-     "score": 88,
-     "seconds": 27.93,
-     "eta": "2026-11-26T14:30:00Z",
-     "thumb": "thumbs/922cc4035902.jpg",
-     "thumb_text": "LUCIA IS FREE",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "Jason and Lucia's reunion got the loudest reaction of the whole stream. Did it hit you too?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia",
-     "drive_id": "1K-MzPFgKMEloGAX2mpewc3-LAwa_rSez",
-     "review": "approved",
-     "why": null,
-     "hook2": "WATCH THIS",
-     "end_text": "FREEDOM",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "e1eea7f332c5",
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
@@ -1692,7 +1674,6 @@
    ],
    "review": [],
    "slots_waiting": [
-    "2026-11-26T14:30:00Z",
     "2026-11-27T13:30:00Z",
     "2026-11-28T14:30:00Z"
    ]
@@ -1781,6 +1762,13 @@
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-26T15:15:51Z",
+   "status": "ok",
+   "message": "hindi: Lucia Walks Out of Prison and Carry Loses It 😭 (via own uploader)",
+   "slot": "2026-11-26@20"
+  },
   {
    "job": "review",
    "at": "2026-11-26T08:48:54Z",
@@ -2017,12 +2005,6 @@
    "at": "2026-11-25T16:25:42Z",
    "status": "ok",
    "message": "4 clip(s) queued from 1 stream(s)"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T15:45:36Z",
-   "status": "ok",
-   "message": "1 change(s): approve fivestars: Speed Gets Emotional Before GTA 6's Last Mission 🥹"
   }
  ]
 }
