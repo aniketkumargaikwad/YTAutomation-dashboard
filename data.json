@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T00:07:46Z",
+ "generated_at": "2026-11-26T00:09:30Z",
  "stats_updated_at": "2026-11-25T23:15:54Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 5,
-    "queued": 7,
+    "queued": 6,
     "views": 235,
     "likes": 12
    },
@@ -335,44 +335,6 @@
     }
    ],
    "review": [
-    {
-     "id": "ebc39c3c9b31",
-     "title": "Jynxzi's Chat Screams \"IT'S A VIDEO GAME\" in GTA 6 😤",
-     "streamer": "Jynxzi",
-     "style": "fullframe",
-     "score": 66.0,
-     "seconds": 33.0,
-     "eta": null,
-     "thumb": "thumbs/ebc39c3c9b31.jpg",
-     "thumb_text": "IT'S A GAME!",
-     "tags": [
-      "jynxzi",
-      "jynxzi gta 6",
-      "gta 6",
-      "gta 6 dog debate",
-      "nick eh 30",
-      "its a video game",
-      "jynxzi chat",
-      "gta 6 discourse",
-      "streamer drama",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Jynxzi's chat is losing it over the GTA 6 dog debate. Is Nick Eh 30 a psycho or is it just a game?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2938664561\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Jynxzi #NickEh30 #gaming #streamer",
-     "drive_id": "1Dn05zKIhhmtfBRyfGRHpKdo_3FSPEgUV",
-     "review": "pending",
-     "why": "Loud shouted chant about the dog debate, followed by a hot take on whether the streamer is a psychopath.",
-     "hook2": "CHAT SNAPS",
-     "end_text": "NO WAY",
-     "next": false,
-     "created_at": "2026-11-25T16:19:35Z",
-     "source_url": "https://www.twitch.tv/videos/2938664561",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "d2a26ee97f93",
      "title": "Jynxzi Wants Twitter FLUSHED Over GTA 6 Dogs 🚽",
@@ -2002,6 +1964,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T00:09:30Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Jynxzi's Chat Screams \"IT'S A VIDEO GAME\" in GTA 6 😤"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T00:07:46Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Jynxzi Fights His Collar for 10 Min in GTA 6 😭"
@@ -2239,12 +2207,6 @@
    "at": "2026-11-22T21:03:46Z",
    "status": "ok",
    "message": "8 clip(s) queued from 2 stream(s)"
-  },
-  {
-   "job": "produce",
-   "at": "2026-11-22T19:17:57Z",
-   "status": "ok",
-   "message": "4 clip(s) queued from 1 stream(s)"
   }
  ]
 }
