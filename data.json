@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:48:35Z",
+ "generated_at": "2026-11-26T08:48:48Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 6,
-    "queued": 5,
+    "queued": 4,
     "views": 235,
     "likes": 12
    },
@@ -482,43 +482,7 @@
      "hd": true
     }
    ],
-   "review": [
-    {
-     "id": "6c724e05e6b4",
-     "title": "Speed's Friend Won't Risk His 50-Hour GTA 6 Save",
-     "streamer": "iShowSpeed",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/6c724e05e6b4.jpg",
-     "score": 68,
-     "seconds": 33.41,
-     "eta": null,
-     "thumb": "thumbs/6c724e05e6b4.jpg",
-     "thumb_text": "DON'T PRESS IT",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "speed gta 6",
-      "gta 6 reaction",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Chat tried to get them to wipe a 50-hour GTA 6 save 💀 Would you press the button?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #funny",
-     "drive_id": "1kQRlfQg4eorLH_eUdx6l4T0805flG-6q",
-     "review": "pending",
-     "why": null,
-     "hook2": "IT GETS WORSE",
-     "end_text": "NOT TODAY",
-     "next": false,
-     "created_at": "2026-11-21T06:00:00Z",
-     "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
-     "v2": true,
-     "hd": true
-    }
-   ],
+   "review": [],
    "slots_waiting": [
     "2026-11-26T18:00:00Z",
     "2026-11-27T00:00:00Z",
@@ -1780,6 +1744,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:48:48Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Speed's Friend Won't Risk His 50-Hour GTA 6 Save"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:48:35Z",
    "status": "ok",
    "message": "1 change(s): approve winchat: Speed's First GTA 6 Flight Ends in a Rainbow 🌈"
@@ -2015,12 +1985,6 @@
    "status": "ok",
    "message": "hindi: Carry Finally Got the Cycle He Never Had 😭🚲 | GTA 6 (via own uploader)",
    "slot": "2026-11-25@20"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T12:52:48Z",
-   "status": "ok",
-   "message": "1 change(s): next winchat: Speed Can't Fly a Plane in GTA 6 😭"
   }
  ]
 }
