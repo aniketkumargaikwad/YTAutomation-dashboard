@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T04:20:24Z",
- "stats_updated_at": "2026-11-26T04:20:24Z",
+ "generated_at": "2026-11-26T06:19:11Z",
+ "stats_updated_at": "2026-11-26T06:19:11Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -39,11 +39,11 @@
     "likes": 12
    },
    "today": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "count": 2,
     "slots": [
      13,
-     20
+     19
     ]
    },
    "published": [
@@ -54,6 +54,7 @@
      "youtube_id": "oautIB5ygd0",
      "thumb": "thumbs/7121ee480313.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/oautIB5ygd0/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/7121ee480313.jpg",
      "thumb_text": "THERE'S TIGERS?!",
      "style": "stack",
      "streamer": "iShowSpeed",
@@ -79,6 +80,7 @@
      "youtube_id": "qAiOnLxNBNY",
      "thumb": "thumbs/97cc9af66ee4.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/qAiOnLxNBNY/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/97cc9af66ee4.jpg",
      "thumb_text": "50 HOURS AWAKE",
      "style": "stack",
      "streamer": "iShowSpeed",
@@ -104,6 +106,7 @@
      "youtube_id": "kTq3awrINHA",
      "thumb": "thumbs/4429bce4d1a9.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/kTq3awrINHA/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/4429bce4d1a9.jpg",
      "thumb_text": "WHOLE WAREHOUSE?!",
      "style": "stack",
      "streamer": "IShowSpeed",
@@ -149,6 +152,7 @@
      "youtube_id": "UBoZkDNTjUM",
      "thumb": "thumbs/15cee4fa93f0.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/UBoZkDNTjUM/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/15cee4fa93f0.jpg",
      "thumb_text": "HE GOT THE BAD ENDING",
      "style": "stack",
      "streamer": "iShowSpeed",
@@ -194,6 +198,7 @@
      "youtube_id": "0FOk3g5JSnk",
      "thumb": "thumbs/ff563d901d7d.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/0FOk3g5JSnk/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/ff563d901d7d.jpg",
      "thumb_text": "HOW IS THIS REAL?!",
      "style": "stack",
      "streamer": "iShowSpeed",
@@ -254,6 +259,7 @@
      "youtube_id": "Pb7jGtH7DIY",
      "thumb": "thumbs/bfe2751d369a.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/Pb7jGtH7DIY/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/bfe2751d369a.jpg",
      "thumb_text": "HE SNAPPED AT CHAT",
      "style": "stack",
      "streamer": "iShowSpeed",
@@ -330,6 +336,7 @@
      "title": "KaiCenat vs Speed: Lose Everything If You Die? 💀 | GTA 6",
      "streamer": "KaiCenat",
      "style": "stack",
+     "thumb_sm": "thumbs/sm/5503e47cd500.jpg",
      "score": 66.0,
      "seconds": 32.5,
      "eta": null,
@@ -367,6 +374,7 @@
      "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
      "streamer": "KaiCenat",
      "style": "stack",
+     "thumb_sm": "thumbs/sm/77f57f5133d0.jpg",
      "score": 55.0,
      "seconds": 32.6,
      "eta": null,
@@ -403,6 +411,7 @@
      "title": "KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6",
      "streamer": "KaiCenat",
      "style": "stack",
+     "thumb_sm": "thumbs/sm/6ab74cabd89a.jpg",
      "score": 55.0,
      "seconds": 33.0,
      "eta": null,
@@ -440,6 +449,7 @@
      "title": "KaiCenat Catches Speed CHEATING Before the Race?! 😳 | GTA 6",
      "streamer": "KaiCenat",
      "style": "stack",
+     "thumb_sm": "thumbs/sm/441d4d1febcc.jpg",
      "score": 55.0,
      "seconds": 31.0,
      "eta": null,
@@ -477,6 +487,7 @@
      "title": "Jynxzi Wants Twitter FLUSHED Over GTA 6 Dogs 🚽",
      "streamer": "Jynxzi",
      "style": "stack",
+     "thumb_sm": "thumbs/sm/d2a26ee97f93.jpg",
      "score": 62.0,
      "seconds": 31.6,
      "eta": null,
@@ -515,6 +526,7 @@
      "title": "IShowSpeed BLAMES GTA 6 for Losing Rico 😂",
      "streamer": "IShowSpeed",
      "style": "stack",
+     "thumb_sm": "thumbs/sm/1272cdff1cd2.jpg",
      "score": 55.0,
      "seconds": 33.43,
      "eta": null,
@@ -552,6 +564,7 @@
      "title": "Speed Was NEVER Getting GTA 6's Good Ending",
      "streamer": "iShowSpeed",
      "style": "stack",
+     "thumb_sm": "thumbs/sm/c487d0ab9993.jpg",
      "score": 72,
      "seconds": 33.43,
      "eta": null,
@@ -586,6 +599,7 @@
      "title": "Speed's Friend Won't Risk His 50-Hour GTA 6 Save",
      "streamer": "iShowSpeed",
      "style": "stack",
+     "thumb_sm": "thumbs/sm/6c724e05e6b4.jpg",
      "score": 68,
      "seconds": 33.41,
      "eta": null,
@@ -620,7 +634,9 @@
     "2026-11-26T18:00:00Z",
     "2026-11-27T00:00:00Z",
     "2026-11-27T18:00:00Z",
-    "2026-11-28T00:00:00Z"
+    "2026-11-28T00:00:00Z",
+    "2026-11-28T18:00:00Z",
+    "2026-11-29T00:00:00Z"
    ]
   },
   "meltdown": {
@@ -631,18 +647,18 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1300,
+    "views": 1303,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 6,
-    "views": 1300,
+    "views": 1303,
     "likes": 11
    },
    "today": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "count": 1,
     "slots": [
      18
@@ -656,6 +672,7 @@
      "youtube_id": "Eta4vEeAMFY",
      "thumb": "thumbs/75b0fca323b9.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/Eta4vEeAMFY/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/75b0fca323b9.jpg",
      "thumb_text": "HE WAS LISTENING",
      "style": "hookcard",
      "streamer": "CYR",
@@ -736,12 +753,13 @@
      "youtube_id": "Qq7xMInMNCA",
      "thumb": "thumbs/f844cf6043e6.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/Qq7xMInMNCA/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/f844cf6043e6.jpg",
      "thumb_text": "DRIVING INTO THE OCEAN",
      "style": "hookcard",
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1291,
+     "views": 1294,
      "likes": 10,
      "comments": null,
      "history": [
@@ -854,6 +872,11 @@
        "2026-11-26T02:15:50Z",
        1291,
        10
+      ],
+      [
+       "2026-11-26T06:19:11Z",
+       1294,
+       10
       ]
      ],
      "seconds": 34.5,
@@ -867,6 +890,7 @@
      "title": "zackrawrr Reads a Brutal Tweet Roasting Jason in GTA 6 👀",
      "streamer": "zackrawrr",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/03394dfda903.jpg",
      "score": 57.0,
      "seconds": 33.43,
      "eta": null,
@@ -904,6 +928,7 @@
      "title": "zackrawrr vs a Brain Implant: Who Drives Better in GTA 6? 😭",
      "streamer": "zackrawrr",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/6d139d1a9fbf.jpg",
      "score": 57.0,
      "seconds": 33.43,
      "eta": null,
@@ -940,6 +965,7 @@
      "title": "zackrawrr Sees GTA 6 Semi Crash and Gets Misquoted 😭",
      "streamer": "zackrawrr",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/ef9abf466468.jpg",
      "score": 55.0,
      "seconds": 33.43,
      "eta": null,
@@ -976,6 +1002,7 @@
      "title": "CYR Didn't Notice He Had Control in GTA 6 Opening Scene 😅",
      "streamer": "CYR",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/ab2d816e15a5.jpg",
      "score": 50.0,
      "seconds": 24.86,
      "eta": null,
@@ -1011,6 +1038,7 @@
      "title": "CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real\" 😳",
      "streamer": "CYR",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/037b4eb0fcc3.jpg",
      "score": 52.0,
      "seconds": 33.43,
      "eta": null,
@@ -1048,6 +1076,7 @@
      "title": "CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂",
      "streamer": "CYR",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/5b7f1e54c4d6.jpg",
      "score": 55.0,
      "seconds": 33.43,
      "eta": null,
@@ -1082,7 +1111,8 @@
    ],
    "slots_waiting": [
     "2026-11-26T23:00:00Z",
-    "2026-11-27T22:00:00Z"
+    "2026-11-27T22:00:00Z",
+    "2026-11-29T00:00:00Z"
    ]
   },
   "winchat": {
@@ -1104,7 +1134,7 @@
     "likes": 3
    },
    "today": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "count": 1,
     "slots": [
      20
@@ -1118,6 +1148,7 @@
      "youtube_id": "4f9mZWqhACM",
      "thumb": "thumbs/96be8ee9561a.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/4f9mZWqhACM/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/96be8ee9561a.jpg",
      "thumb_text": "IS THAT TREVOR?!",
      "style": "fullframe",
      "streamer": "iShowSpeed",
@@ -1143,6 +1174,7 @@
      "youtube_id": "Z1BKmibYSos",
      "thumb": "thumbs/1bd2f01a0f87.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/Z1BKmibYSos/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/1bd2f01a0f87.jpg",
      "thumb_text": "IT'S FINALLY HERE",
      "style": "fullframe",
      "streamer": "iShowSpeed",
@@ -1178,6 +1210,7 @@
      "youtube_id": "Sk09t9uK4XE",
      "thumb": "thumbs/3f13c722e207.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/Sk09t9uK4XE/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/3f13c722e207.jpg",
      "thumb_text": "HE CAN'T FLY!",
      "style": "fullframe",
      "streamer": "iShowSpeed",
@@ -1218,6 +1251,7 @@
      "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
      "streamer": "iShowSpeed",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/f8193af5abe3.jpg",
      "score": 62,
      "seconds": 19.83,
      "eta": "2026-11-27T01:00:00Z",
@@ -1252,6 +1286,7 @@
      "title": "Speed Can't Fly a Plane in GTA 6 😭",
      "streamer": "iShowSpeed",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/planefxv2.jpg",
      "score": 90,
      "seconds": 33.4,
      "eta": null,
@@ -1288,6 +1323,7 @@
      "title": "Speed Found Out He Has a SON in GTA 6 😭",
      "streamer": "iShowSpeed",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/532921682dbb.jpg",
      "score": 79,
      "seconds": 25.1,
      "eta": null,
@@ -1322,6 +1358,7 @@
      "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
      "streamer": "iShowSpeed",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/7dd090c91008.jpg",
      "score": 76,
      "seconds": 33.4,
      "eta": null,
@@ -1356,6 +1393,7 @@
      "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
      "streamer": "iShowSpeed",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/cf3df7bb940b.jpg",
      "score": 71,
      "seconds": 32.73,
      "eta": null,
@@ -1390,6 +1428,7 @@
      "title": "Speed Asked Chat If He Could Pee Mid-GTA 6 😭",
      "streamer": "iShowSpeed",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/99305593a9b7.jpg",
      "score": 66,
      "seconds": 33.4,
      "eta": null,
@@ -1422,7 +1461,8 @@
    ],
    "slots_waiting": [
     "2026-11-27T01:00:00Z",
-    "2026-11-28T00:00:00Z"
+    "2026-11-28T00:00:00Z",
+    "2026-11-29T01:00:00Z"
    ]
   },
   "hindi": {
@@ -1458,6 +1498,7 @@
      "youtube_id": "FRxizGm3R2U",
      "thumb": "thumbs/1d0075d003ed.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/FRxizGm3R2U/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/1d0075d003ed.jpg",
      "thumb_text": "FINALLY GOT HIS CYCLE",
      "style": "fullframe",
      "streamer": "CarryMinati",
@@ -1483,6 +1524,7 @@
      "youtube_id": "AwUQyl8TjSk",
      "thumb": "thumbs/94b405b6faae.jpg",
      "thumb_alt": "https://i.ytimg.com/vi/AwUQyl8TjSk/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/94b405b6faae.jpg",
      "thumb_text": "13 YEARS LATER",
      "style": "fullframe",
      "streamer": "CarryMinati",
@@ -1529,6 +1571,7 @@
      "title": "Lucia Walks Out of Prison and Carry Loses It 😭",
      "streamer": "CarryMinati",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/922cc4035902.jpg",
      "score": 88,
      "seconds": 27.93,
      "eta": null,
@@ -1566,6 +1609,7 @@
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
      "streamer": "CarryMinati",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/e1eea7f332c5.jpg",
      "score": 84,
      "seconds": 33.4,
      "eta": null,
@@ -1603,6 +1647,7 @@
      "title": "Never Call Lucia Crazy in GTA 6 😳",
      "streamer": "CarryMinati",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/85ece2093b93.jpg",
      "score": 82,
      "seconds": 33.43,
      "eta": null,
@@ -1640,6 +1685,7 @@
      "title": "Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️",
      "streamer": "CarryMinati",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/582c8df46323.jpg",
      "score": 80,
      "seconds": 33.4,
      "eta": null,
@@ -1677,6 +1723,7 @@
      "title": "GTA 6 Punishes You for Doomscrolling 📱",
      "streamer": "CarryMinati",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/53009a8cd559.jpg",
      "score": 78,
      "seconds": 22.53,
      "eta": null,
@@ -1714,6 +1761,7 @@
      "title": "CarryMinati's First Time Controlling GTA 6 😳",
      "streamer": "CarryMinati",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/621c0ca3cc43.jpg",
      "score": 76,
      "seconds": 33.4,
      "eta": null,
@@ -1751,6 +1799,7 @@
      "title": "One Joke Started a Bar Fight in GTA 6 💀",
      "streamer": "CarryMinati",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/ccc17c8d7291.jpg",
      "score": 74,
      "seconds": 33.43,
      "eta": null,
@@ -1788,6 +1837,7 @@
      "title": "Someone Said GTA 6 Is Bad… Carry Replied 😤",
      "streamer": "CarryMinati",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/823a74559558.jpg",
      "score": 72,
      "seconds": 27.7,
      "eta": null,
@@ -1825,6 +1875,7 @@
      "title": "CarryMinati Minutes Before GTA 6 Unlocked 🔥",
      "streamer": "CarryMinati",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/99127d73c6e6.jpg",
      "score": 70,
      "seconds": 33.4,
      "eta": null,
@@ -1862,6 +1913,7 @@
      "title": "Seaplane Escape in Under a Minute | GTA 6",
      "streamer": "CarryMinati",
      "style": "hookcard",
+     "thumb_sm": "thumbs/sm/01ceb941fd91.jpg",
      "score": 68,
      "seconds": 33.43,
      "eta": null,
@@ -1899,6 +1951,7 @@
      "title": "Crouching in GTA 6 Felt Exactly Like GTA 5 🥹",
      "streamer": "CarryMinati",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/5700a3b84b22.jpg",
      "score": 66,
      "seconds": 20.8,
      "eta": null,
@@ -1936,6 +1989,7 @@
      "title": "Carry's First Drive in GTA 6 Was a Boat 🚤",
      "streamer": "CarryMinati",
      "style": "fullframe",
+     "thumb_sm": "thumbs/sm/6d4ae3dfbc98.jpg",
      "score": 64,
      "seconds": 25.5,
      "eta": null,
@@ -1984,7 +2038,7 @@
     "n": 4,
     "mean_log_views": 2.648,
     "median_views": 6,
-    "weight": 0.946
+    "weight": 0.945
    },
    "fullframe": {
     "n": 3,
@@ -1994,7 +2048,7 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.733,
+    "mean_log_views": 4.734,
     "median_views": 113,
     "weight": 1.0
    }
@@ -2014,8 +2068,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.164,
-    "median_views": 1291,
+    "mean_log_views": 7.166,
+    "median_views": 1294,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -2052,7 +2106,7 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.692,
+    "mean_log_views": 3.693,
     "median_views": 9,
     "weight": 1.0
    }

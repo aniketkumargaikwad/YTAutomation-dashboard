@@ -77,6 +77,8 @@ nav a .cnt{display:inline-block;min-width:18px;margin-left:6px;padding:0 6px;bor
 .rcard.will-reject{opacity:.45;border-color:var(--bad)}
 .rcard .tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-right:4px}
 .tag.g{background:#30a46c22;color:var(--good)}.tag.r{background:#e5484d22;color:var(--bad)}.tag.y{background:#f5a52422;color:#b9770e}.tag.b{background:#3e63dd22;color:var(--accent2)}
+#saveState{font-weight:600;margin-right:8px}#saveState.ok{color:#5fd39b}#saveState.busy{color:#f5c56b}#saveState.err{color:#ff8a8f;cursor:pointer}
+.warnbox{border-radius:12px;padding:10px 14px;font-size:13px;background:#f5a5241a;border:1px solid #f5a52455;display:grid;gap:4px}
 .savebar{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:9;display:none;align-items:center;gap:12px;background:var(--nav);color:#fff;padding:10px 12px 10px 18px;border-radius:14px;box-shadow:0 10px 30px #0006;max-width:calc(100% - 32px)}
 .savebar.on{display:flex}.savebar button{border:0;border-radius:10px;padding:9px 14px;font:600 13px inherit;cursor:pointer}
 .savebar .go{background:var(--good);color:#fff}.savebar .undo{background:#ffffff1f;color:#fff}
@@ -102,7 +104,7 @@ nav a .cnt{display:inline-block;min-width:18px;margin-left:6px;padding:0 6px;bor
     <a href="#published" data-p="published">Published</a>
     <a href="#pipeline" data-p="pipeline">Pipeline</a>
   </nav>
-  <div class="upd" id="updated">loading…</div>
+  <div class="upd"><span id="saveState"></span> <span id="updated">loading…</span></div>
 </div></div>
 <div class="bar" id="filters"></div>
 <main>
@@ -120,7 +122,7 @@ nav a .cnt{display:inline-block;min-width:18px;margin-left:6px;padding:0 6px;bor
   <section class="page" id="p-review">
     <div id="revNotice"></div>
     <div class="card"><h2>Not approved <span class="sub" id="revCount"></span></h2>
-      <p class="sub" style="margin:-6px 0 14px">Nothing here is posted. Watch each Short, then approve it, reject it (deletes it), or fix the title or thumbnail. Only Approved Shorts go to YouTube.</p>
+      <p class="sub" style="margin:-6px 0 14px">Nothing here is posted until you approve it. Approve and Reject act instantly (Reject deletes the Short) and save by themselves.</p>
       <div class="rgrid" id="revList"></div></div>
   </section>
   <section class="page" id="p-approved">
@@ -132,7 +134,6 @@ nav a .cnt{display:inline-block;min-width:18px;margin-left:6px;padding:0 6px;bor
     <div class="card"><h2>Pipeline activity</h2><div id="runs"></div></div>
   </section>
 </main>
-<div class="savebar" id="savebar"><span id="saveTxt"></span><button class="undo" id="undoAll">Undo all</button><button class="go" id="saveBtn">Save changes</button></div>
 <div class="modal" id="modal"><div class="mbox" id="mbox"></div></div>
 <script>
 const fmt=n=>n==null?'–':n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e4?(n/1e3).toFixed(1)+'K':Number(n).toLocaleString();
@@ -145,7 +146,8 @@ function chans(){return Object.entries(DATA.channels).filter(([k,c])=>c.enabled)
 function pick(){return CH==='all'?chans():chans().filter(([k])=>k===CH)}
 function img(src,alt,txt){return src?`<img loading="lazy" src="${esc(src)}" alt="" onerror="this.onerror=null;${alt?`this.src='${esc(alt)}'`:`this.replaceWith(Object.assign(document.createElement('div'),{className:'ph',textContent:'no image'}))`}">`:`<div class="ph">${esc(txt||'')}</div>`}
 async function load(){
-  DATA=await (await fetch('data.json?t='+Date.now())).json();
+  DATA=await (await fetch('data.json?t='+Date.now(),{cache:'no-store'})).json();
+  reconcile();
   if(CH!=='all'&&!DATA.channels[CH])CH='all';
   document.getElementById('filters').innerHTML=[['all','All channels'],...chans().map(([k,c])=>[k,c.label])].map(([k,l])=>`<button data-c="${k}" class="${k===CH?'on':''}">${esc(l)}</button>`).join('');
   document.querySelectorAll('#filters button').forEach(b=>b.onclick=()=>{CH=b.dataset.c;store.set('ch',CH);render()});
@@ -158,11 +160,8 @@ function render(){
   document.getElementById('updated').textContent=`Updated ${ago(DATA.generated_at)}`;
   const sel=pick();
   const pub=sel.flatMap(([k,c])=>c.published.map(p=>({...p,ch:k,label:c.label}))).sort((a,b)=>b.published_at.localeCompare(a.published_at));
-  const q=sel.flatMap(([k,c])=>c.queue.map(x=>({...x,ch:k,label:c.label}))).sort((a,b)=>(a.eta||'9').localeCompare(b.eta||'9'));
+  const {q,rv}=lists(sel);
   const views=pub.reduce((s,p)=>s+(p.views||0),0),likes=pub.reduce((s,p)=>s+(p.likes||0),0),live=pub.filter(p=>p.url).length;
-  const rv=sel.flatMap(([k,c])=>(c.review||[]).map(x=>({...x,ch:k,label:c.label}))).sort((a,b)=>(b.created_at||'').localeCompare(a.created_at||''));
-  const rvAll=chans().reduce((s,[k,c])=>s+(c.review||[]).length,0);
-  const cnt=document.getElementById('revCnt');cnt.hidden=!rvAll;cnt.textContent=rvAll;
   const next=q.find(x=>x.eta);
   const k=[['Views',fmt(views),'across live Shorts'],['Likes',fmt(likes),''],['Live Shorts',live,`${pub.length-live} uploading`],['To review',rv.length,'need your OK'],['Approved',q.length,'ready to post'],['Next post',next?when(next.eta):'–',next?esc(next.label):(q.length?'':'approve Shorts to post')]];
   document.getElementById('kpis').innerHTML=k.map(([l,v,d])=>`<div class="card kpi"><div class="l">${l}</div><div class="v" style="${l==='Next post'?'font-size:18px;padding-top:6px':''}">${v}</div><div class="d">${d}</div></div>`).join('');
@@ -175,7 +174,7 @@ function render(){
   document.getElementById('chantable').innerHTML='<tr><th>Channel</th><th>Live</th><th>Views</th><th>Likes</th><th>Queued</th><th>Today</th></tr>'+chans().map(([k,c])=>{const lv=c.published.filter(p=>p.url);return `<tr><td><b>${esc(c.label)}</b>${c.channel_id?` · <a href="https://www.youtube.com/channel/${esc(c.channel_id)}" target="_blank" rel="noopener">open</a>`:''}</td><td>${lv.length}</td><td>${fmt(lv.reduce((s,p)=>s+(p.views||0),0))}</td><td>${fmt(lv.reduce((s,p)=>s+(p.likes||0),0))}</td><td>${c.queue.length} approved · ${(c.review||[]).length} to review</td><td class="sub">${c.today?c.today.count+' planned':''}</td></tr>`}).join('');
   document.getElementById('pubCount').textContent=pub.length?`· ${live} live`:'';
   document.getElementById('pub').innerHTML=pub.length?pub.map(p=>`<div class="vrow">
-     ${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${img(p.thumb,p.thumb_alt,p.title)}</a>`:img(p.thumb,p.thumb_alt,p.title)}
+     ${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${img(p.thumb_sm||p.thumb,p.thumb_alt,p.title)}</a>`:img(p.thumb_sm||p.thumb,p.thumb_alt,p.title)}
      <div><div class="vt">${esc(p.title)}</div>
        <div><span class="status ${p.url?'s-live':'s-up'}">${p.url?'● LIVE':'uploading…'}</span> <span class="sub">${esc(p.label)} · posted ${when(p.published_at)}</span></div>
        <div class="stats"><div class="stat"><b>${fmt(p.views)}</b><span>views</span></div><div class="stat"><b>${fmt(p.likes)}</b><span>likes</span></div><div class="stat"><b>${fmt(p.comments)}</b><span>comments</span></div><div class="stat"><b>${p.seconds?Math.round(p.seconds)+'s':'–'}</b><span>length</span></div></div>
@@ -183,13 +182,7 @@ function render(){
      <div class="acts"><a class="btn watch ${p.url?'':'dis'}" href="${esc(p.url||'#')}" target="_blank" rel="noopener">▶ Watch</a>
        <a class="btn ${p.youtube_id?'':'dis'}" href="${p.youtube_id?`https://studio.youtube.com/video/${esc(p.youtube_id)}/analytics`:'#'}" target="_blank" rel="noopener">Analytics</a>
        ${p.source_url?`<a class="btn" href="${esc(p.source_url)}" target="_blank" rel="noopener">Source stream</a>`:''}</div></div>`).join(''):'<div class="empty">Nothing published yet.</div>';
-  ITEMS={};[...rv,...q].forEach(x=>ITEMS[x.id]=x);
-  document.getElementById('revCount').textContent=rv.length?`· ${rv.length} waiting for you`:'';
-  document.getElementById('revList').innerHTML=rv.length?rv.map(x=>rcard(x,false)).join(''):'<div class="empty">All caught up. New Shorts appear here after each cloud run.</div>';
-  document.getElementById('queueCount').textContent=q.length?`· ${q.length} ready`:'';
-  document.getElementById('queue').innerHTML=q.length?q.map(x=>rcard(x,true)).join(''):'<div class="empty">Nothing approved yet, so nothing will be posted. Approve Shorts on the Not approved page.</div>';
-  document.getElementById('revNotice').innerHTML=TOKEN()?'':`<div class="notice">To save decisions from this page, connect your GitHub account once. <button class="sbtn" onclick="connectDlg()">Connect</button></div>`;
-  paintPending();
+  renderQueues();
   document.getElementById('runs').innerHTML=(DATA.runs||[]).slice(0,40).map(r=>`<div class="run"><span class="dot ${r.status}"></span><div><b>${esc(r.job)}</b> <span class="sub">${ago(r.at)}</span><div class="sub">${esc(r.message)}</div></div></div>`).join('')||'<div class="empty">No runs yet.</div>';
   route();
 }
@@ -202,46 +195,89 @@ function drawChart(){
   const css=getComputedStyle(document.documentElement);
   chart=new Chart(document.getElementById('chart'),{type:'line',data:{labels:keys.map(k=>k.replace('T',' ')+'h'),datasets:[{data:series,borderColor:css.getPropertyValue('--accent').trim(),backgroundColor:'transparent',tension:.3,pointRadius:0,borderWidth:2}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{maxTicksLimit:6,color:css.getPropertyValue('--muted').trim()},grid:{display:false}},y:{ticks:{color:css.getPropertyValue('--muted').trim()},grid:{color:css.getPropertyValue('--line').trim()}}}}});
 }
-// ---------- review: pending decisions, saved through the GitHub "review" workflow ----------
+// ---------- review: instant decisions, saved in the background via the GitHub "review" workflow ----------
 const REPO='aniketkumargaikwad/YTAutomation';
+const STATE_ACTS=['approve','unapprove','reject','next'];
 let ITEMS={};
 const TOKEN=()=>store.get('gh_token');
-let PENDING={};try{PENDING=JSON.parse(store.get('pending')||'{}')}catch(e){PENDING={}}
-const savePending=()=>store.set('pending',JSON.stringify(PENDING));
-const STATE_ACTS=['approve','unapprove','reject','next'];
-function act(id,a,v){
-  const list=(PENDING[id]||[]).filter(x=>STATE_ACTS.includes(a)?!STATE_ACTS.includes(x.a):x.a!==a);
-  const it=ITEMS[id];
-  const noop=it&&((a==='approve'&&it.review==='approved'&&!it.next)||(a==='unapprove'&&it.review!=='approved'));
-  if(!noop)list.push(v===undefined?{a,id}:{a,id,v});
-  if(list.length)PENDING[id]=list;else delete PENDING[id];
-  savePending();paintPending();
+const jget=(k,d)=>{try{return JSON.parse(store.get(k)||'')||d}catch(e){return d}};
+let LOCAL=jget('local_v2',{});      // id -> {st, next, title, thumb_text, t}: shown at once, until the server catches up
+let OUTBOX=jget('outbox',[]);       // decisions not yet sent to GitHub
+store.set('pending','');            // old save-bar format, no longer used
+const keep=()=>{store.set('local_v2',JSON.stringify(LOCAL));store.set('outbox',JSON.stringify(OUTBOX))};
+function eff(x){const o=LOCAL[x.id];if(!o)return x;if(o.st==='rejected')return null;
+  return {...x,review:o.st||x.review,next:o.next??x.next,title:o.title||x.title,thumb_text:o.thumb_text||x.thumb_text,local:true}}
+function lists(sel){
+  const all=sel.flatMap(([k,c])=>[...(c.queue||[]),...(c.review||[])].map(x=>({...x,ch:k,label:c.label})));
+  const e=all.map(eff).filter(Boolean);
+  const q=e.filter(x=>x.review==='approved').sort((a,b)=>(b.next?1:0)-(a.next?1:0)||(a.eta||'9').localeCompare(b.eta||'9'));
+  const rv=e.filter(x=>x.review!=='approved').sort((a,b)=>(b.created_at||'').localeCompare(a.created_at||''));
+  return {q,rv};
 }
-function undo(id){delete PENDING[id];savePending();paintPending()}
-function stateOf(id){const s=(PENDING[id]||[]).find(x=>STATE_ACTS.includes(x.a));return s?s.a:null}
-function paintPending(){
-  document.querySelectorAll('.rcard').forEach(el=>{const id=el.dataset.id,s=stateOf(id),edits=(PENDING[id]||[]).filter(x=>!STATE_ACTS.includes(x.a));
-    el.classList.toggle('will-approve',s==='approve'||s==='next');el.classList.toggle('will-reject',s==='reject');
-    const t=el.querySelector('.pend');if(t)t.innerHTML=(s?`<span class="tag ${s==='reject'?'r':s==='unapprove'?'y':'g'}">${{approve:'will approve',next:'will post next',reject:'will delete',unapprove:'back to review'}[s]}</span>`:'')+edits.map(x=>`<span class="tag b">${x.a==='title'?'new title':'new thumbnail'}</span>`).join('')+((s||edits.length)?`<button class="sbtn" style="padding:3px 8px" onclick="undo('${id}')">undo</button>`:'')});
-  const n=Object.values(PENDING).reduce((s,l)=>s+l.length,0);
-  document.getElementById('savebar').classList.toggle('on',n>0);
-  document.getElementById('saveTxt').textContent=`${n} change${n===1?'':'s'} not saved yet`;
+function reconcile(){   // drop local decisions the server has applied (or that are old)
+  const srv={};for(const c of Object.values(DATA.channels))for(const x of [...(c.queue||[]),...(c.review||[])])srv[x.id]=x;
+  for(const [id,o] of Object.entries(LOCAL)){const x=srv[id];
+    const done=!x?true:(o.st==='rejected'?false:(!o.st||x.review===o.st)&&(o.next===undefined||!!x.next===o.next)&&(!o.title||x.title===o.title)&&(!o.thumb_text||x.thumb_text===o.thumb_text));
+    if(done||Date.now()-o.t>45*60*1000)delete LOCAL[id]}
+  keep();
+}
+function renderQueues(){
+  const {q,rv}=lists(pick());
+  const all=lists(chans());
+  ITEMS={};[...all.rv,...all.q].forEach(x=>ITEMS[x.id]=x);
+  const cnt=document.getElementById('revCnt');cnt.hidden=!all.rv.length;cnt.textContent=all.rv.length;
+  document.getElementById('revCount').textContent=rv.length?`· ${rv.length} waiting for you`:'';
+  document.getElementById('revList').innerHTML=rv.length?rv.map(x=>rcard(x,false)).join(''):'<div class="empty">All caught up. New Shorts appear here after each cloud run.</div>';
+  document.getElementById('queueCount').textContent=q.length?`· ${q.length} ready`:'';
+  document.getElementById('queue').innerHTML=q.length?q.map(x=>rcard(x,true)).join(''):'<div class="empty">Nothing approved yet, so nothing will be posted. Approve Shorts on the Not approved page.</div>';
+  const warn=chans().filter(([k])=>!all.q.some(x=>x.ch===k)).map(([k,c])=>`<div>⚠ <b>${esc(c.label)}</b> has no approved Short${(c.slots_waiting||[])[0]?`: its next slot (${when(c.slots_waiting[0])}) will be skipped`:''}.</div>`);
+  document.getElementById('revNotice').innerHTML=(TOKEN()?'':`<div class="notice">To save decisions, connect GitHub once. <button class="sbtn" onclick="connectDlg()">Connect</button></div>`)+(warn.length?`<div class="warnbox">${warn.join('')}</div>`:'');
+}
+let flushTimer=null,inflight=false;
+function setState(txt,cls){const el=document.getElementById('saveState');el.textContent=txt;el.className=cls||'';el.onclick=cls==='err'?connectDlg:null}
+function decide(id,a,v,patch){
+  LOCAL[id]={...(LOCAL[id]||{}),...patch,t:Date.now()};
+  OUTBOX=OUTBOX.filter(x=>!(x.id===id&&(x.a===a||(STATE_ACTS.includes(a)&&STATE_ACTS.includes(x.a)))));
+  OUTBOX.push(v===undefined?{a,id}:{a,id,v});
+  keep();renderQueues();queueFlush();
+}
+const approve=id=>decide(id,'approve',undefined,{st:'approved',next:false});
+const reject=id=>decide(id,'reject',undefined,{st:'rejected'});
+const postNext=id=>decide(id,'next',undefined,{st:'approved',next:true});
+const unapprove=id=>decide(id,'unapprove',undefined,{st:'pending',next:false});
+function queueFlush(delay=1500){clearTimeout(flushTimer);if(OUTBOX.length){setState('Saving…','busy');flushTimer=setTimeout(flush,delay)}}
+async function flush(){
+  if(inflight||!OUTBOX.length)return;
+  if(!TOKEN()){setState('Not saved: connect GitHub','err');return connectDlg()}
+  inflight=true;const batch=OUTBOX.slice();
+  try{
+    const r=await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/review.yml/dispatches`,{method:'POST',
+      headers:{'Authorization':'Bearer '+TOKEN(),'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'},
+      body:JSON.stringify({ref:'main',inputs:{actions:JSON.stringify(batch)}})});
+    if(r.status===401||r.status===403){setState('Not saved: token refused (tap)','err');return}
+    if(r.status!==204)throw new Error(r.status);
+    OUTBOX=OUTBOX.filter(x=>!batch.includes(x));keep();
+    setState(OUTBOX.length?'Saving…':'Saved ✓','ok');
+    setTimeout(()=>load().catch(()=>{}),75000);setTimeout(()=>load().catch(()=>{}),150000);
+  }catch(e){setState('Offline, retrying…','busy');setTimeout(flush,20000)}
+  finally{inflight=false;if(OUTBOX.length)queueFlush(800)}
 }
 function rcard(x,approved){
   const tags=[];
-  if(x.seconds>35.5)tags.push(`<span class="tag y">${Math.round(x.seconds)}s · long</span>`);
   if(approved&&x.next)tags.push('<span class="tag g">posts next</span>');
   if(x.hd)tags.push('<span class="tag b">HD 1440p</span>');
+  if(x.local)tags.push('<span class="tag y">saving…</span>');
+  const im=x.thumb_sm||x.thumb;
   return `<div class="rcard" data-id="${esc(x.id)}">
-    <div class="thumb" onclick="preview('${esc(x.id)}')">${x.thumb?`<img loading="lazy" src="${esc(x.thumb)}" alt="">`:`<div class="noimg">${esc(x.thumb_text||x.title)}</div>`}
-      <span class="badge">${approved?(x.eta?when(x.eta):'later'):esc(x.label)}</span><button class="play" type="button">▶ Preview</button></div>
+    <div class="thumb" onclick="preview('${esc(x.id)}')">${im?`<img loading="lazy" decoding="async" src="${esc(im)}" alt="" onerror="this.onerror=null;this.src='${esc(x.thumb||'')}'">`:`<div class="noimg">${esc(x.thumb_text||x.title)}</div>`}
+      <span class="badge">${approved?(x.eta?when(x.eta):'queued'):esc(x.label)}</span><button class="play" type="button">▶ Preview</button></div>
     <div class="t">${esc(x.title)}</div>
-    <div class="m">${approved?esc(x.label)+' · ':''}${esc(x.streamer)} · ${x.seconds?Math.round(x.seconds)+'s':'?'}${x.score?` · score ${Math.round(x.score)}`:''}${x.hook2?` · hook 2 "${esc(x.hook2)}"`:''}${x.end_text?` · ends "${esc(x.end_text)}"`:''}</div>
+    <div class="m">${approved?esc(x.label)+' · ':''}${esc(x.streamer)} · ${x.seconds?Math.round(x.seconds)+'s':'?'}${x.hook2?` · hook 2 "${esc(x.hook2)}"`:''}${x.end_text?` · ends "${esc(x.end_text)}"`:''}</div>
     ${x.why?`<div class="why">${esc(x.why)}</div>`:''}
-    <div>${tags.join('')}<span class="pend"></span></div>
-    ${approved?`<div class="row"><button class="sbtn" onclick="act('${x.id}','unapprove')">↩ Back to review</button><button class="sbtn" onclick="act('${x.id}','next')">⏭ Post next</button></div>`
-      :`<div class="row"><button class="sbtn ok" onclick="act('${x.id}','approve')">✓ Approve</button><button class="sbtn no" onclick="rejectDlg('${x.id}')">✕ Reject</button></div>`}
-    <div class="row3"><button class="sbtn" onclick="titleDlg('${x.id}')">✎ Title</button><button class="sbtn" onclick="thumbDlg('${x.id}')">🖼 Thumbnail</button>${approved?`<button class="sbtn no" onclick="rejectDlg('${x.id}')">✕ Reject</button>`:`<button class="sbtn" onclick="act('${x.id}','next')">⏭ Post next</button>`}</div>
+    <div>${tags.join('')}</div>
+    ${approved?`<div class="row"><button class="sbtn" onclick="unapprove('${x.id}')">↩ Back to review</button><button class="sbtn" onclick="postNext('${x.id}')">⏭ Post next</button></div>`
+      :`<div class="row"><button class="sbtn ok" onclick="approve('${x.id}')">✓ Approve</button><button class="sbtn no" onclick="reject('${x.id}')">✕ Reject</button></div>`}
+    <div class="row3"><button class="sbtn" onclick="titleDlg('${x.id}')">✎ Title</button><button class="sbtn" onclick="thumbDlg('${x.id}')">🖼 Thumbnail</button>${approved?`<button class="sbtn no" onclick="reject('${x.id}')">✕ Reject</button>`:`<button class="sbtn" onclick="postNext('${x.id}')">⏭ Post next</button>`}</div>
   </div>`;
 }
 function modal(html){document.getElementById('mbox').className='mbox';document.getElementById('mbox').innerHTML=html;document.getElementById('modal').classList.add('on');const i=document.querySelector('#mbox input');if(i)i.focus()}
@@ -251,51 +287,26 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
 function preview(id){const x=ITEMS[id];if(!x)return;
   const view=x.drive_id?`https://drive.google.com/file/d/${esc(x.drive_id)}/view`:'';
   modal(`<h3 style="font-size:15px">${esc(x.title)}</h3>${x.drive_id?`<iframe src="https://drive.google.com/file/d/${esc(x.drive_id)}/preview" allow="autoplay" allowfullscreen></iframe>
-    <a class="btn watch" style="display:flex;margin-top:10px" href="${view}" target="_blank" rel="noopener">▶ Open in Google Drive</a>
-    <p class="sub">If the player above stays blank or asks for access, use the button: it opens the video in a new tab (sign in with the Google account that owns the Drive). Some browsers block videos embedded from Drive.</p>`
-    :`<div class="thumb" style="max-width:220px;margin:0 auto">${x.thumb?`<img src="${esc(x.thumb)}" alt="">`:''}</div>
-    <p class="sub">This Short's video link isn't ready yet (it was just re-cut). It appears within the hour; refresh the page then.</p>`}
-    <div class="acts2"><button class="sbtn" onclick="closeModal()">Close</button>${x.review==='approved'?'':`<button class="sbtn no" onclick="closeModal();rejectDlg('${id}')">✕ Reject</button><button class="sbtn ok" onclick="act('${id}','approve');closeModal()">✓ Approve</button>`}</div>`);
+    <a class="btn watch" style="display:flex;margin-top:10px" href="${view}" target="_blank" rel="noopener">▶ Open in Google Drive</a>`
+    :`<p class="sub">This Short's video link isn't ready yet; it appears within the hour.</p>`}
+    <div class="acts2"><button class="sbtn" onclick="closeModal()">Close</button>${x.review==='approved'?'':`<button class="sbtn no" onclick="closeModal();reject('${id}')">✕ Reject</button><button class="sbtn ok" onclick="closeModal();approve('${id}')">✓ Approve</button>`}</div>`);
   document.getElementById('mbox').classList.add('vbox')}
-function rejectDlg(id){const x=ITEMS[id];
-  modal(`<h3>Reject and delete?</h3><p>"${esc(x.title)}" will be deleted from Drive and never posted. This can't be undone after you save.</p>
-    <label>Why? (optional, helps pick better moments)</label><input id="why" placeholder="e.g. boring, weak hook, too long">
-    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn no" onclick="act('${id}','reject',document.getElementById('why').value||undefined);closeModal()">Reject</button></div>`)}
-function titleDlg(id){const x=ITEMS[id];const cur=((PENDING[id]||[]).find(a=>a.a==='title')||{}).v||x.title;
-  modal(`<h3>Edit title</h3><label>YouTube title (max 100 characters)</label><input id="ttl" maxlength="100" value="${esc(cur)}">
-    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="const v=document.getElementById('ttl').value.trim();if(v)act('${id}','title',v);closeModal()">Use this title</button></div>`)}
-function thumbDlg(id){const x=ITEMS[id];const cur=((PENDING[id]||[]).find(a=>a.a==='thumb')||{}).v||{};
-  modal(`<h3>Change thumbnail</h3><label>Big words on the thumbnail (2-4 words)</label><input id="tt" maxlength="40" value="${esc(cur.text||x.thumb_text||'')}">
-    <label>Use the frame at second… (leave empty to pick the most striking frame automatically)</label><input id="ta" type="number" min="0" step="0.5" value="${cur.at??''}" placeholder="e.g. 12.5 (find it with ▶ Preview)">
-    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="act('${id}','thumb',{text:document.getElementById('tt').value.trim(),at:document.getElementById('ta').value===''?null:Number(document.getElementById('ta').value)});closeModal()">Make new thumbnail</button></div>`)}
+function titleDlg(id){const x=ITEMS[id];
+  modal(`<h3>Edit title</h3><label>YouTube title (max 100 characters)</label><input id="ttl" maxlength="100" value="${esc(x.title)}">
+    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="const v=document.getElementById('ttl').value.trim();closeModal();if(v)decide('${id}','title',v,{title:v})">Use this title</button></div>`)}
+function thumbDlg(id){const x=ITEMS[id];
+  modal(`<h3>Change thumbnail</h3><label>Big words on the thumbnail (2-4 words)</label><input id="tt" maxlength="40" value="${esc(x.thumb_text||'')}">
+    <label>Use the frame at second… (empty = pick the most striking frame)</label><input id="ta" type="number" min="0" step="0.5" placeholder="e.g. 12.5 (find it with ▶ Preview)">
+    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="const t=document.getElementById('tt').value.trim(),a=document.getElementById('ta').value;closeModal();decide('${id}','thumb',{text:t,at:a===''?null:Number(a)},{thumb_text:t.toUpperCase()})">Make new thumbnail</button></div>`)}
 function connectDlg(){
-  modal(`<h3>Connect GitHub (one time)</h3><p class="sub">Your decisions are saved by the YTAutomation "review" workflow. This browser needs a token that can only start workflows in that one repository. It is stored only in this browser.</p>
+  modal(`<h3>Connect GitHub (one time)</h3><p class="sub">Decisions are saved by the YTAutomation "review" workflow. This browser needs a token that can only start workflows in that one repository. It is stored only in this browser.</p>
     <ol><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → New fine-grained token</a>.</li>
-    <li>Name: <b>Shorts dashboard</b>. Expiration: <b>1 year</b>.</li>
     <li>Repository access: <b>Only select repositories</b> → <b>YTAutomation</b>.</li>
     <li>Permissions → Repository permissions → <b>Actions: Read and write</b>. Nothing else.</li>
-    <li>Click <b>Generate token</b>, copy it, paste it below.</li></ol>
+    <li>Generate, copy, paste below.</li></ol>
     <label>Token</label><input id="tok" type="password" placeholder="github_pat_…" autocomplete="off">
-    <div class="acts2">${TOKEN()?'<button class="sbtn no" onclick="store.set(\'gh_token\',\'\');closeModal();render()">Disconnect</button>':''}<button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="const t=document.getElementById('tok').value.trim();if(t){store.set('gh_token',t);closeModal();render()}">Save token</button></div>`)}
-async function saveAll(){
-  if(!TOKEN())return connectDlg();
-  const actions=Object.values(PENDING).flat();if(!actions.length)return;
-  const btn=document.getElementById('saveBtn');btn.disabled=true;btn.textContent='Saving…';
-  try{
-    const r=await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/review.yml/dispatches`,{method:'POST',
-      headers:{'Authorization':'Bearer '+TOKEN(),'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'},
-      body:JSON.stringify({ref:'main',inputs:{actions:JSON.stringify(actions)}})});
-    if(r.status!==204){const t=await r.text();throw new Error(r.status===401||r.status===403?'GitHub refused the token (check it has Actions: Read and write on YTAutomation)':`GitHub said ${r.status}: ${t.slice(0,160)}`)}
-    PENDING={};savePending();paintPending();
-    document.getElementById('revNotice').innerHTML='<div class="notice">Saved. Applying your changes now; this page refreshes by itself in 1-2 minutes.</div>';
-    const before=DATA.generated_at;let tries=0;
-    const poll=setInterval(async()=>{tries++;try{const d=await (await fetch('data.json?t='+Date.now())).json();if(d.generated_at!==before||tries>18){clearInterval(poll);await load()}}catch(e){}},15000);
-  }catch(e){alert('Could not save: '+e.message)}
-  finally{btn.disabled=false;btn.textContent='Save changes'}
-}
-document.getElementById('saveBtn').onclick=saveAll;
-document.getElementById('undoAll').onclick=()=>{if(confirm('Undo all unsaved changes?')){PENDING={};savePending();paintPending()}};
-load().catch(e=>{document.getElementById('updated').textContent='Could not load data: '+e});
+    <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="const t=document.getElementById('tok').value.trim();if(t){store.set('gh_token',t);closeModal();renderQueues();queueFlush(100)}">Save token</button></div>`)}
+load().then(()=>queueFlush(500)).catch(e=>{document.getElementById('updated').textContent='Could not load data: '+e});
 setInterval(()=>{if(!document.querySelector('#modal.on'))load()},5*60*1000);
 </script>
 </body>
