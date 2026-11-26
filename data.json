@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:39:49Z",
+ "generated_at": "2026-11-26T08:40:29Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -654,7 +654,7 @@
    },
    "totals": {
     "published": 2,
-    "queued": 3,
+    "queued": 2,
     "views": 1303,
     "likes": 11
    },
@@ -961,44 +961,7 @@
      "hd": true
     }
    ],
-   "review": [
-    {
-     "id": "ab2d816e15a5",
-     "title": "CYR Didn't Notice He Had Control in GTA 6 Opening Scene 😅",
-     "streamer": "CYR",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/ab2d816e15a5.jpg",
-     "score": 50.0,
-     "seconds": 24.86,
-     "eta": null,
-     "thumb": "thumbs/ab2d816e15a5.jpg",
-     "thumb_text": "I WAS IN CONTROL",
-     "tags": [
-      "cyr",
-      "cyr gta 6",
-      "gta 6",
-      "gta 6 opening scene",
-      "gta 6 lucia",
-      "gta 6 funny moments",
-      "gta 6 first impressions",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "gta vi",
-      "streamer clips"
-     ],
-     "description": "CYR sat through GTA 6's whole opening before realizing he could move Lucia. Would you have noticed sooner?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta6funny #gaming #jason",
-     "drive_id": "1J-9QbSS6kyCE_rjkvXQA-Ge4-VPeMHEy",
-     "review": "pending",
-     "why": "A relatable moment where the streamer realizes he has control, though the on-screen action is modest.",
-     "hook2": "IT GETS WORSE",
-     "end_text": "OOPS",
-     "next": false,
-     "created_at": "2026-11-22T19:17:57Z",
-     "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": true,
-     "hd": true
-    }
-   ],
+   "review": [],
    "slots_waiting": [
     "2026-11-26T23:00:00Z",
     "2026-11-27T22:00:00Z",
@@ -2006,6 +1969,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:40:29Z",
+   "status": "ok",
+   "message": "1 change(s): reject meltdown: CYR Didn't Notice He Had Control in GTA 6 Opening Scene 😅"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:39:49Z",
    "status": "ok",
    "message": "1 change(s): reject meltdown: zackrawrr Sees GTA 6 Semi Crash and Gets Misquoted 😭"
@@ -2241,12 +2210,6 @@
    "at": "2026-11-24T08:35:40Z",
    "status": "warn",
    "message": "meltdown: re-dropped 'zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭' (no YouTube ID yet, try 3)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-24T08:33:52Z",
-   "status": "warn",
-   "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 4)"
   }
  ]
 }
