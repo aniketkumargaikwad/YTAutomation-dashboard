@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:44:23Z",
+ "generated_at": "2026-11-26T08:44:45Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1759,6 +1759,44 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
+    },
+    {
+     "id": "6d4ae3dfbc98",
+     "title": "Carry's First Drive in GTA 6 Was a Boat 🚤",
+     "streamer": "CarryMinati",
+     "style": "fullframe",
+     "thumb_sm": "thumbs/sm/6d4ae3dfbc98.jpg",
+     "score": 64,
+     "seconds": 25.5,
+     "eta": null,
+     "thumb": "thumbs/6d4ae3dfbc98.jpg",
+     "thumb_text": "HIS FIRST DRIVE?!",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "\"I am driving in GTA 6!\"… on water. 😂\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati",
+     "drive_id": "1iCpMyERMPRNOeLww3Ri42PuUFIYk5zen",
+     "review": "approved",
+     "why": null,
+     "hook2": "DON'T BLINK",
+     "end_text": "FIRST DRIVE",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://www.youtube.com/live/irNhWMG560k",
+     "v2": true,
+     "hd": true
     }
    ],
    "review": [
@@ -1794,44 +1832,6 @@
      "why": null,
      "hook2": "WAIT FOR IT",
      "end_text": "LET'S GO",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "6d4ae3dfbc98",
-     "title": "Carry's First Drive in GTA 6 Was a Boat 🚤",
-     "streamer": "CarryMinati",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/6d4ae3dfbc98.jpg",
-     "score": 64,
-     "seconds": 25.5,
-     "eta": null,
-     "thumb": "thumbs/6d4ae3dfbc98.jpg",
-     "thumb_text": "HIS FIRST DRIVE?!",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "\"I am driving in GTA 6!\"… on water. 😂\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati",
-     "drive_id": "1iCpMyERMPRNOeLww3Ri42PuUFIYk5zen",
-     "review": "pending",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "FIRST DRIVE",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
@@ -1929,6 +1929,12 @@
   }
  },
  "runs": [
+  {
+   "job": "review",
+   "at": "2026-11-26T08:44:45Z",
+   "status": "ok",
+   "message": "1 change(s): approve hindi: Carry's First Drive in GTA 6 Was a Boat 🚤"
+  },
   {
    "job": "review",
    "at": "2026-11-26T08:44:23Z",
@@ -2166,12 +2172,6 @@
    "at": "2026-11-25T08:53:49Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: IShowSpeed ROASTS Chat Mid GTA 6 Final Mission 😤"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T08:52:39Z",
-   "status": "warn",
-   "message": "reject 69f18bc012d9: not in the queue (already posted or removed)"
   }
  ]
 }
