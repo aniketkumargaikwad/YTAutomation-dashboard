@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:39:04Z",
+ "generated_at": "2026-11-26T08:39:19Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1529,9 +1529,7 @@
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
      "v2": true,
      "hd": true
-    }
-   ],
-   "review": [
+    },
     {
      "id": "e1eea7f332c5",
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
@@ -1540,7 +1538,7 @@
      "thumb_sm": "thumbs/sm/e1eea7f332c5.jpg",
      "score": 84,
      "seconds": 33.4,
-     "eta": null,
+     "eta": "2026-11-27T13:30:00Z",
      "thumb": "thumbs/e1eea7f332c5.jpg",
      "thumb_text": "GYM FAIL",
      "tags": [
@@ -1560,7 +1558,7 @@
      ],
      "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail",
      "drive_id": "1d5OZv7TWYieQ7faAUGPD2v8D3d9BUuml",
-     "review": "pending",
+     "review": "approved",
      "why": null,
      "hook2": "DON'T BLINK",
      "end_text": "WASTED",
@@ -1569,7 +1567,9 @@
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "85ece2093b93",
      "title": "Never Call Lucia Crazy in GTA 6 😳",
@@ -2043,6 +2043,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:39:19Z",
+   "status": "ok",
+   "message": "1 change(s): approve hindi: Carry Tried to Bench 225 in GTA 6… 💀"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:39:04Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Lucia Walks Out of Prison and Carry Loses It 😭"
@@ -2278,13 +2284,6 @@
    "at": "2026-11-23T23:55:42Z",
    "status": "ok",
    "message": "meltdown: CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
-   "slot": "2026-11-23@18"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-23T23:52:47Z",
-   "status": "ok",
-   "message": "fivestars: IShowSpeed Can't Believe GTA 6 Gave Him This 🤯",
    "slot": "2026-11-23@18"
   }
  ]
