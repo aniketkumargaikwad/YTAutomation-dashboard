@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:48:07Z",
+ "generated_at": "2026-11-26T08:48:18Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1023,6 +1023,41 @@
      "hd": true
     },
     {
+     "id": "7dd090c91008",
+     "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "thumb_sm": "thumbs/sm/7dd090c91008.jpg",
+     "score": 76,
+     "seconds": 33.4,
+     "eta": "2026-11-28T00:00:00Z",
+     "thumb": "thumbs/7dd090c91008.jpg",
+     "thumb_text": "5 MINUTES IN...",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "First mission and he's already robbing a store… and getting tackled. \"Get off me!\" 😭\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny",
+     "drive_id": "1WnVqoaHooF0IBp-G3YGiFljjNkUcwQsz",
+     "review": "approved",
+     "why": null,
+     "hook2": "DON'T BLINK",
+     "end_text": "WASTED",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://youtu.be/kR8bhkVAgBY",
+     "v2": true,
+     "hd": true
+    },
+    {
      "id": "f8193af5abe3",
      "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
      "streamer": "iShowSpeed",
@@ -1030,7 +1065,7 @@
      "thumb_sm": "thumbs/sm/f8193af5abe3.jpg",
      "score": 62,
      "seconds": 19.83,
-     "eta": "2026-11-28T00:00:00Z",
+     "eta": "2026-11-29T01:00:00Z",
      "thumb": "thumbs/f8193af5abe3.jpg",
      "thumb_text": "THIS ISN'T REAL",
      "tags": [
@@ -1094,41 +1129,6 @@
     }
    ],
    "review": [
-    {
-     "id": "7dd090c91008",
-     "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/7dd090c91008.jpg",
-     "score": 76,
-     "seconds": 33.4,
-     "eta": null,
-     "thumb": "thumbs/7dd090c91008.jpg",
-     "thumb_text": "5 MINUTES IN...",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "gta 6 first time",
-      "gta 6 highlights",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "First mission and he's already robbing a store… and getting tackled. \"Get off me!\" 😭\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny",
-     "drive_id": "1WnVqoaHooF0IBp-G3YGiFljjNkUcwQsz",
-     "review": "pending",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "WASTED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "cf3df7bb940b",
      "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
@@ -1780,6 +1780,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:48:18Z",
+   "status": "ok",
+   "message": "1 change(s): approve winchat: Speed's First 5 Minutes of GTA 6 Went Wrong 💀"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:48:07Z",
    "status": "ok",
    "message": "1 change(s): approve winchat: Speed Found Out He Has a SON in GTA 6 😭"
@@ -2015,12 +2021,6 @@
    "at": "2026-11-25T10:47:39Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Carry Finally Got the Cycle He Never Had 😭🚲 | GTA 6"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T10:47:14Z",
-   "status": "ok",
-   "message": "1 change(s): approve winchat: Speed Can't Fly a Plane in GTA 6 😭"
   }
  ]
 }
