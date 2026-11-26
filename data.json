@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:47:34Z",
+ "generated_at": "2026-11-26T08:47:45Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 6,
-    "queued": 6,
+    "queued": 5,
     "views": 235,
     "likes": 12
    },
@@ -483,45 +483,6 @@
     }
    ],
    "review": [
-    {
-     "id": "d2a26ee97f93",
-     "title": "Jynxzi Wants Twitter FLUSHED Over GTA 6 Dogs 🚽",
-     "streamer": "Jynxzi",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/d2a26ee97f93.jpg",
-     "score": 62.0,
-     "seconds": 31.6,
-     "eta": null,
-     "thumb": "thumbs/d2a26ee97f93.jpg",
-     "thumb_text": "FLUSH TWITTER",
-     "tags": [
-      "jynxzi",
-      "jynxzi gta 6",
-      "gta 6",
-      "gta 6 dog",
-      "gta 6 dog outrage",
-      "jynxzi twitter",
-      "jynxzi rant",
-      "streamer rant",
-      "gta 6 news",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Jynxzi goes off on Twitter over the GTA 6 dog outrage and says flush it down the toilet. Agree or disagree?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2938664561\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Jynxzi #Twitter #Gaming",
-     "drive_id": "1IJMq8K1GXzrPw2AHy1HiZzCOsZ1faclb",
-     "review": "pending",
-     "why": "A bold, easy-to-argue opinion with a clear setup and a quotable rant that finishes within the window.",
-     "hook2": "HE'S FED UP",
-     "end_text": "FLUSHED",
-     "next": false,
-     "created_at": "2026-11-25T16:14:34Z",
-     "source_url": "https://www.twitch.tv/videos/2938664561",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "6c724e05e6b4",
      "title": "Speed's Friend Won't Risk His 50-Hour GTA 6 Save",
@@ -1819,6 +1780,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:47:45Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Jynxzi Wants Twitter FLUSHED Over GTA 6 Dogs 🚽"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:47:34Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Speed Was NEVER Getting GTA 6's Good Ending"
@@ -2054,12 +2021,6 @@
    "at": "2026-11-25T10:46:52Z",
    "status": "ok",
    "message": "1 change(s): approve winchat: Speed Can't Believe GTA 6 Graphics Are Real 🤯"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T08:56:26Z",
-   "status": "ok",
-   "message": "1 change(s): approve winchat: Did Speed Just Spot Trevor in GTA 6?! 😳"
   }
  ]
 }
