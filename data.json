@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:40:29Z",
+ "generated_at": "2026-11-26T08:42:40Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1332,7 +1332,7 @@
    },
    "totals": {
     "published": 2,
-    "queued": 12,
+    "queued": 11,
     "views": 5,
     "likes": 1
    },
@@ -1496,44 +1496,6 @@
     }
    ],
    "review": [
-    {
-     "id": "85ece2093b93",
-     "title": "Never Call Lucia Crazy in GTA 6 😳",
-     "streamer": "CarryMinati",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/85ece2093b93.jpg",
-     "score": 82,
-     "seconds": 33.43,
-     "eta": null,
-     "thumb": "thumbs/85ece2093b93.jpg",
-     "thumb_text": "DON'T CALL HER CRAZY",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "The cop said the one word you never say to Lucia. Was she right?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #lucia",
-     "drive_id": "1_miFlkMDEQ_cJEyyaFcZ6LofLIxSv69u",
-     "review": "pending",
-     "why": null,
-     "hook2": "WATCH THIS",
-     "end_text": "BUSTED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "582c8df46323",
      "title": "Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️",
@@ -1969,6 +1931,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:42:40Z",
+   "status": "ok",
+   "message": "1 change(s): reject hindi: Never Call Lucia Crazy in GTA 6 😳"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:40:29Z",
    "status": "ok",
    "message": "1 change(s): reject meltdown: CYR Didn't Notice He Had Control in GTA 6 Opening Scene 😅"
@@ -2204,12 +2172,6 @@
    "at": "2026-11-24T09:46:51Z",
    "status": "warn",
    "message": "winchat: re-dropped 'Speed's Reaction When GTA 6 Unlocked 😱' (no YouTube ID yet, try 4)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-24T08:35:40Z",
-   "status": "warn",
-   "message": "meltdown: re-dropped 'zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭' (no YouTube ID yet, try 3)"
   }
  ]
 }
