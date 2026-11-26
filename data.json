@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-26T22:15:31Z",
- "stats_updated_at": "2026-11-26T22:15:31Z",
+ "generated_at": "2026-11-26T23:15:37Z",
+ "stats_updated_at": "2026-11-26T23:15:37Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 4,
+   "left": 3,
    "cap": 6,
    "resets": "2026-11-27T08:00:00Z",
    "channels": [
@@ -652,8 +652,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 2,
-    "queued": 5,
+    "published": 3,
+    "queued": 4,
     "views": 1308,
     "likes": 11
    },
@@ -665,6 +665,26 @@
     ]
    },
    "published": [
+    {
+     "title": "CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂",
+     "published_at": "2026-11-26T23:15:37Z",
+     "slot": "2026-11-26@18",
+     "youtube_id": "8w_pzSRIhjA",
+     "thumb": "thumbs/5b7f1e54c4d6.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/8w_pzSRIhjA/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/5b7f1e54c4d6.jpg",
+     "thumb_text": "RELOAD THE SAVE!",
+     "style": "hookcard",
+     "streamer": "CYR",
+     "score": 55.0,
+     "url": "https://www.youtube.com/shorts/8w_pzSRIhjA",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 33.43,
+     "source_url": "https://www.twitch.tv/videos/2933968544"
+    },
     {
      "title": "CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
      "published_at": "2026-11-23T23:48:04Z",
@@ -910,43 +930,6 @@
    ],
    "queue": [
     {
-     "id": "5b7f1e54c4d6",
-     "title": "CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂",
-     "streamer": "CYR",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/5b7f1e54c4d6.jpg",
-     "score": 55.0,
-     "seconds": 33.43,
-     "eta": "2026-11-26T23:00:00Z",
-     "thumb": "thumbs/5b7f1e54c4d6.jpg",
-     "thumb_text": "RELOAD THE SAVE!",
-     "tags": [
-      "cyr",
-      "cyr gta 6",
-      "gta 6",
-      "gta 6 lost money",
-      "gta 6 reload save",
-      "gta 6 funny moments",
-      "gta 6 rage",
-      "gta 6 reaction",
-      "gta 6 shorts",
-      "gta vi",
-      "gta 6 gameplay",
-      "streamer clips"
-     ],
-     "description": "CYR watched $407 vanish in GTA 6, begged for a reload, then cracked up at the photos. Would you reload?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta #gtavi #funnygaming",
-     "drive_id": "1LRlUDCrsxmCd2pF5mMrWNVgk7t5u9ZCJ",
-     "review": "approved",
-     "why": "The loudest volume in the stretch, a reload plea and a laughing fit that follow an on-screen event.",
-     "hook2": "WAIT FOR IT",
-     "end_text": "WASTED",
-     "next": false,
-     "created_at": "2026-11-22T19:15:48Z",
-     "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "037b4eb0fcc3",
      "title": "CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real\" 😳",
      "streamer": "CYR",
@@ -1101,7 +1084,6 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-26T23:00:00Z",
     "2026-11-27T22:00:00Z",
     "2026-11-29T00:00:00Z"
    ]
@@ -2043,6 +2025,13 @@
  "runs": [
   {
    "job": "publish",
+   "at": "2026-11-26T23:17:38Z",
+   "status": "ok",
+   "message": "meltdown: CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂 (via own uploader)",
+   "slot": "2026-11-26@18"
+  },
+  {
+   "job": "publish",
    "at": "2026-11-26T18:16:40Z",
    "status": "ok",
    "message": "fivestars: KaiCenat vs Speed: Lose Everything If You Die? 💀 | GTA 6 (via own uploader)",
@@ -2278,12 +2267,6 @@
    "at": "2026-11-26T00:07:46Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Jynxzi Fights His Collar for 10 Min in GTA 6 😭"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-25T23:17:32Z",
-   "status": "warn",
-   "message": "meltdown: slot 2026-11-25@18 skipped: no approved Shorts (6 waiting for your review on the dashboard)"
   }
  ]
 }
