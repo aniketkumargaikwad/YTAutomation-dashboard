@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T08:48:54Z",
- "stats_updated_at": "2026-11-26T06:27:39Z",
+ "generated_at": "2026-11-26T12:15:47Z",
+ "stats_updated_at": "2026-11-26T12:15:47Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -28,14 +28,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": null,
-    "views": 235,
+    "views": 240,
     "videos": 6,
     "source": "rss"
    },
    "totals": {
     "published": 6,
     "queued": 4,
-    "views": 235,
+    "views": 240,
     "likes": 12
    },
    "today": {
@@ -60,13 +60,18 @@
      "streamer": "iShowSpeed",
      "score": 80,
      "url": "https://www.youtube.com/shorts/oautIB5ygd0",
-     "views": 0,
+     "views": 3,
      "likes": 0,
      "comments": null,
      "history": [
       [
        "2026-11-26T02:15:50Z",
        0,
+       0
+      ],
+      [
+       "2026-11-26T12:15:47Z",
+       3,
        0
       ]
      ],
@@ -86,13 +91,18 @@
      "streamer": "iShowSpeed",
      "score": 77,
      "url": "https://www.youtube.com/shorts/qAiOnLxNBNY",
-     "views": 0,
+     "views": 2,
      "likes": 0,
      "comments": null,
      "history": [
       [
        "2026-11-25T19:16:07Z",
        0,
+       0
+      ],
+      [
+       "2026-11-26T12:15:47Z",
+       2,
        0
       ]
      ],
@@ -500,14 +510,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1303,
+    "views": 1307,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 2,
-    "views": 1303,
+    "views": 1307,
     "likes": 11
    },
    "today": {
@@ -531,7 +541,7 @@
      "streamer": "CYR",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
-     "views": 9,
+     "views": 10,
      "likes": 1,
      "comments": null,
      "history": [
@@ -594,6 +604,11 @@
        "2026-11-25T17:16:15Z",
        9,
        1
+      ],
+      [
+       "2026-11-26T12:15:47Z",
+       10,
+       1
       ]
      ],
      "seconds": 44.6,
@@ -612,7 +627,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1294,
+     "views": 1297,
      "likes": 10,
      "comments": null,
      "history": [
@@ -730,6 +745,11 @@
        "2026-11-26T06:19:11Z",
        1294,
        10
+      ],
+      [
+       "2026-11-26T12:15:47Z",
+       1297,
+       10
       ]
      ],
      "seconds": 34.5,
@@ -828,14 +848,14 @@
    "stats": {
     "name": "W In Chat",
     "subscribers": null,
-    "views": 5,
+    "views": 9,
     "videos": 3,
     "source": "rss"
    },
    "totals": {
     "published": 3,
     "queued": 6,
-    "views": 5,
+    "views": 9,
     "likes": 3
    },
    "today": {
@@ -859,13 +879,18 @@
      "streamer": "iShowSpeed",
      "score": 82,
      "url": "https://www.youtube.com/shorts/4f9mZWqhACM",
-     "views": 0,
+     "views": 3,
      "likes": 0,
      "comments": null,
      "history": [
       [
        "2026-11-26T02:15:50Z",
        0,
+       0
+      ],
+      [
+       "2026-11-26T12:15:47Z",
+       3,
        0
       ]
      ],
@@ -885,7 +910,7 @@
      "streamer": "iShowSpeed",
      "score": 86,
      "url": "https://www.youtube.com/shorts/Z1BKmibYSos",
-     "views": 2,
+     "views": 3,
      "likes": 1,
      "comments": null,
      "history": [
@@ -902,6 +927,11 @@
       [
        "2026-11-24T13:15:47Z",
        2,
+       1
+      ],
+      [
+       "2026-11-26T12:15:47Z",
+       3,
        1
       ]
      ],
@@ -1177,14 +1207,14 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": null,
-    "views": 5,
+    "views": 9,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 10,
-    "views": 5,
+    "views": 9,
     "likes": 1
    },
    "today": {
@@ -1208,13 +1238,18 @@
      "streamer": "CarryMinati",
      "score": 86,
      "url": "https://www.youtube.com/shorts/FRxizGm3R2U",
-     "views": 0,
+     "views": 3,
      "likes": 0,
      "comments": null,
      "history": [
       [
        "2026-11-25T16:15:45Z",
        0,
+       0
+      ],
+      [
+       "2026-11-26T12:15:47Z",
+       3,
        0
       ]
      ],
@@ -1234,7 +1269,7 @@
      "streamer": "CarryMinati",
      "score": 92,
      "url": "https://www.youtube.com/shorts/AwUQyl8TjSk",
-     "views": 5,
+     "views": 6,
      "likes": 1,
      "comments": null,
      "history": [
@@ -1261,6 +1296,11 @@
       [
        "2026-11-24T14:28:49Z",
        5,
+       1
+      ],
+      [
+       "2026-11-26T12:15:47Z",
+       6,
        1
       ]
      ],
@@ -1660,44 +1700,44 @@
  },
  "learned": {
   "samples": 9,
-  "overall": 2.704,
+  "overall": 2.764,
   "style": {
    "stack": {
     "n": 4,
     "mean_log_views": 2.648,
     "median_views": 6,
-    "weight": 0.945
+    "weight": 0.89
    },
    "fullframe": {
     "n": 3,
-    "mean_log_views": 1.426,
+    "mean_log_views": 1.573,
     "median_views": 3,
     "weight": 1.0
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.734,
-    "median_views": 113,
+    "mean_log_views": 4.783,
+    "median_views": 118,
     "weight": 1.0
    }
   },
   "streamer": {
    "iShowSpeed": {
     "n": 5,
-    "mean_log_views": 2.293,
+    "mean_log_views": 2.351,
     "median_views": 3,
-    "weight": 0.663
+    "weight": 0.662
    },
    "CarryMinati": {
     "n": 1,
-    "mean_log_views": 1.792,
-    "median_views": 5,
+    "mean_log_views": 1.946,
+    "median_views": 6,
     "weight": 1.0
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.166,
-    "median_views": 1294,
+    "mean_log_views": 7.169,
+    "median_views": 1297,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -1708,8 +1748,8 @@
    },
    "CYR": {
     "n": 1,
-    "mean_log_views": 2.303,
-    "median_views": 9,
+    "mean_log_views": 2.398,
+    "median_views": 10,
     "weight": 1.0
    }
   },
@@ -1722,20 +1762,20 @@
    },
    "21": {
     "n": 1,
-    "mean_log_views": 1.792,
-    "median_views": 5,
+    "mean_log_views": 1.946,
+    "median_views": 6,
     "weight": 1.0
    },
    "13": {
     "n": 2,
-    "mean_log_views": 1.242,
-    "median_views": 2,
+    "mean_log_views": 1.386,
+    "median_views": 3,
     "weight": 1.0
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.693,
-    "median_views": 9,
+    "mean_log_views": 3.725,
+    "median_views": 10,
     "weight": 1.0
    }
   }
