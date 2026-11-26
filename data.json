@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:39:19Z",
+ "generated_at": "2026-11-26T08:39:49Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -654,7 +654,7 @@
    },
    "totals": {
     "published": 2,
-    "queued": 4,
+    "queued": 3,
     "views": 1303,
     "likes": 11
    },
@@ -962,43 +962,6 @@
     }
    ],
    "review": [
-    {
-     "id": "ef9abf466468",
-     "title": "zackrawrr Sees GTA 6 Semi Crash and Gets Misquoted 😭",
-     "streamer": "zackrawrr",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/ef9abf466468.jpg",
-     "score": 55.0,
-     "seconds": 33.43,
-     "eta": null,
-     "thumb": "thumbs/ef9abf466468.jpg",
-     "thumb_text": "TAKEN OUT OF CONTEXT",
-     "tags": [
-      "zackrawrr",
-      "gta 6",
-      "gta 6 semi truck",
-      "truck rolling down hill",
-      "taken out of context",
-      "streamer reaction",
-      "gta 6 funny moments",
-      "gta 6 clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "A GTA 6 semi tumbles down a hill and zackrawrr's words get twisted. Was he taken out of context?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta #gaming #asmongold",
-     "drive_id": "1NE0aNElpEUMmV9DvqRfyTrWBI3-BHLx6",
-     "review": "pending",
-     "why": "Gameplay of a truck flipping down a hill, followed by the streamer's response to the clip being taken out of context.",
-     "hook2": "LOOK AT THIS",
-     "end_text": "WASTED",
-     "next": false,
-     "created_at": "2026-11-22T21:02:36Z",
-     "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "ab2d816e15a5",
      "title": "CYR Didn't Notice He Had Control in GTA 6 Opening Scene 😅",
@@ -2043,6 +2006,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:39:49Z",
+   "status": "ok",
+   "message": "1 change(s): reject meltdown: zackrawrr Sees GTA 6 Semi Crash and Gets Misquoted 😭"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:39:19Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Carry Tried to Bench 225 in GTA 6… 💀"
@@ -2278,13 +2247,6 @@
    "at": "2026-11-24T08:33:52Z",
    "status": "warn",
    "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 4)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-23T23:55:42Z",
-   "status": "ok",
-   "message": "meltdown: CYR Eavesdrops on an NPC Argument in GTA 6 and It Gets Wild 😭",
-   "slot": "2026-11-23@18"
   }
  ]
 }
