@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T16:18:28Z",
- "stats_updated_at": "2026-11-26T16:15:56Z",
+ "generated_at": "2026-11-26T17:15:38Z",
+ "stats_updated_at": "2026-11-26T17:15:38Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -660,14 +660,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1308,
+    "views": 1307,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 5,
-    "views": 1308,
+    "views": 1307,
     "likes": 11
    },
    "today": {
@@ -691,7 +691,7 @@
      "streamer": "CYR",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
-     "views": 10,
+     "views": 9,
      "likes": 1,
      "comments": null,
      "history": [
@@ -758,6 +758,11 @@
       [
        "2026-11-26T12:15:47Z",
        10,
+       1
+      ],
+      [
+       "2026-11-26T17:15:38Z",
+       9,
        1
       ]
      ],
@@ -1956,13 +1961,13 @@
  },
  "learned": {
   "samples": 10,
-  "overall": 2.626,
+  "overall": 2.617,
   "style": {
    "stack": {
     "n": 4,
     "mean_log_views": 2.648,
     "median_views": 6,
-    "weight": 1.022
+    "weight": 1.031
    },
    "fullframe": {
     "n": 4,
@@ -1972,8 +1977,8 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.784,
-    "median_views": 119,
+    "mean_log_views": 4.736,
+    "median_views": 113,
     "weight": 1.0
    }
   },
@@ -1982,7 +1987,7 @@
     "n": 5,
     "mean_log_views": 2.351,
     "median_views": 3,
-    "weight": 0.759
+    "weight": 0.766
    },
    "CarryMinati": {
     "n": 2,
@@ -2004,8 +2009,8 @@
    },
    "CYR": {
     "n": 1,
-    "mean_log_views": 2.398,
-    "median_views": 10,
+    "mean_log_views": 2.303,
+    "median_views": 9,
     "weight": 1.0
    }
   },
@@ -2030,8 +2035,8 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.726,
-    "median_views": 10,
+    "mean_log_views": 3.694,
+    "median_views": 9,
     "weight": 1.0
    },
    "20": {
