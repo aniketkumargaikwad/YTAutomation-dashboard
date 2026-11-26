@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:37:46Z",
+ "generated_at": "2026-11-26T08:38:25Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -884,7 +884,46 @@
      "source_url": "https://www.twitch.tv/videos/2936386266"
     }
    ],
-   "queue": [],
+   "queue": [
+    {
+     "id": "037b4eb0fcc3",
+     "title": "CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real\" 😳",
+     "streamer": "CYR",
+     "style": "hookcard",
+     "thumb_sm": "thumbs/sm/037b4eb0fcc3.jpg",
+     "score": 52.0,
+     "seconds": 33.43,
+     "eta": "2026-11-26T23:00:00Z",
+     "thumb": "thumbs/037b4eb0fcc3.jpg",
+     "thumb_text": "SHE KNOWS?!",
+     "tags": [
+      "cyr",
+      "cyr gta 6",
+      "gta 6",
+      "gta 6 npc",
+      "gta 6 npc knows you're real",
+      "gta 6 phone camera",
+      "gta 6 creepy moments",
+      "gta 6 secrets",
+      "gta 6 shorts",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "streamer clips"
+     ],
+     "description": "CYR snapped a photo of a GTA 6 NPC and she said she knows he's real. Would you have walked away?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gtavi #gta6npc #fourthwall",
+     "drive_id": "1oJu-zCmnjkS9N21vD9t9TgtmoKUGR3EK",
+     "review": "approved",
+     "why": "Spooky NPC lines and a real reaction, but the visuals are unclear from the transcript.",
+     "hook2": "HERE IT COMES",
+     "end_text": "SHE KNOWS",
+     "next": false,
+     "created_at": "2026-11-22T19:17:46Z",
+     "source_url": "https://www.twitch.tv/videos/2933968544",
+     "v2": true,
+     "hd": true
+    }
+   ],
    "review": [
     {
      "id": "ef9abf466468",
@@ -955,44 +994,6 @@
      "end_text": "OOPS",
      "next": false,
      "created_at": "2026-11-22T19:17:57Z",
-     "source_url": "https://www.twitch.tv/videos/2933968544",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "037b4eb0fcc3",
-     "title": "CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real\" 😳",
-     "streamer": "CYR",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/037b4eb0fcc3.jpg",
-     "score": 52.0,
-     "seconds": 33.43,
-     "eta": null,
-     "thumb": "thumbs/037b4eb0fcc3.jpg",
-     "thumb_text": "SHE KNOWS?!",
-     "tags": [
-      "cyr",
-      "cyr gta 6",
-      "gta 6",
-      "gta 6 npc",
-      "gta 6 npc knows you're real",
-      "gta 6 phone camera",
-      "gta 6 creepy moments",
-      "gta 6 secrets",
-      "gta 6 shorts",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "streamer clips"
-     ],
-     "description": "CYR snapped a photo of a GTA 6 NPC and she said she knows he's real. Would you have walked away?\n\n🎮 Streamer: CYR\n📺 Full stream: https://www.twitch.tv/videos/2933968544\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gtavi #gta6npc #fourthwall",
-     "drive_id": "1oJu-zCmnjkS9N21vD9t9TgtmoKUGR3EK",
-     "review": "pending",
-     "why": "Spooky NPC lines and a real reaction, but the visuals are unclear from the transcript.",
-     "hook2": "HERE IT COMES",
-     "end_text": "SHE KNOWS",
-     "next": false,
-     "created_at": "2026-11-22T19:17:46Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
      "v2": true,
      "hd": true
@@ -2041,6 +2042,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:38:25Z",
+   "status": "ok",
+   "message": "1 change(s): approve meltdown: CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:37:46Z",
    "status": "ok",
    "message": "1 change(s): reject meltdown: zackrawrr Reads a Brutal Tweet Roasting Jason in GTA 6 👀"
@@ -2278,12 +2285,6 @@
    "at": "2026-11-23T23:49:57Z",
    "status": "warn",
    "message": "meltdown: re-dropped 'zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭' (no YouTube ID yet, try 2)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-23T23:48:48Z",
-   "status": "warn",
-   "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 3)"
   }
  ]
 }
