@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:45:16Z",
+ "generated_at": "2026-11-26T08:45:54Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 6,
-    "queued": 8,
+    "queued": 7,
     "views": 235,
     "likes": 12
    },
@@ -445,44 +445,6 @@
     }
    ],
    "review": [
-    {
-     "id": "441d4d1febcc",
-     "title": "KaiCenat Catches Speed CHEATING Before the Race?! 😳 | GTA 6",
-     "streamer": "KaiCenat",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/441d4d1febcc.jpg",
-     "score": 55.0,
-     "seconds": 31.0,
-     "eta": null,
-     "thumb": "thumbs/441d4d1febcc.jpg",
-     "thumb_text": "HE CAUGHT HIM",
-     "tags": [
-      "kaicenat",
-      "kai cenat",
-      "speed",
-      "ishowspeed",
-      "gta 6",
-      "gta 6 race",
-      "million dollar race",
-      "cheating accusation",
-      "gta 6 funny moments",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Kai accuses Speed of cheating before the $1M GTA 6 race even starts. Was it cheating?\n\n🎮 Streamer: KaiCenat\n📺 Full stream: https://www.twitch.tv/videos/2939504732\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #KaiCenat #Speed #Streamer #Funny",
-     "drive_id": "19wdvl_ThtF4BU1Q33T57-NiJ_ezH4-3h",
-     "review": "pending",
-     "why": "Kai loudly accuses Speed of cheating and calls a friend over to watch, giving a chaotic, funny start to the race.",
-     "hook2": "HE CALLED A WITNESS",
-     "end_text": "BUSTED",
-     "next": false,
-     "created_at": "2026-11-26T03:59:40Z",
-     "source_url": "https://www.twitch.tv/videos/2939504732",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "d2a26ee97f93",
      "title": "Jynxzi Wants Twitter FLUSHED Over GTA 6 Dogs 🚽",
@@ -1892,6 +1854,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:45:54Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: KaiCenat Catches Speed CHEATING Before the Race?! 😳 | GTA 6"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:45:16Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6"
@@ -2127,12 +2095,6 @@
    "at": "2026-11-25T08:55:49Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: Nobody Told Speed GTA 6 Has TIGERS 🐅"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T08:54:37Z",
-   "status": "warn",
-   "message": "reject abe4f81529a3: not in the queue (already posted or removed)"
   }
  ]
 }
