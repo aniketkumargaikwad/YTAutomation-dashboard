@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T23:15:54Z",
+ "generated_at": "2026-11-26T00:07:46Z",
  "stats_updated_at": "2026-11-25T23:15:54Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 5,
-    "queued": 8,
+    "queued": 7,
     "views": 235,
     "likes": 12
    },
@@ -335,43 +335,6 @@
     }
    ],
    "review": [
-    {
-     "id": "9c92b9d9dad5",
-     "title": "Jynxzi Fights His Collar for 10 Min in GTA 6 😭",
-     "streamer": "Jynxzi",
-     "style": "stack",
-     "score": 66.0,
-     "seconds": 32.9,
-     "eta": null,
-     "thumb": "thumbs/9c92b9d9dad5.jpg",
-     "thumb_text": "IT WAS STAPLED",
-     "tags": [
-      "jynxzi",
-      "jynxzi gta 6",
-      "gta 6",
-      "jynxzi collar",
-      "jynxzi stapled",
-      "jynxzi fail",
-      "jynxzi roasted",
-      "funny stream moments",
-      "gta 6 funny moments",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Jynxzi spent 10 minutes fighting his collar, and it was stapled the whole time. Has this ever happened to you?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2938664561\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #jynxzi #funny #streamer #fail",
-     "drive_id": "1xwAXROpu901xGmPabOl0f1nR_NLoy0ox",
-     "review": "pending",
-     "why": "Painful staple fail, the 'I'm an idiot' realization, then a butter bean roast gives a clear payoff.",
-     "hook2": "WAIT FOR IT",
-     "end_text": "PLOT TWIST",
-     "next": false,
-     "created_at": "2026-11-25T16:25:41Z",
-     "source_url": "https://www.twitch.tv/videos/2938664561",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "ebc39c3c9b31",
      "title": "Jynxzi's Chat Screams \"IT'S A VIDEO GAME\" in GTA 6 😤",
@@ -2038,6 +2001,12 @@
  },
  "runs": [
   {
+   "job": "review",
+   "at": "2026-11-26T00:07:46Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Jynxzi Fights His Collar for 10 Min in GTA 6 😭"
+  },
+  {
    "job": "publish",
    "at": "2026-11-25T23:17:32Z",
    "status": "warn",
@@ -2276,13 +2245,6 @@
    "at": "2026-11-22T19:17:57Z",
    "status": "ok",
    "message": "4 clip(s) queued from 1 stream(s)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-22T19:02:36Z",
-   "status": "ok",
-   "message": "winchat: Speed's Reaction When GTA 6 Unlocked 😱",
-   "slot": "2026-11-22@13"
   }
  ]
 }
