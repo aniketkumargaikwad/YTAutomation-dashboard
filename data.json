@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-26T07:09:22Z",
+ "generated_at": "2026-11-26T08:36:40Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 2,
+   "left": 6,
    "cap": 6,
-   "resets": "2026-11-26T08:00:00Z",
+   "resets": "2026-11-27T08:00:00Z",
    "channels": [
     "Five Stars Deep",
     "Meltdown On Stream",
@@ -367,9 +367,7 @@
      "source_url": "https://www.twitch.tv/videos/2939504732",
      "v2": true,
      "hd": true
-    }
-   ],
-   "review": [
+    },
     {
      "id": "77f57f5133d0",
      "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
@@ -378,7 +376,7 @@
      "thumb_sm": "thumbs/sm/77f57f5133d0.jpg",
      "score": 55.0,
      "seconds": 32.6,
-     "eta": null,
+     "eta": "2026-11-27T00:00:00Z",
      "thumb": "thumbs/77f57f5133d0.jpg",
      "thumb_text": "OH MY GOD",
      "tags": [
@@ -397,7 +395,7 @@
      ],
      "description": "Kai goes from broke to screaming in seconds in GTA 6. What would you do with that cash?\n\n🎮 Streamer: KaiCenat\n📺 Full stream: https://www.twitch.tv/videos/2939504732\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #KaiCenat #Streamer #Gaming #Funny",
      "drive_id": "1CqYv5AZRRrMEOWgCkufD1CPpeZ9tNPU4",
-     "review": "pending",
+     "review": "approved",
      "why": "Sudden burst of shouting and hype with loud audio spike, though the context is thin.",
      "hook2": "WAIT FOR IT",
      "end_text": "PAYDAY",
@@ -406,7 +404,9 @@
      "source_url": "https://www.twitch.tv/videos/2939504732",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "6ab74cabd89a",
      "title": "KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6",
@@ -2116,6 +2116,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:36:40Z",
+   "status": "ok",
+   "message": "1 change(s): approve fivestars: KaiCenat Goes From Broke to SCREAMING in GTA 6 💰"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T07:09:22Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: KaiCenat vs Speed: Lose Everything If You Die? 💀 | GTA 6"
@@ -2354,12 +2360,6 @@
    "at": "2026-11-23T18:25:47Z",
    "status": "warn",
    "message": "winchat: re-dropped 'Speed's Reaction When GTA 6 Unlocked 😱' (no YouTube ID yet, try 2)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-23T18:25:36Z",
-   "status": "warn",
-   "message": "meltdown: re-dropped 'zackrawrr Can't Believe This GTA 6 Driver Went For the Ocean 😭' (no YouTube ID yet, try 1)"
   }
  ]
 }
