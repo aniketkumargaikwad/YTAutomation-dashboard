@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:46:53Z",
+ "generated_at": "2026-11-26T08:47:34Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 6,
-    "queued": 7,
+    "queued": 6,
     "views": 235,
     "likes": 12
    },
@@ -519,41 +519,6 @@
      "next": false,
      "created_at": "2026-11-25T16:14:34Z",
      "source_url": "https://www.twitch.tv/videos/2938664561",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "c487d0ab9993",
-     "title": "Speed Was NEVER Getting GTA 6's Good Ending",
-     "streamer": "iShowSpeed",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/c487d0ab9993.jpg",
-     "score": 72,
-     "seconds": 33.43,
-     "eta": null,
-     "thumb": "thumbs/c487d0ab9993.jpg",
-     "thumb_text": "NO GOOD ENDING",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "speed gta 6",
-      "gta 6 reaction",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Speed realizes he never had a chance at the good ending 💀 Would you replay for it?\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://www.youtube.com/live/OIeLbmyraRQ\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #ishowspeed #gta6ending",
-     "drive_id": "1E-sCSYxE97GiDsh7bWKCPtWT5qwogZ90",
-     "review": "pending",
-     "why": null,
-     "hook2": "IT GETS WORSE",
-     "end_text": "MISSION FAILED",
-     "next": false,
-     "created_at": "2026-11-21T06:00:00Z",
-     "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
      "v2": true,
      "hd": true
     },
@@ -1854,6 +1819,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:47:34Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Speed Was NEVER Getting GTA 6's Good Ending"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:46:53Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: IShowSpeed BLAMES GTA 6 for Losing Rico 😂"
@@ -2089,12 +2060,6 @@
    "at": "2026-11-25T08:56:26Z",
    "status": "ok",
    "message": "1 change(s): approve winchat: Did Speed Just Spot Trevor in GTA 6?! 😳"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T08:56:09Z",
-   "status": "ok",
-   "message": "1 change(s): approve fivestars: Nobody Told Speed GTA 6 Has TIGERS 🐅"
   }
  ]
 }
