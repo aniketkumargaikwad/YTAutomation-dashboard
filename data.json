@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:48:18Z",
+ "generated_at": "2026-11-26T08:48:35Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1058,16 +1058,16 @@
      "hd": true
     },
     {
-     "id": "f8193af5abe3",
-     "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
+     "id": "cf3df7bb940b",
+     "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
      "streamer": "iShowSpeed",
      "style": "fullframe",
-     "thumb_sm": "thumbs/sm/f8193af5abe3.jpg",
-     "score": 62,
-     "seconds": 19.83,
+     "thumb_sm": "thumbs/sm/cf3df7bb940b.jpg",
+     "score": 71,
+     "seconds": 32.73,
      "eta": "2026-11-29T01:00:00Z",
-     "thumb": "thumbs/f8193af5abe3.jpg",
-     "thumb_text": "THIS ISN'T REAL",
+     "thumb": "thumbs/cf3df7bb940b.jpg",
+     "thumb_text": "THROUGH THE RAINBOW",
      "tags": [
       "ishowspeed",
       "ishowspeed gta 6",
@@ -1080,12 +1080,12 @@
       "gta 6 shorts",
       "streamer clips"
      ],
-     "description": "Night drive through Leonida and Speed keeps asking: \"How is this game real?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #graphics",
-     "drive_id": "175C1iRQwB1ATOSq9bzbQA409QA5X_SP-",
+     "description": "He can't fly, then he flies through a rainbow. \"We did it! W in the chat!\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #wholesome",
+     "drive_id": "1hNxfqRc8vIlmoF0lO1aw3peyL4cJgurD",
      "review": "approved",
      "why": null,
-     "hook2": "WAIT FOR IT",
-     "end_text": "NOT NOW",
+     "hook2": "HERE IT COMES",
+     "end_text": "MISSION PASSED",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
@@ -1126,20 +1126,18 @@
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
      "hd": true
-    }
-   ],
-   "review": [
+    },
     {
-     "id": "cf3df7bb940b",
-     "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
+     "id": "f8193af5abe3",
+     "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
      "streamer": "iShowSpeed",
      "style": "fullframe",
-     "thumb_sm": "thumbs/sm/cf3df7bb940b.jpg",
-     "score": 71,
-     "seconds": 32.73,
+     "thumb_sm": "thumbs/sm/f8193af5abe3.jpg",
+     "score": 62,
+     "seconds": 19.83,
      "eta": null,
-     "thumb": "thumbs/cf3df7bb940b.jpg",
-     "thumb_text": "THROUGH THE RAINBOW",
+     "thumb": "thumbs/f8193af5abe3.jpg",
+     "thumb_text": "THIS ISN'T REAL",
      "tags": [
       "ishowspeed",
       "ishowspeed gta 6",
@@ -1152,18 +1150,20 @@
       "gta 6 shorts",
       "streamer clips"
      ],
-     "description": "He can't fly, then he flies through a rainbow. \"We did it! W in the chat!\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #wholesome",
-     "drive_id": "1hNxfqRc8vIlmoF0lO1aw3peyL4cJgurD",
-     "review": "pending",
+     "description": "Night drive through Leonida and Speed keeps asking: \"How is this game real?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #graphics",
+     "drive_id": "175C1iRQwB1ATOSq9bzbQA409QA5X_SP-",
+     "review": "approved",
      "why": null,
-     "hook2": "HERE IT COMES",
-     "end_text": "MISSION PASSED",
+     "hook2": "WAIT FOR IT",
+     "end_text": "NOT NOW",
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
      "hd": true
-    },
+    }
+   ],
+   "review": [
     {
      "id": "99305593a9b7",
      "title": "Speed Asked Chat If He Could Pee Mid-GTA 6 😭",
@@ -1780,6 +1780,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:48:35Z",
+   "status": "ok",
+   "message": "1 change(s): approve winchat: Speed's First GTA 6 Flight Ends in a Rainbow 🌈"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:48:18Z",
    "status": "ok",
    "message": "1 change(s): approve winchat: Speed's First 5 Minutes of GTA 6 Went Wrong 💀"
@@ -2015,12 +2021,6 @@
    "at": "2026-11-25T12:52:48Z",
    "status": "ok",
    "message": "1 change(s): next winchat: Speed Can't Fly a Plane in GTA 6 😭"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T10:47:39Z",
-   "status": "ok",
-   "message": "1 change(s): approve hindi: Carry Finally Got the Cycle He Never Had 😭🚲 | GTA 6"
   }
  ]
 }
