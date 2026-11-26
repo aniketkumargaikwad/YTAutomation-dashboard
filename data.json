@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:44:45Z",
+ "generated_at": "2026-11-26T08:44:53Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -1332,7 +1332,7 @@
    },
    "totals": {
     "published": 2,
-    "queued": 11,
+    "queued": 10,
     "views": 5,
     "likes": 1
    },
@@ -1799,46 +1799,7 @@
      "hd": true
     }
    ],
-   "review": [
-    {
-     "id": "99127d73c6e6",
-     "title": "CarryMinati Minutes Before GTA 6 Unlocked 🔥",
-     "streamer": "CarryMinati",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/99127d73c6e6.jpg",
-     "score": 70,
-     "seconds": 33.4,
-     "eta": null,
-     "thumb": "thumbs/99127d73c6e6.jpg",
-     "thumb_text": "NEW ERA",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "Countdown on screen, Carry dancing. \"New era!\"\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #countdown",
-     "drive_id": "1ncKp6VCdFR3srrd-yovkHuu6ZpPkwLx9",
-     "review": "pending",
-     "why": null,
-     "hook2": "WAIT FOR IT",
-     "end_text": "LET'S GO",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true,
-     "hd": true
-    }
-   ],
+   "review": [],
    "slots_waiting": [
     "2026-11-26T14:30:00Z",
     "2026-11-27T13:30:00Z",
@@ -1929,6 +1890,12 @@
   }
  },
  "runs": [
+  {
+   "job": "review",
+   "at": "2026-11-26T08:44:53Z",
+   "status": "ok",
+   "message": "1 change(s): reject hindi: CarryMinati Minutes Before GTA 6 Unlocked 🔥"
+  },
   {
    "job": "review",
    "at": "2026-11-26T08:44:45Z",
@@ -2166,12 +2133,6 @@
    "at": "2026-11-25T08:54:18Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: Nobody Told Speed GTA 6 Has TIGERS 🐅"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-25T08:53:49Z",
-   "status": "ok",
-   "message": "1 change(s): reject fivestars: IShowSpeed ROASTS Chat Mid GTA 6 Final Mission 😤"
   }
  ]
 }
