@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T15:15:25Z",
- "stats_updated_at": "2026-11-26T15:15:26Z",
+ "generated_at": "2026-11-26T16:15:56Z",
+ "stats_updated_at": "2026-11-26T16:15:56Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -510,14 +510,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1307,
+    "views": 1308,
     "videos": 2,
     "source": "rss"
    },
    "totals": {
     "published": 2,
     "queued": 2,
-    "views": 1307,
+    "views": 1308,
     "likes": 11
    },
    "today": {
@@ -627,7 +627,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1297,
+     "views": 1298,
      "likes": 10,
      "comments": null,
      "history": [
@@ -749,6 +749,11 @@
       [
        "2026-11-26T12:15:47Z",
        1297,
+       10
+      ],
+      [
+       "2026-11-26T16:15:56Z",
+       1298,
        10
       ]
      ],
@@ -1208,7 +1213,7 @@
     "name": "Gully wanted",
     "subscribers": null,
     "views": 9,
-    "videos": 2,
+    "videos": 3,
     "source": "rss"
    },
    "totals": {
@@ -1238,10 +1243,16 @@
      "streamer": "CarryMinati",
      "score": 88,
      "url": "https://www.youtube.com/shorts/0SgN8O_A-KI",
-     "views": null,
-     "likes": null,
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-26T16:15:56Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 27.93,
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w"
     },
@@ -1330,44 +1341,6 @@
    ],
    "queue": [
     {
-     "id": "e1eea7f332c5",
-     "title": "Carry Tried to Bench 225 in GTA 6… 💀",
-     "streamer": "CarryMinati",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/e1eea7f332c5.jpg",
-     "score": 84,
-     "seconds": 33.4,
-     "eta": "2026-11-27T13:30:00Z",
-     "thumb": "thumbs/e1eea7f332c5.jpg",
-     "thumb_text": "GYM FAIL",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail",
-     "drive_id": "1d5OZv7TWYieQ7faAUGPD2v8D3d9BUuml",
-     "review": "approved",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "WASTED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "ccc17c8d7291",
      "title": "One Joke Started a Bar Fight in GTA 6 💀",
      "streamer": "CarryMinati",
@@ -1375,7 +1348,7 @@
      "thumb_sm": "thumbs/sm/ccc17c8d7291.jpg",
      "score": 74,
      "seconds": 33.43,
-     "eta": "2026-11-28T14:30:00Z",
+     "eta": "2026-11-27T13:30:00Z",
      "thumb": "thumbs/ccc17c8d7291.jpg",
      "thumb_text": "ONE JOKE. ONE FIGHT.",
      "tags": [
@@ -1402,6 +1375,82 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
+     "v2": true,
+     "hd": true
+    },
+    {
+     "id": "01ceb941fd91",
+     "title": "Seaplane Escape in Under a Minute | GTA 6",
+     "streamer": "CarryMinati",
+     "style": "hookcard",
+     "thumb_sm": "thumbs/sm/01ceb941fd91.jpg",
+     "score": 68,
+     "seconds": 33.43,
+     "eta": "2026-11-28T14:30:00Z",
+     "thumb": "thumbs/01ceb941fd91.jpg",
+     "thumb_text": "SEAPLANE ESCAPE",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "A shed fight, a sprint and a seaplane takeoff. Best GTA 6 escape yet?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6gameplay",
+     "drive_id": "1QS8NG12aYvYrh2_VGbE2a7m_0_mSGdzM",
+     "review": "approved",
+     "why": null,
+     "hook2": "DON'T BLINK",
+     "end_text": "MISSION PASSED",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
+     "v2": true,
+     "hd": true
+    },
+    {
+     "id": "e1eea7f332c5",
+     "title": "Carry Tried to Bench 225 in GTA 6… 💀",
+     "streamer": "CarryMinati",
+     "style": "fullframe",
+     "thumb_sm": "thumbs/sm/e1eea7f332c5.jpg",
+     "score": 84,
+     "seconds": 33.4,
+     "eta": null,
+     "thumb": "thumbs/e1eea7f332c5.jpg",
+     "thumb_text": "GYM FAIL",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail",
+     "drive_id": "1d5OZv7TWYieQ7faAUGPD2v8D3d9BUuml",
+     "review": "approved",
+     "why": null,
+     "hook2": "DON'T BLINK",
+     "end_text": "WASTED",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
     },
@@ -1558,44 +1607,6 @@
      "hd": true
     },
     {
-     "id": "01ceb941fd91",
-     "title": "Seaplane Escape in Under a Minute | GTA 6",
-     "streamer": "CarryMinati",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/01ceb941fd91.jpg",
-     "score": 68,
-     "seconds": 33.43,
-     "eta": null,
-     "thumb": "thumbs/01ceb941fd91.jpg",
-     "thumb_text": "SEAPLANE ESCAPE",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "A shed fight, a sprint and a seaplane takeoff. Best GTA 6 escape yet?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6gameplay",
-     "drive_id": "1QS8NG12aYvYrh2_VGbE2a7m_0_mSGdzM",
-     "review": "approved",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "MISSION PASSED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "5700a3b84b22",
      "title": "Crouching in GTA 6 Felt Exactly Like GTA 5 🥹",
      "streamer": "CarryMinati",
@@ -1680,25 +1691,25 @@
   }
  },
  "learned": {
-  "samples": 9,
-  "overall": 2.764,
+  "samples": 10,
+  "overall": 2.626,
   "style": {
    "stack": {
     "n": 4,
     "mean_log_views": 2.648,
     "median_views": 6,
-    "weight": 0.89
+    "weight": 1.022
    },
    "fullframe": {
-    "n": 3,
-    "mean_log_views": 1.573,
+    "n": 4,
+    "mean_log_views": 1.526,
     "median_views": 3,
-    "weight": 1.0
+    "weight": 0.5
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.783,
-    "median_views": 118,
+    "mean_log_views": 4.784,
+    "median_views": 119,
     "weight": 1.0
    }
   },
@@ -1707,18 +1718,18 @@
     "n": 5,
     "mean_log_views": 2.351,
     "median_views": 3,
-    "weight": 0.662
+    "weight": 0.759
    },
    "CarryMinati": {
-    "n": 1,
-    "mean_log_views": 1.946,
-    "median_views": 6,
+    "n": 2,
+    "mean_log_views": 1.666,
+    "median_views": 4,
     "weight": 1.0
    },
    "zackrawrr": {
     "n": 1,
     "mean_log_views": 7.169,
-    "median_views": 1297,
+    "median_views": 1298,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -1755,8 +1766,14 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.725,
+    "mean_log_views": 3.726,
     "median_views": 10,
+    "weight": 1.0
+   },
+   "20": {
+    "n": 1,
+    "mean_log_views": 1.386,
+    "median_views": 3,
     "weight": 1.0
    }
   }
