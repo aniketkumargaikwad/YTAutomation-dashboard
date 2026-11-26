@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:36:40Z",
+ "generated_at": "2026-11-26T08:37:35Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -654,7 +654,7 @@
    },
    "totals": {
     "published": 2,
-    "queued": 6,
+    "queued": 5,
     "views": 1303,
     "likes": 11
    },
@@ -920,43 +920,6 @@
      "end_text": "PLOT TWIST",
      "next": false,
      "created_at": "2026-11-22T21:03:46Z",
-     "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "6d139d1a9fbf",
-     "title": "zackrawrr vs a Brain Implant: Who Drives Better in GTA 6? 😭",
-     "streamer": "zackrawrr",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/6d139d1a9fbf.jpg",
-     "score": 57.0,
-     "seconds": 33.43,
-     "eta": null,
-     "thumb": "thumbs/6d139d1a9fbf.jpg",
-     "thumb_text": "BRAIN CHIP BEATS HIM",
-     "tags": [
-      "zackrawrr",
-      "gta 6",
-      "brain implant",
-      "neuralink gta",
-      "gta 6 boat",
-      "streamer reaction",
-      "gta 6 funny moments",
-      "gta 6 clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "A brain implant pilots a GTA 6 boat better than zackrawrr can with his hands. Would you get the chip?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gaming #fyp #zackrawrr",
-     "drive_id": "1kepDIF_7wG-dha7u01HfcIP1vFBVd6bY",
-     "review": "pending",
-     "why": "loudest moment around 72:07 (no AI used)",
-     "hook2": "WATCH THIS",
-     "end_text": "OUTPLAYED",
-     "next": false,
-     "created_at": "2026-11-22T21:03:36Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
      "v2": true,
      "hd": true
@@ -2116,6 +2079,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:37:35Z",
+   "status": "ok",
+   "message": "1 change(s): reject meltdown: zackrawrr vs a Brain Implant: Who Drives Better in GTA 6? 😭"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:36:40Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: KaiCenat Goes From Broke to SCREAMING in GTA 6 💰"
@@ -2354,12 +2323,6 @@
    "status": "ok",
    "message": "fivestars: Speed Got the BAD Ending in GTA 6 💀",
    "slot": "2026-11-23@12"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-23T18:25:47Z",
-   "status": "warn",
-   "message": "winchat: re-dropped 'Speed's Reaction When GTA 6 Unlocked 😱' (no YouTube ID yet, try 2)"
   }
  ]
 }
