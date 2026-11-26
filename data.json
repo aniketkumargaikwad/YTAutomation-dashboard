@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T04:16:23Z",
- "stats_updated_at": "2026-11-26T04:16:23Z",
+ "generated_at": "2026-11-26T04:20:24Z",
+ "stats_updated_at": "2026-11-26T04:20:24Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -516,7 +516,7 @@
      "streamer": "IShowSpeed",
      "style": "stack",
      "score": 55.0,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/1272cdff1cd2.jpg",
      "thumb_text": "I WAS REPOSITIONING",
@@ -545,7 +545,7 @@
      "created_at": "2026-11-22T20:42:38Z",
      "source_url": "https://www.twitch.tv/videos/2934967396",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "c487d0ab9993",
@@ -553,7 +553,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 72,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/c487d0ab9993.jpg",
      "thumb_text": "NO GOOD ENDING",
@@ -579,7 +579,7 @@
      "created_at": "2026-11-21T06:00:00Z",
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "6c724e05e6b4",
@@ -587,7 +587,7 @@
      "streamer": "iShowSpeed",
      "style": "stack",
      "score": 68,
-     "seconds": 35.0,
+     "seconds": 33.41,
      "eta": null,
      "thumb": "thumbs/6c724e05e6b4.jpg",
      "thumb_text": "DON'T PRESS IT",
@@ -613,7 +613,7 @@
      "created_at": "2026-11-21T06:00:00Z",
      "source_url": "https://www.youtube.com/live/OIeLbmyraRQ",
      "v2": true,
-     "hd": false
+     "hd": true
     }
    ],
    "slots_waiting": [
@@ -868,7 +868,7 @@
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 57.0,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/03394dfda903.jpg",
      "thumb_text": "JASON GOT ROASTED",
@@ -897,7 +897,7 @@
      "created_at": "2026-11-22T21:03:46Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "6d139d1a9fbf",
@@ -905,7 +905,7 @@
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 57.0,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/6d139d1a9fbf.jpg",
      "thumb_text": "BRAIN CHIP BEATS HIM",
@@ -933,7 +933,7 @@
      "created_at": "2026-11-22T21:03:36Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "ef9abf466468",
@@ -941,7 +941,7 @@
      "streamer": "zackrawrr",
      "style": "hookcard",
      "score": 55.0,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/ef9abf466468.jpg",
      "thumb_text": "TAKEN OUT OF CONTEXT",
@@ -969,7 +969,7 @@
      "created_at": "2026-11-22T21:02:36Z",
      "source_url": "https://www.twitch.tv/videos/2936386266",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "ab2d816e15a5",
@@ -977,7 +977,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 50.0,
-     "seconds": 26.43,
+     "seconds": 24.86,
      "eta": null,
      "thumb": "thumbs/ab2d816e15a5.jpg",
      "thumb_text": "I WAS IN CONTROL",
@@ -1004,7 +1004,7 @@
      "created_at": "2026-11-22T19:17:57Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "037b4eb0fcc3",
@@ -1012,7 +1012,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 52.0,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/037b4eb0fcc3.jpg",
      "thumb_text": "SHE KNOWS?!",
@@ -1041,7 +1041,7 @@
      "created_at": "2026-11-22T19:17:46Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "5b7f1e54c4d6",
@@ -1049,7 +1049,7 @@
      "streamer": "CYR",
      "style": "hookcard",
      "score": 55.0,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/5b7f1e54c4d6.jpg",
      "thumb_text": "RELOAD THE SAVE!",
@@ -1077,7 +1077,7 @@
      "created_at": "2026-11-22T19:15:48Z",
      "source_url": "https://www.twitch.tv/videos/2933968544",
      "v2": true,
-     "hd": false
+     "hd": true
     }
    ],
    "slots_waiting": [
@@ -1219,7 +1219,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 62,
-     "seconds": 21.43,
+     "seconds": 19.83,
      "eta": "2026-11-27T01:00:00Z",
      "thumb": "thumbs/f8193af5abe3.jpg",
      "thumb_text": "THIS ISN'T REAL",
@@ -1245,7 +1245,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "planefxv2",
@@ -1253,7 +1253,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 90,
-     "seconds": 35.0,
+     "seconds": 33.4,
      "eta": null,
      "thumb": "thumbs/3f13c722e207.jpg",
      "thumb_text": "HE CAN'T FLY!",
@@ -1279,7 +1279,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
-     "hd": false
+     "hd": true
     }
    ],
    "review": [
@@ -1289,7 +1289,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 79,
-     "seconds": 26.7,
+     "seconds": 25.1,
      "eta": null,
      "thumb": "thumbs/532921682dbb.jpg",
      "thumb_text": "HE HAS A SON?!",
@@ -1315,7 +1315,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "7dd090c91008",
@@ -1323,7 +1323,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 76,
-     "seconds": 35.0,
+     "seconds": 33.4,
      "eta": null,
      "thumb": "thumbs/7dd090c91008.jpg",
      "thumb_text": "5 MINUTES IN...",
@@ -1349,7 +1349,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "cf3df7bb940b",
@@ -1357,7 +1357,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 71,
-     "seconds": 34.33,
+     "seconds": 32.73,
      "eta": null,
      "thumb": "thumbs/cf3df7bb940b.jpg",
      "thumb_text": "THROUGH THE RAINBOW",
@@ -1383,7 +1383,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "99305593a9b7",
@@ -1391,7 +1391,7 @@
      "streamer": "iShowSpeed",
      "style": "fullframe",
      "score": 66,
-     "seconds": 35.0,
+     "seconds": 33.4,
      "eta": null,
      "thumb": "thumbs/99305593a9b7.jpg",
      "thumb_text": "CAN I PEE?",
@@ -1417,7 +1417,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
-     "hd": false
+     "hd": true
     }
    ],
    "slots_waiting": [
@@ -1530,7 +1530,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 88,
-     "seconds": 29.5,
+     "seconds": 27.93,
      "eta": null,
      "thumb": "thumbs/922cc4035902.jpg",
      "thumb_text": "LUCIA IS FREE",
@@ -1559,7 +1559,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "e1eea7f332c5",
@@ -1567,7 +1567,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 84,
-     "seconds": 35.0,
+     "seconds": 33.4,
      "eta": null,
      "thumb": "thumbs/e1eea7f332c5.jpg",
      "thumb_text": "GYM FAIL",
@@ -1596,7 +1596,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "85ece2093b93",
@@ -1604,7 +1604,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 82,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/85ece2093b93.jpg",
      "thumb_text": "DON'T CALL HER CRAZY",
@@ -1633,7 +1633,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "582c8df46323",
@@ -1641,7 +1641,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 80,
-     "seconds": 35.0,
+     "seconds": 33.4,
      "eta": null,
      "thumb": "thumbs/582c8df46323.jpg",
      "thumb_text": "TOO FAST BHAI",
@@ -1670,7 +1670,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "53009a8cd559",
@@ -1678,7 +1678,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 78,
-     "seconds": 24.13,
+     "seconds": 22.53,
      "eta": null,
      "thumb": "thumbs/53009a8cd559.jpg",
      "thumb_text": "STOP DOOMSCROLLING",
@@ -1707,7 +1707,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "621c0ca3cc43",
@@ -1715,7 +1715,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 76,
-     "seconds": 35.0,
+     "seconds": 33.4,
      "eta": null,
      "thumb": "thumbs/621c0ca3cc43.jpg",
      "thumb_text": "AM I DREAMING?",
@@ -1744,7 +1744,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "ccc17c8d7291",
@@ -1752,7 +1752,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 74,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/ccc17c8d7291.jpg",
      "thumb_text": "ONE JOKE. ONE FIGHT.",
@@ -1781,7 +1781,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "823a74559558",
@@ -1789,7 +1789,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 72,
-     "seconds": 29.3,
+     "seconds": 27.7,
      "eta": null,
      "thumb": "thumbs/823a74559558.jpg",
      "thumb_text": "GTA 6 IS BAD?",
@@ -1818,7 +1818,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "99127d73c6e6",
@@ -1826,7 +1826,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 70,
-     "seconds": 35.0,
+     "seconds": 33.4,
      "eta": null,
      "thumb": "thumbs/99127d73c6e6.jpg",
      "thumb_text": "NEW ERA",
@@ -1855,7 +1855,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "01ceb941fd91",
@@ -1863,7 +1863,7 @@
      "streamer": "CarryMinati",
      "style": "hookcard",
      "score": 68,
-     "seconds": 35.0,
+     "seconds": 33.43,
      "eta": null,
      "thumb": "thumbs/01ceb941fd91.jpg",
      "thumb_text": "SEAPLANE ESCAPE",
@@ -1892,7 +1892,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "5700a3b84b22",
@@ -1900,7 +1900,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 66,
-     "seconds": 22.4,
+     "seconds": 20.8,
      "eta": null,
      "thumb": "thumbs/5700a3b84b22.jpg",
      "thumb_text": "PURE NOSTALGIA",
@@ -1929,7 +1929,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
-     "hd": false
+     "hd": true
     },
     {
      "id": "6d4ae3dfbc98",
@@ -1937,7 +1937,7 @@
      "streamer": "CarryMinati",
      "style": "fullframe",
      "score": 64,
-     "seconds": 27.1,
+     "seconds": 25.5,
      "eta": null,
      "thumb": "thumbs/6d4ae3dfbc98.jpg",
      "thumb_text": "HIS FIRST DRIVE?!",
@@ -1966,7 +1966,7 @@
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
-     "hd": false
+     "hd": true
     }
    ],
    "slots_waiting": [
