@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:37:35Z",
+ "generated_at": "2026-11-26T08:37:46Z",
  "stats_updated_at": "2026-11-26T06:27:39Z",
  "budget": {
   "cap": 5,
@@ -654,7 +654,7 @@
    },
    "totals": {
     "published": 2,
-    "queued": 5,
+    "queued": 4,
     "views": 1303,
     "likes": 11
    },
@@ -886,44 +886,6 @@
    ],
    "queue": [],
    "review": [
-    {
-     "id": "03394dfda903",
-     "title": "zackrawrr Reads a Brutal Tweet Roasting Jason in GTA 6 👀",
-     "streamer": "zackrawrr",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/03394dfda903.jpg",
-     "score": 57.0,
-     "seconds": 33.43,
-     "eta": null,
-     "thumb": "thumbs/03394dfda903.jpg",
-     "thumb_text": "JASON GOT ROASTED",
-     "tags": [
-      "zackrawrr",
-      "gta 6",
-      "gta 6 jason",
-      "jason gta 6",
-      "gta 6 tweet",
-      "streamer reaction",
-      "gta 6 discourse",
-      "gta 6 clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "zackrawrr reads a tweet absolutely roasting Jason in GTA 6. Is the take fair or way off?\n\n🎮 Streamer: zackrawrr\n📺 Full stream: https://www.twitch.tv/videos/2936386266\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gaming #fyp #zackrawrr",
-     "drive_id": "11DdAao-V1T6d7jQYNcc2ceis2d08vSIx",
-     "review": "pending",
-     "why": "loudest moment around 82:50 (no AI used)",
-     "hook2": "LOOK AT THIS",
-     "end_text": "PLOT TWIST",
-     "next": false,
-     "created_at": "2026-11-22T21:03:46Z",
-     "source_url": "https://www.twitch.tv/videos/2936386266",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "ef9abf466468",
      "title": "zackrawrr Sees GTA 6 Semi Crash and Gets Misquoted 😭",
@@ -2079,6 +2041,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-26T08:37:46Z",
+   "status": "ok",
+   "message": "1 change(s): reject meltdown: zackrawrr Reads a Brutal Tweet Roasting Jason in GTA 6 👀"
+  },
+  {
+   "job": "review",
    "at": "2026-11-26T08:37:35Z",
    "status": "ok",
    "message": "1 change(s): reject meltdown: zackrawrr vs a Brain Implant: Who Drives Better in GTA 6? 😭"
@@ -2316,13 +2284,6 @@
    "at": "2026-11-23T23:48:48Z",
    "status": "warn",
    "message": "fivestars: re-dropped 'Speed's First Look at Vice City in GTA 6 🤯' (no YouTube ID yet, try 3)"
-  },
-  {
-   "job": "publish",
-   "at": "2026-11-23T18:26:41Z",
-   "status": "ok",
-   "message": "fivestars: Speed Got the BAD Ending in GTA 6 💀",
-   "slot": "2026-11-23@12"
   }
  ]
 }
