@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:36:29Z",
+ "generated_at": "2026-11-27T04:36:41Z",
  "stats_updated_at": "2026-11-27T04:15:31Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 8,
-    "queued": 4,
+    "queued": 3,
     "views": 240,
     "likes": 12
    },
@@ -505,46 +505,7 @@
      "hd": true
     }
    ],
-   "review": [
-    {
-     "id": "4a1880ff2424",
-     "title": "Jynxzi's GTA 6 Comeback Ruined by the Clock 😭",
-     "streamer": "Jynxzi",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/4a1880ff2424.jpg",
-     "score": 60.0,
-     "seconds": 30.9,
-     "eta": null,
-     "thumb": "thumbs/4a1880ff2424.jpg",
-     "thumb_text": "TIME RAN OUT",
-     "tags": [
-      "jynxzi",
-      "gta 6",
-      "jynxzi rage",
-      "gta 6 rage",
-      "jynxzi comeback",
-      "jynxzi gta 6",
-      "gta 6 fails",
-      "gta 6 shorts",
-      "streamer rage",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "streamer clips"
-     ],
-     "description": "Best comeback ever, undone by the clock. Was it pain or a skill issue?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2939550825\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Jynxzi #Chess #Rage #Gaming",
-     "drive_id": "1su_byiilqZa5S01kMc0U4YMEY2cAOyBM",
-     "review": "pending",
-     "why": "Loud, escalating rage over a lost comeback gives a clear punchline with the highest volume spikes.",
-     "hook2": "CHECK THE CLOCK",
-     "end_text": "WASTED",
-     "next": false,
-     "created_at": "2026-11-26T15:49:52Z",
-     "source_url": "https://www.twitch.tv/videos/2939550825",
-     "v2": true,
-     "hd": true
-    }
-   ],
+   "review": [],
    "slots_waiting": [
     "2026-11-27T18:00:00Z",
     "2026-11-28T00:00:00Z",
@@ -1953,6 +1914,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-27T04:36:41Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Jynxzi's GTA 6 Comeback Ruined by the Clock 😭"
+  },
+  {
+   "job": "review",
    "at": "2026-11-27T04:36:29Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Jynxzi Spots One Thing in GTA 6 and Loses It 🤯"
@@ -2189,12 +2156,6 @@
    "at": "2026-11-26T08:37:46Z",
    "status": "ok",
    "message": "1 change(s): reject meltdown: zackrawrr Reads a Brutal Tweet Roasting Jason in GTA 6 👀"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:37:35Z",
-   "status": "ok",
-   "message": "1 change(s): reject meltdown: zackrawrr vs a Brain Implant: Who Drives Better in GTA 6? 😭"
   }
  ]
 }
