@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T22:15:29Z",
- "stats_updated_at": "2026-11-27T22:15:29Z",
+ "generated_at": "2026-11-27T23:15:31Z",
+ "stats_updated_at": "2026-11-27T23:15:31Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -103,6 +103,11 @@
       [
        "2026-11-27T14:50:26Z",
        5,
+       1
+      ],
+      [
+       "2026-11-27T23:15:31Z",
+       6,
        1
       ]
      ],
@@ -685,15 +690,15 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": 2,
-    "views": 2518,
-    "videos": 3,
+    "views": 2710,
+    "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 2518,
-    "likes": 31
+    "views": 2710,
+    "likes": 36
    },
    "today": {
     "date": "2026-11-27",
@@ -716,10 +721,16 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "history": [],
+     "views": 190,
+     "likes": 5,
+     "comments": 0,
+     "history": [
+      [
+       "2026-11-27T23:15:31Z",
+       188,
+       5
+      ]
+     ],
      "seconds": 32.0,
      "source_url": "https://www.twitch.tv/videos/2937629817"
     },
@@ -773,6 +784,11 @@
       [
        "2026-11-27T15:15:25Z",
        1203,
+       19
+      ],
+      [
+       "2026-11-27T23:15:31Z",
+       1205,
        19
       ]
      ],
@@ -888,7 +904,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1303,
+     "views": 1305,
      "likes": 11,
      "comments": 0,
      "history": [
@@ -1030,6 +1046,11 @@
       [
        "2026-11-27T15:15:25Z",
        1301,
+       11
+      ],
+      [
+       "2026-11-27T23:15:31Z",
+       1305,
        11
       ]
      ],
@@ -1210,6 +1231,11 @@
       [
        "2026-11-27T12:15:33Z",
        5,
+       1
+      ],
+      [
+       "2026-11-27T23:15:31Z",
+       6,
        1
       ]
      ],
@@ -2062,8 +2088,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.173,
-    "median_views": 1303,
+    "mean_log_views": 7.175,
+    "median_views": 1305,
     "weight": 1.0
    },
    "IShowSpeed": {
