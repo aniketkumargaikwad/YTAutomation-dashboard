@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T18:15:29Z",
- "stats_updated_at": "2026-11-27T18:15:29Z",
+ "generated_at": "2026-11-27T19:15:35Z",
+ "stats_updated_at": "2026-11-27T19:15:35Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -28,8 +28,8 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": 0,
-    "views": 250,
-    "videos": 8,
+    "views": 251,
+    "videos": 9,
     "source": "rss"
    },
    "totals": {
@@ -60,10 +60,16 @@
      "streamer": "Jynxzi",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/qYZSJQXpdjI",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "history": [],
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "history": [
+      [
+       "2026-11-27T19:15:35Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 32.1,
      "source_url": "https://www.twitch.tv/videos/2939550825"
     },
@@ -679,14 +685,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": 2,
-    "views": 2514,
+    "views": 2518,
     "videos": 3,
     "source": "rss"
    },
    "totals": {
     "published": 3,
     "queued": 4,
-    "views": 2516,
+    "views": 2518,
     "likes": 31
    },
    "today": {
@@ -710,7 +716,7 @@
      "streamer": "CYR",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/8w_pzSRIhjA",
-     "views": 1203,
+     "views": 1205,
      "likes": 19,
      "comments": 0,
      "history": [
@@ -1560,10 +1566,10 @@
     "likes": 2
    },
    "today": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "count": 1,
     "slots": [
-     19
+     20
     ]
    },
    "published": [
@@ -1807,7 +1813,7 @@
      "thumb_sm": "thumbs/sm/582c8df46323.jpg",
      "score": 80,
      "seconds": 33.4,
-     "eta": null,
+     "eta": "2026-11-30T14:30:00Z",
      "thumb": "thumbs/582c8df46323.jpg",
      "thumb_text": "TOO FAST BHAI",
      "tags": [
@@ -2031,7 +2037,8 @@
    "review": [],
    "slots_waiting": [
     "2026-11-28T14:30:00Z",
-    "2026-11-29T14:30:00Z"
+    "2026-11-29T14:30:00Z",
+    "2026-11-30T14:30:00Z"
    ]
   }
  },
