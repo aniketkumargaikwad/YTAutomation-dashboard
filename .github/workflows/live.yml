@@ -1,0 +1,38 @@
+name: live stats
+
+# Fresh YouTube views / likes for the dashboard every ~20 minutes, all day. This repo is public,
+# so these runs cost no Actions minutes. Source: YTAutomation/dashboard/live.yml (copied here by
+# tools/push_dashboard.sh); the script is live_stats.py.
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live
+  cancel-in-progress: true
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch live numbers
+        # no secrets: public Shorts pages + RSS only (comments/subscribers come from the private tick)
+        run: python3 live_stats.py
+      - name: Publish
+        run: |
+          git config user.name "ytautomation-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add live.json
+          git diff --cached --quiet && exit 0
+          git commit -qm "live stats $(date -u +%H:%MZ)"
+          for attempt in 1 2 3 4 5; do
+            git push -q && exit 0
+            git pull -q --rebase
+          done
+          exit 1

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T14:15:45Z",
- "stats_updated_at": "2026-11-27T14:15:45Z",
+ "generated_at": "2026-11-27T14:50:26Z",
+ "stats_updated_at": "2026-11-27T14:50:26Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -27,15 +27,15 @@
    "timezone": "America/New_York",
    "stats": {
     "name": "Five Stars Deep",
-    "subscribers": null,
-    "views": 249,
+    "subscribers": 0,
+    "views": 250,
     "videos": 8,
     "source": "rss"
    },
    "totals": {
     "published": 8,
     "queued": 3,
-    "views": 249,
+    "views": 250,
     "likes": 13
    },
    "today": {
@@ -60,9 +60,9 @@
      "streamer": "IShowSpeed",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/L_pGeDAwqCc",
-     "views": 4,
+     "views": 5,
      "likes": 1,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-27T01:15:28Z",
@@ -72,6 +72,11 @@
       [
        "2026-11-27T12:15:33Z",
        4,
+       1
+      ],
+      [
+       "2026-11-27T14:50:26Z",
+       5,
        1
       ]
      ],
@@ -93,7 +98,7 @@
      "url": "https://www.youtube.com/shorts/tDI-ZrDlpJA",
      "views": 3,
      "likes": 0,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-26T19:15:34Z",
@@ -124,7 +129,7 @@
      "url": "https://www.youtube.com/shorts/oautIB5ygd0",
      "views": 5,
      "likes": 0,
-     "comments": null,
+     "comments": 1,
      "history": [
       [
        "2026-11-26T02:15:50Z",
@@ -160,7 +165,7 @@
      "url": "https://www.youtube.com/shorts/qAiOnLxNBNY",
      "views": 2,
      "likes": 0,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-25T19:16:07Z",
@@ -191,7 +196,7 @@
      "url": "https://www.youtube.com/shorts/kTq3awrINHA",
      "views": 4,
      "likes": 2,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-24T08:33:36Z",
@@ -237,7 +242,7 @@
      "url": "https://www.youtube.com/shorts/UBoZkDNTjUM",
      "views": 8,
      "likes": 1,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-23T23:48:04Z",
@@ -283,7 +288,7 @@
      "url": "https://www.youtube.com/shorts/0FOk3g5JSnk",
      "views": 3,
      "likes": 2,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-24T09:45:58Z",
@@ -344,7 +349,7 @@
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
      "views": 220,
      "likes": 7,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-22T19:01:18Z",
@@ -537,7 +542,7 @@
    "timezone": "America/New_York",
    "stats": {
     "name": "Meltdown On Stream",
-    "subscribers": null,
+    "subscribers": 2,
     "views": 2506,
     "videos": 3,
     "source": "rss"
@@ -545,7 +550,7 @@
    "totals": {
     "published": 3,
     "queued": 4,
-    "views": 2506,
+    "views": 2507,
     "likes": 31
    },
    "today": {
@@ -571,7 +576,7 @@
      "url": "https://www.youtube.com/shorts/8w_pzSRIhjA",
      "views": 1196,
      "likes": 19,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-27T00:15:26Z",
@@ -622,7 +627,7 @@
      "url": "https://www.youtube.com/shorts/Eta4vEeAMFY",
      "views": 10,
      "likes": 1,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-24T08:33:36Z",
@@ -716,9 +721,9 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1300,
+     "views": 1301,
      "likes": 11,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-24T09:45:58Z",
@@ -1027,7 +1032,7 @@
    "timezone": "America/New_York",
    "stats": {
     "name": "W In Chat",
-    "subscribers": null,
+    "subscribers": 0,
     "views": 19,
     "videos": 4,
     "source": "rss"
@@ -1061,7 +1066,7 @@
      "url": "https://www.youtube.com/shorts/2fAHdD2Erjc",
      "views": 5,
      "likes": 1,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-27T02:15:28Z",
@@ -1092,7 +1097,7 @@
      "url": "https://www.youtube.com/shorts/4f9mZWqhACM",
      "views": 4,
      "likes": 0,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-26T02:15:50Z",
@@ -1128,7 +1133,7 @@
      "url": "https://www.youtube.com/shorts/Z1BKmibYSos",
      "views": 6,
      "likes": 2,
-     "comments": null,
+     "comments": 1,
      "history": [
       [
        "2026-11-24T10:02:20Z",
@@ -1174,7 +1179,7 @@
      "url": "https://www.youtube.com/shorts/Sk09t9uK4XE",
      "views": 4,
      "likes": 3,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-22T19:01:18Z",
@@ -1397,15 +1402,15 @@
    "timezone": "Asia/Kolkata",
    "stats": {
     "name": "Gully wanted",
-    "subscribers": null,
-    "views": 11,
-    "videos": 3,
+    "subscribers": 0,
+    "views": 12,
+    "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 8,
-    "views": 11,
+    "views": 12,
     "likes": 2
    },
    "today": {
@@ -1429,10 +1434,16 @@
      "streamer": "CarryMinati",
      "score": 74,
      "url": "https://www.youtube.com/shorts/G2GAMpVue70",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "history": [],
+     "views": 2,
+     "likes": 0,
+     "comments": 0,
+     "history": [
+      [
+       "2026-11-27T14:50:26Z",
+       2,
+       0
+      ]
+     ],
      "seconds": 33.43,
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w"
     },
@@ -1449,9 +1460,9 @@
      "streamer": "CarryMinati",
      "score": 88,
      "url": "https://www.youtube.com/shorts/0SgN8O_A-KI",
-     "views": 2,
+     "views": 1,
      "likes": 1,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-26T16:15:56Z",
@@ -1466,6 +1477,11 @@
       [
        "2026-11-27T14:15:45Z",
        2,
+       1
+      ],
+      [
+       "2026-11-27T14:50:26Z",
+       1,
        1
       ]
      ],
@@ -1487,7 +1503,7 @@
      "url": "https://www.youtube.com/shorts/FRxizGm3R2U",
      "views": 3,
      "likes": 0,
-     "comments": null,
+     "comments": 0,
      "history": [
       [
        "2026-11-25T16:15:45Z",
@@ -1518,7 +1534,7 @@
      "url": "https://www.youtube.com/shorts/AwUQyl8TjSk",
      "views": 6,
      "likes": 1,
-     "comments": null,
+     "comments": 1,
      "history": [
       [
        "2026-11-22T19:01:18Z",
@@ -1886,7 +1902,7 @@
    },
    "hookcard": {
     "n": 2,
-    "mean_log_views": 4.784,
+    "mean_log_views": 4.785,
     "median_views": 119,
     "weight": 1.0
    }
@@ -1906,8 +1922,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.171,
-    "median_views": 1300,
+    "mean_log_views": 7.172,
+    "median_views": 1301,
     "weight": 1.0
    },
    "IShowSpeed": {

@@ -34,6 +34,12 @@ h2{font-size:15px;margin:0 0 12px}
 .chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 8px;font-size:11px;color:var(--muted);margin:0 4px 4px 0;white-space:nowrap}
 .empty{color:var(--muted);padding:12px 0}
 .vlist{display:grid;gap:10px}
+.pbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:-4px 0 14px}
+.pbar button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer;font:inherit;font-size:13px}
+.pbar button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pbar button .n{opacity:.6;margin-left:4px}
+.pbar select{margin-left:auto;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 10px;border-radius:8px;font:inherit;font-size:13px}
+body.pubpage #filters{display:none}
 .vrow{display:grid;grid-template-columns:76px 1fr auto;gap:14px;align-items:center;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
 .vrow img,.vrow .ph{width:76px;height:135px;object-fit:cover;border-radius:8px;background:var(--chip);display:flex;align-items:center;justify-content:center;font-size:10px;text-align:center;color:var(--muted)}
 .vt{font-weight:600;font-size:15px;margin-bottom:4px}
@@ -117,7 +123,8 @@ nav a .cnt{display:inline-block;min-width:18px;margin-left:6px;padding:0 6px;bor
     <div class="card"><h2>Channels</h2><div style="overflow-x:auto"><table id="chantable"></table></div></div>
   </section>
   <section class="page" id="p-published">
-    <div class="card"><h2>Published on YouTube <span class="sub" id="pubCount"></span></h2><div class="vlist" id="pub"></div></div>
+    <div class="card"><h2>Published on YouTube <span class="sub" id="pubCount"></span></h2>
+      <div class="pbar" id="pubFilters"></div><div class="vlist" id="pub"></div></div>
   </section>
   <section class="page" id="p-review">
     <div id="revNotice"></div>
@@ -141,19 +148,32 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const when=iso=>iso?new Date(iso).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'–';
 const ago=iso=>{if(!iso)return'never';const m=(Date.now()-new Date(iso))/6e4;return m<1?'just now':m<60?Math.round(m)+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago'};
 const store={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
-let DATA,CH=store.get('ch')||'all',chart;
+let DATA,CH=store.get('ch')||'all',chart,LIVE=null,PSORT=store.get('psort')||'new';
+// live.json: fresh YouTube views/likes from the dashboard repo's own job (every ~20 min, all day)
+const normT=t=>{const d=document.createElement('textarea');d.innerHTML=t||'';return d.value.toLowerCase().replace(/[^a-z0-9]+/g,'')};
+function applyLive(){
+  if(!DATA||!LIVE||!LIVE.videos)return;
+  for(const [k,c] of Object.entries(DATA.channels)){
+    c.published=c.published.map(p=>{const id=p.youtube_id||(LIVE.titles||{})[normT(p.title)];const v=id&&LIVE.videos[id];if(!v)return p;
+      const exact=v.src==='page';const pick=(a,b)=>a==null?b:exact?a:Math.max(a,b||0);
+      return {...p,youtube_id:id,url:p.url||`https://www.youtube.com/shorts/${id}`,views:pick(v.views,p.views),likes:pick(v.likes,p.likes),comments:v.comments??p.comments}});
+    const lc=(LIVE.channels||{})[k];if(lc)c.stats={...(c.stats||{}),...lc};
+  }
+}
+async function loadLive(){try{LIVE=await (await fetch('live.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){return false}return true}
 function chans(){return Object.entries(DATA.channels).filter(([k,c])=>c.enabled)}
 function pick(){return CH==='all'?chans():chans().filter(([k])=>k===CH)}
 function img(src,alt,txt){return src?`<img loading="lazy" src="${esc(src)}" alt="" onerror="this.onerror=null;${alt?`this.src='${esc(alt)}'`:`this.replaceWith(Object.assign(document.createElement('div'),{className:'ph',textContent:'no image'}))`}">`:`<div class="ph">${esc(txt||'')}</div>`}
 async function load(){
-  DATA=await (await fetch('data.json?t='+Date.now(),{cache:'no-store'})).json();
+  const [d]=await Promise.all([fetch('data.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()),loadLive()]);
+  DATA=d;applyLive();
   reconcile();
   if(CH!=='all'&&!DATA.channels[CH])CH='all';
   document.getElementById('filters').innerHTML=[['all','All channels'],...chans().map(([k,c])=>[k,c.label])].map(([k,l])=>`<button data-c="${k}" class="${k===CH?'on':''}">${esc(l)}</button>`).join('');
   document.querySelectorAll('#filters button').forEach(b=>b.onclick=()=>{CH=b.dataset.c;store.set('ch',CH);render()});
   render();
 }
-function route(){let p=(location.hash||'#overview').slice(1);if(p==='scheduled')p='approved';document.querySelectorAll('.page').forEach(s=>s.classList.toggle('on',s.id==='p-'+p));document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.p===p));if(p==='overview'&&DATA)drawChart()}
+function route(){let p=(location.hash||'#overview').slice(1);if(p==='scheduled')p='approved';document.querySelectorAll('.page').forEach(s=>s.classList.toggle('on',s.id==='p-'+p));document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.p===p));document.body.classList.toggle('pubpage',p==='published');if(p==='overview'&&DATA)drawChart()}
 window.addEventListener('hashchange',route);
 function render(){
   document.querySelectorAll('#filters button').forEach(b=>b.classList.toggle('on',b.dataset.c===CH));
@@ -172,8 +192,16 @@ function render(){
   const L=DATA.learned||{};let lh='';for(const [key,label] of [['style','Style'],['streamer','Streamer'],['hour','Hour']]){const g=L[key]||{};const rows=Object.entries(g).sort((a,b)=>b[1].median_views-a[1].median_views).slice(0,4);if(!rows.length)continue;const max=Math.max(...rows.map(r=>r[1].median_views),1);lh+=`<div class="sub" style="margin-top:6px">${label}</div>`+rows.map(([n,v])=>`<div class="barrow"><span>${esc(key==='hour'?n+':00':n)}</span><div class="barfill" style="width:${Math.max(4,100*v.median_views/max)}%"></div><span class="sub">${fmt(v.median_views)} · n${v.n}</span></div>`).join('')}
   document.getElementById('learn').innerHTML=lh||'<div class="empty">Learns after a few Shorts are 24 h old.</div>';
   document.getElementById('chantable').innerHTML='<tr><th>Channel</th><th>Live</th><th>Views</th><th>Likes</th><th>Queued</th><th>Today</th></tr>'+chans().map(([k,c])=>{const lv=c.published.filter(p=>p.url);return `<tr><td><b>${esc(c.label)}</b>${c.channel_id?` · <a href="https://www.youtube.com/channel/${esc(c.channel_id)}" target="_blank" rel="noopener">open</a>`:''}</td><td>${lv.length}</td><td>${fmt(lv.reduce((s,p)=>s+(p.views||0),0))}</td><td>${fmt(lv.reduce((s,p)=>s+(p.likes||0),0))}</td><td>${c.queue.length} approved · ${(c.review||[]).length} to review</td><td class="sub">${c.today?c.today.count+' planned':''}</td></tr>`}).join('');
-  document.getElementById('pubCount').textContent=pub.length?`· ${live} live`:'';
-  document.getElementById('pub').innerHTML=pub.length?pub.map(p=>`<div class="vrow">
+  const lt=LIVE&&LIVE.at;
+  document.getElementById('pubCount').textContent=(pub.length?`· ${live} live`:'')+(lt?` · views updated ${ago(lt)}`:'');
+  const allPub=chans().reduce((n,[k,c])=>n+c.published.length,0);
+  document.getElementById('pubFilters').innerHTML=[['all','All channels',allPub],...chans().map(([k,c])=>[k,c.label,c.published.length])]
+    .map(([k,l,n])=>`<button data-c="${k}" class="${k===CH?'on':''}">${esc(l)}<span class="n">${n}</span></button>`).join('')
+    +`<select id="psort" aria-label="Sort"><option value="new">Newest first</option><option value="views">Most views</option><option value="likes">Most likes</option></select>`;
+  document.querySelectorAll('#pubFilters button').forEach(b=>b.onclick=()=>{CH=b.dataset.c;store.set('ch',CH);render()});
+  const ps=document.getElementById('psort');ps.value=PSORT;ps.onchange=()=>{PSORT=ps.value;store.set('psort',PSORT);render()};
+  const plist=PSORT==='new'?pub:[...pub].sort((a,b)=>(b[PSORT]||0)-(a[PSORT]||0));
+  document.getElementById('pub').innerHTML=plist.length?plist.map(p=>`<div class="vrow">
      ${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${img(p.thumb_sm||p.thumb,p.thumb_alt,p.title)}</a>`:img(p.thumb_sm||p.thumb,p.thumb_alt,p.title)}
      <div><div class="vt">${esc(p.title)}</div>
        <div><span class="status ${p.url?'s-live':'s-up'}">${p.url?'● LIVE':'uploading…'}</span> <span class="sub">${esc(p.label)} · posted ${when(p.published_at)}</span></div>
@@ -308,6 +336,8 @@ function connectDlg(){
     <div class="acts2"><button class="sbtn" onclick="closeModal()">Cancel</button><button class="sbtn ok" onclick="const t=document.getElementById('tok').value.trim();if(t){store.set('gh_token',t);closeModal();renderQueues();queueFlush(100)}">Save token</button></div>`)}
 load().then(()=>queueFlush(500)).catch(e=>{document.getElementById('updated').textContent='Could not load data: '+e});
 setInterval(()=>{if(!document.querySelector('#modal.on'))load()},5*60*1000);
+// numbers: re-read the small live.json every minute (no full reload)
+setInterval(async()=>{if(document.hidden||document.querySelector('#modal.on')||!DATA)return;const at=LIVE&&LIVE.at;if(await loadLive()&&LIVE.at!==at){applyLive();render()}},60*1000);
 </script>
 </body>
 </html>
