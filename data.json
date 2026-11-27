@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-26T23:15:37Z",
- "stats_updated_at": "2026-11-26T23:15:37Z",
+ "generated_at": "2026-11-27T00:15:26Z",
+ "stats_updated_at": "2026-11-27T00:15:26Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 3,
+   "left": 2,
    "cap": 6,
    "resets": "2026-11-27T08:00:00Z",
    "channels": [
@@ -33,8 +33,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 7,
-    "queued": 7,
+    "published": 8,
+    "queued": 6,
     "views": 240,
     "likes": 12
    },
@@ -47,6 +47,26 @@
     ]
    },
    "published": [
+    {
+     "title": "IShowSpeed BLAMES GTA 6 for Losing Rico 😂",
+     "published_at": "2026-11-27T00:15:26Z",
+     "slot": "2026-11-26@19",
+     "youtube_id": "L_pGeDAwqCc",
+     "thumb": "thumbs/1272cdff1cd2.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/L_pGeDAwqCc/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/1272cdff1cd2.jpg",
+     "thumb_text": "I WAS REPOSITIONING",
+     "style": "stack",
+     "streamer": "IShowSpeed",
+     "score": 55.0,
+     "url": "https://www.youtube.com/shorts/L_pGeDAwqCc",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 33.43,
+     "source_url": "https://www.twitch.tv/videos/2934967396"
+    },
     {
      "title": "KaiCenat vs Speed: Lose Everything If You Die? 💀 | GTA 6",
      "published_at": "2026-11-26T18:15:29Z",
@@ -367,44 +387,6 @@
    ],
    "queue": [
     {
-     "id": "1272cdff1cd2",
-     "title": "IShowSpeed BLAMES GTA 6 for Losing Rico 😂",
-     "streamer": "IShowSpeed",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/1272cdff1cd2.jpg",
-     "score": 55.0,
-     "seconds": 33.43,
-     "eta": "2026-11-27T00:00:00Z",
-     "thumb": "thumbs/1272cdff1cd2.jpg",
-     "thumb_text": "I WAS REPOSITIONING",
-     "tags": [
-      "ishowspeed",
-      "speed",
-      "gta 6",
-      "gta 6 funny moments",
-      "repositioning myself",
-      "speed rage",
-      "speed gta 6 gameplay",
-      "rico mission",
-      "ishowspeed reaction",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Speed swears he was just \"repositioning himself\" and the game messed up. Is he cooking or coping?\n\n🎮 Streamer: IShowSpeed\n📺 Full stream: https://www.twitch.tv/videos/2934967396\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #IShowSpeed #Speed #gaming #funny",
-     "drive_id": "1IqcDXPDqw_nY0VNswG1lWYWO_V0PSgiL",
-     "review": "approved",
-     "why": "Classic Speed excuse rant with repeated 'repositioning myself' bit and a clear punchline about the game assuming he lost the target.",
-     "hook2": "WAIT FOR IT",
-     "end_text": "NOT NOW",
-     "next": false,
-     "created_at": "2026-11-22T20:42:38Z",
-     "source_url": "https://www.twitch.tv/videos/2934967396",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "77f57f5133d0",
      "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
      "streamer": "KaiCenat",
@@ -632,7 +614,6 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-27T00:00:00Z",
     "2026-11-27T18:00:00Z",
     "2026-11-28T00:00:00Z",
     "2026-11-28T18:00:00Z",
@@ -647,15 +628,15 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1308,
-    "videos": 2,
+    "views": 1548,
+    "videos": 3,
     "source": "rss"
    },
    "totals": {
     "published": 3,
     "queued": 4,
-    "views": 1308,
-    "likes": 11
+    "views": 1548,
+    "likes": 18
    },
    "today": {
     "date": "2026-11-26",
@@ -678,10 +659,16 @@
      "streamer": "CYR",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/8w_pzSRIhjA",
-     "views": null,
-     "likes": null,
+     "views": 240,
+     "likes": 7,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-27T00:15:26Z",
+       240,
+       7
+      ]
+     ],
      "seconds": 33.43,
      "source_url": "https://www.twitch.tv/videos/2933968544"
     },
@@ -2025,6 +2012,13 @@
  "runs": [
   {
    "job": "publish",
+   "at": "2026-11-27T00:16:35Z",
+   "status": "ok",
+   "message": "fivestars: IShowSpeed BLAMES GTA 6 for Losing Rico 😂 (via own uploader)",
+   "slot": "2026-11-26@19"
+  },
+  {
+   "job": "publish",
    "at": "2026-11-26T23:17:38Z",
    "status": "ok",
    "message": "meltdown: CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂 (via own uploader)",
@@ -2261,12 +2255,6 @@
    "at": "2026-11-26T00:09:30Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Jynxzi's Chat Screams \"IT'S A VIDEO GAME\" in GTA 6 😤"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T00:07:46Z",
-   "status": "ok",
-   "message": "1 change(s): reject fivestars: Jynxzi Fights His Collar for 10 Min in GTA 6 😭"
   }
  ]
 }
