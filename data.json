@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:34:28Z",
+ "generated_at": "2026-11-27T04:34:51Z",
  "stats_updated_at": "2026-11-27T04:15:31Z",
  "budget": {
   "cap": 5,
@@ -393,6 +393,43 @@
    ],
    "queue": [
     {
+     "id": "a8a85c9a4134",
+     "title": "Jynxzi Thought He Was on Controller in GTA 6 😭",
+     "streamer": "Jynxzi",
+     "style": "stack",
+     "thumb_sm": "thumbs/sm/a8a85c9a4134.jpg",
+     "score": 62.0,
+     "seconds": 32.1,
+     "eta": "2026-11-27T18:00:00Z",
+     "thumb": "thumbs/a8a85c9a4134.jpg",
+     "thumb_text": "YOU RUINED IT",
+     "tags": [
+      "jynxzi",
+      "gta 6",
+      "jynxzi rage",
+      "jynxzi mouse and keyboard",
+      "gta 6 controller",
+      "jynxzi gta 6",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer rage",
+      "gta vi",
+      "gta 6 gameplay",
+      "streamer clips"
+     ],
+     "description": "He thought this guy was on controller, then the truth came out. How are kids getting Zim?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2939550825\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Jynxzi #Gaming",
+     "drive_id": "1h3_TlU4jzLFocYNw91Ou4mw0eTU_ulwQ",
+     "review": "approved",
+     "why": "Clear setup and payoff: the hyped-up clip gets exposed as mouse and keyboard, and he reacts loudly.",
+     "hook2": "HE DIDN'T KNOW",
+     "end_text": "EXPOSED",
+     "next": false,
+     "created_at": "2026-11-26T15:52:54Z",
+     "source_url": "https://www.twitch.tv/videos/2939550825",
+     "v2": true,
+     "hd": true
+    },
+    {
      "id": "77f57f5133d0",
      "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
      "streamer": "KaiCenat",
@@ -400,7 +437,7 @@
      "thumb_sm": "thumbs/sm/77f57f5133d0.jpg",
      "score": 55.0,
      "seconds": 32.6,
-     "eta": "2026-11-27T18:00:00Z",
+     "eta": "2026-11-28T00:00:00Z",
      "thumb": "thumbs/77f57f5133d0.jpg",
      "thumb_text": "OH MY GOD",
      "tags": [
@@ -437,7 +474,7 @@
      "thumb_sm": "thumbs/sm/6ab74cabd89a.jpg",
      "score": 55.0,
      "seconds": 33.0,
-     "eta": "2026-11-28T00:00:00Z",
+     "eta": "2026-11-28T18:00:00Z",
      "thumb": "thumbs/6ab74cabd89a.jpg",
      "thumb_text": "CALL YOUR CAR",
      "tags": [
@@ -469,43 +506,6 @@
     }
    ],
    "review": [
-    {
-     "id": "a8a85c9a4134",
-     "title": "Jynxzi Thought He Was on Controller in GTA 6 😭",
-     "streamer": "Jynxzi",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/a8a85c9a4134.jpg",
-     "score": 62.0,
-     "seconds": 32.1,
-     "eta": null,
-     "thumb": "thumbs/a8a85c9a4134.jpg",
-     "thumb_text": "YOU RUINED IT",
-     "tags": [
-      "jynxzi",
-      "gta 6",
-      "jynxzi rage",
-      "jynxzi mouse and keyboard",
-      "gta 6 controller",
-      "jynxzi gta 6",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer rage",
-      "gta vi",
-      "gta 6 gameplay",
-      "streamer clips"
-     ],
-     "description": "He thought this guy was on controller, then the truth came out. How are kids getting Zim?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2939550825\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Jynxzi #Gaming",
-     "drive_id": "1h3_TlU4jzLFocYNw91Ou4mw0eTU_ulwQ",
-     "review": "pending",
-     "why": "Clear setup and payoff: the hyped-up clip gets exposed as mouse and keyboard, and he reacts loudly.",
-     "hook2": "HE DIDN'T KNOW",
-     "end_text": "EXPOSED",
-     "next": false,
-     "created_at": "2026-11-26T15:52:54Z",
-     "source_url": "https://www.twitch.tv/videos/2939550825",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "4a1880ff2424",
      "title": "Jynxzi's GTA 6 Comeback Ruined by the Clock 😭",
@@ -2027,6 +2027,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-27T04:34:51Z",
+   "status": "ok",
+   "message": "1 change(s): approve fivestars: Jynxzi Thought He Was on Controller in GTA 6 😭"
+  },
+  {
+   "job": "review",
    "at": "2026-11-27T04:34:28Z",
    "status": "ok",
    "message": "1 change(s): approve meltdown: xQc Runs Into a GTA 6 Vault Heist Gone Wrong 😳"
@@ -2263,12 +2269,6 @@
    "at": "2026-11-26T07:09:22Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: KaiCenat vs Speed: Lose Everything If You Die? 💀 | GTA 6"
-  },
-  {
-   "job": "produce",
-   "at": "2026-11-26T04:15:33Z",
-   "status": "ok",
-   "message": "4 clip(s) queued from 1 stream(s)"
   }
  ]
 }
