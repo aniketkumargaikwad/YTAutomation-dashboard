@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T02:15:28Z",
- "stats_updated_at": "2026-11-27T02:15:28Z",
+ "generated_at": "2026-11-27T03:15:38Z",
+ "stats_updated_at": "2026-11-27T03:15:38Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -634,15 +634,15 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1938,
+    "views": 2165,
     "videos": 3,
     "source": "rss"
    },
    "totals": {
     "published": 3,
     "queued": 4,
-    "views": 1938,
-    "likes": 26
+    "views": 2165,
+    "likes": 29
    },
    "today": {
     "date": "2026-11-26",
@@ -665,8 +665,8 @@
      "streamer": "CYR",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/8w_pzSRIhjA",
-     "views": 630,
-     "likes": 15,
+     "views": 857,
+     "likes": 18,
      "comments": null,
      "history": [
       [
@@ -683,6 +683,11 @@
        "2026-11-27T02:15:28Z",
        630,
        15
+      ],
+      [
+       "2026-11-27T03:15:38Z",
+       857,
+       18
       ]
      ],
      "seconds": 33.43,
