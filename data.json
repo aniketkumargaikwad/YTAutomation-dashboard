@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-27T13:15:30Z",
- "stats_updated_at": "2026-11-27T13:15:30Z",
+ "generated_at": "2026-11-27T14:15:45Z",
+ "stats_updated_at": "2026-11-27T14:15:45Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 6,
+   "left": 5,
    "cap": 6,
    "resets": "2026-11-28T08:00:00Z",
    "channels": [
@@ -1398,15 +1398,15 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": null,
-    "views": 10,
+    "views": 11,
     "videos": 3,
     "source": "rss"
    },
    "totals": {
-    "published": 3,
-    "queued": 9,
-    "views": 10,
-    "likes": 1
+    "published": 4,
+    "queued": 8,
+    "views": 11,
+    "likes": 2
    },
    "today": {
     "date": "2026-11-27",
@@ -1416,6 +1416,26 @@
     ]
    },
    "published": [
+    {
+     "title": "One Joke Started a Bar Fight in GTA 6 💀",
+     "published_at": "2026-11-27T14:15:45Z",
+     "slot": "2026-11-27@19",
+     "youtube_id": "G2GAMpVue70",
+     "thumb": "thumbs/ccc17c8d7291.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/G2GAMpVue70/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/ccc17c8d7291.jpg",
+     "thumb_text": "ONE JOKE. ONE FIGHT.",
+     "style": "hookcard",
+     "streamer": "CarryMinati",
+     "score": 74,
+     "url": "https://www.youtube.com/shorts/G2GAMpVue70",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 33.43,
+     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w"
+    },
     {
      "title": "Lucia Walks Out of Prison and Carry Loses It 😭",
      "published_at": "2026-11-26T15:15:25Z",
@@ -1429,8 +1449,8 @@
      "streamer": "CarryMinati",
      "score": 88,
      "url": "https://www.youtube.com/shorts/0SgN8O_A-KI",
-     "views": 1,
-     "likes": 0,
+     "views": 2,
+     "likes": 1,
      "comments": null,
      "history": [
       [
@@ -1442,6 +1462,11 @@
        "2026-11-27T12:15:33Z",
        1,
        0
+      ],
+      [
+       "2026-11-27T14:15:45Z",
+       2,
+       1
       ]
      ],
      "seconds": 27.93,
@@ -1531,44 +1556,6 @@
     }
    ],
    "queue": [
-    {
-     "id": "ccc17c8d7291",
-     "title": "One Joke Started a Bar Fight in GTA 6 💀",
-     "streamer": "CarryMinati",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/ccc17c8d7291.jpg",
-     "score": 74,
-     "seconds": 33.43,
-     "eta": "2026-11-27T13:30:00Z",
-     "thumb": "thumbs/ccc17c8d7291.jpg",
-     "thumb_text": "ONE JOKE. ONE FIGHT.",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "One Mario joke and the whole bar ended up outside. Who threw the first punch?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6fail",
-     "drive_id": "1_4WGxHcKKi7bn0vNvx367siRLPdlyq8D",
-     "review": "approved",
-     "why": null,
-     "hook2": "WATCH THIS",
-     "end_text": "WASTED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "01ceb941fd91",
      "title": "Seaplane Escape in Under a Minute | GTA 6",
@@ -1876,7 +1863,6 @@
    ],
    "review": [],
    "slots_waiting": [
-    "2026-11-27T13:30:00Z",
     "2026-11-28T14:30:00Z",
     "2026-11-29T14:30:00Z"
    ]
@@ -1971,6 +1957,13 @@
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-27T14:17:39Z",
+   "status": "ok",
+   "message": "hindi: One Joke Started a Bar Fight in GTA 6 💀 (via own uploader)",
+   "slot": "2026-11-27@19"
+  },
   {
    "job": "review",
    "at": "2026-11-27T04:36:41Z",
@@ -2209,12 +2202,6 @@
    "at": "2026-11-26T08:38:25Z",
    "status": "ok",
    "message": "1 change(s): approve meltdown: CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:37:46Z",
-   "status": "ok",
-   "message": "1 change(s): reject meltdown: zackrawrr Reads a Brutal Tweet Roasting Jason in GTA 6 👀"
   }
  ]
 }
