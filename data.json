@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:15:31Z",
+ "generated_at": "2026-11-27T04:33:51Z",
  "stats_updated_at": "2026-11-27T04:15:31Z",
  "budget": {
   "cap": 5,
@@ -943,6 +943,44 @@
    ],
    "queue": [
     {
+     "id": "faf43afb006a",
+     "title": "xQc Won't Stop Checking Bags in GTA 6 and It Costs Him 😳",
+     "streamer": "xQc",
+     "style": "hookcard",
+     "thumb_sm": "thumbs/sm/faf43afb006a.jpg",
+     "score": 52.0,
+     "seconds": 32.5,
+     "eta": "2026-11-27T22:00:00Z",
+     "thumb": "thumbs/faf43afb006a.jpg",
+     "thumb_text": "NO TIME LEFT",
+     "tags": [
+      "xqc",
+      "gta 6",
+      "gta 6 heist",
+      "gta 6 airport",
+      "xqc gta 6",
+      "gta 6 crew",
+      "gta 6 funny moments",
+      "xqc reaction",
+      "gta 6 stream clips",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "The crew yells there's no time, but xQc keeps checking the bags. Would you have let him?\n\n🎮 Streamer: xQc\n📺 Full stream: https://www.twitch.tv/videos/2937629817\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta6gameplay #gtavi #heist",
+     "drive_id": "15PEO0ApsxQr8kuQYdO6dyBWdju4_j0I4",
+     "review": "approved",
+     "why": "Tense heist build with yelling and volume spikes, though the dialogue is hard to follow.",
+     "hook2": "WAIT FOR IT",
+     "end_text": "BUSTED",
+     "next": false,
+     "created_at": "2026-11-26T16:15:31Z",
+     "source_url": "https://www.twitch.tv/videos/2937629817",
+     "v2": true,
+     "hd": true
+    },
+    {
      "id": "037b4eb0fcc3",
      "title": "CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real\" 😳",
      "streamer": "CYR",
@@ -950,7 +988,7 @@
      "thumb_sm": "thumbs/sm/037b4eb0fcc3.jpg",
      "score": 52.0,
      "seconds": 33.43,
-     "eta": "2026-11-27T22:00:00Z",
+     "eta": "2026-11-29T00:00:00Z",
      "thumb": "thumbs/037b4eb0fcc3.jpg",
      "thumb_text": "SHE KNOWS?!",
      "tags": [
@@ -982,44 +1020,6 @@
     }
    ],
    "review": [
-    {
-     "id": "faf43afb006a",
-     "title": "xQc Won't Stop Checking Bags in GTA 6 and It Costs Him 😳",
-     "streamer": "xQc",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/faf43afb006a.jpg",
-     "score": 52.0,
-     "seconds": 32.5,
-     "eta": null,
-     "thumb": "thumbs/faf43afb006a.jpg",
-     "thumb_text": "NO TIME LEFT",
-     "tags": [
-      "xqc",
-      "gta 6",
-      "gta 6 heist",
-      "gta 6 airport",
-      "xqc gta 6",
-      "gta 6 crew",
-      "gta 6 funny moments",
-      "xqc reaction",
-      "gta 6 stream clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "The crew yells there's no time, but xQc keeps checking the bags. Would you have let him?\n\n🎮 Streamer: xQc\n📺 Full stream: https://www.twitch.tv/videos/2937629817\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta6gameplay #gtavi #heist",
-     "drive_id": "15PEO0ApsxQr8kuQYdO6dyBWdju4_j0I4",
-     "review": "pending",
-     "why": "Tense heist build with yelling and volume spikes, though the dialogue is hard to follow.",
-     "hook2": "WAIT FOR IT",
-     "end_text": "BUSTED",
-     "next": false,
-     "created_at": "2026-11-26T16:15:31Z",
-     "source_url": "https://www.twitch.tv/videos/2937629817",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "d0baf187300e",
      "title": "xQc Opens the GTA 6 Heist Bag and Loses It 😭",
@@ -2027,6 +2027,12 @@
  },
  "runs": [
   {
+   "job": "review",
+   "at": "2026-11-27T04:33:51Z",
+   "status": "ok",
+   "message": "1 change(s): approve meltdown: xQc Won't Stop Checking Bags in GTA 6 and It Costs Him 😳"
+  },
+  {
    "job": "publish",
    "at": "2026-11-27T01:16:28Z",
    "status": "ok",
@@ -2266,12 +2272,6 @@
    "status": "ok",
    "message": "fivestars: Nobody Told Speed GTA 6 Has TIGERS 🐅 (via own uploader)",
    "slot": "2026-11-25@20"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T00:10:40Z",
-   "status": "ok",
-   "message": "1 change(s): reject fivestars: Jynxzi Asks Joe Where He Was in 2011 😳 | GTA 6"
   }
  ]
 }
