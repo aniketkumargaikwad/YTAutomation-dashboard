@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:34:51Z",
+ "generated_at": "2026-11-27T04:35:31Z",
  "stats_updated_at": "2026-11-27T04:15:31Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 8,
-    "queued": 6,
+    "queued": 5,
     "views": 240,
     "likes": 12
    },
@@ -577,43 +577,6 @@
      "end_text": "NO WAY",
      "next": false,
      "created_at": "2026-11-26T15:46:33Z",
-     "source_url": "https://www.twitch.tv/videos/2939550825",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "3e346d9000ce",
-     "title": "Jynxzi's Comeback Was Unreal in GTA 6 😤",
-     "streamer": "Jynxzi",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/3e346d9000ce.jpg",
-     "score": 58.0,
-     "seconds": 31.6,
-     "eta": null,
-     "thumb": "thumbs/3e346d9000ce.jpg",
-     "thumb_text": "HE FLIPPED IT",
-     "tags": [
-      "jynxzi",
-      "gta 6",
-      "jynxzi comeback",
-      "gta 6 comeback",
-      "gta 6 clutch",
-      "jynxzi gta 6",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer comeback",
-      "gta vi",
-      "gta 6 funny moments",
-      "streamer clips"
-     ],
-     "description": "Down all game, then one tactic changes everything. Did he cook or did they choke?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2939550825\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #jynxzi #chess #comeback #gaming",
-     "drive_id": "1KeJw3aCXM-fyiXBhgI6SepXQMBoc7I4H",
-     "review": "pending",
-     "why": "Hype swing from 'is this hanging?' to 'best comeback of my life', with a payoff that lands inside the clip.",
-     "hook2": "WATCH THE FLIP",
-     "end_text": "OUTPLAYED",
-     "next": false,
-     "created_at": "2026-11-26T15:43:36Z",
      "source_url": "https://www.twitch.tv/videos/2939550825",
      "v2": true,
      "hd": true
@@ -2027,6 +1990,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-27T04:35:31Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Jynxzi's Comeback Was Unreal in GTA 6 😤"
+  },
+  {
+   "job": "review",
    "at": "2026-11-27T04:34:51Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: Jynxzi Thought He Was on Controller in GTA 6 😭"
@@ -2263,12 +2232,6 @@
    "at": "2026-11-26T08:36:40Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: KaiCenat Goes From Broke to SCREAMING in GTA 6 💰"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T07:09:22Z",
-   "status": "ok",
-   "message": "1 change(s): approve fivestars: KaiCenat vs Speed: Lose Everything If You Die? 💀 | GTA 6"
   }
  ]
 }
