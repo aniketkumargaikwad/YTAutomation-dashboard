@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-27T17:15:41Z",
- "stats_updated_at": "2026-11-27T17:15:41Z",
+ "generated_at": "2026-11-27T18:15:29Z",
+ "stats_updated_at": "2026-11-27T18:15:29Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 5,
+   "left": 4,
    "cap": 6,
    "resets": "2026-11-28T08:00:00Z",
    "channels": [
@@ -33,8 +33,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 8,
-    "queued": 7,
+    "published": 9,
+    "queued": 6,
     "views": 251,
     "likes": 13
    },
@@ -47,6 +47,26 @@
     ]
    },
    "published": [
+    {
+     "title": "Jynxzi Thought He Was on Controller in GTA 6 😭",
+     "published_at": "2026-11-27T18:15:29Z",
+     "slot": "2026-11-27@13",
+     "youtube_id": "qYZSJQXpdjI",
+     "thumb": "thumbs/a8a85c9a4134.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/qYZSJQXpdjI/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/a8a85c9a4134.jpg",
+     "thumb_text": "YOU RUINED IT",
+     "style": "stack",
+     "streamer": "Jynxzi",
+     "score": 62.0,
+     "url": "https://www.youtube.com/shorts/qYZSJQXpdjI",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 32.1,
+     "source_url": "https://www.twitch.tv/videos/2939550825"
+    },
     {
      "title": "IShowSpeed BLAMES GTA 6 for Losing Rico 😂",
      "published_at": "2026-11-27T00:15:26Z",
@@ -413,43 +433,6 @@
    ],
    "queue": [
     {
-     "id": "a8a85c9a4134",
-     "title": "Jynxzi Thought He Was on Controller in GTA 6 😭",
-     "streamer": "Jynxzi",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/a8a85c9a4134.jpg",
-     "score": 62.0,
-     "seconds": 32.1,
-     "eta": "2026-11-27T18:00:00Z",
-     "thumb": "thumbs/a8a85c9a4134.jpg",
-     "thumb_text": "YOU RUINED IT",
-     "tags": [
-      "jynxzi",
-      "gta 6",
-      "jynxzi rage",
-      "jynxzi mouse and keyboard",
-      "gta 6 controller",
-      "jynxzi gta 6",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer rage",
-      "gta vi",
-      "gta 6 gameplay",
-      "streamer clips"
-     ],
-     "description": "He thought this guy was on controller, then the truth came out. How are kids getting Zim?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2939550825\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Jynxzi #Gaming",
-     "drive_id": "1h3_TlU4jzLFocYNw91Ou4mw0eTU_ulwQ",
-     "review": "approved",
-     "why": "Clear setup and payoff: the hyped-up clip gets exposed as mouse and keyboard, and he reacts loudly.",
-     "hook2": "HE DIDN'T KNOW",
-     "end_text": "EXPOSED",
-     "next": false,
-     "created_at": "2026-11-26T15:52:54Z",
-     "source_url": "https://www.twitch.tv/videos/2939550825",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "77f57f5133d0",
      "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
      "streamer": "KaiCenat",
@@ -681,7 +664,6 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-27T18:00:00Z",
     "2026-11-28T00:00:00Z",
     "2026-11-28T18:00:00Z",
     "2026-11-29T00:00:00Z",
@@ -1204,7 +1186,7 @@
    "totals": {
     "published": 4,
     "queued": 5,
-    "views": 19,
+    "views": 20,
     "likes": 6
    },
    "today": {
@@ -1228,7 +1210,7 @@
      "streamer": "iShowSpeed",
      "score": 79,
      "url": "https://www.youtube.com/shorts/2fAHdD2Erjc",
-     "views": 5,
+     "views": 6,
      "likes": 1,
      "comments": 0,
      "history": [
@@ -1567,7 +1549,7 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": 0,
-    "views": 12,
+    "views": 13,
     "videos": 4,
     "source": "rss"
    },
@@ -1742,44 +1724,6 @@
    ],
    "queue": [
     {
-     "id": "01ceb941fd91",
-     "title": "Seaplane Escape in Under a Minute | GTA 6",
-     "streamer": "CarryMinati",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/01ceb941fd91.jpg",
-     "score": 68,
-     "seconds": 33.43,
-     "eta": "2026-11-28T14:30:00Z",
-     "thumb": "thumbs/01ceb941fd91.jpg",
-     "thumb_text": "SEAPLANE ESCAPE",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "A shed fight, a sprint and a seaplane takeoff. Best GTA 6 escape yet?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6gameplay",
-     "drive_id": "1QS8NG12aYvYrh2_VGbE2a7m_0_mSGdzM",
-     "review": "approved",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "MISSION PASSED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "e1eea7f332c5",
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
      "streamer": "CarryMinati",
@@ -1787,7 +1731,7 @@
      "thumb_sm": "thumbs/sm/e1eea7f332c5.jpg",
      "score": 84,
      "seconds": 33.4,
-     "eta": "2026-11-29T14:30:00Z",
+     "eta": "2026-11-28T14:30:00Z",
      "thumb": "thumbs/e1eea7f332c5.jpg",
      "thumb_text": "GYM FAIL",
      "tags": [
@@ -1814,6 +1758,44 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/live/irNhWMG560k",
+     "v2": true,
+     "hd": true
+    },
+    {
+     "id": "01ceb941fd91",
+     "title": "Seaplane Escape in Under a Minute | GTA 6",
+     "streamer": "CarryMinati",
+     "style": "hookcard",
+     "thumb_sm": "thumbs/sm/01ceb941fd91.jpg",
+     "score": 68,
+     "seconds": 33.43,
+     "eta": "2026-11-29T14:30:00Z",
+     "thumb": "thumbs/01ceb941fd91.jpg",
+     "thumb_text": "SEAPLANE ESCAPE",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "A shed fight, a sprint and a seaplane takeoff. Best GTA 6 escape yet?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6gameplay",
+     "drive_id": "1QS8NG12aYvYrh2_VGbE2a7m_0_mSGdzM",
+     "review": "approved",
+     "why": null,
+     "hook2": "DON'T BLINK",
+     "end_text": "MISSION PASSED",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
      "v2": true,
      "hd": true
     },
@@ -2054,20 +2036,20 @@
   }
  },
  "learned": {
-  "samples": 14,
-  "overall": 2.332,
+  "samples": 15,
+  "overall": 2.269,
   "style": {
    "stack": {
-    "n": 6,
-    "mean_log_views": 2.247,
+    "n": 7,
+    "mean_log_views": 2.124,
     "median_views": 4,
-    "weight": 0.918
+    "weight": 0.865
    },
    "fullframe": {
     "n": 5,
     "mean_log_views": 1.699,
     "median_views": 4,
-    "weight": 0.531
+    "weight": 0.566
    },
    "hookcard": {
     "n": 3,
@@ -2081,7 +2063,7 @@
     "n": 8,
     "mean_log_views": 2.13,
     "median_views": 4,
-    "weight": 0.817
+    "weight": 0.87
    },
    "CarryMinati": {
     "n": 3,
@@ -2106,6 +2088,12 @@
     "mean_log_views": 2.398,
     "median_views": 10,
     "weight": 1.0
+   },
+   "KaiCenat": {
+    "n": 1,
+    "mean_log_views": 1.386,
+    "median_views": 3,
+    "weight": 1.0
    }
   },
   "hour": {
@@ -2122,10 +2110,10 @@
     "weight": 1.0
    },
    "13": {
-    "n": 3,
-    "mean_log_views": 1.477,
+    "n": 4,
+    "mean_log_views": 1.454,
     "median_views": 3,
-    "weight": 1.0
+    "weight": 0.5
    },
    "18": {
     "n": 3,
@@ -2142,6 +2130,13 @@
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-27T18:16:38Z",
+   "status": "ok",
+   "message": "fivestars: Jynxzi Thought He Was on Controller in GTA 6 😭 (via own uploader)",
+   "slot": "2026-11-27@13"
+  },
   {
    "job": "produce",
    "at": "2026-11-27T15:53:57Z",
@@ -2381,12 +2376,6 @@
    "at": "2026-11-26T08:39:04Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Lucia Walks Out of Prison and Carry Loses It 😭"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:38:46Z",
-   "status": "ok",
-   "message": "1 change(s): approve meltdown: CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂"
   }
  ]
 }
