@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:35:31Z",
+ "generated_at": "2026-11-27T04:36:29Z",
  "stats_updated_at": "2026-11-27T04:15:31Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 8,
-    "queued": 5,
+    "queued": 4,
     "views": 240,
     "likes": 12
    },
@@ -540,43 +540,6 @@
      "end_text": "WASTED",
      "next": false,
      "created_at": "2026-11-26T15:49:52Z",
-     "source_url": "https://www.twitch.tv/videos/2939550825",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "2496ff4f61e6",
-     "title": "Jynxzi Spots One Thing in GTA 6 and Loses It 🤯",
-     "streamer": "Jynxzi",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/2496ff4f61e6.jpg",
-     "score": 58.0,
-     "seconds": 30.3,
-     "eta": null,
-     "thumb": "thumbs/2496ff4f61e6.jpg",
-     "thumb_text": "HE SAW THE FORK",
-     "tags": [
-      "jynxzi",
-      "gta 6",
-      "jynxzi fork",
-      "gta 6 clutch",
-      "jynxzi reaction",
-      "jynxzi gta 6",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer reaction",
-      "gta vi",
-      "gta 6 gameplay",
-      "streamer clips"
-     ],
-     "description": "Jynxzi spots the fork and goes wild. Would you have seen it?\n\n🎮 Streamer: Jynxzi\n📺 Full stream: https://www.twitch.tv/videos/2939550825\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Jynxzi #Chess #Reaction #Gaming",
-     "drive_id": "1MM5SPshroWCf89NTOPB1KSCVMbTyHycG",
-     "review": "pending",
-     "why": "Builds from doubt to a spotted fork and an explosive 'I won!' reaction with rising volume.",
-     "hook2": "DO YOU SEE IT?",
-     "end_text": "NO WAY",
-     "next": false,
-     "created_at": "2026-11-26T15:46:33Z",
      "source_url": "https://www.twitch.tv/videos/2939550825",
      "v2": true,
      "hd": true
@@ -1990,6 +1953,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-27T04:36:29Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Jynxzi Spots One Thing in GTA 6 and Loses It 🤯"
+  },
+  {
+   "job": "review",
    "at": "2026-11-27T04:35:31Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Jynxzi's Comeback Was Unreal in GTA 6 😤"
@@ -2226,12 +2195,6 @@
    "at": "2026-11-26T08:37:35Z",
    "status": "ok",
    "message": "1 change(s): reject meltdown: zackrawrr vs a Brain Implant: Who Drives Better in GTA 6? 😭"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:36:40Z",
-   "status": "ok",
-   "message": "1 change(s): approve fivestars: KaiCenat Goes From Broke to SCREAMING in GTA 6 💰"
   }
  ]
 }
