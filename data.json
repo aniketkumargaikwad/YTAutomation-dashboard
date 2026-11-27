@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T15:53:58Z",
- "stats_updated_at": "2026-11-27T15:15:25Z",
+ "generated_at": "2026-11-27T16:15:36Z",
+ "stats_updated_at": "2026-11-27T16:15:36Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -35,7 +35,7 @@
    "totals": {
     "published": 8,
     "queued": 7,
-    "views": 250,
+    "views": 251,
     "likes": 13
    },
    "today": {
@@ -60,7 +60,7 @@
      "streamer": "IShowSpeed",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/L_pGeDAwqCc",
-     "views": 5,
+     "views": 6,
      "likes": 1,
      "comments": 0,
      "history": [
@@ -704,7 +704,7 @@
    "totals": {
     "published": 3,
     "queued": 4,
-    "views": 2514,
+    "views": 2516,
     "likes": 31
    },
    "today": {
@@ -880,7 +880,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1301,
+     "views": 1303,
      "likes": 11,
      "comments": 0,
      "history": [
@@ -1204,7 +1204,7 @@
    "totals": {
     "published": 4,
     "queued": 5,
-    "views": 19,
+    "views": 20,
     "likes": 6
    },
    "today": {
@@ -1228,7 +1228,7 @@
      "streamer": "iShowSpeed",
      "score": 79,
      "url": "https://www.youtube.com/shorts/2fAHdD2Erjc",
-     "views": 5,
+     "views": 6,
      "likes": 1,
      "comments": 0,
      "history": [
@@ -1567,7 +1567,7 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": 0,
-    "views": 13,
+    "views": 12,
     "videos": 4,
     "source": "rss"
    },
@@ -2061,7 +2061,7 @@
     "n": 6,
     "mean_log_views": 2.247,
     "median_views": 4,
-    "weight": 0.919
+    "weight": 0.918
    },
    "fullframe": {
     "n": 5,
@@ -2071,7 +2071,7 @@
    },
    "hookcard": {
     "n": 3,
-    "mean_log_views": 3.556,
+    "mean_log_views": 3.557,
     "median_views": 10,
     "weight": 1.0
    }
@@ -2091,8 +2091,8 @@
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.172,
-    "median_views": 1301,
+    "mean_log_views": 7.173,
+    "median_views": 1303,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -2129,7 +2129,7 @@
    },
    "18": {
     "n": 3,
-    "mean_log_views": 3.726,
+    "mean_log_views": 3.727,
     "median_views": 10,
     "weight": 1.0
    },
