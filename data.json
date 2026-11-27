@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-27T21:15:40Z",
- "stats_updated_at": "2026-11-27T21:15:40Z",
+ "generated_at": "2026-11-27T22:15:29Z",
+ "stats_updated_at": "2026-11-27T22:15:29Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 4,
+   "left": 3,
    "cap": 6,
    "resets": "2026-11-28T08:00:00Z",
    "channels": [
@@ -690,8 +690,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 3,
-    "queued": 4,
+    "published": 4,
+    "queued": 3,
     "views": 2518,
     "likes": 31
    },
@@ -703,6 +703,26 @@
     ]
    },
    "published": [
+    {
+     "title": "xQc Runs Into a GTA 6 Vault Heist Gone Wrong 😳",
+     "published_at": "2026-11-27T22:15:29Z",
+     "slot": "2026-11-27@17",
+     "youtube_id": "YdetazbrqW0",
+     "thumb": "thumbs/a4f1f604d143.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/YdetazbrqW0/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/a4f1f604d143.jpg",
+     "thumb_text": "HE WALKED IN",
+     "style": "hookcard",
+     "streamer": "xQc",
+     "score": 62.0,
+     "url": "https://www.youtube.com/shorts/YdetazbrqW0",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 32.0,
+     "source_url": "https://www.twitch.tv/videos/2937629817"
+    },
     {
      "title": "CYR Loses $407 in GTA 6 and Begs to Reload the Save 😂",
      "published_at": "2026-11-26T23:15:37Z",
@@ -1019,43 +1039,6 @@
    ],
    "queue": [
     {
-     "id": "a4f1f604d143",
-     "title": "xQc Runs Into a GTA 6 Vault Heist Gone Wrong 😳",
-     "streamer": "xQc",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/a4f1f604d143.jpg",
-     "score": 62.0,
-     "seconds": 32.0,
-     "eta": "2026-11-27T22:00:00Z",
-     "thumb": "thumbs/a4f1f604d143.jpg",
-     "thumb_text": "HE WALKED IN",
-     "tags": [
-      "xqc",
-      "gta 6",
-      "gta 6 heist",
-      "gta 6 vault",
-      "xqc gta 6",
-      "gta 6 funny moments",
-      "gta 6 gameplay",
-      "xqc reaction",
-      "gta 6 stream clips",
-      "gta vi",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "xQc sprints to open the vault and the guards are already kneeling. Would you have walked in?\n\n🎮 Streamer: xQc\n📺 Full stream: https://www.twitch.tv/videos/2937629817\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #streamer #gta6gameplay #gtavi #heist",
-     "drive_id": "1e5qmLhfqatAUXWJ8Sc_Yh68DCem2hi8t",
-     "review": "approved",
-     "why": "Clear on-screen twist as the crew storms the vault and the player is caught in it.",
-     "hook2": "LOOK BEHIND HIM",
-     "end_text": "PLOT TWIST",
-     "next": false,
-     "created_at": "2026-11-26T16:08:42Z",
-     "source_url": "https://www.twitch.tv/videos/2937629817",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "037b4eb0fcc3",
      "title": "CYR Photographs a GTA 6 NPC and She Says \"I Know You're Real\" 😳",
      "streamer": "CYR",
@@ -1172,7 +1155,6 @@
    ],
    "review": [],
    "slots_waiting": [
-    "2026-11-27T22:00:00Z",
     "2026-11-29T00:00:00Z",
     "2026-11-29T23:00:00Z"
    ]
@@ -2139,6 +2121,13 @@
  "runs": [
   {
    "job": "publish",
+   "at": "2026-11-27T22:16:30Z",
+   "status": "ok",
+   "message": "meltdown: xQc Runs Into a GTA 6 Vault Heist Gone Wrong 😳 (via own uploader)",
+   "slot": "2026-11-27@17"
+  },
+  {
+   "job": "publish",
    "at": "2026-11-27T18:16:38Z",
    "status": "ok",
    "message": "fivestars: Jynxzi Thought He Was on Controller in GTA 6 😭 (via own uploader)",
@@ -2377,12 +2366,6 @@
    "at": "2026-11-26T08:39:19Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Carry Tried to Bench 225 in GTA 6… 💀"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:39:04Z",
-   "status": "ok",
-   "message": "1 change(s): approve hindi: Lucia Walks Out of Prison and Carry Loses It 😭"
   }
  ]
 }
