@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-27T00:15:26Z",
- "stats_updated_at": "2026-11-27T00:15:26Z",
+ "generated_at": "2026-11-27T01:15:28Z",
+ "stats_updated_at": "2026-11-27T01:15:28Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 2,
+   "left": 1,
    "cap": 6,
    "resets": "2026-11-27T08:00:00Z",
    "channels": [
@@ -29,7 +29,7 @@
     "name": "Five Stars Deep",
     "subscribers": null,
     "views": 240,
-    "videos": 7,
+    "videos": 8,
     "source": "rss"
    },
    "totals": {
@@ -60,10 +60,16 @@
      "streamer": "IShowSpeed",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/L_pGeDAwqCc",
-     "views": null,
-     "likes": null,
+     "views": 0,
+     "likes": 0,
      "comments": null,
-     "history": [],
+     "history": [
+      [
+       "2026-11-27T01:15:28Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 33.43,
      "source_url": "https://www.twitch.tv/videos/2934967396"
     },
@@ -628,15 +634,15 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": null,
-    "views": 1548,
+    "views": 1737,
     "videos": 3,
     "source": "rss"
    },
    "totals": {
     "published": 3,
     "queued": 4,
-    "views": 1548,
-    "likes": 18
+    "views": 1737,
+    "likes": 23
    },
    "today": {
     "date": "2026-11-26",
@@ -659,14 +665,19 @@
      "streamer": "CYR",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/8w_pzSRIhjA",
-     "views": 240,
-     "likes": 7,
+     "views": 429,
+     "likes": 12,
      "comments": null,
      "history": [
       [
        "2026-11-27T00:15:26Z",
        240,
        7
+      ],
+      [
+       "2026-11-27T01:15:28Z",
+       429,
+       12
       ]
      ],
      "seconds": 33.43,
@@ -1088,8 +1099,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 3,
-    "queued": 6,
+    "published": 4,
+    "queued": 5,
     "views": 9,
     "likes": 3
    },
@@ -1101,6 +1112,26 @@
     ]
    },
    "published": [
+    {
+     "title": "Speed Found Out He Has a SON in GTA 6 😭",
+     "published_at": "2026-11-27T01:15:28Z",
+     "slot": "2026-11-26@20",
+     "youtube_id": "2fAHdD2Erjc",
+     "thumb": "thumbs/532921682dbb.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/2fAHdD2Erjc/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/532921682dbb.jpg",
+     "thumb_text": "HE HAS A SON?!",
+     "style": "fullframe",
+     "streamer": "iShowSpeed",
+     "score": 79,
+     "url": "https://www.youtube.com/shorts/2fAHdD2Erjc",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 25.1,
+     "source_url": "https://youtu.be/kR8bhkVAgBY"
+    },
     {
      "title": "Did Speed Just Spot Trevor in GTA 6?! 😳",
      "published_at": "2026-11-26T01:15:57Z",
@@ -1216,41 +1247,6 @@
     }
    ],
    "queue": [
-    {
-     "id": "532921682dbb",
-     "title": "Speed Found Out He Has a SON in GTA 6 😭",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/532921682dbb.jpg",
-     "score": 79,
-     "seconds": 25.1,
-     "eta": "2026-11-27T01:00:00Z",
-     "thumb": "thumbs/532921682dbb.jpg",
-     "thumb_text": "HE HAS A SON?!",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "gta 6 first time",
-      "gta 6 highlights",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "\"Chad, I didn't even know we had a son.\" 💀\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #lucia",
-     "drive_id": "1WKdM1T64im9efjPIcge5VfSSh1xWtOkr",
-     "review": "approved",
-     "why": null,
-     "hook2": "HERE IT COMES",
-     "end_text": "PLOT TWIST",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "7dd090c91008",
      "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
@@ -1429,7 +1425,6 @@
    ],
    "review": [],
    "slots_waiting": [
-    "2026-11-27T01:00:00Z",
     "2026-11-28T00:00:00Z",
     "2026-11-29T01:00:00Z"
    ]
@@ -2012,6 +2007,13 @@
  "runs": [
   {
    "job": "publish",
+   "at": "2026-11-27T01:16:28Z",
+   "status": "ok",
+   "message": "winchat: Speed Found Out He Has a SON in GTA 6 😭 (via own uploader)",
+   "slot": "2026-11-26@20"
+  },
+  {
+   "job": "publish",
    "at": "2026-11-27T00:16:35Z",
    "status": "ok",
    "message": "fivestars: IShowSpeed BLAMES GTA 6 for Losing Rico 😂 (via own uploader)",
@@ -2249,12 +2251,6 @@
    "at": "2026-11-26T00:10:40Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Jynxzi Asks Joe Where He Was in 2011 😳 | GTA 6"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T00:09:30Z",
-   "status": "ok",
-   "message": "1 change(s): reject fivestars: Jynxzi's Chat Screams \"IT'S A VIDEO GAME\" in GTA 6 😤"
   }
  ]
 }
