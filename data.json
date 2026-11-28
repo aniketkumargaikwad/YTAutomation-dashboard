@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T01:15:32Z",
- "stats_updated_at": "2026-11-28T01:15:32Z",
+ "generated_at": "2026-11-28T02:15:32Z",
+ "stats_updated_at": "2026-11-28T02:15:32Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -677,16 +677,16 @@
    "timezone": "America/New_York",
    "stats": {
     "name": "Meltdown On Stream",
-    "subscribers": 3,
-    "views": 3066,
+    "subscribers": 2,
+    "views": 3269,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 3068,
-    "likes": 46
+    "views": 3271,
+    "likes": 51
    },
    "today": {
     "date": "2026-11-27",
@@ -709,8 +709,8 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": 548,
-     "likes": 15,
+     "views": 751,
+     "likes": 20,
      "comments": 0,
      "history": [
       [
