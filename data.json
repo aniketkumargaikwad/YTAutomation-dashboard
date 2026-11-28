@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T00:15:40Z",
- "stats_updated_at": "2026-11-28T00:15:40Z",
+ "generated_at": "2026-11-28T01:15:32Z",
+ "stats_updated_at": "2026-11-28T01:15:32Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -29,7 +29,7 @@
     "name": "Five Stars Deep",
     "subscribers": 0,
     "views": 251,
-    "videos": 9,
+    "videos": 10,
     "source": "rss"
    },
    "totals": {
@@ -60,10 +60,16 @@
      "streamer": "KaiCenat",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/1lCGg2w25y8",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "history": [],
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "history": [
+      [
+       "2026-11-28T01:15:32Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 32.6,
      "source_url": "https://www.twitch.tv/videos/2939504732"
     },
@@ -672,15 +678,15 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": 3,
-    "views": 2911,
+    "views": 3066,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 2913,
-    "likes": 44
+    "views": 3068,
+    "likes": 46
    },
    "today": {
     "date": "2026-11-27",
@@ -703,8 +709,8 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": 393,
-     "likes": 13,
+     "views": 548,
+     "likes": 15,
      "comments": 0,
      "history": [
       [
@@ -1171,7 +1177,7 @@
     "name": "W In Chat",
     "subscribers": 0,
     "views": 20,
-    "videos": 4,
+    "videos": 5,
     "source": "rss"
    },
    "totals": {
@@ -1201,10 +1207,16 @@
      "streamer": "iShowSpeed",
      "score": 76,
      "url": "https://www.youtube.com/shorts/pwlp6sEIePQ",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "history": [],
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "history": [
+      [
+       "2026-11-28T01:15:32Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 33.4,
      "source_url": "https://youtu.be/kR8bhkVAgBY"
     },
@@ -2017,19 +2029,19 @@
   }
  },
  "learned": {
-  "samples": 17,
-  "overall": 2.534,
+  "samples": 18,
+  "overall": 2.501,
   "style": {
    "stack": {
     "n": 8,
     "mean_log_views": 2.102,
     "median_views": 4,
-    "weight": 0.649
+    "weight": 0.671
    },
    "fullframe": {
-    "n": 5,
-    "mean_log_views": 1.699,
-    "median_views": 4,
+    "n": 6,
+    "mean_log_views": 1.74,
+    "median_views": 5,
     "weight": 0.5
    },
    "hookcard": {
@@ -2041,10 +2053,10 @@
   },
   "streamer": {
    "iShowSpeed": {
-    "n": 8,
-    "mean_log_views": 2.13,
-    "median_views": 4,
-    "weight": 0.667
+    "n": 9,
+    "mean_log_views": 2.109,
+    "median_views": 5,
+    "weight": 0.676
    },
    "CarryMinati": {
     "n": 3,
@@ -2103,9 +2115,9 @@
     "weight": 2.0
    },
    "20": {
-    "n": 4,
-    "mean_log_views": 1.472,
-    "median_views": 3,
+    "n": 5,
+    "mean_log_views": 1.566,
+    "median_views": 4,
     "weight": 0.5
    },
    "19": {
