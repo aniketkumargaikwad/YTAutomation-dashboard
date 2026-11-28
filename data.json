@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T16:54:33Z",
+ "generated_at": "2026-11-28T16:55:42Z",
  "stats_updated_at": "2026-11-28T16:15:47Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 10,
-    "queued": 8,
+    "queued": 7,
     "views": 257,
     "likes": 14
    },
@@ -529,44 +529,6 @@
     }
    ],
    "review": [
-    {
-     "id": "8b6f3bae83ed",
-     "title": "Agent00 Rages: Apple's $500M Fine Is a Joke in GTA 6 🤬",
-     "streamer": "Agent00",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/8b6f3bae83ed.jpg",
-     "score": 62.0,
-     "seconds": 29.6,
-     "eta": null,
-     "thumb": "thumbs/8b6f3bae83ed.jpg",
-     "thumb_text": "ROUNDING ERROR",
-     "tags": [
-      "agent00",
-      "gta 6",
-      "apple fine",
-      "apple $500m",
-      "apple $84 billion",
-      "corporate fines",
-      "rant",
-      "gta 6 clips",
-      "gta 6 shorts",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "streamer clips"
-     ],
-     "description": "Apple made $84B in a bad year and paid $500M. Is that a punishment or a rounding error?\n\n🎮 Streamer: Agent00\n📺 Full stream: https://www.twitch.tv/videos/2940606444\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Agent00 #Apple #Reaction",
-     "drive_id": "11_8wSwJxssNbaJl4m_wLrz5_qxm0VDKX",
-     "review": "pending",
-     "why": "Loud, escalating rant with a clear bold opinion that the fine is meaningless for Apple.",
-     "hook2": "DO THE MATH",
-     "end_text": "NO WAY",
-     "next": false,
-     "created_at": "2026-11-28T03:56:40Z",
-     "source_url": "https://www.twitch.tv/videos/2940606444",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "73d1373174e8",
      "title": "Agent00 Roasts the 2AM Group Chat Prank in GTA 6 😂",
@@ -2289,6 +2251,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-28T16:55:42Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Agent00 Rages: Apple's $500M Fine Is a Joke in GTA 6 🤬"
+  },
+  {
+   "job": "review",
    "at": "2026-11-28T16:54:33Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Agent00: \"This Is NOT a Punishment\" in GTA 6 💀"
@@ -2531,12 +2499,6 @@
    "at": "2026-11-26T08:43:02Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: CarryMinati's First Time Controlling GTA 6 😳"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:42:52Z",
-   "status": "ok",
-   "message": "1 change(s): approve hindi: GTA 6 Punishes You for Doomscrolling 📱"
   }
  ]
 }
