@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-27T23:15:31Z",
- "stats_updated_at": "2026-11-27T23:15:31Z",
+ "generated_at": "2026-11-28T00:15:40Z",
+ "stats_updated_at": "2026-11-28T00:15:40Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 3,
+   "left": 1,
    "cap": 6,
    "resets": "2026-11-28T08:00:00Z",
    "channels": [
@@ -33,8 +33,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 9,
-    "queued": 6,
+    "published": 10,
+    "queued": 5,
     "views": 251,
     "likes": 13
    },
@@ -43,10 +43,30 @@
     "count": 2,
     "slots": [
      13,
-     19
+     18
     ]
    },
    "published": [
+    {
+     "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
+     "published_at": "2026-11-28T00:15:40Z",
+     "slot": "2026-11-27@18",
+     "youtube_id": "1lCGg2w25y8",
+     "thumb": "thumbs/77f57f5133d0.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/1lCGg2w25y8/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/77f57f5133d0.jpg",
+     "thumb_text": "OH MY GOD",
+     "style": "stack",
+     "streamer": "KaiCenat",
+     "score": 55.0,
+     "url": "https://www.youtube.com/shorts/1lCGg2w25y8",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 32.6,
+     "source_url": "https://www.twitch.tv/videos/2939504732"
+    },
     {
      "title": "Jynxzi Thought He Was on Controller in GTA 6 😭",
      "published_at": "2026-11-27T18:15:29Z",
@@ -444,43 +464,6 @@
    ],
    "queue": [
     {
-     "id": "77f57f5133d0",
-     "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
-     "streamer": "KaiCenat",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/77f57f5133d0.jpg",
-     "score": 55.0,
-     "seconds": 32.6,
-     "eta": "2026-11-28T00:00:00Z",
-     "thumb": "thumbs/77f57f5133d0.jpg",
-     "thumb_text": "OH MY GOD",
-     "tags": [
-      "kaicenat",
-      "kai cenat",
-      "gta 6",
-      "gta 6 money",
-      "kai cenat reaction",
-      "streamer reaction",
-      "gta 6 funny moments",
-      "oh my god",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Kai goes from broke to screaming in seconds in GTA 6. What would you do with that cash?\n\n🎮 Streamer: KaiCenat\n📺 Full stream: https://www.twitch.tv/videos/2939504732\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #KaiCenat #Streamer #Gaming #Funny",
-     "drive_id": "1CqYv5AZRRrMEOWgCkufD1CPpeZ9tNPU4",
-     "review": "approved",
-     "why": "Sudden burst of shouting and hype with loud audio spike, though the context is thin.",
-     "hook2": "WAIT FOR IT",
-     "end_text": "PAYDAY",
-     "next": false,
-     "created_at": "2026-11-26T04:09:41Z",
-     "source_url": "https://www.twitch.tv/videos/2939504732",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "6ab74cabd89a",
      "title": "KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6",
      "streamer": "KaiCenat",
@@ -675,11 +658,10 @@
     }
    ],
    "slots_waiting": [
-    "2026-11-28T00:00:00Z",
     "2026-11-28T18:00:00Z",
-    "2026-11-29T00:00:00Z",
+    "2026-11-28T23:00:00Z",
     "2026-11-29T18:00:00Z",
-    "2026-11-30T00:00:00Z"
+    "2026-11-29T23:00:00Z"
    ]
   },
   "meltdown": {
@@ -689,16 +671,16 @@
    "timezone": "America/New_York",
    "stats": {
     "name": "Meltdown On Stream",
-    "subscribers": 2,
-    "views": 2710,
+    "subscribers": 3,
+    "views": 2911,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 2710,
-    "likes": 36
+    "views": 2913,
+    "likes": 44
    },
    "today": {
     "date": "2026-11-27",
@@ -721,8 +703,8 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": 190,
-     "likes": 5,
+     "views": 393,
+     "likes": 13,
      "comments": 0,
      "history": [
       [
@@ -1193,8 +1175,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 4,
-    "queued": 5,
+    "published": 5,
+    "queued": 4,
     "views": 20,
     "likes": 6
    },
@@ -1206,6 +1188,26 @@
     ]
    },
    "published": [
+    {
+     "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
+     "published_at": "2026-11-28T00:15:40Z",
+     "slot": "2026-11-27@19",
+     "youtube_id": "pwlp6sEIePQ",
+     "thumb": "thumbs/7dd090c91008.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/pwlp6sEIePQ/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/7dd090c91008.jpg",
+     "thumb_text": "5 MINUTES IN...",
+     "style": "fullframe",
+     "streamer": "iShowSpeed",
+     "score": 76,
+     "url": "https://www.youtube.com/shorts/pwlp6sEIePQ",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 33.4,
+     "source_url": "https://youtu.be/kR8bhkVAgBY"
+    },
     {
      "title": "Speed Found Out He Has a SON in GTA 6 😭",
      "published_at": "2026-11-27T01:15:28Z",
@@ -1373,41 +1375,6 @@
    ],
    "queue": [
     {
-     "id": "7dd090c91008",
-     "title": "Speed's First 5 Minutes of GTA 6 Went Wrong 💀",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/7dd090c91008.jpg",
-     "score": 76,
-     "seconds": 33.4,
-     "eta": "2026-11-28T00:00:00Z",
-     "thumb": "thumbs/7dd090c91008.jpg",
-     "thumb_text": "5 MINUTES IN...",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "gta 6 first time",
-      "gta 6 highlights",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "First mission and he's already robbing a store… and getting tackled. \"Get off me!\" 😭\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #funny",
-     "drive_id": "1WnVqoaHooF0IBp-G3YGiFljjNkUcwQsz",
-     "review": "approved",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "WASTED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "cf3df7bb940b",
      "title": "Speed's First GTA 6 Flight Ends in a Rainbow 🌈",
      "streamer": "iShowSpeed",
@@ -1550,7 +1517,6 @@
    ],
    "review": [],
    "slots_waiting": [
-    "2026-11-28T00:00:00Z",
     "2026-11-29T01:00:00Z",
     "2026-11-30T01:00:00Z"
    ]
@@ -1738,44 +1704,6 @@
    ],
    "queue": [
     {
-     "id": "e1eea7f332c5",
-     "title": "Carry Tried to Bench 225 in GTA 6… 💀",
-     "streamer": "CarryMinati",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/e1eea7f332c5.jpg",
-     "score": 84,
-     "seconds": 33.4,
-     "eta": "2026-11-28T14:30:00Z",
-     "thumb": "thumbs/e1eea7f332c5.jpg",
-     "thumb_text": "GYM FAIL",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail",
-     "drive_id": "1d5OZv7TWYieQ7faAUGPD2v8D3d9BUuml",
-     "review": "approved",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "WASTED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/live/irNhWMG560k",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "01ceb941fd91",
      "title": "Seaplane Escape in Under a Minute | GTA 6",
      "streamer": "CarryMinati",
@@ -1783,7 +1711,7 @@
      "thumb_sm": "thumbs/sm/01ceb941fd91.jpg",
      "score": 68,
      "seconds": 33.43,
-     "eta": "2026-11-29T14:30:00Z",
+     "eta": "2026-11-28T14:30:00Z",
      "thumb": "thumbs/01ceb941fd91.jpg",
      "thumb_text": "SEAPLANE ESCAPE",
      "tags": [
@@ -1810,6 +1738,44 @@
      "next": false,
      "created_at": "2026-11-19T06:00:00Z",
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
+     "v2": true,
+     "hd": true
+    },
+    {
+     "id": "e1eea7f332c5",
+     "title": "Carry Tried to Bench 225 in GTA 6… 💀",
+     "streamer": "CarryMinati",
+     "style": "fullframe",
+     "thumb_sm": "thumbs/sm/e1eea7f332c5.jpg",
+     "score": 84,
+     "seconds": 33.4,
+     "eta": "2026-11-29T14:30:00Z",
+     "thumb": "thumbs/e1eea7f332c5.jpg",
+     "thumb_text": "GYM FAIL",
+     "tags": [
+      "carryminati",
+      "carryminati gta 6",
+      "carryislive",
+      "gta 6 hindi gameplay",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips",
+      "gta 6 hindi",
+      "gta 6 india",
+      "indian gaming"
+     ],
+     "description": "The gym in GTA 6 did not go to plan.\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/live/irNhWMG560k\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gymfail",
+     "drive_id": "1d5OZv7TWYieQ7faAUGPD2v8D3d9BUuml",
+     "review": "approved",
+     "why": null,
+     "hook2": "DON'T BLINK",
+     "end_text": "WASTED",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://www.youtube.com/live/irNhWMG560k",
      "v2": true,
      "hd": true
     },
@@ -2051,26 +2017,26 @@
   }
  },
  "learned": {
-  "samples": 15,
-  "overall": 2.269,
+  "samples": 17,
+  "overall": 2.534,
   "style": {
    "stack": {
-    "n": 7,
-    "mean_log_views": 2.124,
+    "n": 8,
+    "mean_log_views": 2.102,
     "median_views": 4,
-    "weight": 0.865
+    "weight": 0.649
    },
    "fullframe": {
     "n": 5,
     "mean_log_views": 1.699,
     "median_views": 4,
-    "weight": 0.566
+    "weight": 0.5
    },
    "hookcard": {
-    "n": 3,
-    "mean_log_views": 3.557,
-    "median_views": 10,
-    "weight": 1.0
+    "n": 4,
+    "mean_log_views": 4.442,
+    "median_views": 114,
+    "weight": 2.0
    }
   },
   "streamer": {
@@ -2078,7 +2044,7 @@
     "n": 8,
     "mean_log_views": 2.13,
     "median_views": 4,
-    "weight": 0.87
+    "weight": 0.667
    },
    "CarryMinati": {
     "n": 3,
@@ -2093,15 +2059,15 @@
     "weight": 1.0
    },
    "IShowSpeed": {
-    "n": 1,
-    "mean_log_views": 1.609,
-    "median_views": 4,
+    "n": 2,
+    "mean_log_views": 1.778,
+    "median_views": 5,
     "weight": 1.0
    },
    "CYR": {
-    "n": 1,
-    "mean_log_views": 2.398,
-    "median_views": 10,
+    "n": 2,
+    "mean_log_views": 4.746,
+    "median_views": 114,
     "weight": 1.0
    },
    "KaiCenat": {
@@ -2131,20 +2097,40 @@
     "weight": 0.5
    },
    "18": {
-    "n": 3,
-    "mean_log_views": 3.727,
-    "median_views": 10,
-    "weight": 1.0
+    "n": 4,
+    "mean_log_views": 4.569,
+    "median_views": 114,
+    "weight": 2.0
    },
    "20": {
     "n": 4,
     "mean_log_views": 1.472,
     "median_views": 3,
     "weight": 0.5
+   },
+   "19": {
+    "n": 1,
+    "mean_log_views": 1.946,
+    "median_views": 6,
+    "weight": 1.0
    }
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-28T00:17:49Z",
+   "status": "ok",
+   "message": "winchat: Speed's First 5 Minutes of GTA 6 Went Wrong 💀 (via own uploader)",
+   "slot": "2026-11-27@19"
+  },
+  {
+   "job": "publish",
+   "at": "2026-11-28T00:17:32Z",
+   "status": "ok",
+   "message": "fivestars: KaiCenat Goes From Broke to SCREAMING in GTA 6 💰 (via own uploader)",
+   "slot": "2026-11-27@18"
+  },
   {
    "job": "publish",
    "at": "2026-11-27T22:16:30Z",
@@ -2380,18 +2366,6 @@
    "at": "2026-11-26T08:40:29Z",
    "status": "ok",
    "message": "1 change(s): reject meltdown: CYR Didn't Notice He Had Control in GTA 6 Opening Scene 😅"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:39:49Z",
-   "status": "ok",
-   "message": "1 change(s): reject meltdown: zackrawrr Sees GTA 6 Semi Crash and Gets Misquoted 😭"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:39:19Z",
-   "status": "ok",
-   "message": "1 change(s): approve hindi: Carry Tried to Bench 225 in GTA 6… 💀"
   }
  ]
 }
