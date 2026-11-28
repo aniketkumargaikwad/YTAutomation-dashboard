@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T15:15:33Z",
- "stats_updated_at": "2026-11-28T15:15:33Z",
+ "generated_at": "2026-11-28T16:15:47Z",
+ "stats_updated_at": "2026-11-28T16:15:47Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -28,14 +28,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": 0,
-    "views": 256,
+    "views": 257,
     "videos": 10,
     "source": "rss"
    },
    "totals": {
     "published": 10,
     "queued": 9,
-    "views": 256,
+    "views": 257,
     "likes": 14
    },
    "today": {
@@ -163,7 +163,7 @@
      "streamer": "KaiCenat",
      "score": 66.0,
      "url": "https://www.youtube.com/shorts/tDI-ZrDlpJA",
-     "views": 3,
+     "views": 4,
      "likes": 0,
      "comments": 0,
      "history": [
@@ -850,14 +850,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": 2,
-    "views": 3775,
+    "views": 3779,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 3775,
+    "views": 3761,
     "likes": 53
    },
    "today": {
@@ -881,7 +881,7 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": 1252,
+     "views": 1238,
      "likes": 22,
      "comments": 0,
      "history": [
@@ -1741,7 +1741,7 @@
     "name": "Gully wanted",
     "subscribers": 0,
     "views": 15,
-    "videos": 4,
+    "videos": 5,
     "source": "rss"
    },
    "totals": {
@@ -1771,10 +1771,16 @@
      "streamer": "CarryMinati",
      "score": 68,
      "url": "https://www.youtube.com/shorts/j1m0Az1z9yo",
-     "views": null,
-     "likes": null,
-     "comments": null,
-     "history": [],
+     "views": 0,
+     "likes": 0,
+     "comments": 0,
+     "history": [
+      [
+       "2026-11-28T16:15:47Z",
+       0,
+       0
+      ]
+     ],
      "seconds": 33.43,
      "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w"
     },
@@ -2220,13 +2226,13 @@
  },
  "learned": {
   "samples": 19,
-  "overall": 2.467,
+  "overall": 2.479,
   "style": {
    "stack": {
     "n": 8,
-    "mean_log_views": 2.102,
+    "mean_log_views": 2.13,
     "median_views": 4,
-    "weight": 0.694
+    "weight": 0.705
    },
    "fullframe": {
     "n": 6,
@@ -2246,7 +2252,7 @@
     "n": 9,
     "mean_log_views": 2.129,
     "median_views": 5,
-    "weight": 0.713
+    "weight": 0.705
    },
    "CarryMinati": {
     "n": 4,
@@ -2274,8 +2280,8 @@
    },
    "KaiCenat": {
     "n": 1,
-    "mean_log_views": 1.386,
-    "median_views": 3,
+    "mean_log_views": 1.609,
+    "median_views": 4,
     "weight": 1.0
    }
   },
@@ -2294,7 +2300,7 @@
    },
    "13": {
     "n": 4,
-    "mean_log_views": 1.454,
+    "mean_log_views": 1.51,
     "median_views": 3,
     "weight": 0.5
    },
