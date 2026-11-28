@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-28T04:15:28Z",
- "stats_updated_at": "2026-11-28T04:15:28Z",
+ "generated_at": "2026-11-28T12:15:37Z",
+ "stats_updated_at": "2026-11-28T12:15:37Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 1,
+   "left": 6,
    "cap": 6,
-   "resets": "2026-11-28T08:00:00Z",
+   "resets": "2026-11-29T08:00:00Z",
    "channels": [
     "Five Stars Deep",
     "Meltdown On Stream",
@@ -28,18 +28,18 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": 0,
-    "views": 251,
+    "views": 255,
     "videos": 10,
     "source": "rss"
    },
    "totals": {
     "published": 10,
     "queued": 9,
-    "views": 251,
-    "likes": 13
+    "views": 256,
+    "likes": 665
    },
    "today": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "count": 2,
     "slots": [
      13,
@@ -60,8 +60,8 @@
      "streamer": "KaiCenat",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/1lCGg2w25y8",
-     "views": 0,
-     "likes": 0,
+     "views": 1,
+     "likes": 1,
      "comments": 0,
      "history": [
       [
@@ -86,7 +86,7 @@
      "streamer": "Jynxzi",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/qYZSJQXpdjI",
-     "views": 0,
+     "views": 4,
      "likes": 0,
      "comments": 0,
      "history": [
@@ -405,7 +405,7 @@
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
      "views": 220,
-     "likes": 7,
+     "likes": 658,
      "comments": 0,
      "history": [
       [
@@ -462,6 +462,11 @@
        "2026-11-24T18:15:48Z",
        220,
        7
+      ],
+      [
+       "2026-11-28T12:15:37Z",
+       220,
+       658
       ]
      ],
      "seconds": 59,
@@ -817,7 +822,9 @@
     "2026-11-28T18:00:00Z",
     "2026-11-28T23:00:00Z",
     "2026-11-29T18:00:00Z",
-    "2026-11-29T23:00:00Z"
+    "2026-11-29T23:00:00Z",
+    "2026-11-30T18:00:00Z",
+    "2026-11-30T23:00:00Z"
    ]
   },
   "meltdown": {
@@ -828,21 +835,21 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": 2,
-    "views": 3544,
+    "views": 3670,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 3544,
-    "likes": 52
+    "views": 3655,
+    "likes": 53
    },
    "today": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "count": 1,
     "slots": [
-     17
+     19
     ]
    },
    "published": [
@@ -859,14 +866,19 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": 1024,
-     "likes": 21,
+     "views": 1132,
+     "likes": 22,
      "comments": 0,
      "history": [
       [
        "2026-11-27T23:15:31Z",
        188,
        5
+      ],
+      [
+       "2026-11-28T12:15:37Z",
+       1055,
+       21
       ]
      ],
      "seconds": 32.0,
@@ -1042,7 +1054,7 @@
      "streamer": "zackrawrr",
      "score": 58.0,
      "url": "https://www.youtube.com/shorts/Qq7xMInMNCA",
-     "views": 1305,
+     "views": 1308,
      "likes": 11,
      "comments": 0,
      "history": [
@@ -1281,7 +1293,7 @@
      "thumb_sm": "thumbs/sm/faf43afb006a.jpg",
      "score": 52.0,
      "seconds": 32.5,
-     "eta": null,
+     "eta": "2026-11-30T23:00:00Z",
      "thumb": "thumbs/faf43afb006a.jpg",
      "thumb_text": "NO TIME LEFT",
      "tags": [
@@ -1315,7 +1327,8 @@
    "review": [],
    "slots_waiting": [
     "2026-11-29T00:00:00Z",
-    "2026-11-29T23:00:00Z"
+    "2026-11-29T23:00:00Z",
+    "2026-11-30T23:00:00Z"
    ]
   },
   "winchat": {
@@ -1326,21 +1339,21 @@
    "stats": {
     "name": "W In Chat",
     "subscribers": 0,
-    "views": 20,
+    "views": 23,
     "videos": 5,
     "source": "rss"
    },
    "totals": {
     "published": 5,
     "queued": 4,
-    "views": 20,
-    "likes": 6
+    "views": 23,
+    "likes": 7
    },
    "today": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "count": 1,
     "slots": [
-     19
+     20
     ]
    },
    "published": [
@@ -1357,8 +1370,8 @@
      "streamer": "iShowSpeed",
      "score": 76,
      "url": "https://www.youtube.com/shorts/pwlp6sEIePQ",
-     "views": 0,
-     "likes": 0,
+     "views": 2,
+     "likes": 1,
      "comments": 0,
      "history": [
       [
@@ -1501,7 +1514,7 @@
      "streamer": "iShowSpeed",
      "score": 90,
      "url": "https://www.youtube.com/shorts/Sk09t9uK4XE",
-     "views": 4,
+     "views": 5,
      "likes": 3,
      "comments": 0,
      "history": [
@@ -1607,6 +1620,41 @@
      "hd": true
     },
     {
+     "id": "f8193af5abe3",
+     "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
+     "streamer": "iShowSpeed",
+     "style": "fullframe",
+     "thumb_sm": "thumbs/sm/f8193af5abe3.jpg",
+     "score": 62,
+     "seconds": 19.83,
+     "eta": "2026-12-01T01:00:00Z",
+     "thumb": "thumbs/f8193af5abe3.jpg",
+     "thumb_text": "THIS ISN'T REAL",
+     "tags": [
+      "ishowspeed",
+      "ishowspeed gta 6",
+      "gta 6 first time",
+      "gta 6 highlights",
+      "gta 6",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 funny moments",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Night drive through Leonida and Speed keeps asking: \"How is this game real?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #graphics",
+     "drive_id": "175C1iRQwB1ATOSq9bzbQA409QA5X_SP-",
+     "review": "approved",
+     "why": null,
+     "hook2": "WAIT FOR IT",
+     "end_text": "NOT NOW",
+     "next": false,
+     "created_at": "2026-11-19T06:00:00Z",
+     "source_url": "https://youtu.be/kR8bhkVAgBY",
+     "v2": true,
+     "hd": true
+    },
+    {
      "id": "planefxv2",
      "title": "Speed Can't Fly a Plane in GTA 6 😭",
      "streamer": "iShowSpeed",
@@ -1640,47 +1688,13 @@
      "source_url": "https://youtu.be/kR8bhkVAgBY",
      "v2": true,
      "hd": true
-    },
-    {
-     "id": "f8193af5abe3",
-     "title": "Speed Can't Believe GTA 6 Graphics Are Real 🤯",
-     "streamer": "iShowSpeed",
-     "style": "fullframe",
-     "thumb_sm": "thumbs/sm/f8193af5abe3.jpg",
-     "score": 62,
-     "seconds": 19.83,
-     "eta": null,
-     "thumb": "thumbs/f8193af5abe3.jpg",
-     "thumb_text": "THIS ISN'T REAL",
-     "tags": [
-      "ishowspeed",
-      "ishowspeed gta 6",
-      "gta 6 first time",
-      "gta 6 highlights",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Night drive through Leonida and Speed keeps asking: \"How is this game real?\"\n\n🎮 Streamer: iShowSpeed\n📺 Full stream: https://youtu.be/kR8bhkVAgBY\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #gaming #ishowspeed #graphics",
-     "drive_id": "175C1iRQwB1ATOSq9bzbQA409QA5X_SP-",
-     "review": "approved",
-     "why": null,
-     "hook2": "WAIT FOR IT",
-     "end_text": "NOT NOW",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://youtu.be/kR8bhkVAgBY",
-     "v2": true,
-     "hd": true
     }
    ],
    "review": [],
    "slots_waiting": [
     "2026-11-29T01:00:00Z",
-    "2026-11-30T01:00:00Z"
+    "2026-11-30T01:00:00Z",
+    "2026-12-01T01:00:00Z"
    ]
   },
   "hindi": {
@@ -1691,15 +1705,15 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": 0,
-    "views": 13,
+    "views": 15,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 8,
-    "views": 13,
-    "likes": 2
+    "views": 15,
+    "likes": 3
    },
    "today": {
     "date": "2026-11-28",
@@ -1722,8 +1736,8 @@
      "streamer": "CarryMinati",
      "score": 74,
      "url": "https://www.youtube.com/shorts/G2GAMpVue70",
-     "views": 2,
-     "likes": 0,
+     "views": 3,
+     "likes": 1,
      "comments": 0,
      "history": [
       [
@@ -1748,7 +1762,7 @@
      "streamer": "CarryMinati",
      "score": 88,
      "url": "https://www.youtube.com/shorts/0SgN8O_A-KI",
-     "views": 2,
+     "views": 3,
      "likes": 1,
      "comments": 0,
      "history": [
@@ -2180,23 +2194,23 @@
  },
  "learned": {
   "samples": 18,
-  "overall": 2.501,
+  "overall": 2.528,
   "style": {
    "stack": {
     "n": 8,
     "mean_log_views": 2.102,
     "median_views": 4,
-    "weight": 0.671
+    "weight": 0.653
    },
    "fullframe": {
     "n": 6,
-    "mean_log_views": 1.74,
+    "mean_log_views": 1.771,
     "median_views": 5,
     "weight": 0.5
    },
    "hookcard": {
     "n": 4,
-    "mean_log_views": 4.442,
+    "mean_log_views": 4.514,
     "median_views": 114,
     "weight": 2.0
    }
@@ -2204,20 +2218,20 @@
   "streamer": {
    "iShowSpeed": {
     "n": 9,
-    "mean_log_views": 2.109,
+    "mean_log_views": 2.129,
     "median_views": 5,
-    "weight": 0.676
+    "weight": 0.672
    },
    "CarryMinati": {
     "n": 3,
-    "mean_log_views": 1.477,
+    "mean_log_views": 1.573,
     "median_views": 3,
     "weight": 1.0
    },
    "zackrawrr": {
     "n": 1,
-    "mean_log_views": 7.175,
-    "median_views": 1305,
+    "mean_log_views": 7.177,
+    "median_views": 1308,
     "weight": 1.0
    },
    "IShowSpeed": {
@@ -2242,7 +2256,7 @@
   "hour": {
    "12": {
     "n": 3,
-    "mean_log_views": 3.068,
+    "mean_log_views": 3.129,
     "median_views": 8,
     "weight": 1.0
    },
@@ -2260,13 +2274,13 @@
    },
    "18": {
     "n": 4,
-    "mean_log_views": 4.569,
+    "mean_log_views": 4.57,
     "median_views": 114,
     "weight": 2.0
    },
    "20": {
     "n": 5,
-    "mean_log_views": 1.566,
+    "mean_log_views": 1.624,
     "median_views": 4,
     "weight": 0.5
    },
