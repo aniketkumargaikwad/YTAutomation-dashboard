@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-28T17:15:32Z",
- "stats_updated_at": "2026-11-28T17:15:32Z",
+ "generated_at": "2026-11-28T18:15:28Z",
+ "stats_updated_at": "2026-11-28T18:15:28Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 5,
+   "left": 4,
    "cap": 6,
    "resets": "2026-11-29T08:00:00Z",
    "channels": [
@@ -28,14 +28,14 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": 0,
-    "views": 256,
+    "views": 257,
     "videos": 10,
     "source": "rss"
    },
    "totals": {
-    "published": 10,
-    "queued": 3,
-    "views": 257,
+    "published": 11,
+    "queued": 2,
+    "views": 256,
     "likes": 14
    },
    "today": {
@@ -47,6 +47,26 @@
     ]
    },
    "published": [
+    {
+     "title": "Fanum Gets FRIED at the Tanning Booth, GTA 6 Style 💀",
+     "published_at": "2026-11-28T18:15:28Z",
+     "slot": "2026-11-28@13",
+     "youtube_id": "7rPWnpSjIAc",
+     "thumb": "thumbs/734f57bae175.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/7rPWnpSjIAc/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/734f57bae175.jpg",
+     "thumb_text": "HE GOT FRIED",
+     "style": "stack",
+     "streamer": "Fanum",
+     "score": 58.0,
+     "url": "https://www.youtube.com/shorts/7rPWnpSjIAc",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 32.0,
+     "source_url": "https://www.twitch.tv/videos/2939012870"
+    },
     {
      "title": "KaiCenat Goes From Broke to SCREAMING in GTA 6 💰",
      "published_at": "2026-11-28T00:15:40Z",
@@ -163,7 +183,7 @@
      "streamer": "KaiCenat",
      "score": 66.0,
      "url": "https://www.youtube.com/shorts/tDI-ZrDlpJA",
-     "views": 4,
+     "views": 3,
      "likes": 0,
      "comments": 0,
      "history": [
@@ -490,44 +510,6 @@
    ],
    "queue": [
     {
-     "id": "734f57bae175",
-     "title": "Fanum Gets FRIED at the Tanning Booth, GTA 6 Style 💀",
-     "streamer": "Fanum",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/734f57bae175.jpg",
-     "score": 58.0,
-     "seconds": 32.0,
-     "eta": "2026-11-28T18:00:00Z",
-     "thumb": "thumbs/734f57bae175.jpg",
-     "thumb_text": "HE GOT FRIED",
-     "tags": [
-      "fanum",
-      "fanum gta 6",
-      "gta 6",
-      "fanum tanning",
-      "fanum tanning booth",
-      "burnt tan",
-      "gta 6 funny moments",
-      "streamer reactions",
-      "gta 6 clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Fanum asked for a tan and came out like this. Would you have complained too?\n\n🎮 Streamer: Fanum\n📺 Full stream: https://www.twitch.tv/videos/2939012870\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Fanum #GTAVI #gamingfunny",
-     "drive_id": "1oi7XbcQuQax37_RckRPQRkaHgFUZFH4G",
-     "review": "approved",
-     "why": "Burnt-tan freakout with a naked complaint and a 'deep tan' punchline, but it's chaotic and has little setup.",
-     "hook2": "LOOK AT HIM",
-     "end_text": "DEEP TAN",
-     "next": false,
-     "created_at": "2026-11-27T15:44:51Z",
-     "source_url": "https://www.twitch.tv/videos/2939012870",
-     "v2": true,
-     "hd": true
-    },
-    {
      "id": "6ab74cabd89a",
      "title": "KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6",
      "streamer": "KaiCenat",
@@ -606,7 +588,6 @@
    ],
    "review": [],
    "slots_waiting": [
-    "2026-11-28T18:00:00Z",
     "2026-11-28T23:00:00Z",
     "2026-11-29T18:00:00Z",
     "2026-11-29T23:00:00Z",
@@ -622,14 +603,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": 2,
-    "views": 3775,
+    "views": 3781,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 3779,
+    "views": 3880,
     "likes": 53
    },
    "today": {
@@ -653,7 +634,7 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": 1256,
+     "views": 1357,
      "likes": 22,
      "comments": 0,
      "history": [
@@ -1998,13 +1979,13 @@
  },
  "learned": {
   "samples": 19,
-  "overall": 2.479,
+  "overall": 2.467,
   "style": {
    "stack": {
     "n": 8,
-    "mean_log_views": 2.13,
+    "mean_log_views": 2.102,
     "median_views": 4,
-    "weight": 0.705
+    "weight": 0.694
    },
    "fullframe": {
     "n": 6,
@@ -2024,7 +2005,7 @@
     "n": 9,
     "mean_log_views": 2.129,
     "median_views": 5,
-    "weight": 0.705
+    "weight": 0.713
    },
    "CarryMinati": {
     "n": 4,
@@ -2052,8 +2033,8 @@
    },
    "KaiCenat": {
     "n": 1,
-    "mean_log_views": 1.609,
-    "median_views": 4,
+    "mean_log_views": 1.386,
+    "median_views": 3,
     "weight": 1.0
    }
   },
@@ -2072,7 +2053,7 @@
    },
    "13": {
     "n": 4,
-    "mean_log_views": 1.51,
+    "mean_log_views": 1.454,
     "median_views": 3,
     "weight": 0.5
    },
@@ -2097,6 +2078,13 @@
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-28T18:16:33Z",
+   "status": "ok",
+   "message": "fivestars: Fanum Gets FRIED at the Tanning Booth, GTA 6 Style 💀 (via own uploader)",
+   "slot": "2026-11-28@13"
+  },
   {
    "job": "review",
    "at": "2026-11-28T16:57:47Z",
@@ -2341,12 +2329,6 @@
    "at": "2026-11-26T08:45:16Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:44:53Z",
-   "status": "ok",
-   "message": "1 change(s): reject hindi: CarryMinati Minutes Before GTA 6 Unlocked 🔥"
   }
  ]
 }
