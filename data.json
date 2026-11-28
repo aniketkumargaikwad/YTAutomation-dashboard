@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T16:57:47Z",
- "stats_updated_at": "2026-11-28T16:15:47Z",
+ "generated_at": "2026-11-28T17:15:32Z",
+ "stats_updated_at": "2026-11-28T17:15:32Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -28,7 +28,7 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": 0,
-    "views": 257,
+    "views": 256,
     "videos": 10,
     "source": "rss"
    },
@@ -622,14 +622,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": 2,
-    "views": 3779,
+    "views": 3775,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 3761,
+    "views": 3779,
     "likes": 53
    },
    "today": {
@@ -653,7 +653,7 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": 1238,
+     "views": 1256,
      "likes": 22,
      "comments": 0,
      "history": [
