@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T16:15:47Z",
+ "generated_at": "2026-11-28T16:54:33Z",
  "stats_updated_at": "2026-11-28T16:15:47Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 10,
-    "queued": 9,
+    "queued": 8,
     "views": 257,
     "likes": 14
    },
@@ -529,44 +529,6 @@
     }
    ],
    "review": [
-    {
-     "id": "8687cddd4ce4",
-     "title": "Agent00: \"This Is NOT a Punishment\" in GTA 6 💀",
-     "streamer": "Agent00",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/8687cddd4ce4.jpg",
-     "score": 58.0,
-     "seconds": 31.6,
-     "eta": null,
-     "thumb": "thumbs/8687cddd4ce4.jpg",
-     "thumb_text": "NOT A PUNISHMENT",
-     "tags": [
-      "agent00",
-      "gta 6",
-      "not a punishment",
-      "corporate fines",
-      "business incentives",
-      "apple fine",
-      "hot take",
-      "gta 6 clips",
-      "gta 6 shorts",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "streamer clips"
-     ],
-     "description": "If you ran a business, would you ever bother doing the right thing after seeing this?\n\n🎮 Streamer: Agent00\n📺 Full stream: https://www.twitch.tv/videos/2940606444\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Agent00 #Apple #Take",
-     "drive_id": "1z9qVGIBO0P_vogDMAAExDlDiTf_m8L5i",
-     "review": "pending",
-     "why": "Builds a sharp argument about corporate incentives and ends on a quotable punchline.",
-     "hook2": "HERE'S THE PROBLEM",
-     "end_text": "CASE CLOSED",
-     "next": false,
-     "created_at": "2026-11-28T04:01:48Z",
-     "source_url": "https://www.twitch.tv/videos/2940606444",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "8b6f3bae83ed",
      "title": "Agent00 Rages: Apple's $500M Fine Is a Joke in GTA 6 🤬",
@@ -2326,6 +2288,12 @@
  },
  "runs": [
   {
+   "job": "review",
+   "at": "2026-11-28T16:54:33Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Agent00: \"This Is NOT a Punishment\" in GTA 6 💀"
+  },
+  {
    "job": "publish",
    "at": "2026-11-28T15:16:33Z",
    "status": "ok",
@@ -2569,12 +2537,6 @@
    "at": "2026-11-26T08:42:52Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: GTA 6 Punishes You for Doomscrolling 📱"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:42:49Z",
-   "status": "ok",
-   "message": "1 change(s): approve hindi: Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️"
   }
  ]
 }
