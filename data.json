@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T13:15:42Z",
- "stats_updated_at": "2026-11-28T13:15:42Z",
+ "generated_at": "2026-11-28T14:15:46Z",
+ "stats_updated_at": "2026-11-28T14:15:46Z",
  "budget": {
   "cap": 5,
   "left": 5,
@@ -35,8 +35,8 @@
    "totals": {
     "published": 10,
     "queued": 9,
-    "views": 255,
-    "likes": 665
+    "views": 256,
+    "likes": 14
    },
    "today": {
     "date": "2026-11-28",
@@ -60,7 +60,7 @@
      "streamer": "KaiCenat",
      "score": 55.0,
      "url": "https://www.youtube.com/shorts/1lCGg2w25y8",
-     "views": 0,
+     "views": 1,
      "likes": 1,
      "comments": 0,
      "history": [
@@ -68,6 +68,11 @@
        "2026-11-28T01:15:32Z",
        0,
        0
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       1,
+       1
       ]
      ],
      "seconds": 32.6,
@@ -93,6 +98,11 @@
       [
        "2026-11-27T19:15:35Z",
        0,
+       0
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       4,
        0
       ]
      ],
@@ -405,7 +415,7 @@
      "score": 92,
      "url": "https://www.youtube.com/shorts/Pb7jGtH7DIY",
      "views": 220,
-     "likes": 658,
+     "likes": 7,
      "comments": 0,
      "history": [
       [
@@ -467,6 +477,11 @@
        "2026-11-28T12:15:37Z",
        220,
        658
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       220,
+       7
       ]
      ],
      "seconds": 59,
@@ -879,6 +894,11 @@
        "2026-11-28T12:15:37Z",
        1055,
        21
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       1147,
+       22
       ]
      ],
      "seconds": 32.0,
@@ -1202,6 +1222,11 @@
        "2026-11-27T23:15:31Z",
        1305,
        11
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       1308,
+       11
       ]
      ],
      "seconds": 34.5,
@@ -1378,6 +1403,11 @@
        "2026-11-28T01:15:32Z",
        0,
        0
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       2,
+       1
       ]
      ],
      "seconds": 33.4,
@@ -1542,6 +1572,11 @@
        "2026-11-27T12:15:33Z",
        4,
        3
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       5,
+       3
       ]
      ],
      "seconds": 44,
@@ -1705,14 +1740,14 @@
    "stats": {
     "name": "Gully wanted",
     "subscribers": 0,
-    "views": 14,
+    "views": 15,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 8,
-    "views": 14,
+    "views": 15,
     "likes": 3
    },
    "today": {
@@ -1736,7 +1771,7 @@
      "streamer": "CarryMinati",
      "score": 74,
      "url": "https://www.youtube.com/shorts/G2GAMpVue70",
-     "views": 2,
+     "views": 3,
      "likes": 1,
      "comments": 0,
      "history": [
@@ -1744,6 +1779,11 @@
        "2026-11-27T14:50:26Z",
        2,
        0
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       3,
+       1
       ]
      ],
      "seconds": 33.43,
@@ -1789,6 +1829,11 @@
       [
        "2026-11-27T15:15:25Z",
        2,
+       1
+      ],
+      [
+       "2026-11-28T14:15:46Z",
+       3,
        1
       ]
      ],
@@ -2193,14 +2238,14 @@
   }
  },
  "learned": {
-  "samples": 18,
-  "overall": 2.528,
+  "samples": 19,
+  "overall": 2.467,
   "style": {
    "stack": {
     "n": 8,
     "mean_log_views": 2.102,
     "median_views": 4,
-    "weight": 0.653
+    "weight": 0.694
    },
    "fullframe": {
     "n": 6,
@@ -2209,9 +2254,9 @@
     "weight": 0.5
    },
    "hookcard": {
-    "n": 4,
-    "mean_log_views": 4.514,
-    "median_views": 114,
+    "n": 5,
+    "mean_log_views": 3.889,
+    "median_views": 10,
     "weight": 2.0
    }
   },
@@ -2220,13 +2265,13 @@
     "n": 9,
     "mean_log_views": 2.129,
     "median_views": 5,
-    "weight": 0.672
+    "weight": 0.713
    },
    "CarryMinati": {
-    "n": 3,
-    "mean_log_views": 1.573,
+    "n": 4,
+    "mean_log_views": 1.526,
     "median_views": 3,
-    "weight": 1.0
+    "weight": 0.5
    },
    "zackrawrr": {
     "n": 1,
@@ -2285,9 +2330,9 @@
     "weight": 0.5
    },
    "19": {
-    "n": 1,
-    "mean_log_views": 1.946,
-    "median_views": 6,
+    "n": 2,
+    "mean_log_views": 1.666,
+    "median_views": 4,
     "weight": 1.0
    }
   }
