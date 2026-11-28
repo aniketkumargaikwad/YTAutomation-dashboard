@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T16:55:42Z",
+ "generated_at": "2026-11-28T16:56:06Z",
  "stats_updated_at": "2026-11-28T16:15:47Z",
  "budget": {
   "cap": 5,
@@ -490,6 +490,44 @@
    ],
    "queue": [
     {
+     "id": "fb49520ebb9f",
+     "title": "Fanum Robs a Store in GTA 6: \"Nobody's Gonna Die\" 😳",
+     "streamer": "Fanum",
+     "style": "stack",
+     "thumb_sm": "thumbs/sm/fb49520ebb9f.jpg",
+     "score": 52.0,
+     "seconds": 29.8,
+     "eta": "2026-11-28T18:00:00Z",
+     "thumb": "thumbs/fb49520ebb9f.jpg",
+     "thumb_text": "NOBODY'S GONNA DIE",
+     "tags": [
+      "fanum",
+      "fanum gta 6",
+      "gta 6",
+      "gta 6 robbery",
+      "gta 6 store robbery",
+      "fanum robs store",
+      "gta 6 funny moments",
+      "streamer gta 6",
+      "gta 6 clips",
+      "gta vi",
+      "gta 6 gameplay",
+      "gta 6 shorts",
+      "streamer clips"
+     ],
+     "description": "Fanum goes full robber and the clerk has no clue what's coming. Would you rob the store too?\n\n🎮 Streamer: Fanum\n📺 Full stream: https://www.twitch.tv/videos/2939012870\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Fanum #GTAOnline #Gaming #Funny",
+     "drive_id": "1xlaNwi8VeK5_FP4DTo88o_lzEd9Z5Rm6",
+     "review": "approved",
+     "why": "A tense robbery with Fanum talking the clerk down, ending on a shocked 'Oh my god' reaction.",
+     "hook2": "THE CLERK'S FACE",
+     "end_text": "BUSTED",
+     "next": false,
+     "created_at": "2026-11-27T15:53:56Z",
+     "source_url": "https://www.twitch.tv/videos/2939012870",
+     "v2": true,
+     "hd": true
+    },
+    {
      "id": "6ab74cabd89a",
      "title": "KaiCenat Loses It When Speed Won't Call His Car 😭 | GTA 6",
      "streamer": "KaiCenat",
@@ -497,7 +535,7 @@
      "thumb_sm": "thumbs/sm/6ab74cabd89a.jpg",
      "score": 55.0,
      "seconds": 33.0,
-     "eta": "2026-11-28T18:00:00Z",
+     "eta": "2026-11-28T23:00:00Z",
      "thumb": "thumbs/6ab74cabd89a.jpg",
      "thumb_text": "CALL YOUR CAR",
      "tags": [
@@ -600,44 +638,6 @@
      "next": false,
      "created_at": "2026-11-28T03:45:45Z",
      "source_url": "https://www.twitch.tv/videos/2940606444",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "fb49520ebb9f",
-     "title": "Fanum Robs a Store in GTA 6: \"Nobody's Gonna Die\" 😳",
-     "streamer": "Fanum",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/fb49520ebb9f.jpg",
-     "score": 52.0,
-     "seconds": 29.8,
-     "eta": null,
-     "thumb": "thumbs/fb49520ebb9f.jpg",
-     "thumb_text": "NOBODY'S GONNA DIE",
-     "tags": [
-      "fanum",
-      "fanum gta 6",
-      "gta 6",
-      "gta 6 robbery",
-      "gta 6 store robbery",
-      "fanum robs store",
-      "gta 6 funny moments",
-      "streamer gta 6",
-      "gta 6 clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Fanum goes full robber and the clerk has no clue what's coming. Would you rob the store too?\n\n🎮 Streamer: Fanum\n📺 Full stream: https://www.twitch.tv/videos/2939012870\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Fanum #GTAOnline #Gaming #Funny",
-     "drive_id": "1xlaNwi8VeK5_FP4DTo88o_lzEd9Z5Rm6",
-     "review": "pending",
-     "why": "A tense robbery with Fanum talking the clerk down, ending on a shocked 'Oh my god' reaction.",
-     "hook2": "THE CLERK'S FACE",
-     "end_text": "BUSTED",
-     "next": false,
-     "created_at": "2026-11-27T15:53:56Z",
-     "source_url": "https://www.twitch.tv/videos/2939012870",
      "v2": true,
      "hd": true
     },
@@ -2251,6 +2251,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-28T16:56:06Z",
+   "status": "ok",
+   "message": "1 change(s): approve fivestars: Fanum Robs a Store in GTA 6: \"Nobody's Gonna Die\" 😳"
+  },
+  {
+   "job": "review",
    "at": "2026-11-28T16:55:42Z",
    "status": "ok",
    "message": "1 change(s): reject fivestars: Agent00 Rages: Apple's $500M Fine Is a Joke in GTA 6 🤬"
@@ -2493,12 +2499,6 @@
    "at": "2026-11-26T08:43:27Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: One Joke Started a Bar Fight in GTA 6 💀"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:43:02Z",
-   "status": "ok",
-   "message": "1 change(s): approve hindi: CarryMinati's First Time Controlling GTA 6 😳"
   }
  ]
 }
