@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T16:56:42Z",
+ "generated_at": "2026-11-28T16:56:49Z",
  "stats_updated_at": "2026-11-28T16:15:47Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 10,
-    "queued": 6,
+    "queued": 5,
     "views": 257,
     "likes": 14
    },
@@ -638,43 +638,6 @@
      "end_text": "BUSTED",
      "next": false,
      "created_at": "2026-11-28T03:51:39Z",
-     "source_url": "https://www.twitch.tv/videos/2940606444",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "ced0a89c6c3a",
-     "title": "Agent00's Placebo Pills Made Him Smash His Max in GTA 6 💊",
-     "streamer": "Agent00",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/ced0a89c6c3a.jpg",
-     "score": 58.0,
-     "seconds": 33.02,
-     "eta": null,
-     "thumb": "thumbs/ced0a89c6c3a.jpg",
-     "thumb_text": "IT WAS FLOUR",
-     "tags": [
-      "agent00",
-      "gta 6",
-      "gta 6 funny moments",
-      "placebo pills",
-      "placebo effect",
-      "personal record",
-      "gym prank",
-      "gta 6 clips",
-      "gta 6 shorts",
-      "gta vi",
-      "gta 6 gameplay",
-      "streamer clips"
-     ],
-     "description": "Agent00 thinks the pills are working, but they're just flour. Would you fall for it too?\n\n🎮 Streamer: Agent00\n📺 Full stream: https://www.twitch.tv/videos/2940606444\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Agent00 #placebo #gym #prank",
-     "drive_id": "1J6xIgkV4R0trlHZWnwa5iJXo4mK6DWPP",
-     "review": "pending",
-     "why": "Setup, the 'I can do 100' boast and an instant rep-max payoff, all in one short beat.",
-     "hook2": "WATCH HIS RECORD",
-     "end_text": "PLOT TWIST",
-     "next": false,
-     "created_at": "2026-11-28T03:45:45Z",
      "source_url": "https://www.twitch.tv/videos/2940606444",
      "v2": true,
      "hd": true
@@ -2212,6 +2175,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-28T16:56:49Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Agent00's Placebo Pills Made Him Smash His Max in GTA 6 💊"
+  },
+  {
+   "job": "review",
    "at": "2026-11-28T16:56:42Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: Fanum Gets FRIED at the Tanning Booth, GTA 6 Style 💀"
@@ -2454,12 +2423,6 @@
    "at": "2026-11-26T08:44:23Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Crouching in GTA 6 Felt Exactly Like GTA 5 🥹"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:44:12Z",
-   "status": "ok",
-   "message": "1 change(s): approve hindi: Seaplane Escape in Under a Minute | GTA 6"
   }
  ]
 }
