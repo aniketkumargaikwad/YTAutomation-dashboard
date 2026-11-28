@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T16:56:06Z",
+ "generated_at": "2026-11-28T16:56:33Z",
  "stats_updated_at": "2026-11-28T16:15:47Z",
  "budget": {
   "cap": 5,
@@ -34,7 +34,7 @@
    },
    "totals": {
     "published": 10,
-    "queued": 7,
+    "queued": 6,
     "views": 257,
     "likes": 14
    },
@@ -638,45 +638,6 @@
      "next": false,
      "created_at": "2026-11-28T03:45:45Z",
      "source_url": "https://www.twitch.tv/videos/2940606444",
-     "v2": true,
-     "hd": true
-    },
-    {
-     "id": "545f4a390e01",
-     "title": "Fanum Calls This the WORST GTA 6 Mission Ever 😤",
-     "streamer": "Fanum",
-     "style": "stack",
-     "thumb_sm": "thumbs/sm/545f4a390e01.jpg",
-     "score": 58.0,
-     "seconds": 32.6,
-     "eta": null,
-     "thumb": "thumbs/545f4a390e01.jpg",
-     "thumb_text": "WORST MISSION EVER",
-     "tags": [
-      "fanum",
-      "fanum gta 6",
-      "gta 6",
-      "worst gta 6 mission",
-      "gta 6 mission",
-      "fanum rant",
-      "gta 6 opinion",
-      "gta 6 reaction",
-      "gta 6 clips",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips"
-     ],
-     "description": "Fanum says this is the worst mission in GTA 6. Do you agree, or was it fine?\n\n🎮 Streamer: Fanum\n📺 Full stream: https://www.twitch.tv/videos/2939012870\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #Fanum #GTAVI #gaming #hottake",
-     "drive_id": "1lD_MSywmSCERMzgslloYfFXqAo6a2oUN",
-     "review": "pending",
-     "why": "A bold, arguable opinion with a volume spike as Fanum rants about the mission.",
-     "hook2": "HE SNAPS",
-     "end_text": "NO WAY",
-     "next": false,
-     "created_at": "2026-11-27T15:49:49Z",
-     "source_url": "https://www.twitch.tv/videos/2939012870",
      "v2": true,
      "hd": true
     },
@@ -2251,6 +2212,12 @@
  "runs": [
   {
    "job": "review",
+   "at": "2026-11-28T16:56:33Z",
+   "status": "ok",
+   "message": "1 change(s): reject fivestars: Fanum Calls This the WORST GTA 6 Mission Ever 😤"
+  },
+  {
+   "job": "review",
    "at": "2026-11-28T16:56:06Z",
    "status": "ok",
    "message": "1 change(s): approve fivestars: Fanum Robs a Store in GTA 6: \"Nobody's Gonna Die\" 😳"
@@ -2493,12 +2460,6 @@
    "at": "2026-11-26T08:43:56Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Someone Said GTA 6 Is Bad… Carry Replied 😤"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:43:27Z",
-   "status": "ok",
-   "message": "1 change(s): approve hindi: One Joke Started a Bar Fight in GTA 6 💀"
   }
  ]
 }
