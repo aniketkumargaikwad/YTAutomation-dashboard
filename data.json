@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-28T14:23:58Z",
- "stats_updated_at": "2026-11-28T14:15:46Z",
+ "generated_at": "2026-11-28T15:15:33Z",
+ "stats_updated_at": "2026-11-28T15:15:33Z",
  "budget": {
   "cap": 5,
   "left": 5,
   "next_free": null,
   "api": {
-   "left": 6,
+   "left": 5,
    "cap": 6,
    "resets": "2026-11-29T08:00:00Z",
    "channels": [
@@ -28,7 +28,7 @@
    "stats": {
     "name": "Five Stars Deep",
     "subscribers": 0,
-    "views": 255,
+    "views": 256,
     "videos": 10,
     "source": "rss"
    },
@@ -850,14 +850,14 @@
    "stats": {
     "name": "Meltdown On Stream",
     "subscribers": 2,
-    "views": 3670,
+    "views": 3775,
     "videos": 4,
     "source": "rss"
    },
    "totals": {
     "published": 4,
     "queued": 3,
-    "views": 3670,
+    "views": 3775,
     "likes": 53
    },
    "today": {
@@ -881,7 +881,7 @@
      "streamer": "xQc",
      "score": 62.0,
      "url": "https://www.youtube.com/shorts/YdetazbrqW0",
-     "views": 1147,
+     "views": 1252,
      "likes": 22,
      "comments": 0,
      "history": [
@@ -1745,8 +1745,8 @@
     "source": "rss"
    },
    "totals": {
-    "published": 4,
-    "queued": 8,
+    "published": 5,
+    "queued": 7,
     "views": 15,
     "likes": 3
    },
@@ -1758,6 +1758,26 @@
     ]
    },
    "published": [
+    {
+     "title": "Seaplane Escape in Under a Minute | GTA 6",
+     "published_at": "2026-11-28T15:15:33Z",
+     "slot": "2026-11-28@20",
+     "youtube_id": "j1m0Az1z9yo",
+     "thumb": "thumbs/01ceb941fd91.jpg",
+     "thumb_alt": "https://i.ytimg.com/vi/j1m0Az1z9yo/hqdefault.jpg",
+     "thumb_sm": "thumbs/sm/01ceb941fd91.jpg",
+     "thumb_text": "SEAPLANE ESCAPE",
+     "style": "hookcard",
+     "streamer": "CarryMinati",
+     "score": 68,
+     "url": "https://www.youtube.com/shorts/j1m0Az1z9yo",
+     "views": null,
+     "likes": null,
+     "comments": null,
+     "history": [],
+     "seconds": 33.43,
+     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w"
+    },
     {
      "title": "One Joke Started a Bar Fight in GTA 6 💀",
      "published_at": "2026-11-27T14:15:45Z",
@@ -1924,44 +1944,6 @@
     }
    ],
    "queue": [
-    {
-     "id": "01ceb941fd91",
-     "title": "Seaplane Escape in Under a Minute | GTA 6",
-     "streamer": "CarryMinati",
-     "style": "hookcard",
-     "thumb_sm": "thumbs/sm/01ceb941fd91.jpg",
-     "score": 68,
-     "seconds": 33.43,
-     "eta": "2026-11-28T14:30:00Z",
-     "thumb": "thumbs/01ceb941fd91.jpg",
-     "thumb_text": "SEAPLANE ESCAPE",
-     "tags": [
-      "carryminati",
-      "carryminati gta 6",
-      "carryislive",
-      "gta 6 hindi gameplay",
-      "gta 6",
-      "gta vi",
-      "gta 6 gameplay",
-      "gta 6 funny moments",
-      "gta 6 shorts",
-      "streamer clips",
-      "gta 6 hindi",
-      "gta 6 india",
-      "indian gaming"
-     ],
-     "description": "A shed fight, a sprint and a seaplane takeoff. Best GTA 6 escape yet?\n\n🎮 Streamer: CarryMinati\n📺 Full stream: https://www.youtube.com/watch?v=rvY2pK7ZI0w\n\nClipped with credit. All rights belong to the streamer.\n\n#gta6 #shorts #indiangaming #carryminati #gta6gameplay",
-     "drive_id": "1QS8NG12aYvYrh2_VGbE2a7m_0_mSGdzM",
-     "review": "approved",
-     "why": null,
-     "hook2": "DON'T BLINK",
-     "end_text": "MISSION PASSED",
-     "next": false,
-     "created_at": "2026-11-19T06:00:00Z",
-     "source_url": "https://www.youtube.com/watch?v=rvY2pK7ZI0w",
-     "v2": true,
-     "hd": true
-    },
     {
      "id": "e1eea7f332c5",
      "title": "Carry Tried to Bench 225 in GTA 6… 💀",
@@ -2231,7 +2213,6 @@
    ],
    "review": [],
    "slots_waiting": [
-    "2026-11-28T14:30:00Z",
     "2026-11-29T14:30:00Z",
     "2026-11-30T14:30:00Z"
    ]
@@ -2338,6 +2319,13 @@
   }
  },
  "runs": [
+  {
+   "job": "publish",
+   "at": "2026-11-28T15:16:33Z",
+   "status": "ok",
+   "message": "hindi: Seaplane Escape in Under a Minute | GTA 6 (via own uploader)",
+   "slot": "2026-11-28@20"
+  },
   {
    "job": "produce",
    "at": "2026-11-28T04:01:49Z",
@@ -2581,12 +2569,6 @@
    "at": "2026-11-26T08:42:49Z",
    "status": "ok",
    "message": "1 change(s): approve hindi: Carry Stole a Porsche in GTA 6 and Couldn't Handle It 🏎️"
-  },
-  {
-   "job": "review",
-   "at": "2026-11-26T08:42:40Z",
-   "status": "ok",
-   "message": "1 change(s): reject hindi: Never Call Lucia Crazy in GTA 6 😳"
   }
  ]
 }
